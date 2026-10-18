@@ -7,7 +7,7 @@
       "P1"
     ],
     "aussage": "Für Kinder unter drei Jahren empfehlen die deutsche Leitlinie und das BIÖG möglichst gar keine Bildschirmmedien.",
-    "erklaerung": "Die S2k-Leitlinie der DGKJ (2023, Elternfassung 2026) sagt: „Bis drei: Bildschirmfrei!“. Das BIÖG empfiehlt 2025 dasselbe. Die WHO (2019) rät unter zwei Jahren von Bildschirmzeit ab und erlaubt mit zwei Jahren höchstens eine Stunde. Die Empfehlungen entstanden in einem strukturierten Konsensverfahren (S2k).",
+    "erklaerung": "Die S2k-Leitlinie der DGKJ (2023) sagt: „Bis drei: Bildschirmfrei!“. Sie wurde 2026 geprüft und gilt jetzt bis Juli 2028. Das BIÖG empfiehlt 2025 dasselbe. Die WHO (2019) rät unter zwei Jahren von Bildschirmzeit ab und erlaubt mit zwei Jahren höchstens eine Stunde. Die Empfehlungen entstanden in einem strukturierten Konsensverfahren (S2k).",
     "wirkung": "einordnung",
     "ampel": "stark",
     "studientyp": "Leitlinie",
@@ -18,6 +18,24 @@
         "jahr": 2026,
         "doi_oder_url": "https://medienleitlinie.de/uploads/027-075eltern_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2026-06.pdf",
         "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Bis drei: Bildschirmfrei!"
+      },
+      {
+        "titel": "Leitlinie zur Prävention dysregulierten Bildschirmmediengebrauchs in Kindheit und Jugend (S2k, AWMF 027-075, Langfassung, Version 1.0)",
+        "autoren": "DGKJ et al.",
+        "jahr": 2023,
+        "doi_oder_url": "https://medienleitlinie.de/uploads/027-075l_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2023-09.pdf",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Medienleitlinie für Eltern (Elternfassung 027-075, Version 1.1, Gültigkeit verlängert bis 14.07.2028)",
+        "autoren": "DGKJ et al.",
+        "jahr": 2026,
+        "doi_oder_url": "https://register.awmf.org/assets/guidelines/027_D_Ges_fuer_Kinderheilkunde_und_Jugendmedizin/027-075eltern_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2024-11-verlaengert.pdf",
+        "typ": "Leitlinie",
+        "kernzitat": "Gültigkeit der Leitlinie nach inhaltlicher Überprüfung durch das Leitliniensekretariat verlängert bis 14.07.2028",
         "geoeffnet_am": "2026-10-18"
       },
       {
@@ -26,7 +44,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.1093/eurpub/ckaf125",
         "typ": "Leitlinie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "discouraging any screen exposure before age 3"
       },
       {
         "titel": "Bildschirmmedien im Familienleben – 6 Empfehlungen (Infografik, Stand November 2025)",
@@ -62,6 +81,24 @@
         "typ": "Leitlinie",
         "kernzitat": "Infants do not learn from digital media",
         "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Leitlinie 027-075, Kapitel 9: Externe Begutachtung und Verabschiedung",
+        "autoren": "DGKJ et al.",
+        "jahr": 2023,
+        "doi_oder_url": "https://medienleitlinie.de/09-begutachtung-verabschiedung.html",
+        "typ": "Leitlinie",
+        "kernzitat": "Die DGSMP trägt die Leitlinie mit",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Stellungnahme der DGSMP zur Leitlinie zur Prävention dysregulierten Bildschirmmediengebrauchs (1. März 2023)",
+        "autoren": "DGSMP (Seidler, Jordan)",
+        "jahr": 2023,
+        "doi_oder_url": "https://www.dgsmp.de/wp-content/uploads/2023/08/230301_Stellungnahme-Medien-Leitlinie.pdf",
+        "typ": "Expertenkonsens",
+        "kernzitat": "Die abgeleiteten Empfehlungen erscheinen häufig lebensfremd.",
+        "geoeffnet_am": "2026-10-18"
       }
     ],
     "empfehlung_offiziell": {
@@ -70,7 +107,7 @@
       "inhalt": "0–3 Jahre: möglichst keine Zeit vor Smartphone, Tablet, Konsole und Fernseher; auch möglichst wenig zuschauen, wenn andere Bildschirme nutzen.",
       "url": "https://medienleitlinie.de/"
     },
-    "gegenstimmen": "Die AAP (USA) hat 2026 ihre Empfehlungen neu gefasst. Sie nennt keine starre Grenze mehr. Kurze, hochwertige Videos gelegentlich seien für Babys nicht schädlich; Babys lernten daraus aber nichts. Die DGSMP trug die deutsche Leitlinie 2023 nicht mit: Die Ratschläge seien oft lebensfremd und belasteten benachteiligte Familien.",
+    "gegenstimmen": "Die AAP (USA) hat 2026 ihre Empfehlungen neu gefasst. Feste Grenzen bespricht sie nur noch, wenn Familien das wünschen. Kurze, hochwertige Videos gelegentlich seien für Babys nicht schädlich; Babys lernten daraus aber nichts. Die DGSMP lehnte den Entwurf im März 2023 zunächst ab: Die Ratschläge seien oft lebensfremd. In der veröffentlichten Leitlinie trägt sie diese mit. Sie mahnt aber an, Eltern nicht allein verantwortlich zu machen; sonst drohe Stigmatisierung benachteiligter Familien.",
     "tipps": {
       "eltern": [
         "Videotelefonate mit Großeltern sind etwas anderes als Fernsehen: Bleiben Sie dabei und sprechen Sie mit.",
@@ -80,7 +117,37 @@
     },
     "wann_hilfe": "Wenn Ihr Kind kaum noch ohne Gerät zur Ruhe kommt, sich stark zurückzieht oder in Sprache und Spiel auffällt: Sprechen Sie mit der Kinderärztin oder dem Kinderarzt (z. B. bei U7a–U9). Auch Erziehungsberatungsstellen helfen kostenlos.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Gegenstimme zur DGSMP korrigiert: anfängliche Ablehnung (März 2023), dann Mittragen der veröffentlichten Leitlinie mit Anmerkung",
+        "warum": "Die veröffentlichte Leitlinie nennt die DGSMP als beteiligte Fachgesellschaft und hält fest, dass sie die Leitlinie mitträgt. Die Aussage „trug nicht mit“ gab nur den Stand des Entwurfs wieder.",
+        "quelle": "https://medienleitlinie.de/09-begutachtung-verabschiedung.html"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Gültigkeit ergänzt: am 10.06.2026 verlängert bis 14.07.2028",
+        "warum": "Ursprüngliche Gültigkeit war auf 3 Jahre ab 15.07.2023 geschätzt; Leser sollen sehen, dass die Leitlinie aktuell gilt.",
+        "quelle": "https://register.awmf.org/assets/guidelines/027_D_Ges_fuer_Kinderheilkunde_und_Jugendmedizin/027-075eltern_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2024-11-verlaengert.pdf"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "AAP-Gegenstimme präzisiert: Grenzen nur auf Wunsch der Familie, nicht ganz abgeschafft",
+        "warum": "Das Policy Statement nennt weiterhin mögliche Spannen (<1 Std./Tag für Kleinkinder), aber nur als Gesprächsangebot.",
+        "quelle": "10.1542/peds.2025-075320"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Quellen ergänzt: Langfassung 2023, verlängerte Elternfassung (AWMF), Kapitel 9 der Leitlinie, DGSMP-Stellungnahme 2023",
+        "warum": "Primärbelege für Richtwerte, Gültigkeit und DGSMP-Position",
+        "quelle": "https://medienleitlinie.de/uploads/027-075l_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2023-09.pdf"
+      }
+    ]
   },
   {
     "id": "medien-bild-002",
@@ -101,7 +168,8 @@
         "jahr": 2021,
         "doi_oder_url": "10.1111/cdev.13429",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "An average deficit of about half of a standard deviation was reported"
       },
       {
         "titel": "Digital Ecosystems, Children, and Adolescents: Policy Statement",
@@ -120,7 +188,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-bild-003",
@@ -142,7 +210,8 @@
         "jahr": 2020,
         "doi_oder_url": "10.1001/jamapediatrics.2020.0327",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "background television [n = 5; r = -0.19"
       },
       {
         "titel": "The impact of background television on parent-child interaction",
@@ -159,7 +228,8 @@
         "jahr": 2020,
         "doi_oder_url": "10.1001/jamapediatrics.2019.3869",
         "typ": "Querschnitt",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "lower microstructural integrity of brain white matter tracts supporting language"
       }
     ],
     "tipps": {
@@ -170,7 +240,7 @@
     },
     "wann_hilfe": "Wenn Ihr Kind mit zwei Jahren kaum Wörter spricht oder wenig auf Ansprache reagiert, lassen Sie das kinderärztlich prüfen. Bildschirmzeit ist dann nur eine von vielen möglichen Ursachen.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-bild-004",
@@ -191,7 +261,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.1001/jamapediatrics.2025.0682",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "although the effect sizes were small"
       },
       {
         "titel": "The impact of technoference and the digital still-face on socioemotional development in infants (0-24 months): A systematic review",
@@ -199,7 +270,8 @@
         "jahr": 2026,
         "doi_oder_url": "10.1016/j.infbeh.2026.102234",
         "typ": "Systematischer Review",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "available evidence provides preliminary indications"
       },
       {
         "titel": "Technoference: Parent Distraction With Technology and Associations With Child Behavior Problems",
@@ -207,7 +279,8 @@
         "jahr": 2018,
         "doi_oder_url": "10.1111/cdev.12822",
         "typ": "Querschnitt",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "directionality and transactional processes should be examined in future longitudinal studies"
       },
       {
         "titel": "Entwicklung stärken, Verantwortung übernehmen – Langfassungen der Handlungsempfehlungen der Unabhängigen Expertenkommission „Kinder- und Jugendschutz in der digitalen Welt“",
@@ -215,7 +288,8 @@
         "jahr": 2026,
         "doi_oder_url": "https://www.bmbfsfj.bund.de/resource/blob/293646/2c6ef30a09ce977328c2a8c6e79565f3/20260831-handlungsempfehlungen-expertenkommission-kinder-und-jugendmedienschutz-langfassung-data.pdf",
         "typ": "Expertenkonsens",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Eine verbindliche, jede Familie erreichende Beratung in dieser frühen Phase fehlt."
       }
     ],
     "empfehlung_offiziell": {
@@ -224,7 +298,7 @@
       "inhalt": "HE 2: Eltern sollen vor und nach der Geburt verlässlich zu Medien in den ersten drei Lebensjahren beraten werden, auch zur eigenen Mediennutzung (Phubbing/Technoference).",
       "url": "https://www.bmbfsfj.bund.de/resource/blob/293646/2c6ef30a09ce977328c2a8c6e79565f3/20260831-handlungsempfehlungen-expertenkommission-kinder-und-jugendmedienschutz-langfassung-data.pdf"
     },
-    "rechtslage": "Die Empfehlung der Expertenkommission (2026) ist noch nicht umgesetzt; eine verbindliche Beratung in Schwangerschaftsvorsorge und U-Untersuchungen ist geplant, aber nicht beschlossen.",
+    "rechtslage": "Bisher nur eine Empfehlung der Expertenkommission (2026). Eine verbindliche Beratung in Schwangerschaftsvorsorge und U-Untersuchungen ist nicht beschlossen; zuständig wären Krankenkassen bzw. der G-BA.",
     "tipps": {
       "eltern": [
         "Legen Sie das Handy beim Stillen, Füttern, Wickeln und Spielen außer Sichtweite.",
@@ -233,7 +307,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Rechtslage präzisiert: „Empfehlung, nicht beschlossen“ statt „geplant“",
+        "warum": "Die Kommission empfiehlt nur; ein Gesetzes- oder Richtlinienvorhaben ist nicht belegt. „Geplant“ wäre nach P0 für konkrete Vorhaben reserviert.",
+        "quelle": "https://www.bmbfsfj.bund.de/resource/blob/293646/2c6ef30a09ce977328c2a8c6e79565f3/20260831-handlungsempfehlungen-expertenkommission-kinder-und-jugendmedienschutz-langfassung-data.pdf"
+      }
+    ]
   },
   {
     "id": "medien-bild-005",
@@ -253,7 +336,8 @@
         "jahr": 2019,
         "doi_oder_url": "10.1001/jamapediatrics.2018.5056",
         "typ": "Kohorte",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "support the directional association between screen time and child development"
       },
       {
         "titel": "Electronic screen use and children's socioemotional problems: A systematic review and meta-analysis of longitudinal studies",
@@ -261,7 +345,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.1037/bul0000468",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Small significant associations were found in both directions"
       },
       {
         "titel": "Association of Screen Time With Internalizing and Externalizing Behavior Problems in Children 12 Years or Younger: A Systematic Review and Meta-analysis",
@@ -269,7 +354,8 @@
         "jahr": 2022,
         "doi_oder_url": "10.1001/jamapsychiatry.2022.0155",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "small but significant correlations between screen time and children's behavior problems"
       }
     ],
     "gegenstimmen": "Die Effekte sind klein, und die Studien sind sehr uneinheitlich (I² = 88 % bei Eirich 2022). Die Autoren der Meta-Analyse von 2025 empfehlen, stärker auf Inhalte und gemeinsames Nutzen zu achten als nur auf Minuten.",
@@ -281,7 +367,7 @@
     },
     "wann_hilfe": "Wenn Ihr Kind kaum noch ohne Gerät zur Ruhe kommt, sich stark zurückzieht oder in Sprache und Spiel auffällt: Sprechen Sie mit der Kinderärztin oder dem Kinderarzt (z. B. bei U7a–U9). Auch Erziehungsberatungsstellen helfen kostenlos.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-bild-006",
@@ -291,7 +377,7 @@
       "P1"
     ],
     "aussage": "Programme für Eltern, etwa in der Kinderarztpraxis, können die Bildschirmzeit kleiner Kinder etwas senken.",
-    "erklaerung": "Zwei Meta-Analysen randomisierter Studien (2025 mit 41, 2026 mit 65 Studien) fanden kleine Effekte (SMD = 0,26). Erfolgreich waren oft Angebote im Gesundheitswesen, die sich an Eltern richteten. In New York senkte das Video Interaction Project die Medienzeit sechs Monate alter Babys (131,6 statt 155,4 Minuten täglich).",
+    "erklaerung": "Zwei Meta-Analysen randomisierter Studien fanden kleine Effekte. 2025 waren es 41 Studien (SMD = 0,26). 2026 wurden 65 Studien gesichtet, 43 davon gepoolt (g = 0,16). Erfolgreich waren oft Angebote im Gesundheitswesen, die sich an Eltern richteten. In New York senkte das Video Interaction Project die Medienzeit sechs Monate alter Babys (131,6 statt 155,4 Minuten täglich).",
     "wirkung": "hilft",
     "ampel": "mittel",
     "studientyp": "Meta-Analyse",
@@ -302,7 +388,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.1186/s12889-025-23700-5",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "SMD = 0.26, 95% CI: 0.12 to 0.39"
       },
       {
         "titel": "Interventions to Reduce Screen Time in Preschool-Aged Children: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
@@ -310,7 +397,8 @@
         "jahr": 2026,
         "doi_oder_url": "10.1111/obr.70185",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "g = 0.16, 95% CI [0.01, 0.31]"
       },
       {
         "titel": "Randomized controlled trial of primary care pediatric parenting programs: effect on reduced media exposure in infants, mediated through enhanced parent-child interaction",
@@ -318,7 +406,8 @@
         "jahr": 2011,
         "doi_oder_url": "10.1001/archpediatrics.2010.266",
         "typ": "RCT",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "VIP, 131.6 [118.7]; BB, 151.2 [116.7]; control, 155.4 [138.7]"
       },
       {
         "titel": "Entwicklung stärken, Verantwortung übernehmen – Langfassungen der Handlungsempfehlungen der Unabhängigen Expertenkommission „Kinder- und Jugendschutz in der digitalen Welt“",
@@ -326,7 +415,8 @@
         "jahr": 2026,
         "doi_oder_url": "https://www.bmbfsfj.bund.de/resource/blob/293646/2c6ef30a09ce977328c2a8c6e79565f3/20260831-handlungsempfehlungen-expertenkommission-kinder-und-jugendmedienschutz-langfassung-data.pdf",
         "typ": "Expertenkonsens",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Eine verbindliche, jede Familie erreichende Beratung in dieser frühen Phase fehlt."
       }
     ],
     "gegenstimmen": "Die Studien unterscheiden sich stark. Ob die Effekte langfristig halten, ist offen.",
@@ -337,7 +427,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Effektgröße korrigiert: SMD = 0,26 gilt nur für Wu 2025; Chandrasekaran 2026 fand g = 0,16 (43 von 65 Studien gepoolt)",
+        "warum": "Der Text schrieb beiden Meta-Analysen dieselbe Effektgröße zu.",
+        "quelle": "10.1111/obr.70185"
+      }
+    ]
   },
   {
     "id": "medien-bild-007",
@@ -357,6 +456,24 @@
         "jahr": 2026,
         "doi_oder_url": "https://medienleitlinie.de/uploads/027-075eltern_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2026-06.pdf",
         "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Höchstens 30 Minuten an einzelnen Tagen und mit einem Erwachsenen!"
+      },
+      {
+        "titel": "Leitlinie zur Prävention dysregulierten Bildschirmmediengebrauchs in Kindheit und Jugend (S2k, AWMF 027-075, Langfassung, Version 1.0)",
+        "autoren": "DGKJ et al.",
+        "jahr": 2023,
+        "doi_oder_url": "https://medienleitlinie.de/uploads/027-075l_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2023-09.pdf",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Medienleitlinie für Eltern (Elternfassung 027-075, Version 1.1, Gültigkeit verlängert bis 14.07.2028)",
+        "autoren": "DGKJ et al.",
+        "jahr": 2026,
+        "doi_oder_url": "https://register.awmf.org/assets/guidelines/027_D_Ges_fuer_Kinderheilkunde_und_Jugendmedizin/027-075eltern_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2024-11-verlaengert.pdf",
+        "typ": "Leitlinie",
+        "kernzitat": "Gültigkeit der Leitlinie nach inhaltlicher Überprüfung durch das Leitliniensekretariat verlängert bis 14.07.2028",
         "geoeffnet_am": "2026-10-18"
       },
       {
@@ -365,7 +482,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.1093/eurpub/ckaf125",
         "typ": "Leitlinie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "children aged 3-6 years should have no more than 30 minutes of screen time"
       },
       {
         "titel": "Bildschirmmedien im Familienleben – 6 Empfehlungen (Infografik, Stand November 2025)",
@@ -373,7 +491,7 @@
         "jahr": 2025,
         "doi_oder_url": "https://www.kindergesundheit-info.de/fileadmin/user_upload/kindergesundheit-info.de/Infografiken/Infografiken_als_PDF/Infografik_Bildschirmmedien_BIOEG-kindergesundheit-info_Deutsch.pdf",
         "typ": "Leitlinie",
-        "kernzitat": "Unter 3 Jahren möglichst keine Bildschirmmedien",
+        "kernzitat": "3–6 Jahre: Maximal 30 Minuten täglich.",
         "geoeffnet_am": "2026-10-18"
       },
       {
@@ -382,7 +500,7 @@
         "jahr": 2019,
         "doi_oder_url": "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
         "typ": "Leitlinie",
-        "kernzitat": "Screen time is not recommended.",
+        "kernzitat": "Sedentary screen time should be no more than 1 hour; less is better.",
         "geoeffnet_am": "2026-10-18"
       },
       {
@@ -391,7 +509,7 @@
         "jahr": 2026,
         "doi_oder_url": "10.1542/peds.2025-075320",
         "typ": "Leitlinie",
-        "kernzitat": "Infants do not learn from digital media",
+        "kernzitat": "Time limits might range from <1 hour/day for toddlers and preschoolers",
         "geoeffnet_am": "2026-10-18"
       }
     ],
@@ -413,7 +531,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Quellen ergänzt: Langfassung der Leitlinie (Empfehlung 26) und verlängerte Elternfassung (gültig bis 14.07.2028); Kernzitate passend zu 3–6 Jahren gesetzt",
+        "warum": "Primärbeleg für den Richtwert und Nachweis der aktuellen Gültigkeit",
+        "quelle": "https://medienleitlinie.de/uploads/027-075l_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2023-09.pdf"
+      }
+    ]
   },
   {
     "id": "medien-bild-008",
@@ -433,7 +560,8 @@
         "jahr": 2020,
         "doi_oder_url": "10.1001/jamapediatrics.2020.0327",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "co-viewing [n = 12; r = 0.16"
       },
       {
         "titel": "Digital Ecosystems, Children, and Adolescents: Policy Statement",
@@ -441,7 +569,7 @@
         "jahr": 2026,
         "doi_oder_url": "10.1542/peds.2025-075320",
         "typ": "Leitlinie",
-        "kernzitat": "Infants do not learn from digital media",
+        "kernzitat": "Joint media engagement is associated with greater child and teen learning.",
         "geoeffnet_am": "2026-10-18"
       }
     ],
@@ -455,7 +583,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-bild-009",
@@ -475,7 +603,9 @@
         "jahr": 2013,
         "doi_oder_url": "10.1016/j.appdev.2013.01.001",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "synthesizing the results of 24 studies, conducted with over 10,000 children in 15 countries",
+        "finanzierung": "Im Auftrag von Sesame Workshop"
       },
       {
         "titel": "Early Childhood Education by Television: Lessons from Sesame Street",
@@ -483,17 +613,52 @@
         "jahr": 2019,
         "doi_oder_url": "10.1257/app.20170300",
         "typ": "Kohorte",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Sesame Street improved school performance, particularly for boys"
+      },
+      {
+        "titel": "UW analysis shows learning impact of ‘Sesame Street’ around the world",
+        "autoren": "University of Wisconsin–Madison",
+        "jahr": 2013,
+        "doi_oder_url": "https://news.wisc.edu/?p=18357",
+        "typ": "Einzelstudie",
+        "kernzitat": "an average 11.6 percentile difference between viewers and nonviewers",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "UW-Madison analysis shows learning impact of ‘Sesame Street’ around the world",
+        "autoren": "University of Wisconsin–Madison, College of Letters & Science",
+        "jahr": 2013,
+        "doi_oder_url": "https://ls.wisc.edu/news/uw-madison-analysis-shows-learning-impact-of-sesame-street-around-the-world",
+        "typ": "Einzelstudie",
+        "kernzitat": "Commissioned by Sesame Workshop, the nonprofit educational organization",
         "geoeffnet_am": "2026-10-18"
       }
     ],
-    "gegenstimmen": "Die Langzeiteffekte auf Bildung und Beruf sind unsicher. Die Studien stammen meist aus Zeiten ohne Streaming und Videoplattformen.",
+    "gegenstimmen": "Die Meta-Analyse wurde von Sesame Workshop in Auftrag gegeben, der gemeinnützigen Organisation hinter der Sendung. Die Langzeiteffekte auf Bildung und Beruf sind unsicher. Die Studien stammen meist aus Zeiten ohne Streaming und Videoplattformen.",
     "tipps": {
       "eltern": [
         "Entscheidend ist der Inhalt: altersgerecht, ruhig, mit Lernziel – und in kurzer Dosis."
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Finanzierung gekennzeichnet: Quelle Mares & Pan 2013 mit „Im Auftrag von Sesame Workshop“; Hinweis in gegenstimmen ergänzt",
+        "warum": "P0 verlangt die Kennzeichnung von Finanzierung durch Interessengruppen; Sesame Workshop produziert die untersuchte Sendung.",
+        "quelle": "https://ls.wisc.edu/news/uw-madison-analysis-shows-learning-impact-of-sesame-street-around-the-world"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Quellen ergänzt: Pressemitteilungen der UW-Madison (ls.wisc.edu, news.wisc.edu)",
+        "warum": "Beleg für Auftraggeber und mittlere Effektgröße (11,6 Perzentile)",
+        "quelle": "https://news.wisc.edu/?p=18357"
+      }
+    ]
   },
   {
     "id": "medien-bild-010",
@@ -502,7 +667,7 @@
       "P2"
     ],
     "aussage": "Häufiges Beruhigen mit dem Handy geht mit mehr späteren Gefühlsausbrüchen einher; die Leitlinie rät davon ab.",
-    "erklaerung": "Eine US-Längsschnittstudie begleitete 422 Kinder von 3–5 Jahren. Bei Jungen sagte häufiges Beruhigen per Gerät mehr spätere Gefühlsausbrüche voraus (r = 0,20). Bei temperamentvollen Kindern wirkte es in beide Richtungen. Die deutsche Leitlinie empfiehlt, Bildschirme nicht zur Belohnung, Strafe oder Beruhigung einzusetzen.",
+    "erklaerung": "Eine US-Längsschnittstudie begleitete 422 Kinder von 3–5 Jahren. Bei Jungen sagte häufiges Beruhigen per Gerät mehr spätere Gefühlsausbrüche voraus (r = 0,20). Bei temperamentvollen Kindern wirkte es in beide Richtungen. Eine zweite Studie mit 265 Kindern fand über ein Jahr Ähnliches: mehr Wut, weniger Selbststeuerung. Die deutsche Leitlinie empfiehlt, Bildschirme nicht zur Belohnung, Strafe oder Beruhigung einzusetzen.",
     "wirkung": "schadet",
     "ampel": "schwach",
     "studientyp": "Kohorte",
@@ -513,6 +678,16 @@
         "jahr": 2023,
         "doi_oder_url": "10.1001/jamapediatrics.2022.4793",
         "typ": "Kohorte",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "may displace their opportunities for learning emotion-regulation strategies over time"
+      },
+      {
+        "titel": "Cure for tantrums? Longitudinal associations between parental digital emotion regulation and children's self-regulatory skills",
+        "autoren": "Konok, Binet, Korom et al.",
+        "jahr": 2024,
+        "doi_oder_url": "10.3389/frcha.2024.1276154",
+        "typ": "Kohorte",
+        "kernzitat": "this strategy hinders development of self-regulatory skills",
         "geoeffnet_am": "2026-10-18"
       },
       {
@@ -523,6 +698,15 @@
         "typ": "Leitlinie",
         "kernzitat": "Bildschirmmedien sollen nicht zur Belohnung, Bestrafung oder Beruhigung eingesetzt werden.",
         "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Digital Ecosystems, Children, and Adolescents: Policy Statement",
+        "autoren": "Munzer et al.; AAP Council on Communications and Media",
+        "jahr": 2026,
+        "doi_oder_url": "10.1542/peds.2025-075320",
+        "typ": "Leitlinie",
+        "kernzitat": "For preschoolers, use of mobile devices for calming is associated with weaker emotion regulation skills",
+        "geoeffnet_am": "2026-10-18"
       }
     ],
     "empfehlung_offiziell": {
@@ -531,7 +715,7 @@
       "inhalt": "Keine Belohnung, Bestrafung oder Beruhigung mit Bildschirmmedien.",
       "url": "https://medienleitlinie.de/"
     },
-    "gegenstimmen": "Die AAP (2026) hält ein Tablet bei langen Reisen oder belastenden medizinischen Eingriffen für vertretbar. Die Studienlage ist dünn: eine Stichprobe, überwiegend gebildete Eltern, nur sechs Monate.",
+    "gegenstimmen": "Die AAP (2026) hält ein Tablet bei seltenen langen Reisen oder belastenden medizinischen Eingriffen für vertretbar. Die Studienlage ist dünn: zwei Kohorten mit Elternangaben und kurzer Beobachtungszeit, in der US-Studie überwiegend gebildete Eltern. Ursache und Wirkung lassen sich nicht sicher trennen.",
     "tipps": {
       "eltern": [
         "Helfen Sie Ihrem Kind, Gefühle zu benennen: „Du bist gerade wütend.“",
@@ -541,7 +725,23 @@
     },
     "wann_hilfe": "Wenn Wutanfälle sehr häufig, sehr heftig oder gefährlich sind, sprechen Sie mit Kinderarzt oder Erziehungsberatung.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Zweite Längsschnittstudie (Konok et al. 2024, 265 Kinder) als Quelle und in der Erklärung ergänzt",
+        "warum": "Neuere unabhängige Kohorte bestätigt den Befund in gleicher Richtung",
+        "quelle": "10.3389/frcha.2024.1276154"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "AAP-Policy-Statement 2026 als Quelle ergänzt; Gegenstimmen präzisiert (seltene Ausnahmen, zwei Kohorten, Kausalität offen)",
+        "warum": "Die AAP-Aussage in den Gegenstimmen hatte keine eigene Quelle bei dieser Aussage; Wortlaut geprüft",
+        "quelle": "10.1542/peds.2025-075320"
+      }
+    ]
   },
   {
     "id": "medien-bild-011",
@@ -561,7 +761,8 @@
         "jahr": 2021,
         "doi_oder_url": "10.3102/0034654321998074",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "showed lower comprehension scores for digital books"
       }
     ],
     "tipps": {
@@ -574,14 +775,14 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-bild-012",
     "thema": "medien-gaming-ki",
     "phasen": [
-      "P0",
-      "P1"
+      "P1",
+      "P2"
     ],
     "aussage": "Viele Kleinkinder in Deutschland nutzen täglich internetfähige Geräte; jedes fünfte Kind von 2–5 Jahren hat ein eigenes Tablet.",
     "erklaerung": "Die miniKIM-Studie 2023 (600 befragte Eltern) zeigt: 23 % der 2- bis 5-Jährigen nutzen täglich ein Gerät mit Internet. Mit Streaming, Apps und Spielen sind es 44 %. Ein Viertel der Eltern nutzt das Smartphone, um das Kind zu beschäftigen. Das Bilderbuch bleibt das Lieblingsmedium (27 %).",
@@ -595,7 +796,8 @@
         "jahr": 2024,
         "doi_oder_url": "https://mpfs.de/app/uploads/2024/11/PM_miniKIM-2023.pdf",
         "typ": "Statistik",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "jedes fünfte Kleinkind ein eigenes Tablet zur Verfügung"
       }
     ],
     "tipps": {
@@ -604,7 +806,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Phasen von P0, P1 auf P1, P2 geändert",
+        "warum": "miniKIM 2023 befragt Eltern von 2- bis 5-Jährigen; Säuglinge (P0) sind nicht erfasst, Kindergartenkinder (P2) schon",
+        "quelle": "https://mpfs.de/app/uploads/2024/11/PM_miniKIM-2023.pdf"
+      }
+    ]
   },
   {
     "id": "medien-bild-013",
@@ -624,7 +835,8 @@
         "jahr": 2026,
         "doi_oder_url": "https://medienleitlinie.de/uploads/027-075eltern_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2026-06.pdf",
         "typ": "Leitlinie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Eigene Spielkonsole: Nicht vor neun Jahren!"
       },
       {
         "titel": "The German national guideline “prevention of dysregulated screen media use in childhood and adolescence”",
@@ -632,7 +844,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.1093/eurpub/ckaf125",
         "typ": "Leitlinie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "discouraging any screen exposure before age 3"
       },
       {
         "titel": "Bildschirmmedien im Familienleben – 6 Empfehlungen (Infografik, Stand November 2025)",
@@ -651,6 +864,24 @@
         "typ": "Leitlinie",
         "kernzitat": "Infants do not learn from digital media",
         "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Stellungnahme zur Leitlinie zur Prävention dysregulierten Bildschirmmediengebrauchs in Kindheit und Jugend",
+        "autoren": "Deutsche Gesellschaft für Sozialmedizin und Prävention (DGSMP)",
+        "jahr": 2023,
+        "doi_oder_url": "https://www.dgsmp.de/wp-content/uploads/2023/08/230301_Stellungnahme-Medien-Leitlinie.pdf",
+        "typ": "Expertenkonsens",
+        "kernzitat": "Die abgeleiteten Empfehlungen erscheinen häufig lebensfremd.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Leitlinie 027-075, Kapitel 9: Externe Begutachtung und Verabschiedung",
+        "autoren": "DGKJ et al.",
+        "jahr": 2023,
+        "doi_oder_url": "https://medienleitlinie.de/09-begutachtung-verabschiedung.html",
+        "typ": "Leitlinie",
+        "kernzitat": "Die DGSMP trägt die Leitlinie mit",
+        "geoeffnet_am": "2026-10-18"
       }
     ],
     "empfehlung_offiziell": {
@@ -659,7 +890,7 @@
       "inhalt": "6–9 Jahre: höchstens 30–45 Minuten an einzelnen Tagen und mit einem Erwachsenen; 9–12 Jahre: höchstens 45–60 Minuten Freizeitnutzung.",
       "url": "https://medienleitlinie.de/"
     },
-    "gegenstimmen": "Die AAP (2026) nennt für Schulkinder 1–2 Stunden oder mehr Unterhaltungsmedien als mögliche Spanne. Sie rät zu Familienregeln statt festen Minuten. Die DGSMP kritisierte 2023, die Leitlinie lege die Verantwortung allein auf die Eltern.",
+    "gegenstimmen": "Die AAP (2026) nennt für Schulkinder 1–2 Stunden oder mehr Unterhaltungsmedien als mögliche Spanne. Sie rät zu Familienregeln statt festen Minuten. Die DGSMP hielt die Empfehlungen im Entwurf (März 2023) für oft lebensfremd. Die veröffentlichte Leitlinie trägt sie mit. Sie mahnt aber, Eltern nicht allein in die Verantwortung zu nehmen.",
     "tipps": {
       "eltern": [
         "Erstellen Sie gemeinsam einen Medienvertrag mit klaren Zeiten.",
@@ -672,7 +903,16 @@
     },
     "wann_hilfe": "Wenn Ihr Kind Freunde, Hobbys oder Schlaf für den Bildschirm vernachlässigt: Erziehungsberatung oder Fachstellen für Mediensucht helfen. Für Kinder: Nummer gegen Kummer 116 111.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Stellungnahme der DGSMP (2023) und Kapitel 9 der Leitlinie als Quellen ergänzt; Gegenstimme präzisiert: Kritik am Entwurf, Mittragen der veröffentlichten Fassung",
+        "warum": "Die Kritik der DGSMP war ohne Quelle. Die Stellungnahme betrifft den Entwurf; laut Kapitel 9 trägt die DGSMP die veröffentlichte Leitlinie mit.",
+        "quelle": "https://www.dgsmp.de/wp-content/uploads/2023/08/230301_Stellungnahme-Medien-Leitlinie.pdf"
+      }
+    ]
   },
   {
     "id": "medien-bild-014",
@@ -692,7 +932,8 @@
         "jahr": 2025,
         "doi_oder_url": "https://mpfs.de/app/uploads/2025/05/PM_KIM-Studie-2024.pdf",
         "typ": "Statistik",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "von 23 Prozent auf 40 Prozent"
       }
     ],
     "tipps": {
@@ -702,7 +943,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-bild-015",
@@ -722,7 +963,8 @@
         "jahr": 2018,
         "doi_oder_url": "10.1016/j.edurev.2018.09.003",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Both designs yielded the same advantage of paper over digital reading"
       },
       {
         "titel": "A Comparison of Children’s Reading on Paper Versus Screen: A Meta-Analysis",
@@ -730,7 +972,8 @@
         "jahr": 2021,
         "doi_oder_url": "10.3102/0034654321998074",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "showed lower comprehension scores for digital books"
       }
     ],
     "gegenstimmen": "Ein eigener Befund nur für Grundschulkinder ist im Abstract von Delgado 2018 nicht ausgewiesen. Gut gestaltete digitale Bücher können Papier übertreffen.",
@@ -743,16 +986,19 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-bild-016",
     "thema": "medien-gaming-ki",
     "phasen": [
-      "P2"
+      "P2",
+      "P3",
+      "P4",
+      "P5"
     ],
     "aussage": "Weniger Freizeit-Bildschirm in der ganzen Familie kann das seelische Befinden von Kindern schon nach zwei Wochen verbessern.",
-    "erklaerung": "In einer dänischen randomisierten Studie (89 Familien, 181 Kinder, Durchschnitt 8,6 Jahre) gaben Familien Smartphones und Tablets ab. Sie nutzten höchstens drei Stunden Freizeit-Bildschirm pro Woche. Die Gesamtprobleme sanken deutlich (Cohen d = 0,53), besonders emotionale Probleme. Ob das anhält, ist offen.",
+    "erklaerung": "In einer dänischen randomisierten Studie (89 Familien, 181 Kinder und Jugendliche von 4–17 Jahren) gaben Familien Smartphones und Tablets ab. Jede Person nutzte höchstens drei Stunden Freizeit-Bildschirm pro Woche. Nach Elternangaben sanken die Gesamtprobleme deutlich (Cohen d = 0,53). Am stärksten besserten sich emotionale Probleme, Probleme mit Gleichaltrigen und das Sozialverhalten. Ob das anhält, ist offen.",
     "wirkung": "hilft",
     "ampel": "schwach",
     "studientyp": "RCT",
@@ -763,7 +1009,8 @@
         "jahr": 2024,
         "doi_oder_url": "10.1001/jamanetworkopen.2024.19881",
         "typ": "RCT",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "positively affected psychological symptoms of children and adolescents"
       }
     ],
     "gegenstimmen": "Es ist eine kleine Studie, eine Sekundäranalyse und nur zwei Wochen lang. Eltern wussten von der Intervention und schätzten das Verhalten selbst ein.",
@@ -774,7 +1021,23 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Phasen von P2 auf P2, P3, P4, P5 erweitert",
+        "warum": "Die Studie schloss Kinder und Jugendliche von 4–17 Jahren ein (Mittel etwa 9 Jahre); nur P2 war irreführend",
+        "quelle": "10.1001/jamanetworkopen.2024.19881"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Erklärung präzisiert: Altersspanne 4–17 statt nur Mittelwert der Interventionsgruppe; Elternangaben; Verbesserung auch bei Gleichaltrigen-Problemen und prosozialem Verhalten",
+        "warum": "8,6 Jahre war nur der Mittelwert der Interventionsgruppe (Kontrolle 9,5); stärkste Effekte laut Studie bei internalisierenden Symptomen und Prosozialität",
+        "quelle": "10.1001/jamanetworkopen.2024.19881"
+      }
+    ]
   },
   {
     "id": "medien-bild-017",
@@ -783,7 +1046,7 @@
       "P3"
     ],
     "aussage": "„Digitale Demenz“ ist ein populäres Schlagwort. Verlässliche Belege für einen solchen Abbau bei Kindern fehlen; die Debatte ist offen.",
-    "erklaerung": "Der Psychiater Manfred Spitzer warnt vor „digitaler Demenz“. Die Medienpsychologen Appel und Schreiner (2014) prüften neun populäre Annahmen anhand von Meta-Analysen. Für sozialen Rückzug oder mehr Einsamkeit fanden sie keine Belege. Belegt sind kleine Zusammenhänge, etwa mit Übergewicht, und Effekte gewalthaltiger Spiele auf Aggression.",
+    "erklaerung": "Der Psychiater Manfred Spitzer warnt vor „digitaler Demenz“. Die Medienpsychologen Appel und Schreiner (2014) prüften neun populäre Annahmen anhand von Meta-Analysen. Für sozialen Rückzug oder mehr Einsamkeit fanden sie keine Belege. Als belegt werteten sie sehr kleine Zusammenhänge mit Wohlbefinden und Übergewicht sowie Effekte gewalthaltiger Spiele auf Aggression. Lernen mit Computer und Internet kann laut ihrer Übersicht auch nützen.",
     "wirkung": "einordnung",
     "ampel": "umstritten",
     "studientyp": "Systematischer Review",
@@ -794,7 +1057,8 @@
         "jahr": 2014,
         "doi_oder_url": "10.1026/0033-3042/a000186",
         "typ": "Systematischer Review",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "keine Belege dafür, dass die Nutzung digitaler Medien zu sozialem Rückzug führt"
       },
       {
         "titel": "Über vermeintliche neue Erkenntnisse zu den Risiken und Nebenwirkungen digitaler Informationstechnik",
@@ -820,16 +1084,27 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Erklärung präzisiert: Befunde als Bewertung von Appel und Schreiner gekennzeichnet, sehr kleine Zusammenhänge mit Wohlbefinden und mögliche Lernvorteile ergänzt",
+        "warum": "Die Zusammenfassung der Übersicht nennt auch kleine Zusammenhänge mit Wohlbefinden/Depressivität und positive Lerneffekte; der Effekt gewalthaltiger Spiele ist in der Forschung selbst umstritten",
+        "quelle": "10.1026/0033-3042/a000186"
+      }
+    ]
   },
   {
     "id": "medien-social-001",
     "thema": "medien-gaming-ki",
     "phasen": [
-      "P5"
+      "P4",
+      "P5",
+      "P6"
     ],
     "aussage": "Jugendliche reagieren je nach Alter und Geschlecht unterschiedlich empfindlich auf viel Social Media: Mädchen eher mit 11 bis 13, Jungen eher mit 14 bis 15, beide mit 19.",
-    "erklaerung": "Eine britische Längsschnittanalyse mit 17.409 Personen zwischen 10 und 21 Jahren fand Zeitfenster erhöhter Empfindlichkeit. In diesen Fenstern sagte mehr geschätzte Nutzung ein Jahr später geringere Lebenszufriedenheit voraus. Umgekehrt führte geringere Lebenszufriedenheit auch zu mehr Nutzung. Im Querschnitt (84.011 Personen, 10–80 Jahre) war der negative Zusammenhang bei jüngeren Jugendlichen am stärksten. Die Effekte sind klein; es ist eine einzelne Studie mit Selbstauskünften.",
+    "erklaerung": "Eine britische Längsschnittanalyse mit 17.409 Personen zwischen 10 und 21 Jahren fand Zeitfenster erhöhter Empfindlichkeit. In diesen Fenstern sagte mehr geschätzte Nutzung ein Jahr später geringere Lebenszufriedenheit voraus. Umgekehrt sagte geringere Lebenszufriedenheit auch mehr Nutzung voraus. Im Querschnitt (84.011 Personen, 10–80 Jahre) war der negative Zusammenhang bei jüngeren Jugendlichen am stärksten. Die Effekte sind klein; es ist eine einzelne Studie mit Selbstauskünften.",
     "gehirn": "Die Autorinnen und Autoren vermuten, dass Pubertät und soziale Umbrüche (z. B. Schulwechsel, Auszug) eine Rolle spielen. Gemessen wurde das Gehirn in dieser Studie nicht; es handelt sich um eine Deutung.",
     "wirkung": "schadet",
     "ampel": "schwach",
@@ -856,7 +1131,23 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "„führte … zu mehr Nutzung“ durch „sagte … mehr Nutzung voraus“ ersetzt",
+        "warum": "Beobachtungsdaten; kausale Formulierung nicht gedeckt",
+        "quelle": "10.1038/s41467-022-29296-3"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "phasen von [P5] auf [P4, P5, P6] erweitert",
+        "warum": "Die Empfindlichkeitsfenster liegen bei 11–13 (P4), 14–15 (P5) und 19 Jahren (P6)",
+        "quelle": "10.1038/s41467-022-29296-3"
+      }
+    ]
   },
   {
     "id": "medien-social-002",
@@ -890,7 +1181,7 @@
         "geoeffnet_am": "2026-10-18"
       }
     ],
-    "gegenstimmen": "Beide Studien sind klein und nur mit US-Stichproben durchgeführt. Die Maza-Studie misst die Nutzung nur einmal zu Beginn. Sie zeigt keinen Zusammenhang mit psychischen Erkrankungen.",
+    "gegenstimmen": "Beide Studien sind klein und nur mit US-Stichproben durchgeführt. Die Maza-Studie misst die Nutzung nur einmal zu Beginn. Psychische Gesundheit oder Erkrankungen hat sie nicht untersucht. Mit 12 Jahren reagierten gewohnheitsmäßig Checkende zunächst sogar schwächer auf soziale Signale.",
     "tipps": {
       "eltern": [
         "Sprechen Sie mit Ihrem Kind darüber, warum Likes sich so gut anfühlen.",
@@ -904,16 +1195,27 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Gegenstimmen: „zeigt keinen Zusammenhang mit psychischen Erkrankungen“ ersetzt durch „hat sie nicht untersucht“; Ausgangsbefund mit 12 Jahren ergänzt",
+        "warum": "Die Studie hat psychische Anpassung nicht gemessen (fordert dazu weitere Forschung); „kein Zusammenhang“ hätte einen Nullbefund suggeriert. Mit 12 Jahren zeigten Checkende geringere neuronale Sensitivität (β −0,19 bis −0,29).",
+        "quelle": "10.1001/jamapediatrics.2022.4924"
+      }
+    ]
   },
   {
     "id": "medien-social-003",
     "thema": "medien-gaming-ki",
     "phasen": [
+      "P4",
+      "P5",
       "P6"
     ],
-    "aussage": "Wer online gemobbt wird, hat ein fast dreifach erhöhtes Risiko für Depression.",
-    "erklaerung": "Eine Meta-Analyse von 17 Studien mit 79.202 Jugendlichen (10–19 Jahre) fand ein Odds Ratio von 2,73 für Depression bei Cybermobbing-Opfern. Der Zusammenhang blieb über Länder und Methoden stabil. Die Studien sind meist Querschnitte, die Richtung ist daher nicht sicher. Eine frühere Meta-Analyse fand bei Opfern die stärksten Zusammenhänge mit Stress und Suizidgedanken.",
+    "aussage": "Wer online gemobbt wird, hat deutlich häufiger eine Depression: Die Chance (Odds) ist fast dreimal so hoch wie bei anderen Jugendlichen.",
+    "erklaerung": "Eine Meta-Analyse von 17 Studien mit 79.202 Jugendlichen (10–19 Jahre) fand ein Odds Ratio von 2,73 für Depression bei Cybermobbing-Opfern. Der Zusammenhang blieb über Länder und Methoden stabil. Es handelt sich um Zusammenhänge; ob Mobbing die Depression verursacht oder umgekehrt, ist damit nicht geklärt. Eine frühere Meta-Analyse fand bei Opfern die stärksten Zusammenhänge mit Stress und Suizidgedanken.",
     "wirkung": "schadet",
     "ampel": "mittel",
     "studientyp": "Meta-Analyse",
@@ -950,13 +1252,38 @@
     },
     "wann_hilfe": "Bei Rückzug, Schlafproblemen, Schulvermeidung oder Äußerungen von Hoffnungslosigkeit: Kinderarzt oder Kinder- und Jugendpsychotherapie einschalten. Nummer gegen Kummer 116 111 (anonym). Verstöße auf Plattformen bei jugendschutz.net melden; Tipps bei klicksafe. Bei Suizidgedanken sofort Notruf 112.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Aussage: „fast dreifach erhöhtes Risiko“ ersetzt durch „Chance (Odds) fast dreimal so hoch“",
+        "warum": "Ein Odds Ratio von 2,73 ist kein relatives Risiko; bei häufigen Ausgängen wie Depression überschätzt die Gleichsetzung das Risiko",
+        "quelle": "10.1177/15248380211050597"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Satz „Die Studien sind meist Querschnitte“ ersetzt durch allgemeinen Hinweis auf offene Richtung",
+        "warum": "Studiendesign-Verteilung im Abstract nicht angegeben, Volltext nicht zugänglich; nicht belegbar",
+        "quelle": "10.1177/15248380211050597"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "phasen von [P6] auf [P4, P5, P6] erweitert",
+        "warum": "Meta-Analyse umfasst 10- bis 19-Jährige",
+        "quelle": "10.1177/15248380211050597"
+      }
+    ]
   },
   {
     "id": "medien-social-004",
     "thema": "medien-gaming-ki",
     "phasen": [
-      "P3"
+      "P3",
+      "P4",
+      "P5"
     ],
     "aussage": "Schulprogramme gegen Mobbing können Cybermobbing etwas verringern; am besten belegt ist das finnische Programm KiVa.",
     "erklaerung": "In einer randomisierten Studie mit 18.412 finnischen Schülerinnen und Schülern berichteten KiVa-Schulen seltener von Cybermobbing-Opfern. Weniger Täterschaft zeigte sich nur bei den jüngeren Kindern. Eine Meta-Analyse von 44 RCTs (65.707 Teilnehmende) fand kleine Effekte: Täterschaft g = −0,15, Opfererfahrung g = −0,11. Programme mit mindestens fünf Stunden wirkten besser; die Beweissicherheit war niedrig.",
@@ -993,7 +1320,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "phasen von [P3] auf [P3, P4, P5] erweitert",
+        "warum": "KiVa-RCT umfasste Grund- und Mittelstufe (Klassen 4–9), die Meta-Analyse Kinder und Jugendliche",
+        "quelle": "10.1080/15374416.2013.787623"
+      }
+    ]
   },
   {
     "id": "medien-social-005",
@@ -1058,7 +1394,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-social-006",
@@ -1067,7 +1403,7 @@
       "P4"
     ],
     "aussage": "Deutsche Fachgremien empfehlen ein Mindestalter von 13 Jahren für soziale Medien und strenge Schutzregeln bis 18; die Belege für Altersgrenzen sind umstritten.",
-    "erklaerung": "Die Leopoldina (2025) fordert ein striktes Verbot unter 13 und altersgerechte Plattformen für 13- bis 17-Jährige. Bis 16 sollen etwa Livestreams, Push-Nachrichten, Autoplay und endloses Scrollen fehlen. Die Expertenkommission der Bundesregierung empfahl am 24. Juni 2026 ebenfalls 13 Jahre mit wirksamer Altersprüfung. Alternativ schlug sie Beschränkungen je nach Risiko eines Dienstes vor.",
+    "erklaerung": "Die Leopoldina (2025) fordert ein striktes Verbot unter 13 und altersgerechte Plattformen für 13- bis 17-Jährige. Bis 15 sollen Eltern zustimmen. Bis 16 sollen etwa Livestreams, Push-Nachrichten, Autoplay und endloses Scrollen fehlen. Die Expertenkommission der Bundesregierung empfahl am 24. Juni 2026 ebenfalls 13 Jahre mit wirksamer Altersprüfung. Alternativ schlug sie Beschränkungen je nach Risiko eines Dienstes vor.",
     "wirkung": "einordnung",
     "ampel": "umstritten",
     "studientyp": "Expertenkonsens",
@@ -1104,6 +1440,15 @@
         "typ": "Expertenkonsens",
         "kernzitat": "did not support the conclusion that social media causes changes in adolescent health",
         "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Expertenkommission legt Abschlussbericht vor",
+        "autoren": "BMBFSFJ",
+        "jahr": 2026,
+        "doi_oder_url": "https://www.bmbfsfj.bund.de/bmbfsfj/expertenkommission-legt-abschlussbericht-vor-294112",
+        "typ": "Expertenkonsens",
+        "kernzitat": "Die Arbeit der Kommission endet heute, die Umsetzung ihrer Empfehlungen hat aber längst begonnen.",
+        "geoeffnet_am": "2026-10-18"
       }
     ],
     "empfehlung_offiziell": {
@@ -1112,10 +1457,33 @@
       "inhalt": "56 Empfehlungen, u. a. gesetzliche Altersgrenze 13 mit wirksamer Altersprüfung, abgestufter Schutz bis 18, Ausnahmen nur für nachweislich kindgerechte Angebote, private Handys in Schulen bis Klasse 7 nicht erlaubt.",
       "url": "https://www.bmbfsfj.bund.de/bmbfsfj/expertenkommission-veroeffentlicht-handlungsempfehlungen-290226"
     },
-    "gegenstimmen": "Die US-Akademien (NASEM 2024) fanden keine Belege für einen bevölkerungsweiten kausalen Effekt. Sie halten zusätzliche Zugangsbeschränkungen deshalb nicht für begründet und setzen auf Plattformstandards und Medienbildung. Die Leopoldina begründet ihre Altersgrenze ausdrücklich mit dem Vorsorgeprinzip, nicht mit gesicherter Kausalität.",
-    "rechtslage": "Geplant: Ministerin Prien will 2026 mit der Gesetzgebung beginnen und bevorzugt eine EU-Lösung; ein Gesetzentwurf lag am 18.10.2026 nach unserer Recherche nicht vor. Altersprüfung soll über die EUDI-Wallet laufen, geplant ab Anfang 2027.",
+    "gegenstimmen": "Die US-Akademien (NASEM, Bericht Dezember 2023) fanden keine Belege für einen bevölkerungsweiten kausalen Effekt. Ihre Empfehlungen zielen auf Plattformstandards, Medienbildung, Schutz vor Belästigung und Forschung; Altersgrenzen gehören nicht dazu. Die Leopoldina begründet ihre Altersgrenze ausdrücklich mit dem Vorsorgeprinzip. Sie räumt ein, dass die Belege teils widersprüchlich und lückenhaft sind.",
+    "rechtslage": "Geplant: Ministerin Prien will 2026 mit der Gesetzgebung beginnen und bevorzugt eine EU-Lösung. Die Expertenkommission übergab am 11.09.2026 ihren Abschlussbericht. Ein Gesetzentwurf lag am 18.10.2026 nach unserer Recherche nicht vor. Altersprüfung soll über die EUDI-Wallet laufen, geplant ab Anfang 2027.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Erklärung: Elternzustimmung für 13- bis 15-Jährige ergänzt",
+        "warum": "Leopoldina 4.1.2 verlangt für 13- bis 15-Jährige Elternzustimmung; wesentlicher Teil der Empfehlung fehlte",
+        "quelle": "10.26164/leopoldina_03_01309"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Gegenstimmen: „halten zusätzliche Zugangsbeschränkungen nicht für begründet“ ersetzt durch Beschreibung der tatsächlichen NASEM-Empfehlungen; Leopoldina-Einräumung ergänzt",
+        "warum": "Eine ausdrückliche Ablehnung von Zugangsbeschränkungen ist in den geöffneten NASEM-Texten nicht belegt; die Empfehlungen nennen keine Altersgrenzen. Leopoldina schreibt selbst, die Evidenz sei teils widersprüchlich und unvollständig.",
+        "quelle": "https://nap.nationalacademies.org/resource/27396/Highlights_for_Social_Media_and_Adolescent_Health.pdf"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Rechtslage: Übergabe des Abschlussberichts am 11.09.2026 ergänzt; Quelle BMBFSFJ ergänzt",
+        "warum": "Aktueller Stand nach dem 24.06.2026",
+        "quelle": "https://www.bmbfsfj.bund.de/bmbfsfj/expertenkommission-legt-abschlussbericht-vor-294112"
+      }
+    ]
   },
   {
     "id": "medien-social-007",
@@ -1152,7 +1520,8 @@
         "autoren": "Odgers",
         "jahr": 2024,
         "doi_oder_url": "10.1038/d41586-024-00902-2",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "The evidence is equivocal on whether screen time is to blame"
       },
       {
         "titel": "The Four New Norms to Free the Anxious Generation",
@@ -1161,9 +1530,18 @@
         "doi_oder_url": "https://www.anxiousgeneration.com/pdfs/four-norms.pdf",
         "kernzitat": "No social media before 16",
         "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Social Media and Adolescent Health",
+        "autoren": "National Academies of Sciences, Engineering, and Medicine",
+        "jahr": 2024,
+        "doi_oder_url": "10.17226/27396",
+        "typ": "Expertenkonsens",
+        "kernzitat": "did not support the conclusion that social media causes changes in adolescent health",
+        "geoeffnet_am": "2026-10-18"
       }
     ],
-    "gegenstimmen": "Jonathan Haidt (Buch „The Anxious Generation“, 2024) sieht eine Hauptursache in der smartphonebasierten Kindheit. Er fordert keine sozialen Medien vor 16 und kein Smartphone vor etwa 14. Candice Odgers stellte 2024 in Nature in Frage, ob soziale Medien die Ursache der Entwicklung sind. Orben und Przybylski hielten die gefundenen Effekte für zu klein, um Politik zu ändern. Kritiker entgegnen, kleine Durchschnittseffekte könnten große Effekte in Untergruppen verbergen (siehe medien-social-001).",
+    "gegenstimmen": "Jonathan Haidt (Buch „The Anxious Generation“, 2024) sieht eine Hauptursache in der smartphonebasierten Kindheit. Er fordert keine sozialen Medien vor 16 und kein Smartphone vor der High School (etwa 14). Candice Odgers hielt dem 2024 in Nature entgegen, die Belege seien uneindeutig. Orben und Przybylski hielten die gefundenen Effekte für zu klein, um Politik zu ändern. Die US-Akademien (NASEM) fanden keinen belegten bevölkerungsweiten Ursache-Effekt. Kritiker entgegnen, kleine Durchschnittseffekte könnten große Effekte in Untergruppen verbergen (siehe medien-social-001).",
     "tipps": {
       "eltern": [
         "Schauen Sie weniger auf die reine Minutenzahl und mehr darauf, was Ihr Kind online erlebt.",
@@ -1174,7 +1552,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "NASEM-Bericht als Quelle und in den Gegenstimmen ergänzt; Haidt-Forderung wörtlich an „vor der High School (etwa 14)“ angepasst; Kernzitat Odgers ergänzt",
+        "warum": "Ranghöhere Quelle (Konsensbericht) stützt die Einstufung „umstritten“; Haidts Norm lautet „No smartphones before high school“ (9. Klasse, etwa 14)",
+        "quelle": "10.17226/27396"
+      }
+    ]
   },
   {
     "id": "medien-social-008",
@@ -1198,7 +1585,7 @@
         "geoeffnet_am": "2026-10-18"
       }
     ],
-    "gegenstimmen": "Beobachtungsstudie: Jugendliche, denen es schon schlechter geht, nutzen möglicherweise mehr soziale Medien. Die Daten stammen aus 2014–2016 und aus den USA.",
+    "gegenstimmen": "Beobachtungsstudie: Jugendliche, denen es schon schlechter geht, nutzen möglicherweise mehr soziale Medien. Die Daten stammen aus 2013–2016 und aus den USA.",
     "tipps": {
       "eltern": [
         "Vereinbaren Sie gemeinsam feste Offline-Zeiten, etwa beim Essen und vor dem Schlafen."
@@ -1209,7 +1596,16 @@
     },
     "wann_hilfe": "Wenn Ihr Kind über Wochen niedergeschlagen, ängstlich oder zurückgezogen wirkt: Kinderarzt, Erziehungsberatungsstelle oder Kinder- und Jugendpsychotherapie. Für Jugendliche: Nummer gegen Kummer 116 111.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Datenzeitraum von 2014–2016 auf 2013–2016 korrigiert",
+        "warum": "Die drei PATH-Wellen liefen von September 2013 bis Oktober 2016",
+        "quelle": "10.1001/jamapsychiatry.2019.2325"
+      }
+    ]
   },
   {
     "id": "medien-social-009",
@@ -1217,7 +1613,7 @@
     "phasen": [
       "P5"
     ],
-    "aussage": "Etwa jede und jeder zehnte Jugendliche in Europa nutzt soziale Medien problematisch, Mädchen häufiger als Jungen; in Deutschland ist der Anteil riskanter Nutzung höher.",
+    "aussage": "Etwa jede und jeder zehnte Jugendliche in Europa nutzt soziale Medien problematisch, Mädchen häufiger als Jungen; eine deutsche Studie mit anderem Maßstab fand bei gut jedem Fünften riskante Nutzung.",
     "erklaerung": "Laut WHO-HBSC-Befragung von fast 280.000 Jugendlichen (11, 13, 15 Jahre; 44 Länder) stieg problematische Nutzung von 7 % (2018) auf 11 % (2022). Betroffen waren 13 % der Mädchen und 9 % der Jungen. Die DAK-/UKE-Studie fand 2025 bei 10- bis 17-Jährigen 21,5 % riskante und 6,6 % pathologische Nutzung nach ICD-11-Kriterien. Die Messinstrumente unterscheiden sich.",
     "wirkung": "einordnung",
     "ampel": "mittel",
@@ -1252,7 +1648,16 @@
     },
     "wann_hilfe": "Wenn Nutzung über Monate Schule, Schlaf oder Beziehungen deutlich beeinträchtigt: Fachstellen für Mediensucht, Suchtberatungsstellen oder Kinder- und Jugendpsychiatrie. Erster Kontakt auch über Kinderarzt oder Erziehungsberatung.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Aussage: „in Deutschland ist der Anteil riskanter Nutzung höher“ ersetzt durch Hinweis auf anderen Maßstab",
+        "warum": "HBSC (problematische Nutzung) und DAK/UKE (riskante Nutzung nach ICD-11, andere Altersgruppe) messen Verschiedenes; ein direkter Vergleich ist nicht belegt",
+        "quelle": "https://www.dak.de/presse/bundesthemen/kinder-jugendgesundheit/dak-suchtstudie-untersucht-jugendtrend-ki-chatbots-erhoehen-riskanten-medienkonsum_164470"
+      }
+    ]
   },
   {
     "id": "medien-social-010",
@@ -1285,9 +1690,18 @@
       }
     ],
     "gegenstimmen": "eSafety führt die geringe Wirkung vor allem auf unzureichende Altersprüfung der Plattformen zurück. Manche Kinder berichteten, Kontakt zu Gleichaltrigen sei schwerer geworden. Eltern wussten teils weniger über die Nutzung ihrer Kinder, besonders bei Mädchen und 10- bis 12-Jährigen.",
-    "rechtslage": "Australien (geltend): Online Safety Amendment (Social Media Minimum Age) Act 2024, Pflicht für Plattformen seit 10.12.2025. Die Evaluation läuft bis 2028; eine gesetzliche Überprüfung ist für etwa 2028 vorgesehen. In Deutschland gilt dieses Verbot nicht.",
+    "rechtslage": "Australien (geltend): Online Safety Amendment (Social Media Minimum Age) Act 2024, Pflicht für Plattformen seit 10.12.2025. Eine unabhängige Überprüfung schreibt das Gesetz innerhalb von zwei Jahren danach vor, also bis Dezember 2027. Die Evaluation von eSafety läuft bis 2028. In Deutschland gilt dieses Verbot nicht.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Rechtslage: gesetzliche Überprüfung von „etwa 2028“ auf „bis Dezember 2027“ korrigiert",
+        "warum": "Section 239B verlangt eine unabhängige Überprüfung innerhalb von 2 Jahren nach Wirksamwerden von s 63D (10.12.2025)",
+        "quelle": "https://www.legislation.gov.au/C2024A00127/asmade/text"
+      }
+    ]
   },
   {
     "id": "medien-social-011",
@@ -1321,7 +1735,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-social-012",
@@ -1330,7 +1744,7 @@
       "P7"
     ],
     "aussage": "Wer seine Social-Media-Zeit gezielt reduziert, fühlt sich in Experimenten im Schnitt etwas besser; der Effekt ist klein.",
-    "erklaerung": "Eine Meta-Analyse von 32 RCTs mit 5.544 jungen Erwachsenen (Durchschnitt 23 Jahre) fand eine kleine Verbesserung des Wohlbefindens (g = 0,17). In einer US-Studie mit 143 Studierenden sanken Einsamkeit und Depressivität nach drei Wochen mit 10 Minuten je Plattform am Tag. Für Jugendliche unter 18 gibt es kaum solche Experimente.",
+    "erklaerung": "Eine Meta-Analyse von 32 RCTs mit 5.544 jungen Erwachsenen (Durchschnitt 23 Jahre) fand eine kleine Verbesserung des Wohlbefindens (g = 0,17). Eine zweite Meta-Analyse (10 RCTs, 1.491 Personen) fand weniger depressive Symptome (g = 0,25). In einer US-Studie mit 143 Studierenden sanken Einsamkeit und Depressivität nach drei Wochen mit 10 Minuten je Plattform am Tag. Für Jugendliche unter 18 gibt es kaum solche Experimente. Eine britische Schulstudie mit 12- bis 15-Jährigen läuft seit 2026.",
     "wirkung": "hilft",
     "ampel": "mittel",
     "studientyp": "Meta-Analyse",
@@ -1358,8 +1772,7 @@
         "autoren": "Ferguson",
         "jahr": 2024,
         "doi_oder_url": "10.1037/ppm0000541",
-        "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "typ": "Meta-Analyse"
       },
       {
         "titel": "Small effects, big questions: the unfinished business of social media restriction science",
@@ -1368,9 +1781,26 @@
         "doi_oder_url": "10.1016/j.ssmmh.2025.100467",
         "typ": "Expertenkonsens",
         "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Reducing Social Media Use Decreases Depression Symptoms: A Meta-Analysis of Randomised Controlled Trials",
+        "autoren": "May, Malouff, Meynadier",
+        "jahr": 2025,
+        "doi_oder_url": "10.3390/ejihpe15110222",
+        "typ": "Meta-Analyse",
+        "kernzitat": "more studies with good research methods are needed to evaluate this conclusion",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "The IRL Trial: A school-based trial to reduce social media use and improve mental health among adolescents",
+        "autoren": "ISRCTN-Register (Bradford Teaching Hospitals NHS Foundation Trust)",
+        "jahr": 2026,
+        "doi_oder_url": "10.1186/ISRCTN75400619",
+        "typ": "RCT",
+        "geoeffnet_am": "2026-10-18"
       }
     ],
-    "gegenstimmen": "Ferguson (2024) fand in seiner Meta-Analyse von Experimenten im Mittel keinen belastbaren Effekt. Haidt und Rausch kritisierten öffentlich Fehler in dieser Analyse. Burnell und Kollegen empfehlen, Mechanismen zu erforschen, statt pauschal Zeit zu begrenzen.",
+    "gegenstimmen": "Ferguson (2024) fand laut Sekundärberichten in seiner Meta-Analyse von Experimenten im Mittel keinen belastbaren Effekt; die Originalarbeit war im Faktencheck nicht zugänglich. Haidt und Rausch kritisierten öffentlich Fehler in dieser Analyse. Burnell und Kollegen empfehlen, Mechanismen zu erforschen, statt pauschal Zeit zu begrenzen.",
     "tipps": {
       "jugendliche": [
         "Probier eine Woche mit festem Zeitlimit pro App aus und beobachte, wie es dir geht.",
@@ -1381,7 +1811,30 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Meta-Analyse May et al. 2025 ergänzt",
+        "warum": "Zweite Meta-Analyse mit übereinstimmend kleinem positivem Effekt auf Depressivität",
+        "quelle": "10.3390/ejihpe15110222"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Hinweis auf laufende britische Schul-RCT (IRL, 12–15 Jahre, Sept. 2026 bis Mai 2027) ergänzt",
+        "warum": "Belegt die Lücke bei unter 18-Jährigen und zeigt laufende Forschung",
+        "quelle": "10.1186/ISRCTN75400619"
+      },
+      {
+        "datum": "2026-10-18",
+        "was": "Gegenstimme Ferguson 2024 als nur über Sekundärquellen belegt gekennzeichnet",
+        "warum": "Weder Volltext noch Abstract waren abrufbar (APA PsycNet, OpenAlex, Semantic Scholar ohne Abstract); nur die Metadaten sind bestätigt.",
+        "quelle": "10.1037/ppm0000541",
+        "ausloeser": "Faktencheck"
+      }
+    ]
   },
   {
     "id": "medien-social-013",
@@ -1415,7 +1868,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-gaming-001",
@@ -1424,7 +1877,7 @@
       "P7"
     ],
     "aussage": "Actionspiele hängen mit besserer Aufmerksamkeit und räumlichem Denken zusammen; ob sie allgemein klüger machen, ist umstritten.",
-    "erklaerung": "Eine Meta-Analyse fand bei Vielspielenden von Actionspielen einen Vorsprung von g = 0,55 in Querschnittsstudien. In Trainingsstudien war der Effekt kleiner (g = 0,34), vor allem bei Aufmerksamkeit und räumlichem Denken. Die Autoren schätzen, dass veröffentlichte Effekte durch Publikationsbias etwa 30 % zu groß sind. Eine zweite Meta-Analyse fand insgesamt nur kleine oder keine Effekte auf allgemeine geistige Fähigkeiten.",
+    "erklaerung": "Eine Meta-Analyse von 2018 fand bei Vielspielenden von Actionspielen einen Vorsprung von g = 0,55 in Querschnittsstudien. In Trainingsstudien war der Effekt kleiner (g = 0,34), vor allem bei Aufmerksamkeit und räumlichem Denken. Publikationsbias machte veröffentlichte Effekte etwa 30 % größer. Eine Neuauflage derselben Gruppe von 2023 fand g = 0,64 und g = 0,30, aber keine klaren Unterschiede zwischen Fähigkeitsbereichen. Eine unabhängige Meta-Analyse fand insgesamt nur kleine oder keine Effekte auf allgemeine geistige Fähigkeiten.",
     "wirkung": "hilft",
     "ampel": "umstritten",
     "studientyp": "Meta-Analyse",
@@ -1446,9 +1899,18 @@
         "typ": "Meta-Analyse",
         "kernzitat": "no evidence of a causal relationship between playing video games and enhanced cognitive ability",
         "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Effects of action video game play on cognitive skills: A meta-analysis",
+        "autoren": "Bediou et al.",
+        "jahr": 2023,
+        "doi_oder_url": "10.1037/tmb0000102",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Publication bias was detected in the cross-sectional data set",
+        "geoeffnet_am": "2026-10-18"
       }
     ],
-    "gegenstimmen": "Bediou, Bavelier und Kolleg*innen sehen gezielte Effekte von Actionspielen auf Aufmerksamkeit und räumliches Denken. Sala, Tatlidil und Gobet analysierten alle Spielgenres und fanden keinen Beleg für einen allgemeinen Transfer auf geistige Fähigkeiten. Beide Seiten werten unterschiedliche Studien und Spielarten aus. Belastbar ist vor allem: Effekte sind spezifisch und eher klein.",
+    "gegenstimmen": "Bediou, Bavelier und Kolleg*innen sehen gezielte Effekte von Actionspielen; ihre Neuauflage 2023 bestätigt einen kleinen ursächlichen Effekt, fand aber Publikationsbias in den Querschnittsdaten. Sala, Tatlidil und Gobet analysierten alle Spielgenres und fanden keinen Beleg für einen allgemeinen Transfer auf geistige Fähigkeiten. Beide Seiten werten unterschiedliche Studien und Spielarten aus. Belastbar ist vor allem: Effekte sind spezifisch und eher klein.",
     "tipps": {
       "jugendliche": [
         "Actionspiele können Aufmerksamkeit trainieren. Für Schule und Lernen ersetzen sie aber kein Üben im Fach."
@@ -1458,7 +1920,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Neuere Meta-Analyse Bediou et al. 2023 ergänzt; Erklärung und Gegenstimmen um deren Ergebnisse erweitert.",
+        "warum": "Aktualisierung: 2023 erschien eine größere Neuauflage (g = 0,64 Querschnitt, g = 0,30 Intervention, keine signifikanten Moderatoren, Publikationsbias in Querschnittsdaten).",
+        "quelle": "10.1037/tmb0000102"
+      }
+    ]
   },
   {
     "id": "medien-gaming-002",
@@ -1502,7 +1973,7 @@
     },
     "wann_hilfe": "Wenn Spielen trotz deutlicher Nachteile bei Arbeit, Studium oder Beziehungen nicht mehr steuerbar ist, helfen Hausarztpraxis, Suchtberatungsstellen oder Fachstellen für Mediensucht.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-gaming-003",
@@ -1512,7 +1983,7 @@
     ],
     "aussage": "Computerspielsucht ist in der ICD-11 der WHO eine anerkannte Diagnose: Kontrollverlust, Vorrang vor allem anderen und Weiterspielen trotz Schaden.",
     "erklaerung": "Die WHO beschreibt „Gaming Disorder“ mit drei Merkmalen: eingeschränkte Kontrolle, zunehmender Vorrang des Spielens und Weitermachen trotz negativer Folgen. Das Leben muss in wichtigen Bereichen deutlich beeinträchtigt sein, meist über mindestens 12 Monate. Laut WHO betrifft das nur einen kleinen Teil der Spielenden. Viel spielen allein ist also keine Sucht.",
-    "gehirn": "Bildgebungsstudien (fMRT, Querschnitt, Fall-Kontroll-Vergleiche) zeigen bei Betroffenen veränderte Aktivität in Belohnungs- und Kontrollnetzwerken, aber nicht unter allen Bedingungen. Bei Spielreizen reagieren Betroffene stärker (subjektiv d = 0,84 in einer Meta-Analyse zu Verhaltenssüchten). Ob die Veränderungen Ursache oder Folge sind, zeigen diese Studien nicht.",
+    "gehirn": "Bildgebungsstudien (fMRT, Querschnitt, Fall-Kontroll-Vergleiche) zeigen bei Betroffenen veränderte Aktivität in Belohnungs- und Kontrollnetzwerken, aber nicht unter allen Bedingungen. Menschen mit Verhaltenssüchten (Glücksspiel, Gaming, Kaufen) reagieren stärker auf suchtbezogene Reize (subjektiv d = 0,84; Meta-Analyse aus 18 kleinen Studien). Ob die Veränderungen Ursache oder Folge sind, zeigen diese Studien nicht.",
     "wirkung": "einordnung",
     "ampel": "stark",
     "studientyp": "Leitlinie",
@@ -1541,7 +2012,8 @@
         "jahr": 2026,
         "doi_oder_url": "https://www.bfarm.de/DE/Kodiersysteme/Klassifikationen/ICD/ICD-11/_node.html",
         "typ": "Leitlinie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "die ICD-10 weiterhin die gültige amtliche Klassifikation für Deutschland bleibt"
       },
       {
         "titel": "Meta-analyses of the functional neural alterations in subjects with Internet gaming disorder: Similarities and differences across different paradigms",
@@ -1549,7 +2021,8 @@
         "jahr": 2019,
         "doi_oder_url": "10.1016/j.pnpbp.2019.109656",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "the critical role of reward circuitry and executive control circuitry in IGD"
       },
       {
         "titel": "Cue-reactivity in behavioral addictions: A meta-analysis and methodological considerations",
@@ -1557,7 +2030,8 @@
         "jahr": 2018,
         "doi_oder_url": "10.1556/2006.7.2018.39",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Cue-reactivity not only exists in substance-use disorders but also in gambling, gaming, and buying disorders"
       },
       {
         "titel": "Scholars’ open debate paper on the World Health Organization ICD-11 Gaming Disorder proposal",
@@ -1586,7 +2060,16 @@
     },
     "wann_hilfe": "Bei Kontrollverlust und deutlichen Folgen über Monate: Kinder- und Jugendarztpraxis, Erziehungsberatung, Fachstellen für Mediensucht; für Jugendliche auch die Nummer gegen Kummer 116 111.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Gehirn-Text präzisiert: d = 0,84 gilt für Verhaltenssüchte insgesamt (Glücksspiel, Gaming, Kaufen), nicht nur für Spielreize bei Gaming.",
+        "warum": "Die Meta-Analyse von Starcke et al. 2018 bündelt 18 Studien zu drei Verhaltenssüchten mit 510 Teilnehmenden.",
+        "quelle": "10.1556/2006.7.2018.39"
+      }
+    ]
   },
   {
     "id": "medien-gaming-004",
@@ -1594,8 +2077,8 @@
     "phasen": [
       "P7"
     ],
-    "aussage": "Weltweit erfüllen etwa 2 bis 3 Prozent der Menschen die Kriterien für Computerspielsucht; die Zahlen hängen stark vom Fragebogen ab.",
-    "erklaerung": "Eine Meta-Analyse aus 53 Studien mit rund 226.000 Personen schätzt die Häufigkeit auf 3,05 %. In methodisch strengeren Stichproben waren es 1,96 %. Die Wahl des Fragebogens erklärte 77 % der Unterschiede zwischen Studien. Jugendliche Stichproben und männliche Spieler zeigten höhere Werte, etwa 2,5 zu 1.",
+    "aussage": "In Studien weltweit erfüllen etwa 2 bis 3 Prozent der Befragten die Kriterien für Computerspielsucht, in strengeren Stichproben eher weniger. Die Zahlen hängen stark vom Fragebogen ab.",
+    "erklaerung": "Eine Meta-Analyse aus 53 Studien mit rund 226.000 Personen schätzt die Häufigkeit auf 3,05 %. In methodisch strengeren Stichproben waren es 1,96 %, mit sehr weitem Unsicherheitsbereich (0,19 bis 17,12 %). Die Wahl des Fragebogens erklärte 77 % der Unterschiede. Jugendliche Stichproben zeigten höhere Werte. Männer waren etwa 2,5-mal so oft betroffen wie Frauen. Eine zweite Meta-Analyse aus 61 Studien kam auf 3,3 %, in repräsentativen Stichproben auf 2,4 %.",
     "wirkung": "einordnung",
     "ampel": "mittel",
     "studientyp": "Meta-Analyse",
@@ -1608,6 +2091,15 @@
         "typ": "Meta-Analyse",
         "kernzitat": "Gaming disorder prevalence rates appear to be inflated by methodological characteristics",
         "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Prevalence of gaming disorder: A meta-analysis",
+        "autoren": "Kim et al.",
+        "jahr": 2022,
+        "doi_oder_url": "10.1016/j.addbeh.2021.107183",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Prevalence estimates are likely to vary depending on study quality.",
+        "geoeffnet_am": "2026-10-18"
       }
     ],
     "gegenstimmen": "Die Spanne ist groß, weil Studien unterschiedliche Fragebögen und Schwellenwerte nutzen. Screening-Fragebögen ersetzen keine Diagnose durch Fachleute.",
@@ -1617,7 +2109,23 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Aussage präzisiert („der Befragten“, strengere Stichproben niedriger); Unsicherheitsbereich der 1,96 % und Geschlechterverhältnis klarer formuliert.",
+        "warum": "Stevens et al.: 1,96 % mit Konfidenzintervall 0,19–17,12; 2,5:1 bezieht sich auf Männer zu Frauen, nicht auf Jugendliche.",
+        "quelle": "10.1177/0004867420962851"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Zweite Meta-Analyse Kim et al. 2022 ergänzt.",
+        "warum": "Bestätigt die Größenordnung (3,3 %, repräsentativ 2,4 %, nach Bias-Korrektur 1,4 %).",
+        "quelle": "10.1016/j.addbeh.2021.107183"
+      }
+    ]
   },
   {
     "id": "medien-gaming-005",
@@ -1626,9 +2134,9 @@
       "P4"
     ],
     "aussage": "In Deutschland zeigen laut DAK-Längsschnitt 2026 etwa 4,5 Prozent der 10- bis 17-Jährigen ein krankhaftes Spielverhalten, Jungen fast dreimal so oft.",
-    "erklaerung": "Die achte Welle (Herbst 2025) fand 4,5 % pathologische und 6,6 % riskante Nutzung digitaler Spiele. Hochgerechnet zeigen über 700.000 Kinder und Jugendliche problematische Muster. Werktags spielten sie im Schnitt 89 Minuten, 2024 waren es 105. Zwischen 10–13 und 14–17 Jahren gab es keine deutlichen Unterschiede.",
+    "erklaerung": "Die achte Welle (24.9. bis 12.10.2025, 1.005 Familien) fand 4,5 % pathologische und 6,6 % riskante Nutzung digitaler Spiele. Hochgerechnet zeigen über 700.000 Kinder und Jugendliche problematische Muster. Werktags spielten sie im Schnitt 89 Minuten, 2024 waren es 105. Zwischen 10–13 und 14–17 Jahren gab es keine deutlichen Unterschiede.",
     "wirkung": "einordnung",
-    "ampel": "mittel",
+    "ampel": "schwach",
     "studientyp": "Kohorte",
     "quellen": [
       {
@@ -1638,7 +2146,8 @@
         "doi_oder_url": "https://www.dak.de/dak/unternehmen/reporte-forschung/dak-studie-mediensucht-2026_164552",
         "typ": "Kohorte",
         "finanzierung": "Gefördert von der Krankenkasse DAK-Gesundheit.",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Jungen beinahe dreimal so häufig von einer pathologischen Nutzung betroffen wie Mädchen"
       },
       {
         "titel": "DAK-Suchtstudie: Millionen Kinder haben Probleme durch Medienkonsum (Welle 2024)",
@@ -1646,7 +2155,9 @@
         "jahr": 2025,
         "doi_oder_url": "https://www.dak.de/presse/bundesthemen/kinder-jugendgesundheit/dak-suchtstudie-millionen-kinder-haben-probleme-durch-medienkonsum-_91832",
         "typ": "Kohorte",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Weniger dramatisch sind die Ergebnisse beim Gebrauch digitaler Spiele.",
+        "finanzierung": "Herausgegeben von der Krankenkasse DAK-Gesundheit."
       }
     ],
     "gegenstimmen": "Die Werte beruhen auf Fragebögen, nicht auf ärztlichen Diagnosen. Die Begriffe der Wellen unterscheiden sich teils („problematisch“, „riskant“). Der Anstieg gegenüber der Vorwelle war statistisch nicht bedeutsam.",
@@ -1660,7 +2171,23 @@
     },
     "wann_hilfe": "Bei anhaltenden Problemen mit Schule, Schlaf oder Familie: Erziehungsberatung, Kinder- und Jugendarztpraxis oder Fachstellen für Mediensucht; anonym hilft die Nummer gegen Kummer 116 111.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Ampel von mittel auf schwach.",
+        "warum": "Einzelne Befragungsstudie mit rund 1.000 Familien und Screening-Fragebogen, keine Diagnosen; nach Projektregel trägt eine Einzelstudie höchstens „schwach“.",
+        "quelle": "https://www.dak.de/dak/unternehmen/reporte-forschung/dak-studie-mediensucht-2026_164552"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Erhebungszeitraum und Stichprobe (1.005 Familien) ergänzt.",
+        "warum": "Transparenz über Größe und Zeitpunkt der Befragung.",
+        "quelle": "https://www.dak.de/dak/unternehmen/reporte-forschung/dak-studie-mediensucht-2026_164552"
+      }
+    ]
   },
   {
     "id": "medien-gaming-006",
@@ -1669,7 +2196,7 @@
       "P6"
     ],
     "aussage": "Dass Gewaltspiele Menschen zu Gewalttätern machen, ist nicht belegt; die Langzeitstudien zeigen kaum Zusammenhänge.",
-    "erklaerung": "Eine Meta-Analyse von 28 Langzeitstichproben mit etwa 21.000 Jugendlichen fand nur r = 0,059. In den methodisch besten Studien lag der Wert bei r = 0,012 und war nicht von null zu unterscheiden. Die US-Psychologenvereinigung APA warnt ausdrücklich davor, Gewalttaten wie Amokläufe Videospielen zuzuschreiben.",
+    "erklaerung": "Eine Meta-Analyse von 28 Langzeitstichproben mit etwa 21.000 Jugendlichen fand für aggressives Verhalten nur r = 0,059. In den methodisch besten Studien lag der Wert bei r = 0,012 und war nicht von null zu unterscheiden. Diese Studien messen Aggression, keine Straftaten. Ob Spiele tödliche Gewalt verursachen, ist laut APA kaum erforscht. Die APA nennt es wissenschaftlich nicht haltbar, Gewalttaten wie Amokläufe Videospielen zuzuschreiben.",
     "wirkung": "neutral",
     "ampel": "mythos",
     "studientyp": "Meta-Analyse",
@@ -1689,7 +2216,7 @@
         "jahr": 2020,
         "doi_oder_url": "https://www.apa.org/about/policy/resolution-violent-video-games.pdf",
         "typ": "Leitlinie",
-        "kernzitat": "attributing violence, such as mass shootings, to violent video game use",
+        "kernzitat": "Attributing violence to violent video gaming is not scientifically sound",
         "geoeffnet_am": "2026-10-18"
       }
     ],
@@ -1703,7 +2230,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Erklärung präzisiert: Langzeitstudien messen Aggression, nicht Gewalttaten; APA-Aussage zu tödlicher Gewalt und zur Zuschreibung von Gewalttaten ergänzt; APA-Kernzitat durch den vollständigen Kernsatz ersetzt.",
+        "warum": "Das alte Kernzitat war ein Satzbruchstück, das ohne Kontext missverständlich ist. Die Abgrenzung zu medien-gaming-007 (leichte Aggression) wird so klarer.",
+        "quelle": "https://www.apa.org/about/policy/resolution-violent-video-games.pdf"
+      }
+    ]
   },
   {
     "id": "medien-gaming-007",
@@ -1712,7 +2248,7 @@
       "P6"
     ],
     "aussage": "Ob gewalthaltige Spiele leichte Aggression wie Ärger oder Schubsen fördern, ist umstritten; wenn überhaupt, ist der Effekt klein.",
-    "erklaerung": "Eine Meta-Analyse von 2010 sah Gewaltspiele als ursächlichen Risikofaktor für aggressives Verhalten und weniger Mitgefühl. Spätere Analysen kritisierten Publikationsbias und schwache Messmethoden. Eine Neuauswertung der „Meta-Analyse-Kriege“ kam zu dem Schluss: Die Effekte sind meist vorhanden, aber fast immer sehr klein.",
+    "erklaerung": "Eine Meta-Analyse von 2010 sah Gewaltspiele als ursächlichen Risikofaktor für aggressives Verhalten und weniger Mitgefühl. Eine Neuauswertung fand dort deutlichen Publikationsbias; die Effekte in Experimenten schrumpften auf sehr klein. Langzeitstudien zeigen kleine Zusammenhänge mit körperlicher Aggression (β = 0,08 bzw. r = 0,06), deren Deutung umstritten ist. Eine Analyse der „Meta-Analyse-Kriege“ schloss: Effekte sind meist vorhanden, aber fast immer sehr klein.",
     "wirkung": "schadet",
     "ampel": "umstritten",
     "studientyp": "Meta-Analyse",
@@ -1723,7 +2259,8 @@
         "jahr": 2010,
         "doi_oder_url": "10.1037/a0018251",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "exposure to violent video games is a causal risk factor for increased aggressive behavior"
       },
       {
         "titel": "Finding Common Ground in Meta-Analysis “Wars” on Violent Video Games",
@@ -1740,10 +2277,38 @@
         "jahr": 2020,
         "doi_oder_url": "10.1098/rsos.200373",
         "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "studies with more best practices were statistically indistinguishable from zero"
+      },
+      {
+        "titel": "Overstated evidence for short-term effects of violent games on affect and behavior: A reanalysis of Anderson et al. (2010)",
+        "autoren": "Hilgard, Engelhardt, Rouder",
+        "jahr": 2017,
+        "doi_oder_url": "10.1037/bul0000074",
+        "typ": "Meta-Analyse",
+        "kernzitat": "we detect substantial publication bias in experimental research",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Metaanalysis of the relationship between violent video game play and physical aggression over time",
+        "autoren": "Prescott, Sargent, Hull",
+        "jahr": 2018,
+        "doi_oder_url": "10.1073/pnas.1611617114",
+        "typ": "Meta-Analyse",
+        "kernzitat": "No evidence of publication bias was found.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "APA Resolution on Violent Video Games (February 2020 revision)",
+        "autoren": "American Psychological Association",
+        "jahr": 2020,
+        "doi_oder_url": "https://www.apa.org/about/policy/resolution-violent-video-games.pdf",
+        "typ": "Leitlinie",
+        "kernzitat": "very little research has included children younger than 10 years",
         "geoeffnet_am": "2026-10-18"
       }
     ],
-    "gegenstimmen": "Anderson, Bushman und Kolleg*innen sehen einen robusten, ursächlichen Effekt. Ferguson, Drummond und andere halten ihn für ein Artefakt schwacher Methoden (bestes Studiendesign: r = 0,012). Mathur und VanderWeele sehen eine gemeinsame Basis: kleiner, aber meist vorhandener Effekt. Die APA (2020) nennt Gewaltspiele einen von vielen Risikofaktoren; unter 10 Jahren gibt es kaum Forschung.",
+    "gegenstimmen": "Anderson, Bushman sowie Prescott und Kollegen sehen einen kleinen, aber echten ursächlichen Effekt. Ferguson, Drummond und andere halten ihn für ein Artefakt schwacher Methoden (bestes Studiendesign: r = 0,012). Mathur und VanderWeele sehen eine gemeinsame Basis: kleiner, aber meist vorhandener Effekt. Die APA (2020) nennt Gewaltspiele einen von vielen Risikofaktoren; unter 10 Jahren gibt es kaum Forschung.",
     "tipps": {
       "eltern": [
         "Beachten Sie die USK-Freigabe. Sprechen Sie mit Ihrem Kind über Gefühle nach dem Spielen, etwa Ärger oder Frust."
@@ -1753,7 +2318,30 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Neuauswertung Hilgard et al. 2017 als Beleg für den Publikationsbias-Einwand ergänzt.",
+        "warum": "Der Satz zur Kritik an Publikationsbias hatte keine eigene Quelle.",
+        "quelle": "10.1037/bul0000074"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Meta-Analyse Prescott et al. 2018 (24 Langzeitstudien, β = 0,08) ergänzt; Erklärung und Gegenstimmen angepasst.",
+        "warum": "Die Seite mit kleinem, aber robustem Effekt war nur mit der Arbeit von 2010 belegt; so wird die Kontroverse ausgewogen.",
+        "quelle": "10.1073/pnas.1611617114"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "APA-Resolution 2020 als Quelle ergänzt.",
+        "warum": "Die Gegenstimmen berufen sich auf die APA, die Quelle fehlte in dieser Aussage.",
+        "quelle": "https://www.apa.org/about/policy/resolution-violent-video-games.pdf"
+      }
+    ]
   },
   {
     "id": "medien-gaming-008",
@@ -1762,10 +2350,10 @@
       "P7"
     ],
     "aussage": "Wer viel Geld für Lootboxen ausgibt, hat häufiger Probleme mit Glücksspiel; ob Lootboxen die Ursache sind, ist noch offen.",
-    "erklaerung": "Lootboxen sind kaufbare Beutekisten mit Zufallsinhalt. Ein systematischer Review fand in 12 von 13 Arbeiten einen Zusammenhang mit Problemglücksspiel, im Mittel r = 0,27. Mit problematischem Spielverhalten lag er bei r = 0,40, aber nur aus sechs Befragungen. Die Richtung ist unklar: Lootboxen könnten einsteigen lassen oder vor allem Menschen mit Spielproblemen anziehen.",
+    "erklaerung": "Lootboxen sind kaufbare Beutekisten mit Zufallsinhalt. Ein systematischer Review fand in 12 von 13 Arbeiten einen Zusammenhang mit Problemglücksspiel, im Mittel r = 0,27. Eine Meta-Analyse aus 15 Studien kam auf r = 0,26. Mit problematischem Spielverhalten lag der Wert bei r = 0,25 bis 0,40, aus nur sechs bis sieben Studien. Die Richtung ist unklar: Lootboxen könnten einsteigen lassen oder vor allem Menschen mit Spielproblemen anziehen.",
     "wirkung": "schadet",
     "ampel": "mittel",
-    "studientyp": "Systematischer Review",
+    "studientyp": "Meta-Analyse",
     "quellen": [
       {
         "titel": "Loot boxes, problem gambling and problem video gaming: A systematic review and meta-synthesis",
@@ -1773,7 +2361,8 @@
         "jahr": 2021,
         "doi_oder_url": "10.1177/14614448211027175",
         "typ": "Systematischer Review",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "12 of 13 publications reported a positive relationship, with a moderately sized mean effect"
       },
       {
         "titel": "Video game loot boxes are linked to problem gambling: Results of a large-scale survey",
@@ -1781,6 +2370,16 @@
         "jahr": 2018,
         "doi_oder_url": "10.1371/journal.pone.0206767",
         "typ": "Querschnitt",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "It is unclear from this study whether buying loot boxes acts as a gateway"
+      },
+      {
+        "titel": "Meta-analysis of the relationship between problem gambling, excessive gaming and loot box spending",
+        "autoren": "Garea, Drummond, Sauer, Hall, Williams",
+        "jahr": 2021,
+        "doi_oder_url": "10.1080/14459795.2021.1914705",
+        "typ": "Meta-Analyse",
+        "kernzitat": "a small but replicable and potentially clinically relevant relationship",
         "geoeffnet_am": "2026-10-18"
       }
     ],
@@ -1798,7 +2397,16 @@
     },
     "wann_hilfe": "Wenn Ausgaben außer Kontrolle geraten oder heimlich Geld genommen wird: Suchtberatung, Fachstellen für Glücksspielsucht oder Erziehungsberatung.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Meta-Analyse Garea et al. 2021 ergänzt; Studientyp von „Systematischer Review“ auf „Meta-Analyse“; Erklärung um r = 0,26 und r = 0,25 ergänzt.",
+        "warum": "Eine unabhängige Meta-Analyse bestätigt den Zusammenhang und ist der stärkste Belegtyp unter den Quellen.",
+        "quelle": "10.1080/14459795.2021.1914705"
+      }
+    ]
   },
   {
     "id": "medien-gaming-009",
@@ -1807,7 +2415,7 @@
       "P4"
     ],
     "aussage": "In Deutschland berücksichtigt die USK seit 2023 Kaufanreize und Lootboxen bei der Altersfreigabe und weist auf „In-Game-Käufe + zufällige Objekte“ hin.",
-    "erklaerung": "Seit dem neuen Jugendschutzgesetz 2021 dürfen Risiken wie Kauffunktionen und glücksspielähnliche Mechanismen in die Alterseinstufung einfließen. Seit 2023 tragen Spiele Zusatzhinweise zum USK-Kennzeichen. Laut Bayerischer Staatsregierung waren 2023 bei rund 30 % der Spiele solche Nutzungsrisiken mitentscheidend für eine höhere Altersstufe. Ein Alterskennzeichen sagt aber nichts über den pädagogischen Wert.",
+    "erklaerung": "Seit dem neuen Jugendschutzgesetz 2021 dürfen Risiken wie Kauffunktionen und glücksspielähnliche Mechanismen in die Alterseinstufung einfließen. Seit 2023 tragen Spiele Zusatzhinweise zum USK-Kennzeichen. Laut Bayerischer Staatsregierung waren 2023 bei rund 30 % der im JuSchG-Verfahren gekennzeichneten Spiele solche Nutzungsrisiken mitentscheidend für eine höhere Altersstufe. Ein Alterskennzeichen sagt aber nichts über den pädagogischen Wert.",
     "wirkung": "einordnung",
     "ampel": "stark",
     "studientyp": "Leitlinie",
@@ -1818,6 +2426,15 @@
         "jahr": 2021,
         "doi_oder_url": "https://www.gesetze-im-internet.de/juschg/__10b.html",
         "typ": "Gesetz",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "durch Kauffunktionen, durch glücksspielähnliche Mechanismen"
+      },
+      {
+        "titel": "Jugendschutzgesetz (JuSchG) § 14 Kennzeichnung von Filmen und Spielprogrammen",
+        "autoren": "Bundesministerium der Justiz",
+        "jahr": 2021,
+        "doi_oder_url": "https://www.gesetze-im-internet.de/juschg/__14.html",
+        "typ": "Gesetz",
         "geoeffnet_am": "2026-10-18"
       },
       {
@@ -1826,7 +2443,8 @@
         "jahr": 2024,
         "doi_oder_url": "https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0003110.pdf",
         "typ": "Statistik",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "rund 30 Prozent der im JuSchG-Verfahren gekennzeichneten Spiele"
       },
       {
         "titel": "Welche Alterskennzeichen gibt es?",
@@ -1842,7 +2460,8 @@
         "jahr": 2025,
         "doi_oder_url": "https://www.europarl.europa.eu/news/en/press-room/20251120IPR31496/children-should-be-at-least-16-to-access-social-media-say-meps",
         "typ": "Expertenkonsens",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "MEPs adopted a non-legislative report by 483 votes in favour"
       },
       {
         "titel": "Digital fairness – fitness check on EU consumer law",
@@ -1850,6 +2469,16 @@
         "jahr": 2026,
         "doi_oder_url": "https://commission.europa.eu/law/law-topic/consumer-protection-law/review-eu-consumer-law_en",
         "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "The Digital Fairness Act is a Commission initiative, currently under preparation"
+      },
+      {
+        "titel": "USK-Prüftitel Battlemons (Android): Beispiel für den Hinweis „In-Game-Käufe + zufällige Objekte“",
+        "autoren": "USK",
+        "jahr": 2026,
+        "doi_oder_url": "https://usk.de/usktitle/58723/",
+        "typ": "Leitlinie",
+        "kernzitat": "Das Spiel enthält die Möglichkeit, „zufällige Gegenstände\" zu erwerben",
         "geoeffnet_am": "2026-10-18"
       }
     ],
@@ -1865,7 +2494,30 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "„rund 30 % der Spiele“ präzisiert zu „der im JuSchG-Verfahren gekennzeichneten Spiele“.",
+        "warum": "So steht es in der Antwort der Staatsregierung; IARC-Einstufungen (Apps) sind nicht gemeint.",
+        "quelle": "https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0003110.pdf"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "§ 14 JuSchG als Quelle ergänzt.",
+        "warum": "Die Rechtslage nennt § 14 Abs. 2a, die Norm war nicht verlinkt.",
+        "quelle": "https://www.gesetze-im-internet.de/juschg/__14.html"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "USK-Prüftitel als Beleg für den Hinweis „In-Game-Käufe + zufällige Objekte“ ergänzt.",
+        "warum": "Die verlinkte USK-Seite zu Alterskennzeichen nennt die Zusatzhinweise nicht.",
+        "quelle": "https://usk.de/usktitle/58723/"
+      }
+    ]
   },
   {
     "id": "medien-gaming-012",
@@ -1874,7 +2526,7 @@
       "P3"
     ],
     "aussage": "Die deutsche Leitlinie rät: mit 6 bis 9 Jahren höchstens 30–45 Minuten Bildschirm an einzelnen Tagen, eine eigene Spielkonsole nicht vor 9 Jahren.",
-    "erklaerung": "Die Leitlinie der Kinder- und Jugendmedizin nennt Höchstwerte für Bildschirmzeit in der Freizeit, Spiele eingeschlossen. Mit 6–9 Jahren gelten 30–45 Minuten an einzelnen Tagen, begleitet von Erwachsenen. Mit 9–12 Jahren sind es 45–60 Minuten, mit 12–18 Jahren höchstens 2 Stunden. Kinder mit eigener Konsole spielen laut Leitlinie im Schnitt doppelt so lange.",
+    "erklaerung": "Die Leitlinie der Kinder- und Jugendmedizin nennt Höchstwerte für Bildschirmzeit in der Freizeit, Spiele eingeschlossen. Mit 6–9 Jahren gelten 30–45 Minuten an einzelnen Tagen, begleitet von Erwachsenen. Mit 9–12 Jahren sind es 45–60 Minuten, mit 12–16 Jahren höchstens 2 Stunden. Für 16–18 Jahre gelten 2 Stunden als Orientierungswert. Kinder mit eigener Konsole spielen laut Leitlinie im Schnitt doppelt so lange.",
     "wirkung": "hilft",
     "ampel": "stark",
     "studientyp": "Leitlinie",
@@ -1885,7 +2537,8 @@
         "jahr": 2023,
         "doi_oder_url": "https://register.awmf.org/assets/guidelines/027_D_Ges_fuer_Kinderheilkunde_und_Jugendmedizin/027-075eltern_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2024-11-verlaengert.pdf",
         "typ": "Leitlinie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Eigene Spielkonsole: Nicht vor neun Jahren!"
       },
       {
         "titel": "Technischer Schutz bei Games",
@@ -1899,7 +2552,7 @@
     "empfehlung_offiziell": {
       "stelle": "DGKJ / AWMF (S2k-Leitlinie 027-075)",
       "jahr": 2023,
-      "inhalt": "6–9 Jahre: höchstens 30–45 Minuten an einzelnen Tagen, mit Erwachsenen; 9–12 Jahre: 45–60 Minuten; 12–18 Jahre: höchstens 2 Stunden Freizeit-Bildschirmzeit. Gültigkeit am 10.06.2026 bis 14.07.2028 verlängert.",
+      "inhalt": "6–9 Jahre: höchstens 30–45 Minuten an einzelnen Tagen, mit Erwachsenen; 9–12 Jahre: 45–60 Minuten; 12–16 Jahre: höchstens 2 Stunden Freizeit-Bildschirmzeit, 16–18 Jahre als Orientierungswert. Gültigkeit am 10.06.2026 bis 14.07.2028 verlängert.",
       "url": "https://register.awmf.org/assets/guidelines/027_D_Ges_fuer_Kinderheilkunde_und_Jugendmedizin/027-075eltern_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2024-11-verlaengert.pdf"
     },
     "gegenstimmen": "Die Zeitgrenzen sind ein Expertenkonsens (S2k), keine aus Studien abgeleiteten Schwellen. Forschende wie Przybylski betonen, dass Inhalte und Motive wichtiger sein können als Minuten.",
@@ -1911,7 +2564,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Altersstufen präzisiert: höchstens 2 Stunden für 12–16 Jahre, für 16–18 Jahre als Orientierungswert.",
+        "warum": "So unterscheidet die Elternversion der Leitlinie.",
+        "quelle": "https://register.awmf.org/assets/guidelines/027_D_Ges_fuer_Kinderheilkunde_und_Jugendmedizin/027-075eltern_S2k_Praevention-dysregulierten-Bildschirmmediengebrauchs-Kinder-Jugendliche_2024-11-verlaengert.pdf"
+      }
+    ]
   },
   {
     "id": "medien-gaming-013",
@@ -1920,7 +2582,7 @@
       "P3"
     ],
     "aussage": "Neun- und zehnjährige Vielspielende schnitten in einer großen US-Studie bei Gedächtnis- und Hemmungsaufgaben etwas besser ab; ursächlich ist das nicht belegt.",
-    "erklaerung": "In der ABCD-Studie verglich man 2.217 Kinder: ohne Spielen und mit mindestens 21 Stunden pro Woche. Vielspielende lösten Arbeitsgedächtnis- und Stopp-Aufgaben besser. Der Artikel wurde 2023 wegen durchgehender Fehler zurückgezogen und korrigiert ersetzt. In der Neufassung zeigten Vielspielende zudem mehr Aufmerksamkeitsprobleme, Depressions- und ADHS-Symptome.",
+    "erklaerung": "In der ABCD-Studie verglich man 2.217 Kinder von 9 und 10 Jahren: ohne Spielen und mit mindestens 21 Stunden pro Woche. Vielspielende lösten Arbeitsgedächtnis- und Stopp-Aufgaben etwas besser; die Unterschiede in der Reaktionszeit waren klein. Der Artikel wurde 2023 wegen durchgehender Fehler zurückgezogen und korrigiert ersetzt. In der Neufassung zeigten Vielspielende mehr Aufmerksamkeitsprobleme, Depressions- und ADHS-Symptome. Bei einer weiteren Gedächtnisaufgabe schnitten sie schlechter ab.",
     "gehirn": "Bildgebungsstudie (fMRT, Querschnitt): Vielspielende zeigten andere Aktivierungsmuster in Hirnregionen für Sehen, Aufmerksamkeit und Gedächtnis, etwa im Präcuneus. Ob Spielen das verursacht oder Kinder mit bestimmten Fähigkeiten mehr spielen, kann die Studie nicht klären.",
     "wirkung": "einordnung",
     "ampel": "schwach",
@@ -1940,17 +2602,34 @@
         "jahr": 2023,
         "doi_oder_url": "10.1001/jamanetworkopen.2023.6895",
         "typ": "Querschnitt",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "it should have been reported as a cross-sectional study"
       }
     ],
-    "gegenstimmen": "Die Gruppen unterschieden sich auch in Geschlecht und Einkommen. Die APA (2020) betont, dass es zu Kindern unter 10 Jahren kaum Forschung gibt.",
+    "gegenstimmen": "Die Gruppen unterschieden sich auch in Geschlecht, Herkunft und Einkommen. Die Autoren stufen die Studie inzwischen als Querschnitt ein, nicht als Fall-Kontroll-Studie. Sie kann daher keine Ursache belegen.",
     "tipps": {
       "eltern": [
         "Sehen Sie Spiele nicht als Lernförderung für Grundschulkinder. Halten Sie sich an die Zeitempfehlungen der Leitlinie."
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Erklärung ergänzt: kleine Reaktionszeit-Unterschiede und schlechteres Abschneiden der Vielspielenden bei der List-Sorting-Aufgabe laut Neufassung.",
+        "warum": "Die Rückzugsmitteilung nennt beides als korrigierte Befunde.",
+        "quelle": "10.1001/jamanetworkopen.2023.6895"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Gegenstimmen: Verweis auf APA 2020 (unter 10 Jahren kaum Forschung) entfernt; Einordnung als Querschnitt ergänzt.",
+        "warum": "Die APA-Aussage betrifft Gewaltspiele und Aggression, nicht kognitive Leistungen.",
+        "quelle": "https://www.apa.org/about/policy/resolution-violent-video-games.pdf"
+      }
+    ]
   },
   {
     "id": "medien-gaming-014",
@@ -1959,7 +2638,7 @@
       "P6"
     ],
     "aussage": "Ein kurzes Gruppenprogramm an deutschen Schulen (PROTECT) senkte Symptome problematischen Spielens bei gefährdeten Jugendlichen.",
-    "erklaerung": "In einer cluster-randomisierten Studie an 33 Schulen nahmen 422 gefährdete Jugendliche von 12 bis 18 Jahren teil. Vier Sitzungen nach verhaltenstherapeutischem Ansatz senkten die Symptome binnen 12 Monaten um 39,8 % statt 27,7 % (d = 0,67 im Vorher-Nachher-Vergleich). Neue Erkrankungen wurden aber nicht deutlich seltener.",
+    "erklaerung": "In einer cluster-randomisierten Studie an 33 Schulen nahmen 422 gefährdete Jugendliche von 12 bis 18 Jahren teil. Vier Gruppensitzungen mit geschulten Psychologinnen und Psychologen nach verhaltenstherapeutischem Ansatz senkten die Symptome binnen 12 Monaten um 39,8 % statt 27,7 % (d = 0,67 im Vorher-Nachher-Vergleich). Neue Erkrankungen wurden aber nicht deutlich seltener.",
     "wirkung": "hilft",
     "ampel": "schwach",
     "studientyp": "RCT",
@@ -1970,10 +2649,11 @@
         "jahr": 2022,
         "doi_oder_url": "10.1001/jamanetworkopen.2021.48995",
         "typ": "RCT",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "The intervention did not change incidence rates of gaming disorder or unspecified internet use disorder."
       }
     ],
-    "gegenstimmen": "Es ist eine einzelne Studie des Entwicklerteams. Die Kontrollgruppe erhielt nur Befragungen. Unabhängige Wiederholungen fehlen.",
+    "gegenstimmen": "Es ist eine einzelne Studie des Entwicklerteams. Die Kontrollgruppe erhielt nur Befragungen. Die Programmgruppe startete mit höheren Werten (29,1 zu 26,2 Punkten), was einen Teil des Rückgangs erklären kann. Unabhängige Wiederholungen fehlen.",
     "tipps": {
       "lehrkraefte": [
         "Fragen Sie Schulsozialarbeit oder Suchtpräventionsfachkräfte nach evaluierten Programmen für gefährdete Schülerinnen und Schüler."
@@ -1984,7 +2664,23 @@
     },
     "wann_hilfe": "Schulsozialarbeit, Beratungslehrkräfte, Fachstellen für Suchtprävention; anonym die Nummer gegen Kummer 116 111.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Erklärung ergänzt: Sitzungen werden von geschulten Psychologinnen und Psychologen geleitet.",
+        "warum": "Wichtig für die Übertragbarkeit in den Schulalltag.",
+        "quelle": "10.1001/jamanetworkopen.2021.48995"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Gegenstimmen ergänzt: höhere Ausgangswerte der Programmgruppe.",
+        "warum": "Ungleiche Ausgangswerte (29,05 vs. 26,21) können Regression zur Mitte begünstigen.",
+        "quelle": "10.1001/jamanetworkopen.2021.48995"
+      }
+    ]
   },
   {
     "id": "medien-schule-001",
@@ -1999,7 +2695,7 @@
     "studientyp": "Leitlinie",
     "quellen": [
       {
-        "titel": "Handynutzung an Schulen – Empfehlungen (Handreichung Niedersachsen und Hamburg)",
+        "titel": "Analog. Digital. Miteinander. Empfehlungen zur Umsetzung von verpflichtenden Regelungen für Smartphones & Smartwatches an niedersächsischen Schulen (auf Basis eines gemeinsamen Entwurfs Niedersachsen und Hamburg)",
         "autoren": "Niedersächsisches Kultusministerium",
         "jahr": 2025,
         "doi_oder_url": "https://www.mk.niedersachsen.de/download/223334/Handyhandreichung_Schulen_Niedersachsen_-_Empfehlungen.pdf",
@@ -2008,28 +2704,31 @@
         "geoeffnet_am": "2026-10-18"
       },
       {
-        "titel": "Kultusministerin Hamburg und Bildungssenatorin Bekeris präsentieren Regeln zur Handynutzung an Schulen (Pressemitteilung)",
+        "titel": "Kultusministerin Hamburg und Bildungssenatorin Bekeris präsentieren Regeln zur Handynutzung an Schulen (Pressemitteilung vom 12.11.2025)",
         "autoren": "Niedersächsisches Kultusministerium",
         "jahr": 2025,
         "doi_oder_url": "https://www.mk.niedersachsen.de/startseite/aktuelles/presseinformationen/kultusministerin-hamburg-und-bildungssenatorin-bekeris-prasentieren-regeln-zur-handynutzung-an-schulen-246455.html",
         "typ": "Leitlinie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Jede Schule ist verpflichtet, sich künftig auf der Grundlage unserer Empfehlungen verbindliche Nutzungsregeln"
       },
       {
-        "titel": "Handys, Smartphones, Smartwatches – verlässliche Rahmen für die Mediennutzung erarbeiten (Beschluss vom 24.06.2026, Drs. 19/11037)",
+        "titel": "Handys, Smartphones, Smartwatches – verlässliche Rahmen für die Mediennutzung für Schulen, Eltern, Kinder und Jugendliche erarbeiten (Beschluss vom 24.06.2026, Unterrichtung Drs. 19/11037)",
         "autoren": "Niedersächsischer Landtag",
         "jahr": 2026,
         "doi_oder_url": "https://www.landtag-niedersachsen.de/drucksachen/drucksachen_19_12500/11001-11500/19-11037.pdf",
         "typ": "Gesetz",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "ob eine landesweit einheitliche Regelung zur Einschränkung der Nutzung von Handys"
       },
       {
-        "titel": "Smartphone-Schutzzonen an hessischen Schulen (§ 69 Abs. 7 HSchG)",
+        "titel": "Smartphone-Schutzzonen an hessischen Schulen (FAQ zu § 69 Abs. 7 HSchG)",
         "autoren": "Hessisches Ministerium für Kultus, Bildung und Chancen",
         "jahr": 2025,
         "doi_oder_url": "https://kultus.hessen.de/smartphone-schutzzonen",
         "typ": "Gesetz",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "die private Verwendung von mobilen digitalen Endgeräten"
       },
       {
         "titel": "Schulgesetz für Baden-Württemberg, § 23 Abs. 2b (Nutzung digitaler mobiler Endgeräte)",
@@ -2037,6 +2736,16 @@
         "jahr": 2025,
         "doi_oder_url": "https://lxgesetze.de/schg/23",
         "typ": "Gesetz",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "die hinsichtlich der Nutzung digitaler mobiler Endgeräte erforderlichen Maßnahmen zu treffen"
+      },
+      {
+        "titel": "Bayerisches Gesetz über das Erziehungs- und Unterrichtswesen (BayEUG), Art. 56 Abs. 5 (Text gilt ab 02.10.2026)",
+        "autoren": "Freistaat Bayern (BAYERN.RECHT)",
+        "jahr": 2026,
+        "doi_oder_url": "https://www.gesetze-bayern.de/Content/Document/BayEUG-56",
+        "typ": "Gesetz",
+        "kernzitat": "Satz 1 Nr. 2 gilt nicht für die Jahrgangsstufen 1 mit 7.",
         "geoeffnet_am": "2026-10-18"
       },
       {
@@ -2045,7 +2754,8 @@
         "jahr": 2026,
         "doi_oder_url": "https://www.evangelisch.de/inhalte/254385/07-04-2026/uneinheitliches-vorgehen-der-laender-bei-handynutzung-schulen",
         "typ": "Statistik",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "In Hessen und Thüringen ist demnach die private Benutzung digitaler Endgeräte an allen Schulformen verboten."
       },
       {
         "titel": "Diskussionen, Regelungen und Empfehlungen in den einzelnen Bundesländern zum Handyverbot in der Schule",
@@ -2063,7 +2773,7 @@
       "url": "https://www.mk.niedersachsen.de/download/223334/Handyhandreichung_Schulen_Niedersachsen_-_Empfehlungen.pdf"
     },
     "gegenstimmen": "Die Leopoldina (2025) empfiehlt ein Verbot bis einschließlich Klasse 10. Der Landesschülerrat Niedersachsen setzt dagegen auf Mitbestimmung und Medienkompetenz statt pauschaler Verbote.",
-    "rechtslage": "Niedersachsen: Schulordnung nach § 34 Abs. 2 Nr. 2 NSchG (Gesamtkonferenz), Ordnung durch Schulleitung (§ 43), Unterricht durch Lehrkraft (§ 50), Erziehungsmittel nach § 61 NSchG. Einziehen nur vorübergehend, längstens bis Schultagsende, nie präventiv oder als Strafe für Zuspätkommen; Durchsuchen ist untersagt. Landtagsbeschluss vom 24.06.2026 (Drs. 19/11037): Prüfauftrag, ob eine landesweit einheitliche Regelung im Primarbereich sinnvoll ist – geplant/in Prüfung, nicht beschlossen. Hessen: § 69 Abs. 7 HSchG, gilt seit Schuljahr 2025/26. Baden-Württemberg: § 23 Abs. 2b SchG verpflichtet Schulen zu Regeln. Bayern: Verbot an Grundschulen seit 2022 (Art. 56 Abs. 5 BayEUG); Ausweitung auf Klassen 5–7 als Gesetzentwurf geplant, Beschluss nicht geprüft.",
+    "rechtslage": "Niedersachsen: Schulordnung nach § 34 Abs. 2 Nr. 2 NSchG (Gesamtkonferenz), Ordnung durch Schulleitung (§ 43), Unterricht durch Lehrkraft (§ 50), Erziehungsmittel nach § 61 NSchG. Einziehen nur vorübergehend, längstens bis Unterrichtsschluss; nicht als Strafe für Zuspätkommen und nicht präventiv (außer bei Prüfungen); Durchsuchen ist untersagt. Landtagsbeschluss vom 24.06.2026 (Drs. 19/11037): Prüfauftrag, ob eine landesweit einheitliche Regelung im Primarbereich sinnvoll ist – geplant/in Prüfung, nicht beschlossen. Hessen: § 69 Abs. 7 HSchG, gilt seit Schuljahr 2025/26. Baden-Württemberg: § 23 Abs. 2b SchG verpflichtet Schulen zu Regeln. Bayern: Art. 56 Abs. 5 BayEUG; seit 2022 Verbot an Grundschulen. Laut geltendem Gesetzestext (Fassung ab 02.10.2026) darf die Schulleitung die private Nutzung in den Jahrgangsstufen 1 bis 7 nicht allgemein freigeben. Andere Länder (z. B. Thüringen, Sachsen, Bremen, Schleswig-Holstein) nur über Sekundärquellen (epd, Bildungsserver) erfasst.",
     "tipps": {
       "eltern": [
         "Fragen Sie nach der Handyordnung Ihrer Schule und sprechen Sie zu Hause darüber.",
@@ -2079,7 +2789,30 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Rechtslage Bayern aktualisiert: Ausweitung auf Jahrgangsstufen 1–7 ist inzwischen geltender Gesetzestext, nicht mehr nur geplant; Primärquelle BayEUG ergänzt",
+        "warum": "Geltender Text von Art. 56 Abs. 5 Satz 3 BayEUG auf gesetze-bayern.de nennt Jahrgangsstufen 1 mit 7",
+        "quelle": "https://www.gesetze-bayern.de/Content/Document/BayEUG-56"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Rechtslage Niedersachsen präzisiert: Einziehen bis Unterrichtsschluss, präventives Einziehen nur bei Prüfungen zulässig",
+        "warum": "Wortlaut der Handreichung, Abschnitt 02",
+        "quelle": "https://www.mk.niedersachsen.de/download/223334/Handyhandreichung_Schulen_Niedersachsen_-_Empfehlungen.pdf"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Quellenmetadaten korrigiert (vollständige Titel Handreichung und Landtagsbeschluss, Datum Pressemitteilung 12.11.2025) und Kernzitate ergänzt",
+        "warum": "Abgleich mit den geöffneten Dokumenten",
+        "quelle": "https://www.landtag-niedersachsen.de/drucksachen/drucksachen_19_12500/11001-11500/19-11037.pdf"
+      }
+    ]
   },
   {
     "id": "medien-schule-002",
@@ -2088,13 +2821,13 @@
       "P3"
     ],
     "aussage": "Für die Grundschule und die Klassen 5 und 6 raten Kultusministerium und Fachleute zu einem handyfreien Schultag; die Wirkung ist dort aber kaum gemessen.",
-    "erklaerung": "Begründet wird die Empfehlung mit der noch geringen Selbstregulation jüngerer Kinder. Messdaten fehlen weitgehend. In den Niederlanden sahen Grundschulen nach dem landesweiten Handyverbot wenig Effekt auf Konzentration und Leistung. 23,1 % sahen ein besseres Wohlbefinden und Klassenklima. Viele Grundschulen hatten schon vorher Regeln.",
+    "erklaerung": "Begründet wird die Empfehlung mit der noch geringen Selbstregulation jüngerer Kinder. Messdaten fehlen weitgehend. In den Niederlanden sahen Grundschulen nach dem landesweiten Handyverbot wenig Effekt auf Konzentration und Leistung. 23,1 % der befragten Schulen sahen ein besseres Wohlbefinden und Klassenklima. Viele Grundschulen hatten schon vorher Regeln.",
     "wirkung": "einordnung",
     "ampel": "schwach",
     "studientyp": "Leitlinie",
     "quellen": [
       {
-        "titel": "Handynutzung an Schulen – Empfehlungen (Handreichung Niedersachsen und Hamburg)",
+        "titel": "Analog. Digital. Miteinander. Empfehlungen zur Umsetzung von verpflichtenden Regelungen für Smartphones & Smartwatches an niedersächsischen Schulen (auf Basis eines gemeinsamen Entwurfs Niedersachsen und Hamburg)",
         "autoren": "Niedersächsisches Kultusministerium",
         "jahr": 2025,
         "doi_oder_url": "https://www.mk.niedersachsen.de/download/223334/Handyhandreichung_Schulen_Niedersachsen_-_Empfehlungen.pdf",
@@ -2117,7 +2850,8 @@
         "jahr": 2025,
         "doi_oder_url": "https://zoek.officielebekendmakingen.nl/blg-1206825.pdf",
         "typ": "Querschnitt",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Scholen ervaren over het algemeen weinig effect als het gaat om concentratie en leerprestaties"
       }
     ],
     "empfehlung_offiziell": {
@@ -2137,7 +2871,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Bezug der 23,1 % präzisiert: Anteil der befragten Schulen, nicht der Kinder",
+        "warum": "Niederländischer Monitoringbericht, Fazit Kapitel 4",
+        "quelle": "https://zoek.officielebekendmakingen.nl/blg-1206825.pdf"
+      }
+    ]
   },
   {
     "id": "medien-schule-003",
@@ -2146,7 +2889,7 @@
       "P5"
     ],
     "aussage": "Ob Handyverbote an Schulen die Noten verbessern, ist umstritten: Einige Studien finden kleine Gewinne, vor allem für Leistungsschwächere, andere keinen Effekt.",
-    "erklaerung": "In England stiegen die Prüfungsergebnisse nach Verboten um 6,4 % einer Standardabweichung, bei den Schwächsten um 14 % einer Standardabweichung. In Schweden fand eine ähnliche Studie keinen Effekt. In Spanien (Galicien) und Florida gab es Gewinne, in Florida erst im zweiten Jahr. Ein Rapid Review mit fünf Studien schätzt einen kleinen Gesamteffekt von d = 0,16.",
+    "erklaerung": "In England stiegen die Prüfungsergebnisse nach Verboten um 6,4 % einer Standardabweichung, bei den Schwächsten um 14 %. In Schweden fand eine ähnliche Studie keinen Effekt. In Norwegen gab es im Schnitt keinen Effekt, aber bessere Noten bei Mädchen. Galicien und Florida zeigten Gewinne, Florida erst im zweiten Jahr (Arbeitspapier). Ein Rapid Review mit fünf Studien fand über Leistung und Sozialverhalten zusammen d = 0,16, bei der Leistung weniger.",
     "wirkung": "hilft",
     "ampel": "umstritten",
     "studientyp": "Systematischer Review",
@@ -2157,15 +2900,17 @@
         "jahr": 2024,
         "doi_oder_url": "10.3390/educsci14080906",
         "typ": "Systematischer Review",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "The meta-analysis yielded an overall effect size of d = 0.162"
       },
       {
         "titel": "Evidence for and against banning mobile phones in schools: A scoping review",
-        "autoren": "Campbell, Edwards, Pennell, Poed",
+        "autoren": "Campbell et al.",
         "jahr": 2024,
         "doi_oder_url": "10.1177/20556365241270394",
         "typ": "Systematischer Review",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "We found an absence of randomized controlled trials"
       },
       {
         "titel": "Ill Communication: Technology, distraction & student performance",
@@ -2181,7 +2926,8 @@
         "jahr": 2015,
         "doi_oder_url": "https://cep.lse.ac.uk/pubs/download/dp1350.pdf",
         "typ": "Kohorte",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "student test scores improve by 6.41% of a standard deviation"
       },
       {
         "titel": "The impact of banning mobile phones in Swedish secondary schools",
@@ -2189,7 +2935,8 @@
         "jahr": 2020,
         "doi_oder_url": "10.1016/j.econedurev.2020.102009",
         "typ": "Kohorte",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "we find no impact of mobile phone bans on student performance"
       },
       {
         "titel": "Banning mobile phones in schools: evidence from regional-level policies in Spain",
@@ -2205,10 +2952,20 @@
         "jahr": 2025,
         "doi_oder_url": "10.3386/w34388",
         "typ": "Kohorte",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "significant improvements in student test scores in the second year of the ban"
+      },
+      {
+        "titel": "Smartphone Bans, Student Outcomes and Mental Health",
+        "autoren": "Abrahamsson",
+        "jahr": 2026,
+        "doi_oder_url": "10.3368/jhr.0224-13403r2",
+        "typ": "Kohorte",
+        "kernzitat": "banning smartphones in middle schools has no average effect on education or mental health",
         "geoeffnet_am": "2026-10-18"
       }
     ],
-    "gegenstimmen": "Kessel et al. (2020) konnten in Schweden selbst kleine Leistungsgewinne ausschließen. Campbell et al. (2024) fanden keine randomisierten Studien; die Befunde sind wegen unterschiedlicher Designs kaum vergleichbar.",
+    "gegenstimmen": "Kessel et al. (2020) konnten in Schweden selbst kleine Leistungsgewinne ausschließen. Abrahamsson (2026) fand in Norwegen keinen Durchschnittseffekt auf Bildung. Campbell et al. (2024) fanden keine randomisierten Studien; die Befunde sind wegen unterschiedlicher Designs kaum vergleichbar.",
     "tipps": {
       "lehrkraefte": [
         "Achten Sie bei Regeln besonders auf leistungsschwächere Schülerinnen und Schüler.",
@@ -2216,7 +2973,30 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Erklärung: d = 0,16 des Rapid Reviews als Gesamteffekt über Leistung und Sozialverhalten eingeordnet, nicht als reiner Noteneffekt",
+        "warum": "Abstract Böttger & Zierer 2024: Effekt im sozialen Bereich stärker als bei Leistung",
+        "quelle": "10.3390/educsci14080906"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Norwegische Studie (Abrahamsson 2026, Journal of Human Resources) ergänzt: kein Durchschnittseffekt, Gewinne bei Mädchen",
+        "warum": "Wichtiger widersprechender bzw. differenzierender Befund",
+        "quelle": "10.3368/jhr.0224-13403r2"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Florida-Studie im Text als Arbeitspapier gekennzeichnet; Autorenangabe Campbell et al. korrigiert (neun Autorinnen und Autoren)",
+        "warum": "Regel: Arbeitspapiere erkennbar machen; Crossref-Metadaten",
+        "quelle": "10.3386/w34388"
+      }
+    ]
   },
   {
     "id": "medien-schule-004",
@@ -2225,7 +3005,7 @@
       "P5"
     ],
     "aussage": "Ein Handyverbot in der Schule allein verbessert das seelische Wohlbefinden von Jugendlichen nach den besten verfügbaren Daten nicht messbar.",
-    "erklaerung": "In der englischen SMART-Schools-Studie (1.227 Jugendliche, 12–15 Jahre, 30 Schulen) unterschied sich das Wohlbefinden nicht (Differenz −0,48 Punkte). An Schulen mit Verbot nutzten die Jugendlichen in der Schulzeit 0,67 Stunden weniger das Handy. Über den ganzen Tag gab es aber keinen Unterschied. Eine norwegische Studie fand dagegen bei Mädchen weniger Arztbesuche wegen psychischer Beschwerden.",
+    "erklaerung": "In der englischen SMART-Schools-Studie (1.227 Jugendliche, 12–15 Jahre, 30 Schulen) unterschied sich das Wohlbefinden nicht (Differenz −0,48 Punkte). An Schulen mit Verbot nutzten die Jugendlichen in der Schulzeit 0,67 Stunden weniger das Handy. An Wochentagen und Wochenenden insgesamt gab es keinen Unterschied. Eine norwegische Studie fand im Schnitt ebenfalls keinen Effekt, aber bei Mädchen weniger psychologische Behandlungen.",
     "wirkung": "neutral",
     "ampel": "umstritten",
     "studientyp": "Kohorte",
@@ -2236,7 +3016,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.1016/j.lanepe.2025.101211",
         "typ": "Querschnitt",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "no evidence of a difference between groups"
       },
       {
         "titel": "Health economics analysis of restrictive school smartphone policies in secondary schools in England (SMART Schools)",
@@ -2252,7 +3033,8 @@
         "jahr": 2026,
         "doi_oder_url": "10.3368/jhr.0224-13403r2",
         "typ": "Kohorte",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "banning smartphones in middle schools has no average effect on education or mental health"
       },
       {
         "titel": "Smartphone Bans, Student Outcomes and Mental Health (NHH Discussion Paper 2024/1)",
@@ -2268,10 +3050,11 @@
         "jahr": 2026,
         "doi_oder_url": "10.3386/w35181",
         "typ": "Kohorte",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "no clear evidence that the school ban policy reduced screentime or improved psychological wellbeing"
       }
     ],
-    "gegenstimmen": "Abrahamsson (Norwegen, 2026) fand nach Verboten weniger psychologische Behandlungen bei Mädchen, besonders bei niedrigem Sozialstatus. Eine erste US-Auswertung (Saffer 2026) fand keine klare Verbesserung. SMART Schools ist eine Querschnittsstudie und kann Ursache und Wirkung nicht trennen.",
+    "gegenstimmen": "Abrahamsson (Norwegen, 2026) fand nach Verboten weniger psychologische Behandlungen bei Mädchen, besonders bei niedrigem Sozialstatus. Die Leopoldina (2025) sieht positive Effekte auf das Wohlbefinden. Ein erstes US-Arbeitspapier (Saffer 2026) fand keine klare Verbesserung. SMART Schools ist eine Querschnittsstudie und kann Ursache und Wirkung nicht trennen.",
     "tipps": {
       "eltern": [
         "Ein Schulverbot ersetzt keine Absprachen zu Hause, etwa zu Abenden und Nächten."
@@ -2282,7 +3065,23 @@
     },
     "wann_hilfe": "Wenn ein Kind sich zurückzieht, schlecht schläft oder ständig niedergeschlagen wirkt: Kinderarzt, Schulsozialarbeit, Erziehungsberatung oder Nummer gegen Kummer 116 111.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Norwegische Studie korrekt eingeordnet: kein Durchschnittseffekt auf psychische Gesundheit, nur Untergruppeneffekt bei Mädchen",
+        "warum": "Abstract Abrahamsson 2026 (JHR)",
+        "quelle": "10.3368/jhr.0224-13403r2"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Saffer 2026 als Arbeitspapier gekennzeichnet; Formulierung „über den ganzen Tag“ an Studie angepasst (Wochentage/Wochenenden)",
+        "warum": "Regel zu Arbeitspapieren; Abstract Goodyear et al. 2025",
+        "quelle": "10.3386/w35181"
+      }
+    ]
   },
   {
     "id": "medien-schule-005",
@@ -2291,7 +3090,7 @@
       "P4"
     ],
     "aussage": "Handyverbote an Schulen gehen in mehreren Studien mit weniger Mobbing einher; die Belege sind aber noch dünn.",
-    "erklaerung": "In Norwegen ging Mobbing nach Verboten bei Jungen und Mädchen zurück. In zwei spanischen Regionen sank die Zahl der Mobbingfälle deutlich. Ein Rapid Review fand den Effekt im sozialen Bereich stärker als bei der Leistung. Niederländische Lehrkräfte berichten aber auch von mehr körperlichem Mobbing.",
+    "erklaerung": "In Norwegen ging Mobbing nach Verboten bei Jungen und Mädchen zurück. In zwei spanischen Regionen sank die Zahl der Mobbingfälle deutlich. Ein Rapid Review fand den Effekt im sozialen Bereich stärker als bei der Leistung. Einige Befragte an niederländischen Schulen berichten aber auch von mehr körperlichem Mobbing.",
     "wirkung": "hilft",
     "ampel": "schwach",
     "studientyp": "Systematischer Review",
@@ -2302,6 +3101,16 @@
         "jahr": 2024,
         "doi_oder_url": "10.3390/educsci14080906",
         "typ": "Systematischer Review",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Smartphone bans can reduce social problems, such as bullying."
+      },
+      {
+        "titel": "Smartphone Bans, Student Outcomes and Mental Health",
+        "autoren": "Abrahamsson",
+        "jahr": 2026,
+        "doi_oder_url": "10.3368/jhr.0224-13403r2",
+        "typ": "Kohorte",
+        "kernzitat": "lower bullying for both genders",
         "geoeffnet_am": "2026-10-18"
       },
       {
@@ -2318,7 +3127,8 @@
         "jahr": 2022,
         "doi_oder_url": "10.1108/aea-05-2021-0112",
         "typ": "Kohorte",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "noticeable reductions of bullying incidence among teenagers in the two treated regions"
       },
       {
         "titel": "Monitoring landelijke afspraak mobiele telefoons en andere devices in de klas – Eindrapport eenmeting",
@@ -2329,7 +3139,7 @@
         "geoeffnet_am": "2026-10-18"
       }
     ],
-    "gegenstimmen": "Online-Mobbing geschieht rund um die Uhr, nicht nur in der Schule. Das betonen Lehrkräfte in der niederländischen Evaluation.",
+    "gegenstimmen": "Online-Mobbing geschieht rund um die Uhr, nicht nur in der Schule. Das betonen Schülerinnen und Schüler in der niederländischen Evaluation.",
     "tipps": {
       "jugendliche": [
         "Wenn dich jemand online fertigmacht: Mach Screenshots und sprich mit einer Vertrauensperson.",
@@ -2341,7 +3151,23 @@
     },
     "wann_hilfe": "Bei Cybermobbing: Klassenleitung, Schulsozialarbeit, Nummer gegen Kummer 116 111; strafbare Inhalte bei jugendschutz.net oder der Polizei melden.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Veröffentlichte Fassung Abrahamsson 2026 (Journal of Human Resources) als Quelle ergänzt",
+        "warum": "Begutachtete Fassung des bisher zitierten Diskussionspapiers",
+        "quelle": "10.3368/jhr.0224-13403r2"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Niederländische Befunde präzisiert: mehr körperliches Mobbing nur von einem kleinen Teil der Befragten berichtet; Hinweis auf Mobbing rund um die Uhr stammt von Schülern, nicht Lehrkräften",
+        "warum": "Wortlaut des Monitoringberichts (Kapitel zu weiterführenden Schulen)",
+        "quelle": "https://zoek.officielebekendmakingen.nl/blg-1206825.pdf"
+      }
+    ]
   },
   {
     "id": "medien-schule-006",
@@ -2350,7 +3176,7 @@
       "P7"
     ],
     "aussage": "Dass schon ein ausgeschaltetes Handy auf dem Tisch das Denken spürbar bremst („Brain Drain“), ist nicht gesichert.",
-    "erklaerung": "Eine viel zitierte Studie von 2017 fand diesen Effekt. Eine vorregistrierte Wiederholung fand ihn nicht. Eine Meta-Analyse (56 Effekte, 7.093 Personen) fand nur beim Arbeitsgedächtnis einen kleinen Nachteil, bei anderen Denkleistungen keinen. Die Studien sind oft klein und methodisch uneinheitlich.",
+    "erklaerung": "Eine viel zitierte Studie von 2017 fand diesen Effekt. Eine vorregistrierte Wiederholung (Preprint) fand ihn nicht. Eine Meta-Analyse (56 Effekte, 7.093 Personen) fand nur beim Arbeitsgedächtnis einen kleinen Nachteil. Eine zweite Meta-Analyse fand einen kleinen Gesamtnachteil (g = −0,14), vor allem beim Gedächtnis; sie mischt aber Nutzung und bloße Anwesenheit. Die Studien sind oft klein und uneinheitlich.",
     "gehirn": "Untersucht wurden Leistungstests, keine Gehirnscans. Gemessen wurde vor allem das Arbeitsgedächtnis. Teilnehmende waren meist Studierende; für Kinder gibt es kaum Daten.",
     "wirkung": "neutral",
     "ampel": "umstritten",
@@ -2362,7 +3188,8 @@
         "jahr": 2023,
         "doi_oder_url": "10.1080/15213269.2023.2286647",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "limited support for a negative albeit smaller than theorized brain drain effect"
       },
       {
         "titel": "Does the mere presence of a smartphone impact cognitive performance? A meta-analysis of the “brain drain effect” (Preprint mit Abstract)",
@@ -2373,12 +3200,22 @@
         "geoeffnet_am": "2026-10-18"
       },
       {
+        "titel": "Does the Brain Drain Effect Really Exist? A Meta-Analysis",
+        "autoren": "Böttger, Poschik, Zierer",
+        "jahr": 2023,
+        "doi_oder_url": "10.3390/bs13090751",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Here we show a significant overall negative effect of smartphone use and presence.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
         "titel": "Brain Drain: The Mere Presence of One’s Own Smartphone Reduces Available Cognitive Capacity",
         "autoren": "Ward, Duke, Gneezy, Bos",
         "jahr": 2017,
         "doi_oder_url": "10.1086/691462",
         "typ": "Einzelstudie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "the mere presence of these devices reduces available cognitive capacity"
       },
       {
         "titel": "Reexamining the “Brain Drain” Effect: Does Ward et al. (2017) Replicate? (Preprint)",
@@ -2395,10 +3232,11 @@
         "jahr": 2020,
         "doi_oder_url": "10.1016/j.concog.2020.103033",
         "typ": "Einzelstudie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "We found no overall effect of smartphone presence on short-term and prospective memory performance"
       }
     ],
-    "gegenstimmen": "Ward et al. (2017) sehen eine Belastung allein durch die Nähe zum Handy. Parry (2023) findet nur beim Arbeitsgedächtnis einen kleineren Effekt als behauptet.",
+    "gegenstimmen": "Ward et al. (2017) sehen eine Belastung allein durch die Nähe zum Handy. Böttger et al. (2023) finden einen kleinen negativen Gesamteffekt von Nutzung und Anwesenheit. Parry (2023) findet nur beim Arbeitsgedächtnis einen kleineren Effekt als behauptet.",
     "tipps": {
       "jugendliche": [
         "Beim Lernen hilft es trotzdem, das Handy außer Sicht zu legen – Benachrichtigungen lenken nachweislich ab."
@@ -2408,7 +3246,23 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Zweite Meta-Analyse ergänzt (Böttger, Poschik, Zierer 2023: g = −0,14, nur Gedächtnis signifikant g = −0,23)",
+        "warum": "Auftrag: Brain-Drain-Meta-Analysen prüfen; Volltext Europe PMC PMC10525686",
+        "quelle": "10.3390/bs13090751"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Replikation von Ruiz Pardo & Minda als Preprint gekennzeichnet",
+        "warum": "Regel: Preprints im Text erkennbar machen",
+        "quelle": "10.31234/osf.io/5y34g"
+      }
+    ]
   },
   {
     "id": "medien-schule-007",
@@ -2417,7 +3271,7 @@
       "P4"
     ],
     "aussage": "Private Handynutzung im Unterricht lenkt vom Lernen ab; die UNESCO rät, nur Technik zuzulassen, die das Lernen klar unterstützt.",
-    "erklaerung": "Der UNESCO-Weltbildungsbericht 2023 nennt eine Studie aus 14 Ländern: Handys lenken im Unterricht ab. Schon eingehende Benachrichtigungen ziehen Aufmerksamkeit ab. Ende 2024 hatten 79 Bildungssysteme (40 %) Handyregeln in Gesetzen oder Vorgaben.",
+    "erklaerung": "Der UNESCO-Weltbildungsbericht 2023 nennt eine Studie aus 14 Ländern: Handys lenken im Unterricht ab. Schon eingehende Benachrichtigungen ziehen Aufmerksamkeit ab. Ende 2024 hatten 79 Bildungssysteme (40 %) Handyverbote in Gesetzen oder Vorgaben.",
     "wirkung": "schadet",
     "ampel": "mittel",
     "studientyp": "Leitlinie",
@@ -2436,8 +3290,7 @@
         "autoren": "UNESCO",
         "jahr": 2023,
         "doi_oder_url": "https://unesdoc.unesco.org/ark:/48223/pf0000385723/PDF/385723eng.pdf.multi",
-        "typ": "Leitlinie",
-        "geoeffnet_am": "2026-10-18"
+        "typ": "Leitlinie"
       }
     ],
     "empfehlung_offiziell": {
@@ -2457,7 +3310,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "„Handyregeln“ zu „Handyverbote“ präzisiert",
+        "warum": "UNESCO zählt Systeme mit Verboten (79 bzw. 40 % Ende 2024)",
+        "quelle": "https://www.unesco.org/en/articles/smartphones-school-only-when-they-clearly-support-learning"
+      }
+    ]
   },
   {
     "id": "medien-schule-008",
@@ -2492,7 +3354,7 @@
       {
         "titel": "Smartphones für Kinder und Jugendliche",
         "autoren": "klicksafe (Medienanstalt RLP, Landesanstalt für Medien NRW)",
-        "jahr": 2026,
+        "jahr": 2022,
         "doi_oder_url": "https://www.klicksafe.de/smartphones",
         "typ": "Expertenkonsens",
         "geoeffnet_am": "2026-10-18"
@@ -2511,7 +3373,8 @@
         "jahr": 2022,
         "doi_oder_url": "10.1111/cdev.13851",
         "typ": "Kohorte",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Findings suggest an absence of meaningful links"
       },
       {
         "titel": "An exploration of the impact of smartphones in childhood on mind health in young adulthood (Working Paper)",
@@ -2519,7 +3382,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.31219/osf.io/xdnru_v1",
         "typ": "Querschnitt",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "younger age of smartphone acquisition is strongly associated with diminished capacities"
       }
     ],
     "empfehlung_offiziell": {
@@ -2539,7 +3403,16 @@
     },
     "wann_hilfe": "Bei starken Konflikten ums Handy oder Rückzug des Kindes: Erziehungsberatung, Kinderarzt oder Nummer gegen Kummer.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Jahr der klicksafe-Quelle von 2026 auf 2022 korrigiert",
+        "warum": "Seite nennt „Letzte Aktualisierung: 18. Oktober 2022“",
+        "quelle": "https://www.klicksafe.de/smartphones"
+      }
+    ]
   },
   {
     "id": "medien-schule-009",
@@ -2548,7 +3421,7 @@
       "P6"
     ],
     "aussage": "Medienkompetenz-Unterricht wirkt: Mehrere Meta-Analysen zeigen kleine bis mittlere Effekte auf Wissen, kritisches Denken und Verhalten.",
-    "erklaerung": "Eine Meta-Analyse von 51 Programmen fand einen Effekt von d = 0,37, unabhängig vom Alter. Eine neue Auswertung von 160 Programmen aus 40 Jahren bestätigt positive Effekte. Mehr Sitzungen wirken besser, Präsenzunterricht besser als Online-Formate. Effekte auf Verhalten halten weniger lang an als auf Wissen.",
+    "erklaerung": "Eine Meta-Analyse von 51 Programmen fand einen Effekt von d = 0,37, unabhängig vom Alter; mehr Sitzungen wirkten besser. Eine neue Auswertung von 160 Programmen aus 40 Jahren bestätigt einen ähnlich großen Effekt (r = 0,17). Dort war die Zahl der Sitzungen uneinheitlich mit dem Erfolg verknüpft. Präsenzunterricht wirkte besser als Online-Formate. Effekte auf Verhalten hielten weniger lang an als auf Wissen.",
     "wirkung": "hilft",
     "ampel": "stark",
     "studientyp": "Meta-Analyse",
@@ -2559,7 +3432,8 @@
         "jahr": 2012,
         "doi_oder_url": "10.1111/j.1460-2466.2012.01643.x",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Media literacy interventions had positive effects (d=.37)"
       },
       {
         "titel": "Media literacy interventions: meta-analytic review of 40 years of research",
@@ -2567,7 +3441,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.1093/hcr/hqaf004",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "the current set of 160 studies shows a weighted average effect of r = 0.17"
       },
       {
         "titel": "Media Literacy Interventions Improve Resilience to Misinformation: A Meta-Analytic Investigation of Overall Effect and Moderating Factors",
@@ -2575,7 +3450,8 @@
         "jahr": 2024,
         "doi_oder_url": "10.1177/00936502241288103",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "media literacy interventions generally improve resilience to misinformation (d = 0.60)"
       },
       {
         "titel": "Bildung in der digitalen Welt. Strategie der Kultusministerkonferenz",
@@ -2611,7 +3487,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Aussage „mehr Sitzungen wirken besser“ Jeong et al. (2012) zugeordnet; für Cho et al. (2025) ergänzt, dass die Dosis uneinheitlich wirkte; Effektgröße r = 0,17 ergänzt",
+        "warum": "Abstract und Ergebnisteil Cho et al. 2025 („Dose was inconsistently linked to outcomes“)",
+        "quelle": "10.1093/hcr/hqaf004"
+      }
+    ]
   },
   {
     "id": "medien-schule-010",
@@ -2620,7 +3505,7 @@
       "P6"
     ],
     "aussage": "Jugendliche können lernen, Falschinformationen zu erkennen: Prebunking und das Prüfen von Quellen wirken in Experimenten.",
-    "erklaerung": "Eine Meta-Analyse von 49 Experimenten fand eine bessere Abwehr von Falschinformationen (d = 0,60), mehrere Sitzungen wirkten stärker. Kurze Prebunking-Videos verbesserten in sechs randomisierten Studien das Erkennen von Manipulationstricks. In US-Schulen verbesserten sechs Stunden „Lateral Reading“ die Quellenbewertung gegenüber Kontrollklassen.",
+    "erklaerung": "Eine Meta-Analyse von 49 Experimenten fand eine bessere Abwehr von Falschinformationen (d = 0,60), mehrere Sitzungen wirkten stärker. Kurze Prebunking-Videos verbesserten in sechs randomisierten Studien das Erkennen von Manipulationstricks. In US-Schulen verbesserten wenige Unterrichtsstunden „Lateral Reading“ in einer clusterrandomisierten Studie die Quellenbewertung gegenüber Kontrollklassen.",
     "wirkung": "hilft",
     "ampel": "mittel",
     "studientyp": "Meta-Analyse",
@@ -2631,7 +3516,8 @@
         "jahr": 2024,
         "doi_oder_url": "10.1177/00936502241288103",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "media literacy interventions generally improve resilience to misinformation (d = 0.60)"
       },
       {
         "titel": "Psychological inoculation improves resilience against misinformation on social media",
@@ -2639,7 +3525,8 @@
         "jahr": 2022,
         "doi_oder_url": "10.1126/sciadv.abo6254",
         "typ": "RCT",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "six randomized controlled studies"
       },
       {
         "titel": "Fake news game confers psychological resistance against online misinformation",
@@ -2647,14 +3534,23 @@
         "jahr": 2019,
         "doi_oder_url": "10.1057/s41599-019-0279-9",
         "typ": "Einzelstudie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "people’s ability to spot and resist misinformation improves after gameplay"
       },
       {
         "titel": "Lateral reading on the open Internet: A district-wide field study in high school government classes",
         "autoren": "Wineburg, Breakstone, McGrew, Smith, Ortega",
         "jahr": 2022,
         "doi_oder_url": "10.1037/edu0000740",
+        "typ": "RCT"
+      },
+      {
+        "titel": "Lateral Reading on the Open Internet (Studienzusammenfassung, Digital Inquiry Group / Civic Online Reasoning)",
+        "autoren": "Wineburg, Breakstone, McGrew, Smith, Ortega",
+        "jahr": 2022,
+        "doi_oder_url": "https://cor.inquirygroup.org/research/lateral-reading-on-the-open-internet",
         "typ": "RCT",
+        "kernzitat": "A cluster-randomized, repeated-measures analysis showed that students in experimental classrooms",
         "geoeffnet_am": "2026-10-18"
       }
     ],
@@ -2669,7 +3565,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "„sechs Stunden“ durch „wenige Unterrichtsstunden“ ersetzt und Design (clusterrandomisiert) ergänzt; Studienzusammenfassung als zugängliche Quelle ergänzt",
+        "warum": "Volltext/Abstract beim Verlag nicht erreichbar; Zahl der Stunden nicht selbst gesehen",
+        "quelle": "https://cor.inquirygroup.org/research/lateral-reading-on-the-open-internet"
+      }
+    ]
   },
   {
     "id": "medien-schule-011",
@@ -2677,8 +3582,8 @@
     "phasen": [
       "P5"
     ],
-    "aussage": "Rund 41 % der Achtklässler in Deutschland haben nur geringe digitale Kompetenzen; der Wert ist seit 2018 deutlich gesunken.",
-    "erklaerung": "In der ICILS-Studie 2023 erreichte Deutschland 502 Punkte, über dem internationalen Mittel (476). 2013 waren es 523, 2018 noch 518 Punkte. 40,8 % verfügen nur über rudimentäre oder basale Kompetenzen.",
+    "aussage": "Rund 41 % der Achtklässler in Deutschland haben nur geringe digitale Kompetenzen; die mittlere Kompetenz ist seit 2018 deutlich gesunken.",
+    "erklaerung": "In der ICILS-Studie 2023 erreichte Deutschland 502 Punkte, über dem internationalen Mittel (476). 2013 waren es 523, 2018 noch 518 Punkte. 40,8 % verfügen nur über rudimentäre oder basale Kompetenzen, international sind es 50,2 %.",
     "wirkung": "einordnung",
     "ampel": "mittel",
     "studientyp": "Querschnitt",
@@ -2699,7 +3604,23 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Aussage präzisiert: Gesunken ist der Mittelwert, nicht der Anteil von 41 %",
+        "warum": "„Der Wert“ war mehrdeutig; KMK nennt Rückgang der mittleren Kompetenz von 518 auf 502 Punkte",
+        "quelle": "https://www.kmk.org/aktuelles/pressearchiv/mitteilung/digitale-kompetenzen-von-achtklaesslerinnen-und-achtklaesslern-ueber-dem-internationalen-durchschnitt-aber-noch-nicht-ausreichend.html"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Internationalen Vergleichswert 50,2 % ergänzt",
+        "warum": "Einordnung des Anteils",
+        "quelle": "https://www.kmk.org/aktuelles/pressearchiv/mitteilung/digitale-kompetenzen-von-achtklaesslerinnen-und-achtklaesslern-ueber-dem-internationalen-durchschnitt-aber-noch-nicht-ausreichend.html"
+      }
+    ]
   },
   {
     "id": "medien-ki-001",
@@ -2749,18 +3670,19 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-ki-002",
     "thema": "medien-gaming-ki",
     "phasen": [
-      "P5"
+      "P5",
+      "P7"
     ],
     "aussage": "KI-Tutoren, die nach Lernprinzipien gebaut sind und von Lehrkräften begleitet werden, haben in ersten Experimenten das Lernen verbessert.",
-    "erklaerung": "An der Harvard University lernten 194 Physikstudierende mit einem eigens gestalteten KI-Tutor mehr als im aktiven Präsenzunterricht. Die Effektgröße lag bei 0,73 bis 1,3 Standardabweichungen, gemessen über zwei Wochen. In Nigeria verbesserte ein sechswöchiges, lehrkraftbegleitetes Nachmittagsprogramm mit GPT-4 die Englischleistung um 0,23 Standardabweichungen. Beide Programme gaben Struktur vor; freie Chatbot-Nutzung wurde nicht getestet.",
+    "erklaerung": "An der Harvard University lernten 194 Physikstudierende mit einem eigens gestalteten KI-Tutor mehr als im aktiven Präsenzunterricht. Getestet wurden zwei Unterrichtseinheiten, gemessen direkt danach. Die Effektgröße lag je nach Auswertung bei 0,63 bis 1,3 Standardabweichungen. In Nigeria verbesserte ein sechswöchiges, lehrkraftbegleitetes Nachmittagsprogramm mit GPT-4 die Englischleistung um 0,23 Standardabweichungen. Diese Studie ist ein Arbeitspapier der Weltbank ohne Fachbegutachtung. Beide Programme gaben Struktur vor; freie Chatbot-Nutzung wurde nicht getestet.",
     "wirkung": "hilft",
-    "ampel": "mittel",
+    "ampel": "schwach",
     "studientyp": "RCT",
     "quellen": [
       {
@@ -2793,7 +3715,30 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Ampel von mittel auf schwach",
+        "warum": "Belegt durch eine kurze, fachbegutachtete Studie (zwei Unterrichtseinheiten, Nachtest direkt danach) und ein nicht begutachtetes Arbeitspapier; das reicht nicht für „mehrere übereinstimmende gute Studien“.",
+        "quelle": "10.1038/s41598-025-97652-6"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Erklärung präzisiert: zwei Unterrichtseinheiten statt „über zwei Wochen“, Effektspanne 0,63 bis 1,3 (lineare Regression 0,63, Quantilregression 0,73–1,3), Arbeitspapier im Text kenntlich gemacht",
+        "warum": "Die Studie nennt 0,63 als lineare Schätzung und 0,73–1,3 aus Quantilregression; Preprints müssen im Text erkennbar sein.",
+        "quelle": "10.1038/s41598-025-97652-6"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Phasen um P7 ergänzt",
+        "warum": "Die Harvard-Studie untersuchte Studierende (Erstsemester-Physikkurs), nicht 13- bis 16-Jährige; Nigeria: Schülerinnen und Schüler um 15 Jahre (P5).",
+        "quelle": "10.1038/s41598-025-97652-6"
+      }
+    ]
   },
   {
     "id": "medien-ki-003",
@@ -2802,7 +3747,7 @@
       "P3"
     ],
     "aussage": "Klassische intelligente Tutorsysteme, die Schritt für Schritt Rückmeldung geben, verbessern Lernleistungen deutlich.",
-    "erklaerung": "Eine Meta-Analyse von 50 kontrollierten Studien fand einen mittleren Effekt von 0,66 Standardabweichungen. Eine zweite Übersicht fand für schrittbasierte Tutorsysteme 0,76 und für menschliche Einzelnachhilfe 0,79. Bei standardisierten Tests fielen die Effekte aber deutlich kleiner aus als bei selbst entwickelten Tests. Diese Systeme sind nicht dasselbe wie heutige Chatbots.",
+    "erklaerung": "Eine Meta-Analyse von 50 kontrollierten Studien fand im Median einen Effekt von 0,66 Standardabweichungen. Eine zweite Übersicht fand für schrittbasierte Tutorsysteme 0,76 und für menschliche Einzelnachhilfe 0,79. Bei standardisierten Tests fielen die Effekte aber deutlich kleiner aus als bei selbst entwickelten Tests. Diese Systeme sind nicht dasselbe wie heutige Chatbots.",
     "wirkung": "hilft",
     "ampel": "mittel",
     "studientyp": "Meta-Analyse",
@@ -2841,7 +3786,16 @@
     },
     "gegenstimmen": "Die Ampel steht trotz zweier Meta-Analysen auf mittel: Die Effekte hängen stark von Testart und Kontrollgruppe ab. Auf neue Sprachmodelle lassen sich die Zahlen nicht direkt übertragen.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "„mittleren Effekt“ durch „im Median einen Effekt“ ersetzt",
+        "warum": "Kulik und Fletcher berichten den Median der 50 Evaluationen, nicht einen gewichteten Mittelwert.",
+        "quelle": "10.3102/0034654315581420"
+      }
+    ]
   },
   {
     "id": "medien-ki-004",
@@ -2863,7 +3817,8 @@
         "jahr": 2014,
         "doi_oder_url": "10.1037/a0037559",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "initial recall tests yielding larger testing benefits than recognition tests"
       },
       {
         "titel": "Rethinking the Use of Tests: A Meta-Analysis of Practice Testing",
@@ -2871,7 +3826,8 @@
         "jahr": 2017,
         "doi_oder_url": "10.3102/0034654316689306",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "practice tests are more beneficial for learning than restudying and all other comparison conditions"
       }
     ],
     "tipps": {
@@ -2889,7 +3845,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-ki-005",
@@ -2931,7 +3887,7 @@
     ],
     "gegenstimmen": "Sparrow argumentiert, die Replikation habe ein anderes Verfahren genutzt. Die Gedächtnisversuche der Originalstudie wurden im Projekt nicht wiederholt.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-ki-006",
@@ -2963,11 +3919,29 @@
         "doi_oder_url": "https://arxiv.org/abs/2601.00856",
         "typ": "Expertenkonsens",
         "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Does using ChatGPT change your brain activity? Study sparks debate (Scientific American, aus Nature News)",
+        "autoren": "Jones",
+        "jahr": 2025,
+        "doi_oder_url": "https://www.scientificamerican.com/article/does-using-chatgpt-really-change-your-brain-activity",
+        "typ": "Expertenkonsens",
+        "kernzitat": "More brain connectivity isn't necessarily good or bad, Kosmyna says.",
+        "geoeffnet_am": "2026-10-18"
       }
     ],
     "gegenstimmen": "Ein Kommentar von Stankovic und Kolleginnen kritisiert kleine Stichprobe, EEG-Auswertung, uneinheitliche Berichterstattung und mangelnde Transparenz. Er rät zu vorsichtigerer Deutung.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Quelle ergänzt (Scientific American/Nature News 2025) als Beleg für die Aussage der Erstautorin im Feld gehirn",
+        "warum": "Die Einordnung „Vernetzung nicht automatisch besser“ war keiner Quelle zugeordnet.",
+        "quelle": "https://www.scientificamerican.com/article/does-using-chatgpt-really-change-your-brain-activity"
+      }
+    ]
   },
   {
     "id": "medien-ki-007",
@@ -3020,7 +3994,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-ki-008",
@@ -3053,7 +4027,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-ki-009",
@@ -3082,7 +4056,8 @@
         "jahr": 2026,
         "doi_oder_url": "10.1057/s41599-026-07310-z",
         "typ": "Expertenkonsens",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "the identified issues undermine the Editor’s confidence in the validity of the analysis"
       }
     ],
     "gegenstimmen": "Es gibt weitere Meta-Analysen mit positiven Ergebnissen, etwa Deng et al. 2025; ihre Zahlen wurden hier nicht geprüft. Die KMK nannte die Forschungslage 2024 unzureichend.",
@@ -3092,7 +4067,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-ki-010",
@@ -3142,7 +4117,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-ki-011",
@@ -3150,8 +4125,8 @@
     "phasen": [
       "P6"
     ],
-    "aussage": "Drei von vier Jugendlichen nutzen KI für Hausaufgaben und Lernen; die Länder wollen deshalb Prüfungen stärker auf den Lernprozess ausrichten.",
-    "erklaerung": "Laut JIM-Studie 2025 haben 84 Prozent der 12- bis 19-Jährigen ChatGPT schon genutzt (2024: 57 Prozent). 74 Prozent nennen Hausaufgaben und Lernen als Anlass. 57 Prozent halten KI-Informationen für vertrauenswürdig. Die KMK empfiehlt: Prüfungsformate, die eigenständige Leistung nicht sicher belegen, abschaffen oder grundlegend weiterentwickeln.",
+    "aussage": "Drei von vier KI-nutzenden Jugendlichen setzen KI für Hausaufgaben und Lernen ein; die Länder wollen deshalb Prüfungen stärker auf den Lernprozess ausrichten.",
+    "erklaerung": "Laut JIM-Studie 2025 haben 84 Prozent der 12- bis 19-Jährigen ChatGPT schon genutzt (2024: 57 Prozent). 91 Prozent nutzen mindestens eine KI-Anwendung. Von ihnen nennen 74 Prozent Hausaufgaben und Lernen als Anlass. 57 Prozent halten KI-Informationen für vertrauenswürdig. Die KMK empfiehlt: Prüfungsformate, die eigenständige Leistung nicht sicher belegen, abschaffen oder grundlegend weiterentwickeln.",
     "wirkung": "einordnung",
     "ampel": "stark",
     "studientyp": "Leitlinie",
@@ -3179,6 +4154,15 @@
         "doi_oder_url": "https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/2024/2024_10_10-Handlungsempfehlung-KI.pdf",
         "typ": "Leitlinie",
         "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Niedersachsen bringt KI in den Unterricht – Schul-Chatbot startet landesweit (Pressemitteilung, erstellt 13.02.2026, aktualisiert 30.04.2026)",
+        "autoren": "Niedersächsisches Kultusministerium",
+        "jahr": 2026,
+        "doi_oder_url": "https://www.mk.niedersachsen.de/startseite/aktuelles/presseinformationen/niedersachsen-bringt-ki-in-den-unterricht-schul-chatbot-startet-landesweit-248679.html",
+        "typ": "Leitlinie",
+        "kernzitat": "Nutzungsdaten werden nicht an Dritte weitergegeben und nicht zum Training der KI verwendet.",
+        "geoeffnet_am": "2026-10-18"
       }
     ],
     "empfehlung_offiziell": {
@@ -3203,7 +4187,23 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Aussage und Erklärung korrigiert: 74 Prozent beziehen sich auf KI-Nutzende, nicht auf alle Jugendlichen; Anteil KI-Nutzender (91 Prozent) ergänzt",
+        "warum": "In der JIM-Studie 2025 ist die Basis der Nutzungsmotive „ChatGPT oder andere KI-Anwendung genutzt“ (n = 1.088), nicht alle Befragten (n = 1.200).",
+        "quelle": "https://mpfs.de/app/uploads/2025/11/JIM_2025_PDF_barrierearm.pdf"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Quelle für Rechtslage Niedersachsen ergänzt (Pressemitteilung Kultusministerium vom 13.02.2026)",
+        "warum": "Die Angaben zu AIS.chat, EU-Servern, Training und NLQ-Fortbildung hatten keine Quelle.",
+        "quelle": "https://www.mk.niedersachsen.de/startseite/aktuelles/presseinformationen/niedersachsen-bringt-ki-in-den-unterricht-schul-chatbot-startet-landesweit-248679.html"
+      }
+    ]
   },
   {
     "id": "medien-ki-012",
@@ -3211,8 +4211,8 @@
     "phasen": [
       "P5"
     ],
-    "aussage": "KI-Begleiter, also Chatbots als „digitale Freunde“, bergen für Minderjährige besondere Risiken; Fachleute raten unter 18 davon ab.",
-    "erklaerung": "In einer repräsentativen US-Befragung von 1.060 Jugendlichen (13–17) hatten 72 Prozent KI-Begleiter genutzt, 52 Prozent regelmäßig. Ein Drittel der Nutzenden besprach Ernstes lieber mit der KI als mit Menschen. 34 Prozent fühlten sich durch etwas, das die KI sagte, unwohl. Die UNESCO regte 2023 an, ein Mindestalter von 13 Jahren für KI im Unterricht zu erwägen.",
+    "aussage": "KI-Begleiter, also Chatbots als „digitale Freunde“, bergen für Minderjährige besondere Risiken; eine US-Kinderschutzorganisation rät unter 18 davon ab.",
+    "erklaerung": "In einer repräsentativen US-Befragung von 1.060 Jugendlichen (13–17) hatten 72 Prozent KI-Begleiter genutzt, 52 Prozent regelmäßig. Ein Drittel der Nutzenden hatte schon einmal Wichtiges mit der KI statt mit einem Menschen besprochen. 34 Prozent fühlten sich durch etwas, das die KI sagte oder tat, unwohl. Die UNESCO regte 2023 an, ein Mindestalter von 13 Jahren für KI im Unterricht zu erwägen.",
     "wirkung": "schadet",
     "ampel": "schwach",
     "studientyp": "Querschnitt",
@@ -3258,7 +4258,7 @@
       "url": "https://news.un.org/en/story/2023/09/1140477"
     },
     "gegenstimmen": "Die Befragung stammt aus den USA; deutsche Daten zu KI-Begleitern fehlen. Common Sense Media ist eine Interessenvertretung für Kinderschutz, keine Fachgesellschaft. Die Definition schloss auch ChatGPT oder Claude ein, wenn sie als Begleiter genutzt werden.",
-    "rechtslage": "EU-KI-Verordnung Art. 5: Seit 2. Februar 2025 sind KI-Systeme verboten, die eine altersbedingte Schutzbedürftigkeit ausnutzen und damit erheblichen Schaden anrichten. Anbieter Character.AI beendete nach eigener Angabe bis 25. November 2025 offene Chats für unter 18-Jährige.",
+    "rechtslage": "EU-KI-Verordnung Art. 5: Seit 2. Februar 2025 sind KI-Systeme verboten, die eine altersbedingte Schutzbedürftigkeit ausnutzen und damit erheblichen Schaden anrichten. Der Anbieter Character.AI kündigte im Oktober 2025 an, offene Chats für unter 18-Jährige bis spätestens 25. November 2025 zu beenden.",
     "tipps": {
       "eltern": [
         "Fragen Sie offen, ob Ihr Kind mit KI-Figuren chattet und worüber.",
@@ -3271,7 +4271,30 @@
     },
     "wann_hilfe": "Warnzeichen: Ihr Kind zieht sich zurück, die KI wird wichtiger als Menschen, oder der Chatbot rät zu Selbstverletzung. Dann helfen Kinderarzt, Erziehungsberatung oder die Nummer gegen Kummer (116 111). In akuten Krisen 112. Problematische Angebote können bei jugendschutz.net gemeldet werden.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "„Fachleute raten“ durch „eine US-Kinderschutzorganisation rät“ ersetzt",
+        "warum": "Die Empfehlung stammt von Common Sense Media, einer Interessenvertretung, nicht von einer Fachgesellschaft; die eigene Gegenstimme sagt das bereits.",
+        "quelle": "https://www.commonsensemedia.org/sites/default/files/research/report/talk-trust-and-trade-offs_2025_web.pdf"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "„besprach Ernstes lieber mit der KI“ präzisiert zu „hatte schon einmal Wichtiges mit der KI statt mit einem Menschen besprochen“; „sagte oder tat“",
+        "warum": "Der Bericht fragt, ob Jugendliche schon einmal eine KI statt eines Menschen gewählt haben, nicht nach einer generellen Vorliebe.",
+        "quelle": "https://www.commonsensemedia.org/sites/default/files/research/report/talk-trust-and-trade-offs_2025_web.pdf"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Rechtslage: Character.AI „kündigte an … zu beenden“ statt „beendete“",
+        "warum": "Die Quelle ist eine Ankündigung des Anbieters; die Umsetzung ist darin nicht belegt.",
+        "quelle": "https://blog.character.ai/u18-chat-announcement/"
+      }
+    ]
   },
   {
     "id": "medien-ki-013",
@@ -3280,7 +4303,7 @@
       "P8",
       "P9"
     ],
-    "aussage": "KI-Kompetenz ist Lernziel und Pflicht: Die EU verlangt sie seit 2025 im Beruf, internationale Rahmen beschreiben sie für die Schule.",
+    "aussage": "KI-Kompetenz ist Lernziel und Pflichtaufgabe: Die EU verlangt seit 2025 Maßnahmen dafür im Beruf, internationale Rahmen beschreiben sie für die Schule.",
     "erklaerung": "Seit 2. Februar 2025 müssen Anbieter und Betreiber von KI-Systemen Maßnahmen zur KI-Kompetenz ihres Personals ergreifen. Die UNESCO beschreibt seit 2024 zwölf Kompetenzen für Schülerinnen und Schüler. OECD und EU-Kommission veröffentlichten 2026 einen Rahmen für Primar- und Sekundarstufe. Er fließt in PISA 2029 ein, das erstmals Medien- und KI-Kompetenz testet.",
     "wirkung": "einordnung",
     "ampel": "stark",
@@ -3333,7 +4356,7 @@
       "inhalt": "Rahmen für KI-Kompetenz in vier Bereichen: mit KI umgehen, mit KI erschaffen, KI steuern, KI mitgestalten. Grundlage für PISA 2029 (Media & AI Literacy).",
       "url": "https://ailiteracyframework.org/"
     },
-    "rechtslage": "EU: Art. 4 KI-Verordnung gilt seit 2. Februar 2025. Die Digital-Omnibus-Verordnung (EU) 2026/1744 schwächte ihn im Juli 2026 ab. Anbieter und Betreiber müssen KI-Kompetenz nun „unterstützen“. Ein bestimmtes Niveau müssen sie nicht garantieren. Emotionserkennung in Bildungseinrichtungen ist seit Februar 2025 verboten. KI zur Zulassung, Bewertung von Lernergebnissen und Prüfungsaufsicht gilt als hochriskant (Anhang III Nr. 3); diese Pflichten gelten nach der Verschiebung ab 2. Dezember 2027.",
+    "rechtslage": "EU: Art. 4 KI-Verordnung gilt seit 2. Februar 2025. Die Digital-Omnibus-Verordnung (EU) 2026/1744 vom 8. Juli 2026 (in Kraft seit 27. Juli 2026) schwächte ihn ab. Anbieter und Betreiber müssen KI-Kompetenz nun „unterstützen“. Ein bestimmtes Niveau müssen sie nicht garantieren. Emotionserkennung in Bildungseinrichtungen ist seit Februar 2025 verboten, außer aus medizinischen oder Sicherheitsgründen. KI zur Zulassung, Bewertung von Lernergebnissen und Prüfungsaufsicht gilt als hochriskant (Anhang III Nr. 3). Diese Pflichten gelten nach der Verschiebung ab 2. Dezember 2027 statt ab 2. August 2026.",
     "tipps": {
       "lehrkraefte": [
         "Behandeln Sie, wie KI funktioniert, wo sie irrt und wer Verantwortung trägt.",
@@ -3344,7 +4367,23 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Aussage präzisiert: EU verlangt „Maßnahmen dafür“ statt KI-Kompetenz selbst",
+        "warum": "Seit der Neufassung durch (EU) 2026/1744 müssen Anbieter und Betreiber die Entwicklung von KI-Kompetenz unterstützen, aber kein Niveau garantieren.",
+        "quelle": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32026R1744"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Rechtslage ergänzt: Datum und Inkrafttreten der Omnibus-Verordnung, Ausnahme beim Verbot der Emotionserkennung, ursprüngliches Datum 2. August 2026 für Hochrisiko-Pflichten",
+        "warum": "Präzisierung nach Wortlaut auf EUR-Lex (Art. 4 Omnibus: Inkrafttreten am dritten Tag nach Veröffentlichung im ABl. vom 24.07.2026; Art. 5 Abs. 1 f KI-VO).",
+        "quelle": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32026R1744"
+      }
+    ]
   },
   {
     "id": "medien-erw-001",
@@ -3377,7 +4416,7 @@
     },
     "wann_hilfe": "Wenn Studium, Arbeit, Schlaf oder Beziehungen über Monate leiden und Sie die Nutzung nicht verringern können, sprechen Sie mit Ihrer Hausarztpraxis, der psychosozialen Beratung Ihrer Hochschule oder einer Fachstelle für Mediensucht.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-erw-002",
@@ -3386,7 +4425,7 @@
       "P7"
     ],
     "aussage": "Viel Smartphone-Nutzung geht bei Studierenden mit etwas schlechteren Studienleistungen einher; am deutlichsten bei problematischer Nutzung und beim Handy in der Vorlesung.",
-    "erklaerung": "Eine Meta-Analyse von 45 Studien mit Studierenden fand einen kleinen negativen Zusammenhang zwischen Nutzungshäufigkeit und Studienleistung (r = −0,12). Bei Smartphone-Sucht und problematischer Nutzung war der Zusammenhang stärker als bei bloßer Nutzungszeit. Multitasking mit dem Handy während der Lehrveranstaltung zeigte den stärksten negativen Effekt. Die Studien sind überwiegend Querschnitt; Ursache und Wirkung sind nicht sicher getrennt.",
+    "erklaerung": "Eine Meta-Analyse von 45 Studien mit Studierenden fand einen kleinen negativen Zusammenhang zwischen Nutzungshäufigkeit und Studienleistung (r = −0,12). Bei Smartphone-Sucht und problematischer Nutzung war der Zusammenhang stärker als bei bloßer Nutzungszeit. Multitasking mit dem Handy während der Lehrveranstaltung zeigte den stärksten negativen Effekt. Die Studie fordert Längsschnitte; Ursache und Wirkung sind nicht sicher getrennt.",
     "wirkung": "schadet",
     "ampel": "mittel",
     "studientyp": "Meta-Analyse",
@@ -3397,10 +4436,11 @@
         "jahr": 2025,
         "doi_oder_url": "10.1016/j.actpsy.2025.105374",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "multitasking during class demonstrated the highest negative effect"
       }
     ],
-    "gegenstimmen": "Der Effekt ist klein. Viele Studien nutzen Selbstauskünfte; die Autorin empfiehlt objektive Nutzungsdaten und Längsschnitte. Schwächere Studierende könnten auch häufiger zum Handy greifen.",
+    "gegenstimmen": "Der Effekt ist klein. Viele Studien nutzen Selbstauskünfte; die Meta-Analyse empfiehlt objektive Nutzungsdaten und Längsschnitte. Schwächere Studierende könnten auch häufiger zum Handy greifen.",
     "tipps": {
       "erwachsene": [
         "Legen Sie das Handy in Vorlesung und Lernzeit außer Reichweite oder schalten Sie Mitteilungen stumm.",
@@ -3411,7 +4451,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Satz „Die Studien sind überwiegend Querschnitt“ ersetzt durch „Die Studie fordert Längsschnitte“; „die Autorin“ neutral formuliert.",
+        "warum": "Studiendesign-Anteile stehen nicht im geprüften Abstract; Geschlecht des Autors (Chia-Yen Hsieh) nicht belegt.",
+        "quelle": "10.1016/j.actpsy.2025.105374"
+      }
+    ]
   },
   {
     "id": "medien-erw-003",
@@ -3421,7 +4470,7 @@
       "P9"
     ],
     "aussage": "Eine Pause von sozialen Medien verbessert das Wohlbefinden Erwachsener in Experimenten leicht; die Effekte sind klein und kurzfristig gemessen.",
-    "erklaerung": "In einem großen US-Experiment mit 2.743 Erwachsenen stieg das Wohlbefinden nach vier Wochen ohne Facebook um 0,09 Standardabweichungen. Zugleich sanken Nachrichtenwissen (−0,19 SD) und politische Polarisierung (−0,16 SD). In einer britischen Studie mit 154 Erwachsenen (Alter im Mittel 29,6) verbesserte eine Woche Pause Wohlbefinden, Depressions- und Angstwerte. Langzeitfolgen sind kaum untersucht.",
+    "erklaerung": "In einem großen US-Experiment mit 1.661 ausgewerteten Erwachsenen stieg das Wohlbefinden nach vier Wochen ohne Facebook um 0,09 Standardabweichungen. Zugleich sanken Nachrichtenwissen (−0,19 SD) und politische Polarisierung (−0,16 SD). In einer britischen Studie mit 154 Erwachsenen (Alter im Mittel 29,6) verbesserte eine Woche Pause Wohlbefinden, Depressions- und Angstwerte. Langzeitfolgen sind kaum untersucht.",
     "wirkung": "hilft",
     "ampel": "mittel",
     "studientyp": "RCT",
@@ -3432,7 +4481,8 @@
         "jahr": 2020,
         "doi_oder_url": "10.1257/aer.20190658",
         "typ": "RCT",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "increased subjective well-being"
       },
       {
         "titel": "Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial",
@@ -3440,7 +4490,8 @@
         "jahr": 2022,
         "doi_oder_url": "10.1089/cyber.2021.0324",
         "typ": "RCT",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "leads to significant improvements in well-being, depression, and anxiety"
       },
       {
         "titel": "A Nudge-Based Intervention to Reduce Problematic Smartphone Use: Randomised Controlled Trial",
@@ -3460,7 +4511,16 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Stichprobe von 2.743 auf 1.661 Erwachsene korrigiert.",
+        "warum": "2.743 Personen erhielten das Preisangebot; randomisiert und ausgewertet wurde die „impact evaluation sample“ mit 1.661 Personen.",
+        "quelle": "10.1257/aer.20190658"
+      }
+    ]
   },
   {
     "id": "medien-erw-004",
@@ -3482,7 +4542,8 @@
         "doi_oder_url": "10.1126/sciadv.abo6254",
         "typ": "RCT",
         "finanzierung": "Mitautorin Goldberg arbeitet bei Jigsaw (Google LLC).",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "these videos improve manipulation technique recognition"
       }
     ],
     "gegenstimmen": "Wie lange die Wirkung anhält, ist offen. Gemessen wird das Erkennen von Tricks in Testbeiträgen, nicht das tatsächliche Verhalten über Monate.",
@@ -3496,7 +4557,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-erw-005",
@@ -3517,7 +4578,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.1001/jamapediatrics.2025.0682",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "although the effect sizes were small"
       },
       {
         "titel": "Smartphones in the nursery: Parental smartphone use and parental sensitivity and responsiveness within parent-child interaction in early childhood (0-5 years): A scoping review",
@@ -3525,7 +4587,8 @@
         "jahr": 2021,
         "doi_oder_url": "10.1002/imhj.21908",
         "typ": "Systematischer Review",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Absorption in the device appears to contribute to this association more strongly"
       }
     ],
     "gegenstimmen": "Die Befunde sind Zusammenhänge, keine Beweise für Ursachen. Belastete Familien könnten zugleich mehr am Handy sein und mehr Probleme haben. Die Autorinnen und Autoren der Meta-Analyse nennen die Effekte selbst klein.",
@@ -3538,7 +4601,7 @@
     },
     "wann_hilfe": "Wenn Sie merken, dass Sie das Handy nicht weglegen können oder die Beziehung zum Kind leidet, hilft eine Erziehungsberatungsstelle oder die Kinderarztpraxis weiter.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-erw-006",
@@ -3560,7 +4623,8 @@
         "jahr": 2021,
         "doi_oder_url": "10.5817/cp2021-2-7",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "ten years on, we are no closer to understanding"
       },
       {
         "titel": "Minds and brains of media multitaskers: Current findings and future directions",
@@ -3568,7 +4632,8 @@
         "jahr": 2018,
         "doi_oder_url": "10.1073/pnas.1611612115",
         "typ": "Systematischer Review",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "many studies find no performance differences between groups"
       },
       {
         "titel": "Media-multitasking and attentional control: A theory-driven research agenda",
@@ -3576,7 +4641,8 @@
         "jahr": 2026,
         "doi_oder_url": "10.5817/cp2026-4-4",
         "typ": "Expertenkonsens",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "remain inconsistent and inconclusive"
       }
     ],
     "gegenstimmen": "Uncapher und Wagner sehen in der Gesamtschau eher Nachteile für starke Multitasker, betonen aber: Viele Studien finden keine Unterschiede. Parry und Le Roux sehen nach zehn Jahren kein klareres Verständnis. Eine Forschungsagenda von 2026 nennt die Befundlage weiter unschlüssig.",
@@ -3587,7 +4653,7 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-erw-007",
@@ -3596,8 +4662,8 @@
       "P8",
       "P9"
     ],
-    "aussage": "Fast zwei Drittel der berufstätigen Internetnutzer brauchten schon digitale Fähigkeiten im Job; nur 16 Prozent der Berufstätigen nutzten im letzten Jahr eine bezahlte Weiterbildung.",
-    "erklaerung": "Laut D21-Digital-Index 2024/25 haben 63 Prozent der berufstätigen Onliner digitale Fähigkeiten im Beruf schon gebraucht. Nur 16 Prozent der Berufstätigen nahmen in zwölf Monaten eine bezahlte Weiterbildung wahr. Über alle Altersgruppen eigneten sich 27 Prozent im letzten Jahr gar kein digitales Wissen an. Nur 49 Prozent der Bevölkerung erfüllen alle fünf digitalen Basiskompetenzen; das EU-Ziel bis 2030 sind 80 Prozent.",
+    "aussage": "Fast zwei Drittel der berufstätigen Internetnutzer brauchten schon digitale Fähigkeiten im Job; nur 16 Prozent der Berufstätigen nutzten im letzten Jahr eine vom Arbeitgeber bezahlte digitale Weiterbildung.",
+    "erklaerung": "Laut D21-Digital-Index 2024/25 haben 63 Prozent der berufstätigen Onliner digitale Fähigkeiten im Beruf schon gebraucht. Nur 16 Prozent der Berufstätigen nahmen in zwölf Monaten eine vom Arbeitgeber bezahlte Weiterbildung zu digitalen Themen wahr. Über alle Altersgruppen eigneten sich 27 Prozent im letzten Jahr gar kein digitales Wissen an. Nur 49 Prozent der Bevölkerung erfüllen alle fünf digitalen Basiskompetenzen; das EU-Ziel bis 2030 sind 80 Prozent.",
     "wirkung": "einordnung",
     "ampel": "mittel",
     "studientyp": "Querschnitt",
@@ -3609,7 +4675,8 @@
         "doi_oder_url": "https://initiatived21.de/download/248067/D21DigitalIndex_2024-2025.pdf",
         "typ": "Statistik",
         "finanzierung": "Initiative D21 ist ein Netzwerk mit Partnern aus der Wirtschaft; im Bericht stehen Partner-Statements, u. a. von Google.",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Deutschland liegt mit seit 2 Jahren stagnierenden 49 Prozent weit zurück."
       }
     ],
     "tipps": {
@@ -3619,12 +4686,22 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "„bezahlte Weiterbildung“ präzisiert zu „vom Arbeitgeber bezahlte Weiterbildung zu digitalen Themen“.",
+        "warum": "Der Index fragt nur nach vom Arbeitgeber finanzierten Angeboten zu digitalen Themen, nicht nach jeder bezahlten Weiterbildung.",
+        "quelle": "https://initiatived21.de/download/248067/D21DigitalIndex_2024-2025.pdf"
+      }
+    ]
   },
   {
     "id": "medien-erw-008",
     "thema": "medien-gaming-ki",
     "phasen": [
+      "P9",
       "P10",
       "P11"
     ],
@@ -3640,8 +4717,9 @@
         "jahr": 2026,
         "doi_oder_url": "10.1038/s44271-025-00379-3",
         "typ": "RCT",
-        "finanzierung": "Videos von Google Jigsaw und Moonshot entwickelt; Erstautor für Moonshot tätig, Mitautoren bei Google beschäftigt.",
-        "geoeffnet_am": "2026-10-18"
+        "finanzierung": "Studie von Google Jigsaw finanziert; Videos von Moonshot, Jigsaw und Google entwickelt; Erstautor als freier Forscher für Moonshot tätig, Mitautoren bei Google/Jigsaw.",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Though effects were small (ds ≈ 0.08-0.38), they were significant across surveys."
       }
     ],
     "gegenstimmen": "Die Videos stammen von Google Jigsaw, Mitautoren arbeiten dort. Die Effekte sind klein, und ihre Dauer ist unklar. Bildungsstand von Person und Land beeinflusste die Wirkung.",
@@ -3652,17 +4730,34 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Phase P9 ergänzt.",
+        "warum": "Die Stichprobe umfasste Menschen ab 45 Jahren, je zur Hälfte 45–55 und 56+ (Mittel 57 Jahre); P9 (45–65) ist die Kernphase.",
+        "quelle": "10.1038/s44271-025-00379-3"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Finanzierungsangabe ergänzt: Studie von Google Jigsaw finanziert.",
+        "warum": "Laut Danksagung und Interessenkonflikt-Erklärung finanzierte Google Jigsaw die Forschung.",
+        "quelle": "10.1038/s44271-025-00379-3"
+      }
+    ]
   },
   {
     "id": "medien-erw-009",
     "thema": "medien-gaming-ki",
     "phasen": [
+      "P9",
       "P10",
       "P11"
     ],
     "aussage": "„Digitale Demenz“ ist für Ältere nicht belegt: Wer das Internet nutzt, hat in Studien eher ein geringeres Risiko für geistigen Abbau.",
-    "erklaerung": "Eine Meta-Analyse von 57 Studien mit 411.430 Menschen über 50 fand: Digitale Technik ging mit geringerem Risiko für kognitive Beeinträchtigung einher (OR 0,42) und mit langsamerem Abbau (HR 0,74). In einer US-Kohorte mit 18.154 Menschen hatten regelmäßige Internetnutzer etwa halb so oft eine Demenz (HR 0,57). Das sind Beobachtungsdaten; Ursache und Wirkung sind nicht bewiesen.",
+    "erklaerung": "Eine Meta-Analyse von 57 Studien mit 411.430 Menschen über 50 fand: Digitale Technik ging mit geringerem Risiko für kognitive Beeinträchtigung einher (OR 0,42) und mit langsamerem Abbau (HR 0,74). In einer US-Kohorte mit 18.154 Menschen, bei Beginn 50 bis 65 Jahre alt, hatten regelmäßige Internetnutzer etwa halb so oft eine Demenz (HR 0,57). Das sind Beobachtungsdaten; Ursache und Wirkung sind nicht bewiesen.",
     "wirkung": "neutral",
     "ampel": "mythos",
     "studientyp": "Meta-Analyse",
@@ -3711,7 +4806,16 @@
     },
     "wann_hilfe": "Wenn Sie oder Angehörige deutliche Gedächtnisprobleme bemerken, sprechen Sie mit der Hausarztpraxis. Sie kann an eine Gedächtnissprechstunde überweisen.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Alter der US-Kohorte (50 bis 65 Jahre bei Beginn) ergänzt; Phase P9 ergänzt.",
+        "warum": "Cho et al. untersuchten Menschen von 50 bis 64,9 Jahren; Benge & Scullin schlossen Personen ab 50 ein. Die Aussage betrifft damit auch P9.",
+        "quelle": "10.1111/jgs.18394"
+      }
+    ]
   },
   {
     "id": "medien-erw-010",
@@ -3721,7 +4825,7 @@
       "P11"
     ],
     "aussage": "Gehirntraining am Computer verbessert vor allem die geübten Aufgaben; für den Alltag ist der Nutzen klein oder nicht belegt.",
-    "erklaerung": "Eine Meta-Analyse von 52 randomisierten Studien mit 4.885 gesunden Älteren fand einen kleinen Effekt auf Testleistungen (g = 0,22). Er zeigte sich bei Gedächtnis, Verarbeitungstempo und räumlichem Denken, nicht bei exekutiven Funktionen. Training allein zu Hause wirkte nicht, Training in Gruppen schon. Ein großer Review fand viele Belege für Fortschritte in den geübten Aufgaben, aber kaum für den Alltag.",
+    "erklaerung": "Eine Meta-Analyse von 52 randomisierten Studien mit 4.885 gesunden Älteren fand einen kleinen Effekt auf Testleistungen (g = 0,22). Er zeigte sich bei Gedächtnis, Verarbeitungstempo und räumlichem Denken, nicht bei exekutiven Funktionen und Aufmerksamkeit. Unbetreutes Training allein zu Hause wirkte nicht, Training in Gruppen schon. Ein großer Review fand viele Belege für Fortschritte in den geübten Aufgaben, aber kaum für den Alltag.",
     "wirkung": "einordnung",
     "ampel": "mittel",
     "studientyp": "Meta-Analyse",
@@ -3732,7 +4836,9 @@
         "jahr": 2014,
         "doi_oder_url": "10.1371/journal.pmed.1001756",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "Unsupervised at-home training and training more than three times per week are specifically ineffective",
+        "finanzierung": "Mitautor Valenzuela erhielt Forschungsmittel und Honorare von Brain Department LLC und kostenlose Software von BrainTrain Inc (laut Autoren ohne Bezug zu dieser Arbeit)."
       },
       {
         "titel": "Do \"Brain-Training\" Programs Work?",
@@ -3753,7 +4859,23 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "„und Aufmerksamkeit“ ergänzt; „unbetreut“ präzisiert.",
+        "warum": "Lampit et al. fanden auch für Aufmerksamkeit keinen signifikanten Effekt; unwirksam war unbetreutes Heimtraining.",
+        "quelle": "10.1371/journal.pmed.1001756"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Interessenkonflikt bei Lampit et al. ergänzt.",
+        "warum": "Mitautor Valenzuela meldet Verbindungen zu Brain-Training-Firmen.",
+        "quelle": "10.1371/journal.pmed.1001756"
+      }
+    ]
   },
   {
     "id": "medien-erw-011",
@@ -3763,7 +4885,7 @@
       "P11"
     ],
     "aussage": "Ein computergestütztes Tempo-Training in der US-Studie ACTIVE ging mit weniger Demenzdiagnosen nach 10 und 20 Jahren einher; der Befund ist umstritten.",
-    "erklaerung": "ACTIVE teilte 2.802 gesunde Ältere zufällig auf Gedächtnis-, Denk- oder Tempo-Training oder keine Schulung auf. Nach 10 Jahren hatte die Tempo-Gruppe ein um 29 Prozent geringeres Demenzrisiko (HR 0,71, knapp signifikant). Nach 20 Jahren zeigten Krankenkassendaten nur bei Tempo-Training mit Auffrischsitzungen weniger Demenz (HR 0,75). Ohne Auffrischung gab es keinen Effekt (HR 1,01).",
+    "erklaerung": "ACTIVE teilte 2.802 gesunde Ältere zufällig auf Gedächtnis-, Denk- oder Tempo-Training oder keine Schulung auf. Nach 10 Jahren hatte die Tempo-Gruppe ein um 29 Prozent geringeres Demenzrisiko (HR 0,71; p = 0,049). Demenz wurde dabei aus Tests und Interviews abgeleitet. Die 20-Jahres-Auswertung nutzte Abrechnungsdaten von Medicare für 2.021 Teilnehmende. Nur Tempo-Training mit Auffrischsitzungen ging mit weniger Demenzdiagnosen einher (HR 0,75). Ohne Auffrischung gab es keinen Effekt (HR 1,01).",
     "wirkung": "hilft",
     "ampel": "umstritten",
     "studientyp": "RCT",
@@ -3774,7 +4896,9 @@
         "jahr": 2017,
         "doi_oder_url": "10.1016/j.trci.2017.09.002",
         "typ": "RCT",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "finanzierung": "Erstautorin Edwards beriet 1996–2005 Visual Awareness Inc. (damals Rechteinhaber der Tempo-Trainingssoftware) und 2008 kurz Posit Science; Mitautor Unverzagt erhielt Software-Lizenzen von Posit Science. Posit Science vermarktet das Training.",
+        "kernzitat": "Speed training resulted in reduced risk of dementia (hazard ratio [HR] 0.71"
       },
       {
         "titel": "Impact of cognitive training on claims-based diagnosed dementia over 20 years: evidence from the ACTIVE study",
@@ -3782,8 +4906,9 @@
         "jahr": 2026,
         "doi_oder_url": "10.1002/trc2.70197",
         "typ": "RCT",
-        "finanzierung": "Mitautorin Ball berät Posit Science und hält Anteile; die Firma vermarktet das Tempo-Training.",
-        "geoeffnet_am": "2026-10-18"
+        "finanzierung": "Finanziert vom National Institute on Aging. Mitautorin Karlene Ball berät Posit Science, hält Aktien und sitzt im wissenschaftlichen Beirat; die Firma vermarktet das Tempo-Training (UFOV).",
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "There was no main effect of memory or reasoning training on risk of ADRD."
       },
       {
         "titel": "Reanalyzing the impact of cognitive training over 20 years in the ACTIVE study: Losing the forest in the trees",
@@ -3791,10 +4916,11 @@
         "jahr": 2026,
         "doi_oder_url": "10.1002/trc2.70280",
         "typ": "Einzelstudie",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "After Bonferroni–Dunn correction, all confidence intervals include a hazard ratio of 1."
       }
     ],
-    "gegenstimmen": "Eine Reanalyse von 2026 zeigt: Nach Korrektur für viele Vergleiche schließen alle Konfidenzintervalle keinen Effekt ein. Sie deutet eher auf einen gemeinsamen kleinen Schutz aller Trainingsarten hin, vor allem bei den Jüngsten. Der 20-Jahres-Effekt gilt nur für eine Untergruppe mit Auffrischsitzungen. Eine Mitautorin hat finanzielle Interessen am Training.",
+    "gegenstimmen": "Eine Reanalyse von 2026 (Dickens) korrigiert für mehrere Vergleiche: Danach schließen alle Konfidenzintervalle keinen Effekt ein. Das Gesamtmuster deutet eher auf einen kleinen gemeinsamen Schutz aller Trainingsarten hin, vor allem bei 65- bis 69-Jährigen. Der 20-Jahres-Effekt gilt nur für eine Untergruppe mit Auffrischsitzungen. Die Demenz-Definition unterscheidet sich zwischen 10- und 20-Jahres-Auswertung. Mitautorin Ball berät die Firma, die das Tempo-Training vermarktet, und hält Anteile. Auch Erstautorin Edwards hat früher für diese Firma gearbeitet.",
     "tipps": {
       "erwachsene": [
         "Ein Tempo-Training kann ein Baustein sein, ersetzt aber nicht Bewegung, Blutdruckkontrolle und soziale Kontakte.",
@@ -3802,7 +4928,30 @@
       ]
     },
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "p-Wert (0,049), Demenz-Definition der 10-Jahres-Analyse und Stichprobe der 20-Jahres-Analyse (2.021 Medicare-Versicherte) ergänzt; „Krankenkassendaten“ zu „Abrechnungsdaten von Medicare“ präzisiert.",
+        "warum": "Edwards 2017: CI 0,50–0,998, Demenz aus Interview- und Testdaten; Coe 2026: nur Personen in traditionellem Medicare (rund 73 % der Stichprobe), Diagnose per Abrechnungsalgorithmus.",
+        "quelle": "10.1002/trc2.70197"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Interessenkonflikt der Erstautorin Edwards (früher Beraterin für Visual Awareness und Posit Science) und von Unverzagt ergänzt; Angabe zu Ball um Beiratssitz und NIA-Förderung ergänzt.",
+        "warum": "Erklärungen zu Interessen in beiden Artikeln.",
+        "quelle": "10.1016/j.trci.2017.09.002"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Gegenstimmen um unterschiedliche Outcome-Definition und Altersgruppe der Reanalyse (65–69 Jahre) präzisiert.",
+        "warum": "Dickens 2026 schätzt den gemeinsamen Effekt für 65- bis 69-Jährige (HR 0,77).",
+        "quelle": "10.1002/trc2.70280"
+      }
+    ]
   },
   {
     "id": "medien-erw-012",
@@ -3832,7 +4981,8 @@
         "jahr": 2021,
         "doi_oder_url": "10.3389/fpsyg.2021.711030",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "resulted in little to no difference in loneliness reduction compared to control groups"
       },
       {
         "titel": "The Impact of Technology-Assisted Interventions on Loneliness in Older Adults: A Meta-Analysis",
@@ -3840,7 +4990,8 @@
         "jahr": 2025,
         "doi_oder_url": "10.1093/geroni/igaf122.3081",
         "typ": "Meta-Analyse",
-        "geoeffnet_am": "2026-10-18"
+        "geoeffnet_am": "2026-10-18",
+        "kernzitat": "The overall effect size (Cohen’s d) was statistically significant at 0.309"
       },
       {
         "titel": "A 12-week application-based group conversation intervention on cognitive health and psychosocial well-being among older adults during the COVID-19 pandemic: a randomized controlled trial",
@@ -3860,7 +5011,7 @@
     },
     "wann_hilfe": "Wenn Einsamkeit Sie dauerhaft belastet, sprechen Sie mit Ihrer Hausarztpraxis. Rund um die Uhr erreichbar ist die TelefonSeelsorge unter 0800 111 0 111 oder 0800 111 0 222.",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "geprueft"
   },
   {
     "id": "medien-erw-013",
@@ -3869,7 +5020,7 @@
       "P10",
       "P11"
     ],
-    "aussage": "Viele Ältere in Deutschland sind online, aber nur wenige beherrschen alle digitalen Grundfertigkeiten; die Bundesregierung fordert Lernangebote vor Ort.",
+    "aussage": "Viele Ältere in Deutschland sind online, aber nur wenige beherrschen alle digitalen Grundfertigkeiten; die Altersberichtskommission der Bundesregierung fordert Lernangebote vor Ort.",
     "erklaerung": "Laut D21-Digital-Index 2024/25 erfüllen 36 Prozent der 69- bis 78-Jährigen alle fünf digitalen Basiskompetenzen, ab 79 Jahren nur 12 Prozent. Im Schnitt sind es 49 Prozent. 69 Prozent der Ältesten haben sich im letzten Jahr kein digitales Wissen angeeignet. Der Achte Altersbericht (2020) nennt Lernangebote für Ältere einen Teil der kommunalen Daseinsvorsorge.",
     "wirkung": "einordnung",
     "ampel": "mittel",
@@ -3895,15 +5046,15 @@
       },
       {
         "titel": "DigitalPakt Alter",
-        "autoren": "BAGSO",
+        "autoren": "BAGSO, gefördert vom BMFSFJ",
         "jahr": 2026,
         "doi_oder_url": "https://www.digitalpakt-alter.de/",
-        "typ": "Leitlinie",
+        "typ": "Expertenkonsens",
         "geoeffnet_am": "2026-10-18"
       }
     ],
     "empfehlung_offiziell": {
-      "stelle": "Bundesregierung, Achter Altersbericht",
+      "stelle": "Sachverständigenkommission Achter Altersbericht, mit Stellungnahme der Bundesregierung",
       "jahr": 2020,
       "inhalt": "Angebote zur Förderung digitaler Kompetenzen Älterer sollen als Teil der kommunalen Daseinsvorsorge anerkannt werden. Daten- und Verbraucherschutz gelten als zentrale Voraussetzung.",
       "url": "https://dserver.bundestag.de/btd/19/216/1921650.pdf"
@@ -3918,6 +5069,22 @@
     },
     "wann_hilfe": "Bei Fragen zu Lernangeboten vor Ort hilft das Telefon des DigitalPakts Alter: 0228 / 24 99 93 54 (Mo–Do, 10–16 Uhr).",
     "stand": "2026-10-18",
-    "status": "recherchiert"
+    "status": "korrigiert",
+    "aenderungen": [
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Urheber der Forderung von „Bundesregierung“ auf „Altersberichtskommission der Bundesregierung“ präzisiert.",
+        "warum": "Die Forderung nach Lernangeboten als Teil der kommunalen Daseinsvorsorge stammt von der Sachverständigenkommission; die Bundesregierung kündigt in ihrer Stellungnahme nur eine Prüfung an.",
+        "quelle": "https://dserver.bundestag.de/btd/19/216/1921650.pdf"
+      },
+      {
+        "ausloeser": "Faktencheck",
+        "datum": "2026-10-18",
+        "was": "Quellentyp DigitalPakt Alter von „Leitlinie“ auf „Expertenkonsens“ geändert, Träger präzisiert.",
+        "warum": "Die Website ist ein Förderprogramm von BAGSO und BMFSFJ, keine Leitlinie.",
+        "quelle": "https://www.digitalpakt-alter.de/"
+      }
+    ]
   }
 ]

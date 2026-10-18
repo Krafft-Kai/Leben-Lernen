@@ -1,0 +1,43 @@
+name: Anmerkung oder Korrektur
+description: Etwas stimmt nicht, fehlt oder ist unklar? Jeder berechtigte Hinweis geht über eine Nachrecherche zurück in den Faktencheck.
+title: "Anmerkung: "
+labels: ["anmerkung"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für den Hinweis. Bitte keine persönlichen Daten angeben; das Issue ist öffentlich.
+  - type: input
+    id: seite
+    attributes:
+      label: Seite
+      description: Adresse der Seite, um die es geht
+      placeholder: https://…
+    validations:
+      required: true
+  - type: input
+    id: bezug
+    attributes:
+      label: Aussage oder Station
+      description: Die Kennung der Aussage (z. B. schlaf-jugend-003) oder der Station im Navigator, falls bekannt
+  - type: textarea
+    id: was
+    attributes:
+      label: Was stimmt nicht oder fehlt?
+      description: Je konkreter, desto schneller lässt es sich prüfen.
+    validations:
+      required: true
+  - type: input
+    id: quelle
+    attributes:
+      label: Quelle (wenn vorhanden)
+      description: Link oder DOI, der den Hinweis belegt
+  - type: dropdown
+    id: art
+    attributes:
+      label: Art des Hinweises
+      options:
+        - Tatsachenfrage (lässt sich mit Quellen prüfen)
+        - Meinung oder Einordnung
+        - Erfahrungsbericht
+        - Technischer Fehler auf der Seite

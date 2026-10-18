@@ -1,0 +1,189 @@
+{
+  "$comment": "Die zwölf Themencluster mit Leitfragen und Matrix. matrix: je Altersgruppe (0-3, 3-6, 6-10, 10-13, 13-16, 16-19, 19-27, 27-65, 65-plus) der Wert schwerpunkt (eigene Seite), abschnitt (kurzer Abschnitt) oder keine. docs/leitfragen/*.md wird aus dieser Datei erzeugt (npm run leitfragen).",
+  "altersgruppen": ["0-3", "3-6", "6-10", "10-13", "13-16", "16-19", "19-27", "27-65", "65-plus"],
+  "themen": [
+    {
+      "nummer": 1,
+      "slug": "entwicklung-gehirn",
+      "name": "Entwicklung und Gehirn",
+      "kurz": "Entwicklung",
+      "beschreibung": "Was in welcher Lebensphase bei Gehirn, Sprache, Motorik, Gefühlen und Sozialverhalten passiert, welche sensiblen Phasen belegt sind und welche Warnsignale Eltern und Lehrkräfte kennen sollten.",
+      "leitfragen": [
+        "Was passiert in welcher Phase bei Gehirn, Sprache, Motorik, Gefühlen und Sozialverhalten?",
+        "Welche sensiblen Phasen sind belegt, welche sind Mythos?",
+        "Wie verändert die Pubertät das Gehirn, und was folgt daraus für Risiko, Schlaf und Lernen?",
+        "Wie formbar bleibt das Gehirn im Erwachsenenalter und im Alter?",
+        "Welche Warnsignale sollten Eltern und Lehrkräfte kennen, und wo gibt es Hilfe?"
+      ],
+      "matrix": ["schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "abschnitt", "abschnitt", "schwerpunkt"]
+    },
+    {
+      "nummer": 2,
+      "slug": "foerdern-lernen",
+      "name": "Fördern und Lernen",
+      "kurz": "Lernen",
+      "beschreibung": "Was Entwicklung nachweislich fördert, welche Lernstrategien wirken, wie Hausaufgaben, Lob, Feedback und Druck auf Motivation wirken und was Selbstregulation stärkt.",
+      "leitfragen": [
+        "Was fördert Entwicklung nachweislich: Bindung, Sprechen, Vorlesen, freies Spiel, Gesellschaftsspiele?",
+        "Welche Lernstrategien wirken (Abrufen, verteiltes Üben, Erklären), welche kaum (Markieren, Wiederlesen)?",
+        "Wie viel Zeit für Hausaufgaben ist sinnvoll, und was bringen sie in der Grundschule?",
+        "Welche Rolle spielen Gespräche in der Familie, Diskutieren und Debattieren?",
+        "Wie wirken Lob, Feedback, Belohnung und Druck auf die Motivation?",
+        "Was stärkt Selbstregulation und exekutive Funktionen?"
+      ],
+      "matrix": ["schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "abschnitt", "abschnitt", "abschnitt"]
+    },
+    {
+      "nummer": 3,
+      "slug": "zukunftskompetenzen",
+      "name": "Zukunftskompetenzen",
+      "kurz": "Zukunft",
+      "beschreibung": "Welche Grundlagen entscheidend bleiben, was Kinder in einer Welt mit KI brauchen, wann Fremdsprachen sinnvoll sind und wie Demokratie-, Finanz- und Gesundheitskompetenz entstehen.",
+      "leitfragen": [
+        "Welche Grundlagen bleiben entscheidend (Lesen, Schreiben, Mathematik), und wo steht Deutschland laut IGLU, PISA und IQB-Bildungstrend?",
+        "Was brauchen Kinder in einer Welt mit KI: kritisches Denken, Kommunikation, Kooperation, Kreativität, Informatik?",
+        "Fremdsprachen: ab wann und wie? Was sagt die Forschung zu „je früher, desto besser“?",
+        "Demokratiebildung, Debattieren, Umgang mit Desinformation",
+        "Finanzwissen, Nachhaltigkeit, Gesundheitskompetenz"
+      ],
+      "matrix": ["keine", "abschnitt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "abschnitt", "abschnitt", "keine"]
+    },
+    {
+      "nummer": 4,
+      "slug": "ernaehrung",
+      "name": "Ernährung",
+      "kurz": "Ernährung",
+      "beschreibung": "Energydrinks, Zucker, hochverarbeitete Lebensmittel, Kunststoffe und Zusatzstoffe: was belegt ist, was Vorsorge ist, und was Ernährung im Alter mit dem Gedächtnis zu tun hat.",
+      "leitfragen": [
+        "Energydrinks: Wirkung von Koffein, Zucker und Taurin auf Herz, Schlaf und Konzentration; Grenzwerte; Verkaufsverbote an Minderjährige in anderen Ländern",
+        "Zucker: Zähne, Gewicht, Konzentration; Mythos-Check „Zucker macht hyperaktiv“",
+        "Fertiggerichte und hochverarbeitete Lebensmittel: was zeigen Studien zu Gesundheit und Gehirn?",
+        "Kunststoffe: Mikroplastik, Bisphenole, Weichmacher – was ist belegt, was ist Vorsorge?",
+        "Zusatzstoffe: Farbstoffe, Süßstoffe, Emulgatoren – aktueller Stand der Bewertung",
+        "Frühstück, Trinken, vegetarisch oder vegan im Kindesalter, Vitamin D und Jod",
+        "Im Alter: Eiweiß, Mangelernährung, Ernährungsmuster und Gedächtnis"
+      ],
+      "matrix": ["schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "abschnitt", "abschnitt", "schwerpunkt"]
+    },
+    {
+      "nummer": 5,
+      "slug": "bewegung-sport",
+      "name": "Bewegung und Sport",
+      "kurz": "Bewegung",
+      "beschreibung": "Wie viel Bewegung in welchem Alter nötig ist, was Bewegung im Gehirn bewirkt, was Sitzen und Schulweg ausmachen und wie Kraft und Gleichgewicht im Alter schützen.",
+      "leitfragen": [
+        "Wie viel Bewegung braucht man in welchem Alter (WHO, Nationale Bewegungsempfehlungen)?",
+        "Was bewirkt Bewegung im Gehirn: Aufmerksamkeit, Gedächtnis, Schulleistung?",
+        "Sitzen, Schulweg, Schulsport, Vereinssport",
+        "Im Alter: Kraft, Gleichgewicht, Sturzvorbeugung, Demenzrisiko"
+      ],
+      "matrix": ["schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "abschnitt", "schwerpunkt", "schwerpunkt"]
+    },
+    {
+      "nummer": 6,
+      "slug": "schlaf",
+      "name": "Schlaf",
+      "kurz": "Schlaf",
+      "beschreibung": "Wie viel Schlaf in welchem Alter nötig ist, was nachts im Gehirn passiert, wie Bildschirme und Licht wirken, warum Jugendliche Spättypen sind und wie Schlaf im Alter sich verändert.",
+      "leitfragen": [
+        "Wie viel Schlaf braucht man in welchem Alter?",
+        "Was passiert nachts im Gehirn, und wie hängt Schlaf mit dem Gedächtnis zusammen?",
+        "Bildschirme und Licht vor dem Schlafen",
+        "Jugendliche als Spättypen und der Schulbeginn",
+        "Schlaf im Alter"
+      ],
+      "matrix": ["schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "abschnitt", "abschnitt", "schwerpunkt"]
+    },
+    {
+      "nummer": 7,
+      "slug": "medien-gaming-ki",
+      "name": "Medien, Gaming und KI",
+      "kurz": "Medien",
+      "beschreibung": "Bildschirmzeit je Alter, Social Media und Wohlbefinden, Altersgrenzen und Regulierung, Gaming, Smartphone in der Schule und wie man mit KI lernt, statt das Denken auszulagern.",
+      "leitfragen": [
+        "Bildschirmzeit je Alter: was empfehlen WHO, Fachgesellschaften und Kinderärzte?",
+        "Social Media: was zeigt die Forschung zu Wohlbefinden, Angst und Depression, und wo liegt die Kontroverse?",
+        "Altersgrenzen und Regulierung: Stand in Australien, der EU und Deutschland",
+        "Zocken: positive Effekte, Computerspielsucht, Lootboxen",
+        "Smartphone in der Schule: was zeigen Verbote?",
+        "KI-Nutzung: wie ja, wie nein? Lernen mit KI statt Denken auslagern, Hausaufgaben, KI-Kompetenz je Alter",
+        "Medienbildung je Alter: was Eltern und Schulen tun können"
+      ],
+      "matrix": ["abschnitt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "abschnitt", "abschnitt"]
+    },
+    {
+      "nummer": 8,
+      "slug": "sucht-risiko",
+      "name": "Sucht und Risiko",
+      "kurz": "Sucht",
+      "beschreibung": "E-Zigaretten, Nikotinbeutel, Shisha, Alkohol, Cannabis, Glücksspiel: Rechtslage, Jugendschutz, was in der Vorbeugung wirkt und warum das jugendliche Gehirn besonders anfällig ist.",
+      "leitfragen": [
+        "E-Zigaretten, Einweg-Vapes, Nikotinbeutel",
+        "Shisha: Kohlenmonoxid und Schadstoffe",
+        "Rauchen, Alkohol, Cannabis: Rechtslage in Deutschland und Jugendschutz",
+        "Glücksspiel und Sportwetten",
+        "Was wirkt in der Vorbeugung, was nicht (etwa Abschreckung)?",
+        "Warum ist das Gehirn in der Jugend besonders anfällig?"
+      ],
+      "matrix": ["keine", "keine", "abschnitt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "abschnitt", "keine"]
+    },
+    {
+      "nummer": 9,
+      "slug": "finanzen",
+      "name": "Finanzen",
+      "kurz": "Finanzen",
+      "beschreibung": "Taschengeld, erstes Konto, In-App-Käufe, Finanzbildung in Schule und Familie, Budget und Schulden bei jungen Erwachsenen, Belohnungsaufschub und Selbstkontrolle.",
+      "leitfragen": [
+        "Taschengeld: ab wann, wie viel (Taschengeldtabelle der Jugendämter), wöchentlich oder monatlich, an Leistung gekoppelt oder nicht?",
+        "Taschengeldparagraf, erstes Konto, Handyvertrag, In-App-Käufe",
+        "Finanzbildung: was wirkt in Schule und Familie?",
+        "Junge Erwachsene: Budget, Schulden, Grundlagen der Altersvorsorge",
+        "Gehirn: Belohnungsaufschub und Selbstkontrolle, inklusive der Wiederholungen des Marshmallow-Tests"
+      ],
+      "matrix": ["keine", "abschnitt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "abschnitt", "abschnitt"]
+    },
+    {
+      "nummer": 10,
+      "slug": "gesundheit-schutz",
+      "name": "Gesundheit und Schutz",
+      "kurz": "Gesundheit",
+      "beschreibung": "Sonnenschutz, Augen und Kurzsichtigkeit, Zähne und Hören, psychische Gesundheit und Resilienz, Hilfsangebote.",
+      "leitfragen": [
+        "Sonnenschutz: Sonnenbrände in der Kindheit und Hautkrebsrisiko, UV-Index, Kleidung, Sonnencreme",
+        "Augen: Kurzsichtigkeit, Tageslicht, Naharbeit",
+        "Zähne und Hören, von Kopfhörerlautstärke bis Hörgerät im Alter",
+        "Psychische Gesundheit: Resilienz, Angst, Depression, Hilfsangebote"
+      ],
+      "matrix": ["schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "abschnitt", "abschnitt", "schwerpunkt"]
+    },
+    {
+      "nummer": 11,
+      "slug": "schule-unterricht",
+      "name": "Gute Schule und Unterricht",
+      "kurz": "Schule",
+      "beschreibung": "Was guten Unterricht laut Forschung ausmacht, Hattie und die Kritik daran, Best Practice aus dem Deutschen Schulpreis und internationalen Systemen, Ganztag, Klassengröße, Digitalisierung.",
+      "leitfragen": [
+        "Was macht guten Unterricht laut Forschung aus: Klassenführung, kognitive Aktivierung, Feedback, Beziehung?",
+        "Hattie und Visible Learning: Befunde und Kritik",
+        "Best Practice: Deutscher Schulpreis und internationale Systeme wie Finnland, Estland, Ontario, Singapur",
+        "Ganztag, Klassengröße, Digitalisierung im Unterricht",
+        "Woran erkennen Eltern eine gute Schule?"
+      ],
+      "matrix": ["keine", "abschnitt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "schwerpunkt", "keine", "keine", "keine"]
+    },
+    {
+      "nummer": 12,
+      "slug": "lernen-im-alter",
+      "name": "Lernen im Erwachsenenalter und Alter",
+      "kurz": "Lernen im Alter",
+      "beschreibung": "Was das Gedächtnis fit hält, was Gehirnjogging wirklich bringt, neue Sprache, Instrument und Ehrenamt im Alter, Weiterbildung im Beruf und staatliche Förderung.",
+      "leitfragen": [
+        "Was hält das Gedächtnis fit: Bewegung, Kontakte, Hören, Bildung, Blutdruck (Lancet-Kommission zu Demenz)?",
+        "Gedächtnistraining und Gehirnjogging-Apps: was zeigen Studien wie ACTIVE und FINGER?",
+        "Neue Sprache, Instrument, Ehrenamt im Alter",
+        "Weiterbildung im Beruf: was wirkt, was fördert der Staat?"
+      ],
+      "matrix": ["keine", "keine", "keine", "keine", "keine", "keine", "abschnitt", "schwerpunkt", "schwerpunkt"]
+    }
+  ]
+}

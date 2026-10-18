@@ -1,0 +1,15 @@
+{
+  "$comment": "Änderungsprotokoll des Projekts, neueste zuerst. Änderungen an einzelnen Aussagen stehen zusätzlich in deren Feld aenderungen; die Website führt beides zusammen.",
+  "eintraege": [
+    {
+      "datum": "2026-10-18",
+      "bereich": "Projekt",
+      "text": "Grundgerüst angelegt: Repository-Struktur, Leitplanken (CLAUDE.md), Datenschemata für Aussagen, Schwerpunktseiten und Köpfe, zwölf Themen mit Leitfragen und Matrix, zwölf Lebensphasen, Navigator als Datensatz und Seite, Generator mit Validierung, Veröffentlichung über GitHub Pages. Noch kein Thema recherchiert."
+    },
+    {
+      "datum": "2026-10-18",
+      "bereich": "Navigator",
+      "text": "Der KI-Wegfinder („Frag die KI“) entfällt auf der öffentlichen Seite, weil er Nutzerkontingent verbrauchen würde. Die Karte, die Stationen und die Altersansicht bleiben. Statt „Diskutieren“ im Artefakt gibt es Kommentare unter jeder Seite und einen Link, um Korrekturen vorzuschlagen."
+    }
+  ]
+}

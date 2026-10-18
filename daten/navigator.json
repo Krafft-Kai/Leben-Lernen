@@ -1,0 +1,1320 @@
+{
+  "$comment": "Stationen und Übergänge des Navigators „Bildungswege Niedersachsen“. Erzeugt aus navigator.html, danach von Hand gepflegt. Die Seite liest diese Datei; Korrekturen hier ändern die Karte.",
+  "titel": "Bildungswege Niedersachsen",
+  "stand": "2026-10-17",
+  "bereiche": {
+    "frueh": "Frühe Bildung",
+    "schule": "Allgemeinbildende Schule",
+    "beruf": "Berufliche Bildung",
+    "aufstieg": "Höhere Berufsbildung",
+    "hoch": "Hochschule",
+    "leben": "Weiterbildung",
+    "ab": "Abschluss"
+  },
+  "stationen": [
+    {
+      "id": "krippe",
+      "titel": "Krippe / Tagespflege",
+      "kurz": "Krippe",
+      "bereich": "frueh",
+      "stufe": {
+        "spalte": 0,
+        "zeile": 2.5
+      },
+      "alter": {
+        "von": 1,
+        "bis": 3,
+        "zeile": 2.5
+      },
+      "meta_stufe": "ab 1 Jahr",
+      "meta_alter": "1–3 J.",
+      "dauer": "Bis zum 3. Geburtstag",
+      "zugang": "Rechtsanspruch auf einen Platz in Krippe oder Kindertagespflege ab dem 1. Geburtstag.",
+      "abschluss": "Kein Abschluss",
+      "wo": "Krippe, Kita mit Krippengruppe oder Tagespflegeperson",
+      "hinweis": "Plätze vergibt die Kommune, oft über ein Online-Portal. Früh anmelden. Die Elternbeiträge legt die Kommune fest."
+    },
+    {
+      "id": "kita",
+      "titel": "Kindergarten",
+      "kurz": "Kita",
+      "bereich": "frueh",
+      "stufe": {
+        "spalte": 1,
+        "zeile": 2.5
+      },
+      "alter": {
+        "von": 3,
+        "bis": 6,
+        "zeile": 2.5
+      },
+      "meta_stufe": "3 Jahre bis Schule",
+      "meta_alter": "3–6 J.",
+      "dauer": "Vom 3. Geburtstag bis zur Einschulung",
+      "zugang": "Rechtsanspruch ab dem 3. Geburtstag. In Niedersachsen beitragsfrei ab dem Monat, in dem das Kind 3 wird, bis zur Einschulung, für höchstens 8 Stunden am Tag. Verpflegung und Ausflüge zahlen die Eltern weiter.",
+      "abschluss": "Kein Abschluss",
+      "wo": "Kindertagesstätte",
+      "hinweis": "Die Kita fördert Sprache im Alltag. Spätestens zu Beginn des letzten Kindergartenjahres erfasst sie den Sprachstand und führt ein Entwicklungsgespräch mit den Eltern."
+    },
+    {
+      "id": "gs",
+      "titel": "Grundschule",
+      "kurz": "Grundschule",
+      "bereich": "schule",
+      "stufe": {
+        "spalte": 2,
+        "zeile": 2.5
+      },
+      "alter": {
+        "von": 6,
+        "bis": 10,
+        "zeile": 2.5
+      },
+      "meta_stufe": "Klasse 1–4",
+      "meta_alter": "6–10 J.",
+      "dauer": "4 Jahre",
+      "zugang": "Schulpflichtig wird, wer bis zum 30. September 6 Jahre alt ist. Bei Geburtstag zwischen 1. Juli und 30. September können Eltern den Schulbeginn um ein Jahr verschieben: schriftliche Erklärung an die Schule bis zum 1. Mai, ohne Begründung. Jüngere Kinder können auf Antrag früher starten.",
+      "abschluss": "Übergang in die Sekundarstufe I",
+      "wo": "Grundschule",
+      "hinweis": "Seit 1. August 2026 haben Erstklässler einen Rechtsanspruch auf Ganztagsbetreuung (8 Stunden an 5 Werktagen). Jedes Jahr kommt eine Klassenstufe dazu, ab 2029/30 gilt er für die Klassen 1–4. In Klasse 4 bietet die Schule mindestens zwei Beratungsgespräche an; welche Schule danach kommt, entscheiden die Eltern."
+    },
+    {
+      "id": "foe",
+      "titel": "Förderschule",
+      "kurz": "Förderschule",
+      "bereich": "schule",
+      "stufe": {
+        "spalte": 3,
+        "zeile": 5
+      },
+      "alter": {
+        "von": 6,
+        "bis": 16,
+        "zeile": 5
+      },
+      "meta_stufe": "je nach Schwerpunkt",
+      "meta_alter": "6–16 J.",
+      "dauer": "Je nach Förderschwerpunkt",
+      "zugang": "Seit 1. August 2026 nur noch mit festgestelltem Bedarf an sonderpädagogischer Unterstützung. Eltern wählen zwischen inklusivem Unterricht an einer allgemeinen Schule und einer Förderschule, soweit es sie für den Schwerpunkt gibt.",
+      "abschluss": "Je nach Schwerpunkt Abschluss der Förderschule, Hauptschulabschluss oder ein eigenes Abschlusszeugnis",
+      "wo": "Förderschule oder inklusiv an jeder Schulform",
+      "hinweis": "Inklusiver Unterricht ist der Regelfall. Die Förderschule Lernen läuft in der Sekundarstufe I aus; die Förderschule geistige Entwicklung geht bis Klasse 12."
+    },
+    {
+      "id": "hs",
+      "titel": "Hauptschule",
+      "kurz": "Hauptschule",
+      "bereich": "schule",
+      "stufe": {
+        "spalte": 3,
+        "zeile": 4
+      },
+      "alter": {
+        "von": 10,
+        "bis": 15,
+        "zeile": 4
+      },
+      "meta_stufe": "Klasse 5–9 (+10)",
+      "meta_alter": "10–15 J.",
+      "dauer": "5 Jahre, freiwillige 10. Klasse möglich",
+      "zugang": "Nach der Grundschule, nach Wahl der Eltern",
+      "abschluss": "Hauptschulabschluss nach Klasse 9; nach Klasse 10 Sekundarabschluss I – Hauptschulabschluss oder Realschulabschluss",
+      "wo": "Hauptschule",
+      "hinweis": "Stark rückläufig: 2025 gab es noch 71 öffentliche Hauptschulen in Niedersachsen, viele sind in Oberschulen aufgegangen."
+    },
+    {
+      "id": "rs",
+      "titel": "Realschule",
+      "kurz": "Realschule",
+      "bereich": "schule",
+      "stufe": {
+        "spalte": 3,
+        "zeile": 3
+      },
+      "alter": {
+        "von": 10,
+        "bis": 16,
+        "zeile": 3
+      },
+      "meta_stufe": "Klasse 5–10",
+      "meta_alter": "10–16 J.",
+      "dauer": "6 Jahre",
+      "zugang": "Nach der Grundschule, nach Wahl der Eltern",
+      "abschluss": "Sekundarabschluss I – Realschulabschluss, bei guten Leistungen Erweiterter Sekundarabschluss I",
+      "wo": "Realschule",
+      "hinweis": "2025 gab es noch 82 öffentliche Realschulen in Niedersachsen."
+    },
+    {
+      "id": "obs",
+      "titel": "Oberschule",
+      "kurz": "Oberschule",
+      "bereich": "schule",
+      "stufe": {
+        "spalte": 3,
+        "zeile": 2
+      },
+      "alter": {
+        "von": 10,
+        "bis": 16,
+        "zeile": 2
+      },
+      "meta_stufe": "Klasse 5–10",
+      "meta_alter": "10–16 J.",
+      "dauer": "6 Jahre",
+      "zugang": "Nach der Grundschule, nach Wahl der Eltern",
+      "abschluss": "Alle Abschlüsse der Sekundarstufe I",
+      "wo": "Oberschule",
+      "hinweis": "Niedersächsische Schulform, die Haupt- und Realschulbildung verbindet, wahlweise mit gymnasialem Angebot bis Klasse 10. 2025 gab es 290 öffentliche Oberschulen, mehr als von jeder anderen Schulform der Sekundarstufe I."
+    },
+    {
+      "id": "ges",
+      "titel": "Gesamtschule (IGS/KGS)",
+      "kurz": "IGS/KGS",
+      "bereich": "schule",
+      "stufe": {
+        "spalte": 3,
+        "zeile": 1
+      },
+      "alter": {
+        "von": 10,
+        "bis": 16,
+        "zeile": 1
+      },
+      "meta_stufe": "Klasse 5–10 + Oberstufe",
+      "meta_alter": "10–16 J.",
+      "dauer": "6 Jahre Sekundarstufe I, mit Oberstufe bis Klasse 13",
+      "zugang": "Nach der Grundschule, nach Wahl der Eltern",
+      "abschluss": "Alle Abschlüsse bis zum Abitur",
+      "wo": "Integrierte (IGS) oder Kooperative Gesamtschule (KGS)",
+      "hinweis": "In der IGS lernen alle gemeinsam, mit Kursen auf unterschiedlichem Niveau. Die KGS vereint Haupt-, Real- und Gymnasialzweig unter einem Dach."
+    },
+    {
+      "id": "gym",
+      "titel": "Gymnasium",
+      "kurz": "Gymnasium",
+      "bereich": "schule",
+      "stufe": {
+        "spalte": 3,
+        "zeile": 0
+      },
+      "alter": {
+        "von": 10,
+        "bis": 16,
+        "zeile": 0
+      },
+      "meta_stufe": "Klasse 5–10",
+      "meta_alter": "10–16 J.",
+      "dauer": "6 Jahre Sekundarstufe I, dann Oberstufe",
+      "zugang": "Nach der Grundschule, nach Wahl der Eltern",
+      "abschluss": "Mit der Versetzung in Klasse 11 der Erweiterte Sekundarabschluss I",
+      "wo": "Gymnasium",
+      "hinweis": "In Niedersachsen gilt wieder G9: Abitur nach 13 Schuljahren."
+    },
+    {
+      "id": "ohne",
+      "titel": "Ohne Abschluss",
+      "kurz": "o. A.",
+      "bereich": "ab",
+      "meilenstein": true,
+      "stufe": {
+        "spalte": 4,
+        "zeile": 5
+      },
+      "alter": {
+        "bei": 16,
+        "zeile": 5
+      },
+      "hinweis": "Wer die Schule ohne Abschluss verlässt, kann ihn nachholen: in der Berufseinstiegsschule einer BBS oder später über Kurse der Volkshochschule mit Prüfung beim Regionalen Landesamt für Schule und Bildung."
+    },
+    {
+      "id": "hsa",
+      "titel": "Hauptschul­abschluss",
+      "kurz": "HSA",
+      "bereich": "ab",
+      "meilenstein": true,
+      "stufe": {
+        "spalte": 4,
+        "zeile": 4
+      },
+      "alter": {
+        "bei": 15,
+        "zeile": 4
+      },
+      "hinweis": "Nach Klasse 9. Öffnet die duale Ausbildung und Berufsfachschulen."
+    },
+    {
+      "id": "rsa",
+      "titel": "Realschul­abschluss",
+      "kurz": "RSA",
+      "bereich": "ab",
+      "meilenstein": true,
+      "stufe": {
+        "spalte": 4,
+        "zeile": 2.5
+      },
+      "alter": {
+        "bei": 16,
+        "zeile": 3
+      },
+      "hinweis": "Sekundarabschluss I – Realschulabschluss nach Klasse 10. Öffnet Ausbildung, Berufsfachschulen und die Fachoberschule."
+    },
+    {
+      "id": "esa",
+      "titel": "Erweiterter Sek I",
+      "kurz": "Erw. I",
+      "bereich": "ab",
+      "meilenstein": true,
+      "stufe": {
+        "spalte": 4,
+        "zeile": 0.5
+      },
+      "alter": {
+        "bei": 16,
+        "zeile": 0
+      },
+      "hinweis": "Erweiterter Sekundarabschluss I: Realschulabschluss mit guten Leistungen, an der Realschule zum Beispiel mit einem Schnitt von höchstens 3,0, gesamt und in Deutsch, Englisch und Mathematik. Berechtigt zur gymnasialen Oberstufe und zum beruflichen Gymnasium."
+    },
+    {
+      "id": "go",
+      "titel": "Gymnasiale Oberstufe",
+      "kurz": "Oberstufe",
+      "bereich": "schule",
+      "stufe": {
+        "spalte": 5,
+        "zeile": 0
+      },
+      "alter": {
+        "von": 16,
+        "bis": 19,
+        "zeile": 0
+      },
+      "meta_stufe": "Klasse 11–13",
+      "meta_alter": "16–19 J.",
+      "dauer": "3 Jahre: Einführungsphase (Kl. 11) und Qualifikationsphase (Kl. 12–13)",
+      "zugang": "Erweiterter Sekundarabschluss I oder Versetzung am Gymnasium",
+      "abschluss": "Abitur (allgemeine Hochschulreife); nach Klasse 12 schulischer Teil der Fachhochschulreife möglich",
+      "wo": "Gymnasium, Gesamtschule",
+      "hinweis": "Ab der Qualifikationsphase 2028/29 gibt es wieder Leistungs- und Grundkurse statt Schwerpunkten."
+    },
+    {
+      "id": "bg",
+      "titel": "Berufliches Gymnasium",
+      "kurz": "Berufl. Gym.",
+      "bereich": "beruf",
+      "bbs": true,
+      "stufe": {
+        "spalte": 5,
+        "zeile": 1
+      },
+      "alter": {
+        "von": 16,
+        "bis": 19,
+        "zeile": 1
+      },
+      "meta_stufe": "3 Jahre",
+      "meta_alter": "16–19 J.",
+      "dauer": "3 Jahre (Klasse 11–13)",
+      "zugang": "Erweiterter Sekundarabschluss I oder Versetzung in Klasse 11 eines Gymnasiums. Der Realschulabschluss allein reicht nicht. Keine Altersgrenze.",
+      "abschluss": "Abitur (allgemeine Hochschulreife); schulischer Teil der Fachhochschulreife möglich",
+      "wo": "Berufsbildende Schule (BBS)",
+      "hinweis": "Abitur mit beruflichem Schwerpunkt: Wirtschaft, Technik (z. B. Elektro-, Informations-, Gestaltungs- und Medientechnik) oder Gesundheit und Soziales. Teils mit Doppelqualifikation, etwa als Sozialpädagogische Assistenz."
+    },
+    {
+      "id": "fos",
+      "titel": "Fachoberschule",
+      "kurz": "FOS",
+      "bereich": "beruf",
+      "bbs": true,
+      "stufe": {
+        "spalte": 5,
+        "zeile": 2
+      },
+      "alter": {
+        "von": 16,
+        "bis": 18,
+        "zeile": 2
+      },
+      "meta_stufe": "1–2 Jahre",
+      "meta_alter": "16–18 J.",
+      "dauer": "Klasse 11 und 12; mit abgeschlossener Berufsausbildung nur Klasse 12",
+      "zugang": "Klasse 11: Realschulabschluss und Praktikumsvertrag mit einem Betrieb. Klasse 12 direkt: Realschulabschluss und abgeschlossene Berufsausbildung.",
+      "abschluss": "Fachhochschulreife mit staatlicher Prüfung",
+      "wo": "Berufsbildende Schule (BBS)",
+      "hinweis": "In Klasse 11 sind die Schülerinnen und Schüler 3 Tage pro Woche im Betrieb und 2 Tage in der Schule."
+    },
+    {
+      "id": "bfs",
+      "titel": "Berufsfachschule",
+      "kurz": "BFS",
+      "bereich": "beruf",
+      "bbs": true,
+      "stufe": {
+        "spalte": 5,
+        "zeile": 3
+      },
+      "alter": {
+        "von": 16,
+        "bis": 18,
+        "zeile": 3
+      },
+      "meta_stufe": "1–3 Jahre",
+      "meta_alter": "16–18 J.",
+      "dauer": "1 bis 3 Jahre, je nach Form",
+      "zugang": "Einjährige BFS: Hauptschulabschluss. Berufsqualifizierende BFS: meist Realschulabschluss, bei manchen Berufen der Hauptschulabschluss.",
+      "abschluss": "Einjährige BFS und Klasse 2: Sekundarabschluss I bis zum Realschulabschluss. Berufsqualifizierende BFS: Berufsabschluss, z. B. staatlich geprüfte Assistenz",
+      "wo": "Berufsbildende Schule (BBS)",
+      "hinweis": "Pflegeschulen laufen als Berufsfachschulen. Ab 2027 gibt es bundesweit die Ausbildung Pflegefachassistenz (18 Monate, meist mit Hauptschulabschluss). An Pilotschulen erprobt das Land die „BFS dual“ mit Praxisanteil."
+    },
+    {
+      "id": "aus",
+      "titel": "Duale Ausbildung",
+      "kurz": "Ausbildung",
+      "bereich": "beruf",
+      "bbs": true,
+      "stufe": {
+        "spalte": 5,
+        "zeile": 4
+      },
+      "alter": {
+        "von": 16,
+        "bis": 19.5,
+        "zeile": 4
+      },
+      "meta_stufe": "2–3,5 Jahre",
+      "meta_alter": "16–20 J.",
+      "dauer": "2 bis 3,5 Jahre",
+      "zugang": "Ausbildungsvertrag mit einem Betrieb. Ein bestimmter Schulabschluss ist gesetzlich nicht vorgeschrieben, Betriebe erwarten aber meist einen.",
+      "abschluss": "Berufsabschluss vor der Kammer (z. B. IHK, Handwerkskammer)",
+      "wo": "Betrieb und Berufsschule (BBS)",
+      "hinweis": "Mit dem Berufsschulabschluss kommen Schulabschlüsse dazu: nach einer dreijährigen Ausbildung der Realschulabschluss, mit guten Noten der Erweiterte Sekundarabschluss I. Über einen Ergänzungsbildungsgang ist die Fachhochschulreife möglich. Azubis sind die ganze Ausbildung über berufsschulpflichtig."
+    },
+    {
+      "id": "bes",
+      "titel": "Berufs­einstiegs­schule",
+      "kurz": "BES",
+      "bereich": "beruf",
+      "bbs": true,
+      "stufe": {
+        "spalte": 5,
+        "zeile": 5
+      },
+      "alter": {
+        "von": 16,
+        "bis": 17.5,
+        "zeile": 5
+      },
+      "meta_stufe": "1–2 Jahre",
+      "meta_alter": "16–18 J.",
+      "dauer": "Klasse 1 und Klasse 2, je 1 Jahr",
+      "zugang": "Für schulpflichtige Jugendliche ohne Hauptschulabschluss oder mit Förderbedarf",
+      "abschluss": "Klasse 2: Hauptschulabschluss mit Prüfung",
+      "wo": "Berufsbildende Schule (BBS)",
+      "hinweis": "Klasse 2 geht in Vollzeit oder in Teilzeit zusammen mit einer Einstiegsqualifizierung im Betrieb. Dazu gibt es Sprach- und Integrationsklassen. Danach geht es in Ausbildung oder Berufsfachschule."
+    },
+    {
+      "id": "abi",
+      "titel": "Abitur",
+      "kurz": "Abi",
+      "bereich": "ab",
+      "meilenstein": true,
+      "stufe": {
+        "spalte": 6,
+        "zeile": 0.5
+      },
+      "alter": {
+        "bei": 19,
+        "zeile": 0
+      },
+      "hinweis": "Allgemeine Hochschulreife: Zugang zu allen Studiengängen. Auch ein starker Startpunkt für eine Ausbildung."
+    },
+    {
+      "id": "fhr",
+      "titel": "Fachhochschul­reife",
+      "kurz": "FHR",
+      "bereich": "ab",
+      "meilenstein": true,
+      "stufe": {
+        "spalte": 6,
+        "zeile": 1.75
+      },
+      "alter": {
+        "bei": 18,
+        "zeile": 2
+      },
+      "hinweis": "Berechtigt zum Studium an Hochschulen (früher Fachhochschulen) und zu dualen Studiengängen."
+    },
+    {
+      "id": "beruf",
+      "titel": "Berufs­abschluss",
+      "kurz": "Beruf",
+      "bereich": "ab",
+      "meilenstein": true,
+      "stufe": {
+        "spalte": 6,
+        "zeile": 4
+      },
+      "alter": {
+        "bei": 19.5,
+        "zeile": 4
+      },
+      "hinweis": "Gesellen- oder Facharbeiterbrief bzw. staatlicher Berufsabschluss. Basis für Meister, Techniker, Fachwirt, die Fachoberschule Klasse 12, die Berufsoberschule und ein Studium ohne Abitur."
+    },
+    {
+      "id": "zweiter",
+      "titel": "Abendgymnasium / Kolleg",
+      "kurz": "Kolleg",
+      "bereich": "schule",
+      "stufe": {
+        "spalte": 7,
+        "zeile": 2
+      },
+      "alter": {
+        "von": 20,
+        "bis": 23,
+        "zeile": 7
+      },
+      "meta_stufe": "3 Jahre",
+      "meta_alter": "ab 19 J.",
+      "dauer": "3 Jahre: 1 Jahr Einführungsphase, 2 Jahre Qualifikationsphase",
+      "zugang": "Ab 19 Jahren, mit Realschulabschluss und Berufsausbildung oder mindestens 2 Jahren Berufstätigkeit. Mit Hauptschulabschluss zuerst ein einjähriger Vorkurs.",
+      "abschluss": "Abitur (allgemeine Hochschulreife); nach der Einführungsphase der Erweiterte Sekundarabschluss I",
+      "wo": "Abendgymnasium (berufsbegleitend) oder Kolleg (Vollzeit)",
+      "hinweis": "Zweiter Bildungsweg für Erwachsene. In Niedersachsen gibt es 5 Abendgymnasien und 4 Kollegs."
+    },
+    {
+      "id": "bos",
+      "titel": "Berufsoberschule",
+      "kurz": "BOS",
+      "bereich": "beruf",
+      "bbs": true,
+      "stufe": {
+        "spalte": 7,
+        "zeile": 3
+      },
+      "alter": {
+        "von": 20,
+        "bis": 22,
+        "zeile": 3
+      },
+      "meta_stufe": "1–2 Jahre",
+      "meta_alter": "ab ca. 20 J.",
+      "dauer": "1 Jahr Vollzeit (Klasse 13), mit Klasse 12 zwei Jahre",
+      "zugang": "Klasse 13: Fachhochschulreife und abgeschlossene Berufsausbildung. Klasse 12: Realschulabschluss und mindestens zweijährige Ausbildung; sie läuft als Klasse 12 der Fachoberschule.",
+      "abschluss": "Fachgebundene Hochschulreife, mit Nachweis einer zweiten Fremdsprache die allgemeine Hochschulreife",
+      "wo": "Berufsbildende Schule (BBS)",
+      "hinweis": "Fachrichtungen zum Beispiel Wirtschaft und Verwaltung, Technik sowie Gesundheit und Soziales."
+    },
+    {
+      "id": "meister",
+      "titel": "Meister/in",
+      "kurz": "Meister",
+      "bereich": "aufstieg",
+      "stufe": {
+        "spalte": 7,
+        "zeile": 4
+      },
+      "alter": {
+        "von": 20.5,
+        "bis": 22.5,
+        "zeile": 4
+      },
+      "meta_stufe": "1–3 Jahre",
+      "meta_alter": "ab ca. 20 J.",
+      "dauer": "In Vollzeit etwa 9 bis 12 Monate, berufsbegleitend entsprechend länger",
+      "zugang": "Handwerk: Gesellenprüfung, im selben Handwerk ohne weitere Berufspraxis. Industriemeister (IHK): Ausbildung plus meist 1 bis 2 Jahre Praxis.",
+      "abschluss": "Meisterbrief, DQR-Niveau 6 wie ein Bachelor; Titelzusatz „Bachelor Professional“",
+      "wo": "Handwerkskammer, IHK und Bildungsträger",
+      "hinweis": "Gilt in Niedersachsen als allgemeine Hochschulzugangsberechtigung für jeden Studiengang. Förderung über das Aufstiegs-BAföG, ohne Altersgrenze."
+    },
+    {
+      "id": "techn",
+      "titel": "Staatl. gepr. Techniker/in",
+      "kurz": "Techniker",
+      "bereich": "aufstieg",
+      "bbs": true,
+      "stufe": {
+        "spalte": 7,
+        "zeile": 5
+      },
+      "alter": {
+        "von": 21,
+        "bis": 23,
+        "zeile": 5
+      },
+      "meta_stufe": "2 J. Vollzeit · 4 J. Teilzeit",
+      "meta_alter": "ab ca. 21 J.",
+      "dauer": "2 Jahre in Vollzeit oder 4 Jahre in Teilzeit",
+      "zugang": "Realschulabschluss, einschlägige Berufsausbildung und mindestens 1 Jahr Berufstätigkeit (in Teilzeit auch während der Fachschule nachweisbar); alternativ 7 Jahre einschlägige Berufstätigkeit",
+      "abschluss": "Staatlich geprüfte/r Techniker/in (Bachelor Professional in Technik), DQR-Niveau 6; zusätzlich Fachhochschulreife möglich",
+      "wo": "Fachschule Technik an der BBS",
+      "hinweis": "Gilt in Niedersachsen als allgemeine Hochschulzugangsberechtigung. Förderung über das Aufstiegs-BAföG."
+    },
+    {
+      "id": "fachwirt",
+      "titel": "Fachwirt/in",
+      "kurz": "Fachwirt",
+      "bereich": "aufstieg",
+      "stufe": {
+        "spalte": 7,
+        "zeile": 6
+      },
+      "alter": {
+        "von": 22,
+        "bis": 24,
+        "zeile": 6
+      },
+      "meta_stufe": "meist berufsbegleitend",
+      "meta_alter": "ab ca. 22 J.",
+      "dauer": "Meist 1 bis 2 Jahre berufsbegleitend",
+      "zugang": "Berufsausbildung plus Berufspraxis",
+      "abschluss": "Bachelor Professional, DQR-Niveau 6",
+      "wo": "IHK und Bildungsträger",
+      "hinweis": "Fortbildungen ab 400 Unterrichtsstunden gelten in Niedersachsen als allgemeine Hochschulzugangsberechtigung. Förderung über das Aufstiegs-BAföG."
+    },
+    {
+      "id": "uni",
+      "titel": "Bachelor an der Universität",
+      "kurz": "Uni",
+      "bereich": "hoch",
+      "stufe": {
+        "spalte": 8,
+        "zeile": 0
+      },
+      "alter": {
+        "von": 19,
+        "bis": 23,
+        "zeile": 0
+      },
+      "meta_stufe": "6–8 Semester",
+      "meta_alter": "19–23 J.",
+      "dauer": "6 bis 8 Semester",
+      "zugang": "Abitur; Meister, Techniker oder Fachwirt; nach Ausbildung und 3 Jahren Berufstätigkeit im passenden Fach (§ 18 NHG)",
+      "abschluss": "Bachelor",
+      "wo": "Universität",
+      "hinweis": "Regelstudienzeit 6, 7 oder 8 Semester."
+    },
+    {
+      "id": "hsb",
+      "titel": "Bachelor an der Hochschule",
+      "kurz": "Hochschule",
+      "bereich": "hoch",
+      "stufe": {
+        "spalte": 8,
+        "zeile": 1
+      },
+      "alter": {
+        "von": 19,
+        "bis": 22.5,
+        "zeile": 1
+      },
+      "meta_stufe": "6–8 Semester",
+      "meta_alter": "19–23 J.",
+      "dauer": "6 bis 8 Semester",
+      "zugang": "Fachhochschulreife oder Abitur; beruflich Qualifizierte",
+      "abschluss": "Bachelor",
+      "wo": "Hochschule, im Gesetz noch „Fachhochschule“",
+      "hinweis": "Praxisnah, meist mit Praxissemester. Eine geplante Novelle des Hochschulgesetzes soll sie „Hochschulen für angewandte Wissenschaften“ nennen; sie ist noch nicht beschlossen."
+    },
+    {
+      "id": "dual",
+      "titel": "Duales Studium",
+      "kurz": "Dual",
+      "bereich": "hoch",
+      "stufe": {
+        "spalte": 8,
+        "zeile": 2
+      },
+      "alter": {
+        "von": 19,
+        "bis": 22.5,
+        "zeile": 2
+      },
+      "meta_stufe": "3–4,5 Jahre",
+      "meta_alter": "19–23 J.",
+      "dauer": "Meist 3 bis 4,5 Jahre",
+      "zugang": "Hochschulzugang plus Vertrag mit einem Unternehmen",
+      "abschluss": "Bachelor; ausbildungsintegriert zusätzlich ein Berufsabschluss",
+      "wo": "Hochschule bzw. Berufsakademie und Betrieb",
+      "hinweis": ""
+    },
+    {
+      "id": "master",
+      "titel": "Master",
+      "kurz": "Master",
+      "bereich": "hoch",
+      "stufe": {
+        "spalte": 9,
+        "zeile": 0.5
+      },
+      "alter": {
+        "von": 23,
+        "bis": 25,
+        "zeile": 0
+      },
+      "meta_stufe": "2–4 Semester",
+      "meta_alter": "23–25 J.",
+      "dauer": "2 bis 4 Semester",
+      "zugang": "Bachelor; Wechsel zwischen Universität und Hochschule möglich",
+      "abschluss": "Master",
+      "wo": "Universität oder Hochschule",
+      "hinweis": ""
+    },
+    {
+      "id": "betriebswirt",
+      "titel": "Betriebswirt/in",
+      "kurz": "Betriebswirt",
+      "bereich": "aufstieg",
+      "stufe": {
+        "spalte": 9,
+        "zeile": 5.5
+      },
+      "alter": {
+        "von": 24,
+        "bis": 26,
+        "zeile": 6
+      },
+      "meta_stufe": "Master Professional",
+      "meta_alter": "ab ca. 24 J.",
+      "dauer": "Meist berufsbegleitend",
+      "zugang": "Zum Beispiel Meister oder Fachwirt",
+      "abschluss": "Master Professional, DQR-Niveau 7",
+      "wo": "IHK, Handwerkskammer und Bildungsträger",
+      "hinweis": ""
+    },
+    {
+      "id": "promo",
+      "titel": "Promotion",
+      "kurz": "Promotion",
+      "bereich": "hoch",
+      "stufe": {
+        "spalte": 10,
+        "zeile": 0
+      },
+      "alter": {
+        "von": 25,
+        "bis": 30,
+        "zeile": 0
+      },
+      "meta_stufe": "im Schnitt 5 Jahre",
+      "meta_alter": "ab ca. 25 J.",
+      "dauer": "Im Schnitt gut 5 Jahre",
+      "zugang": "Master",
+      "abschluss": "Doktorgrad",
+      "wo": "Universität",
+      "hinweis": "Die geplante Novelle des Hochschulgesetzes sieht ein Promotionsrecht auch für Hochschulen für angewandte Wissenschaften vor; noch nicht beschlossen."
+    },
+    {
+      "id": "wb",
+      "titel": "Weiterbildung & Bildungsurlaub",
+      "kurz": "Weiterbildung",
+      "bereich": "leben",
+      "offen": true,
+      "stufe": {
+        "spalte": 10,
+        "zeile": 3
+      },
+      "alter": {
+        "von": 25,
+        "bis": 67,
+        "zeile": 3
+      },
+      "meta_stufe": "jederzeit",
+      "meta_alter": "im Berufsleben",
+      "dauer": "Jederzeit, Kurse von Tagen bis Jahren",
+      "zugang": "Offen für alle",
+      "abschluss": "Zertifikate, Kammerprüfungen, Hochschulzertifikate",
+      "wo": "Volkshochschulen, Kammern, Hochschulen, Bildungsträger",
+      "hinweis": "Beschäftigte haben Anspruch auf 5 Arbeitstage Bildungsurlaub pro Jahr. Ab 1. Januar 2027 gilt das neue Bildungszeitgesetz: weiter 5 Tage, auch tageweise, auch für Azubis und Beamte; Antrag 8 Wochen vorher."
+    },
+    {
+      "id": "umsch",
+      "titel": "Umschulung & Teilqualifizierung",
+      "kurz": "Umschulung",
+      "bereich": "leben",
+      "offen": true,
+      "stufe": {
+        "spalte": 10,
+        "zeile": 4.5
+      },
+      "alter": {
+        "von": 25,
+        "bis": 60,
+        "zeile": 4
+      },
+      "meta_stufe": "jederzeit",
+      "meta_alter": "jederzeit",
+      "dauer": "Umschulung meist 2 Jahre, Teilqualifizierungen in Modulen",
+      "zugang": "Beratung über Agentur für Arbeit oder Jobcenter",
+      "abschluss": "Berufsabschluss oder Teilqualifikationen",
+      "wo": "Bildungsträger, gefördert mit dem Bildungsgutschein der Agentur für Arbeit",
+      "hinweis": "Bei abschlussorientierter Weiterbildung gibt es 150 € Weiterbildungsgeld im Monat und Prämien für bestandene Zwischen- und Abschlussprüfung. Betriebe im Strukturwandel können Qualifizierungsgeld nutzen."
+    },
+    {
+      "id": "senior",
+      "titel": "Lernen im Ruhestand",
+      "kurz": "Ruhestand",
+      "bereich": "leben",
+      "offen": true,
+      "stufe": {
+        "spalte": 10,
+        "zeile": 6
+      },
+      "alter": {
+        "von": 63,
+        "bis": 85,
+        "zeile": 6
+      },
+      "meta_stufe": "ohne Altersgrenze",
+      "meta_alter": "ab ca. 63 J.",
+      "dauer": "Ohne Altersgrenze",
+      "zugang": "Offen für alle",
+      "abschluss": "Meist ohne Abschluss",
+      "wo": "Gasthörerstudium an Hochschulen (z. B. Uni Oldenburg, ohne Abitur), Volkshochschulen, Ehrenamt",
+      "hinweis": "Geistig und sozial aktiv zu bleiben gilt als Schutzfaktor fürs Gedächtnis."
+    }
+  ],
+  "uebergaenge": [
+    {
+      "von": "krippe",
+      "nach": "kita"
+    },
+    {
+      "von": "kita",
+      "nach": "gs"
+    },
+    {
+      "von": "kita",
+      "nach": "foe",
+      "bedingung": true,
+      "hinweis": "bei sonderpädagogischem Unterstützungsbedarf"
+    },
+    {
+      "von": "gs",
+      "nach": "gym"
+    },
+    {
+      "von": "gs",
+      "nach": "ges"
+    },
+    {
+      "von": "gs",
+      "nach": "obs"
+    },
+    {
+      "von": "gs",
+      "nach": "rs"
+    },
+    {
+      "von": "gs",
+      "nach": "hs"
+    },
+    {
+      "von": "gym",
+      "nach": "esa"
+    },
+    {
+      "von": "ges",
+      "nach": "esa"
+    },
+    {
+      "von": "ges",
+      "nach": "rsa"
+    },
+    {
+      "von": "ges",
+      "nach": "hsa"
+    },
+    {
+      "von": "obs",
+      "nach": "esa"
+    },
+    {
+      "von": "obs",
+      "nach": "rsa"
+    },
+    {
+      "von": "obs",
+      "nach": "hsa"
+    },
+    {
+      "von": "obs",
+      "nach": "ohne",
+      "bedingung": true
+    },
+    {
+      "von": "rs",
+      "nach": "esa"
+    },
+    {
+      "von": "rs",
+      "nach": "rsa"
+    },
+    {
+      "von": "hs",
+      "nach": "hsa"
+    },
+    {
+      "von": "hs",
+      "nach": "rsa",
+      "bedingung": true,
+      "hinweis": "mit Klasse 10 und passenden Leistungen"
+    },
+    {
+      "von": "hs",
+      "nach": "ohne",
+      "bedingung": true
+    },
+    {
+      "von": "foe",
+      "nach": "hsa",
+      "bedingung": true,
+      "hinweis": "je nach Förderschwerpunkt"
+    },
+    {
+      "von": "foe",
+      "nach": "ohne",
+      "bedingung": true
+    },
+    {
+      "von": "ohne",
+      "nach": "bes"
+    },
+    {
+      "von": "hsa",
+      "nach": "aus"
+    },
+    {
+      "von": "hsa",
+      "nach": "bfs"
+    },
+    {
+      "von": "rsa",
+      "nach": "aus"
+    },
+    {
+      "von": "rsa",
+      "nach": "bfs"
+    },
+    {
+      "von": "rsa",
+      "nach": "fos"
+    },
+    {
+      "von": "esa",
+      "nach": "go"
+    },
+    {
+      "von": "esa",
+      "nach": "bg"
+    },
+    {
+      "von": "bes",
+      "nach": "aus"
+    },
+    {
+      "von": "bes",
+      "nach": "bfs"
+    },
+    {
+      "von": "go",
+      "nach": "abi"
+    },
+    {
+      "von": "go",
+      "nach": "fhr",
+      "bedingung": true,
+      "hinweis": "schulischer Teil nach Klasse 12, plus Ausbildung, einjähriges Praktikum oder Freiwilligendienst"
+    },
+    {
+      "von": "bg",
+      "nach": "abi"
+    },
+    {
+      "von": "fos",
+      "nach": "fhr"
+    },
+    {
+      "von": "bfs",
+      "nach": "aus"
+    },
+    {
+      "von": "bfs",
+      "nach": "beruf",
+      "bedingung": true,
+      "hinweis": "nur mehrjährige Formen mit Berufsabschluss"
+    },
+    {
+      "von": "aus",
+      "nach": "beruf"
+    },
+    {
+      "von": "aus",
+      "nach": "fhr",
+      "bedingung": true,
+      "hinweis": "mit Ergänzungsbildungsgang an der Berufsschule"
+    },
+    {
+      "von": "abi",
+      "nach": "uni"
+    },
+    {
+      "von": "abi",
+      "nach": "hsb"
+    },
+    {
+      "von": "abi",
+      "nach": "dual"
+    },
+    {
+      "von": "abi",
+      "nach": "aus",
+      "hinweis": "auch nach dem Abitur ein starker Weg"
+    },
+    {
+      "von": "fhr",
+      "nach": "hsb"
+    },
+    {
+      "von": "fhr",
+      "nach": "dual"
+    },
+    {
+      "von": "beruf",
+      "nach": "fos",
+      "bedingung": true,
+      "hinweis": "mit Realschulabschluss direkt in Klasse 12"
+    },
+    {
+      "von": "beruf",
+      "nach": "bos",
+      "bedingung": true,
+      "hinweis": "Klasse 13 mit Fachhochschulreife"
+    },
+    {
+      "von": "beruf",
+      "nach": "zweiter"
+    },
+    {
+      "von": "beruf",
+      "nach": "meister"
+    },
+    {
+      "von": "beruf",
+      "nach": "techn",
+      "bedingung": true,
+      "hinweis": "plus mindestens 1 Jahr Berufstätigkeit"
+    },
+    {
+      "von": "beruf",
+      "nach": "fachwirt",
+      "bedingung": true,
+      "hinweis": "plus Berufspraxis"
+    },
+    {
+      "von": "beruf",
+      "nach": "hsb",
+      "bedingung": true,
+      "hinweis": "Studium ohne Abitur: nach 3-jähriger Ausbildung und 3 Jahren Beruf, im passenden Fach"
+    },
+    {
+      "von": "beruf",
+      "nach": "uni",
+      "bedingung": true,
+      "hinweis": "Studium ohne Abitur: nach 3-jähriger Ausbildung und 3 Jahren Beruf, im passenden Fach"
+    },
+    {
+      "von": "zweiter",
+      "nach": "uni"
+    },
+    {
+      "von": "zweiter",
+      "nach": "hsb"
+    },
+    {
+      "von": "bos",
+      "nach": "uni"
+    },
+    {
+      "von": "bos",
+      "nach": "hsb"
+    },
+    {
+      "von": "meister",
+      "nach": "uni",
+      "bedingung": true,
+      "hinweis": "gilt als allgemeine Hochschulzugangsberechtigung"
+    },
+    {
+      "von": "meister",
+      "nach": "hsb",
+      "bedingung": true,
+      "hinweis": "gilt als allgemeine Hochschulzugangsberechtigung"
+    },
+    {
+      "von": "techn",
+      "nach": "hsb",
+      "bedingung": true,
+      "hinweis": "gilt als allgemeine Hochschulzugangsberechtigung"
+    },
+    {
+      "von": "techn",
+      "nach": "uni",
+      "bedingung": true,
+      "hinweis": "gilt als allgemeine Hochschulzugangsberechtigung"
+    },
+    {
+      "von": "fachwirt",
+      "nach": "hsb",
+      "bedingung": true,
+      "hinweis": "gilt als allgemeine Hochschulzugangsberechtigung"
+    },
+    {
+      "von": "meister",
+      "nach": "betriebswirt"
+    },
+    {
+      "von": "fachwirt",
+      "nach": "betriebswirt"
+    },
+    {
+      "von": "uni",
+      "nach": "master"
+    },
+    {
+      "von": "hsb",
+      "nach": "master"
+    },
+    {
+      "von": "dual",
+      "nach": "master"
+    },
+    {
+      "von": "master",
+      "nach": "promo"
+    }
+  ],
+  "altersphasen": [
+    {
+      "von": 0,
+      "bis": 0,
+      "fokus": "krippe",
+      "titel": "Das erste Lebensjahr",
+      "text": "Bildung beginnt mit Bindung: sprechen, vorlesen, spielen. Für einen Betreuungsplatz beginnt jetzt die Suche.",
+      "todo": [
+        "Krippen- oder Tagespflegeplatz früh bei der Kommune anmelden",
+        "Der Rechtsanspruch auf einen Platz gilt ab dem 1. Geburtstag"
+      ]
+    },
+    {
+      "von": 1,
+      "bis": 2,
+      "fokus": "krippe",
+      "titel": "Krippenalter",
+      "text": "Viele Kinder gehen jetzt in Krippe oder Tagespflege. Die Eingewöhnung braucht einige Wochen.",
+      "todo": [
+        "Eingewöhnung mit genug Zeit planen",
+        "Kindergartenplatz ab 3 rechtzeitig anmelden"
+      ]
+    },
+    {
+      "von": 3,
+      "bis": 4,
+      "fokus": "kita",
+      "titel": "Kindergarten",
+      "text": "Ab dem 3. Geburtstag ist der Kindergarten in Niedersachsen beitragsfrei. Spielen, Sprache und Miteinander stehen im Mittelpunkt.",
+      "todo": [
+        "Freies Spiel, Bewegung und Vorlesen sind Lernen",
+        "Spätestens zu Beginn des letzten Kita-Jahres: Sprachstand und Entwicklungsgespräch"
+      ]
+    },
+    {
+      "von": 5,
+      "bis": 5,
+      "fokus": "kita",
+      "titel": "Das Jahr vor der Schule",
+      "text": "Schulanmeldung und Schuleingangsuntersuchung stehen an. Kinder mit Geburtstag im Sommer können oft ein Jahr später starten.",
+      "todo": [
+        "An der zuständigen Grundschule anmelden, Termine der Schule beachten",
+        "Schuleingangsuntersuchung beim Gesundheitsamt, sie ist Pflicht",
+        "Geburtstag zwischen 1. Juli und 30. September: Schulstart um ein Jahr verschieben per schriftlicher Erklärung bis 1. Mai"
+      ]
+    },
+    {
+      "von": 6,
+      "bis": 9,
+      "fokus": "gs",
+      "titel": "Grundschule",
+      "text": "Vier Jahre Grundschule. Seit 1. August 2026 gibt es für Erstklässler einen Rechtsanspruch auf Ganztagsbetreuung, der jedes Jahr eine Klasse weiter wächst.",
+      "todo": [
+        "Ganztags- oder Hortplatz klären",
+        "In Klasse 4: mindestens zwei Beratungsgespräche zur weiterführenden Schule"
+      ]
+    },
+    {
+      "von": 10,
+      "bis": 10,
+      "fokus": "obs",
+      "titel": "Wechsel in die Sekundarstufe I",
+      "text": "Nach Klasse 4 wählen die Eltern die Schulform. Die Grundschule berät, eine Empfehlung gibt es nur auf Wunsch und sie ist nicht verbindlich.",
+      "todo": [
+        "Tage der offenen Tür besuchen",
+        "Ein Wechsel zwischen Schulformen bleibt später möglich"
+      ]
+    },
+    {
+      "von": 11,
+      "bis": 14,
+      "fokus": "obs",
+      "titel": "Sekundarstufe I",
+      "text": "Seit August 2026 verpflichtet das Schulgesetz alle Schulen zu individueller Beruflicher Orientierung. Praktika gehören dazu.",
+      "todo": [
+        "Praktika nutzen, um Berufe auszuprobieren",
+        "Über Abschlüsse und Anschlüsse früh informieren"
+      ]
+    },
+    {
+      "von": 15,
+      "bis": 16,
+      "fokus": "rsa",
+      "titel": "Erster Abschluss, große Entscheidung",
+      "text": "Mit dem Abschluss der Sekundarstufe I öffnen sich viele Wege: Oberstufe, berufliches Gymnasium, Fachoberschule, Berufsfachschule oder Ausbildung.",
+      "todo": [
+        "Bewerbungen für Ausbildungsplätze laufen oft ein Jahr vorher",
+        "Anmeldefristen der berufsbildenden Schulen früh prüfen",
+        "Für Oberstufe und berufliches Gymnasium braucht es den Erweiterten Sekundarabschluss I"
+      ]
+    },
+    {
+      "von": 17,
+      "bis": 19,
+      "fokus": "aus",
+      "titel": "Sekundarstufe II und Ausbildung",
+      "text": "Abitur, Fachhochschulreife oder Berufsabschluss rücken näher. Auch nach dem Abitur ist eine Ausbildung ein starker Weg.",
+      "todo": [
+        "Studium, duales Studium und Ausbildung vergleichen",
+        "Fristen für Studienbewerbungen beachten"
+      ]
+    },
+    {
+      "von": 20,
+      "bis": 25,
+      "fokus": "beruf",
+      "titel": "Studium oder Aufstieg",
+      "text": "Bachelor, Meister, Techniker oder Fachwirt. Wer eine Ausbildung hat, kann auch ohne Abitur studieren.",
+      "todo": [
+        "Aufstiegs-BAföG für Meister, Techniker und Fachwirt prüfen",
+        "BAföG fürs Studium beantragen"
+      ]
+    },
+    {
+      "von": 26,
+      "bis": 44,
+      "fokus": "wb",
+      "titel": "Weiterbildung im Beruf",
+      "text": "Master, Promotion, Aufstiegsfortbildung oder Bildungsurlaub. Beschäftigten in Niedersachsen stehen 5 Tage pro Jahr zu, ab 2027 nach dem neuen Bildungszeitgesetz auch tageweise.",
+      "todo": [
+        "Bildungszeit 8 Wochen vorher beim Arbeitgeber beantragen (ab 2027)",
+        "Aufstiegs-BAföG hat keine Altersgrenze"
+      ]
+    },
+    {
+      "von": 45,
+      "bis": 62,
+      "fokus": "umsch",
+      "titel": "Neu orientieren",
+      "text": "Umschulung, Teilqualifizierung oder ein spätes Studium: Lernen hört nicht auf. Agentur für Arbeit und Jobcenter beraten und fördern.",
+      "todo": [
+        "Bildungsgutschein und Weiterbildungsgeld bei der Agentur für Arbeit erfragen",
+        "Studium ohne Abitur mit Berufserfahrung prüfen",
+        "Schulabschlüsse lassen sich über die Volkshochschule nachholen"
+      ]
+    },
+    {
+      "von": 63,
+      "bis": 80,
+      "fokus": "senior",
+      "titel": "Lernen im Ruhestand",
+      "text": "Gasthörerstudium, Volkshochschule, Ehrenamt. Geistig und sozial aktiv zu bleiben gilt als Schutzfaktor fürs Gedächtnis.",
+      "todo": [
+        "Gasthörer- oder Seniorenstudium der nächsten Hochschule ansehen",
+        "Kurse und Ehrenamt verbinden Lernen mit Kontakten"
+      ]
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Niedersächsisches Schulgesetz (NSchG)",
+      "url": "https://schure.de/2241001/nschg.htm"
+    },
+    {
+      "titel": "Kultusministerium: Informationsblatt zum Einschulungstermin",
+      "url": "https://www.mk.niedersachsen.de/download/128260/Informationsblatt_zum_Einschulungstermin.pdf"
+    },
+    {
+      "titel": "Kultusministerium: Erlass „Die Arbeit in der Grundschule“",
+      "url": "https://mk.niedersachsen.de/download/208883/Grundsatzerlass_Die_Arbeit_in_der_Grundschule.pdf"
+    },
+    {
+      "titel": "Kultusministerium: Entwicklung der Schulen 2025",
+      "url": "https://www.mk.niedersachsen.de/download/229722/2_Entwicklung_der_Schulen_2025.pdf.pdf"
+    },
+    {
+      "titel": "Verordnung über die Abschlüsse in der Sekundarstufe I (AVO-Sek I)",
+      "url": "https://schure.de/2241001/4100000.htm"
+    },
+    {
+      "titel": "Verordnung über berufsbildende Schulen (BbS-VO), Lesefassung 2025",
+      "url": "https://www.mk.niedersachsen.de/download/220431/BBS-VO_2025_Lesefassung.pdf"
+    },
+    {
+      "titel": "NiBiS: Information zur Berufseinstiegsschule",
+      "url": "https://wordpress.nibis.de/bes/files/2025/08/Information_BES.pdf"
+    },
+    {
+      "titel": "Niedersächsisches Gesetz über Kindertagesstätten (NKiTaG)",
+      "url": "https://schure.de/21130/nkitag.htm"
+    },
+    {
+      "titel": "BMBFSFJ: Rechtsanspruch auf Ganztagsbetreuung",
+      "url": "https://www.bmbfsfj.bund.de/bmbfsfj/themen/bildung/schule/ganztagsangebote-275354"
+    },
+    {
+      "titel": "§ 18 Niedersächsisches Hochschulgesetz (Hochschulzugang)",
+      "url": "https://www.anwalt24.de/gesetze/nhg-1/18"
+    },
+    {
+      "titel": "KMK: Zweiter Bildungsweg",
+      "url": "https://www.kmk.org/bildungsministerkonferenz/vertiefende-bildungsinhalte/allgemeinbildende-schulen/zweiter-bildungsweg-und-abschluesse.html"
+    },
+    {
+      "titel": "Aufstiegs-BAföG",
+      "url": "https://www.aufstiegs-bafoeg.de/"
+    },
+    {
+      "titel": "Niedersächsisches Bildungszeitgesetz (ab 2027)",
+      "url": "https://www.umwelt-online.de/recht/arbeitss/arbeitsrecht/laender/nds/bzg.htm"
+    },
+    {
+      "titel": "Agentur für Arbeit: Bildungsgutschein",
+      "url": "https://www.arbeitsagentur.de/karriere-und-weiterbildung/bildungsgutschein"
+    },
+    {
+      "titel": "Landtag: Beschlussempfehlung zur Schulgesetz-Novelle 2026 (Drs. 19/10940)",
+      "url": "https://www.landtag-niedersachsen.de/Drucksachen/Drucksachen_19_12500/10501-11000/19-10940.pdf"
+    }
+  ],
+  "protokoll": [
+    {
+      "datum": "17.10.2026",
+      "text": "Bedienung: Nach dem Antippen einer Station bleiben nur die von dort möglichen Wege farbig."
+    },
+    {
+      "datum": "17.10.2026",
+      "text": "Faktencheck durch einen KI-Rechercheagenten gegen offizielle Quellen. Korrigiert: Berufseinstiegsschule (Klasse 1 und 2), Zugang zum beruflichen Gymnasium, Berufsoberschule, Fachschule Technik, Studium ohne Abitur. Neu: Schulgesetz-Novelle 2026, Ganztag seit August 2026, Bildungszeitgesetz ab 2027, Pflegefachassistenz ab 2027."
+    },
+    {
+      "datum": "17.10.2026",
+      "text": "Erste Fassung: KI-recherchiert und von KI gebaut, ohne redaktionelle Prüfung."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "$comment": "Die zwölf Lebensphasen der Altersachse. Jede Seite der Website ordnet sich einer oder mehreren Phasen zu. stationen: IDs aus daten/navigator.json.",
+  "phasen": [
+    {
+      "id": "P0",
+      "slug": "0-1-saeugling",
+      "name": "Säugling",
+      "von": 0,
+      "bis": 1,
+      "altersgruppe": "0-3",
+      "stationen": [],
+      "mittelpunkt": "Bindung, Sprache, Schlaf, Betreuungsplatz suchen"
+    },
+    {
+      "id": "P1",
+      "slug": "1-3-kleinkind",
+      "name": "Kleinkind",
+      "von": 1,
+      "bis": 3,
+      "altersgruppe": "0-3",
+      "stationen": ["krippe"],
+      "mittelpunkt": "Sprache, Bewegung, erste Bildschirme"
+    },
+    {
+      "id": "P2",
+      "slug": "3-6-kindergarten",
+      "name": "Kindergarten",
+      "von": 3,
+      "bis": 6,
+      "altersgruppe": "3-6",
+      "stationen": ["kita"],
+      "mittelpunkt": "Spiel, Sprache, Schulstart"
+    },
+    {
+      "id": "P3",
+      "slug": "6-10-grundschule",
+      "name": "Grundschule",
+      "von": 6,
+      "bis": 10,
+      "altersgruppe": "6-10",
+      "stationen": ["gs", "foe"],
+      "mittelpunkt": "Lesen, Rechnen, Gewohnheiten, Schulwahl"
+    },
+    {
+      "id": "P4",
+      "slug": "10-13-uebergang",
+      "name": "Übergang",
+      "von": 10,
+      "bis": 13,
+      "altersgruppe": "10-13",
+      "stationen": ["gym", "ges", "obs", "rs", "hs", "foe"],
+      "mittelpunkt": "Erstes Smartphone, beginnende Pubertät"
+    },
+    {
+      "id": "P5",
+      "slug": "13-16-fruehe-jugend",
+      "name": "Frühe Jugend",
+      "von": 13,
+      "bis": 16,
+      "altersgruppe": "13-16",
+      "stationen": ["gym", "ges", "obs", "rs", "hs", "foe", "hsa", "rsa", "esa", "ohne"],
+      "mittelpunkt": "Pubertät, Social Media, erste Risiken"
+    },
+    {
+      "id": "P6",
+      "slug": "16-19-spaete-jugend",
+      "name": "Späte Jugend",
+      "von": 16,
+      "bis": 19,
+      "altersgruppe": "16-19",
+      "stationen": ["go", "bg", "fos", "bfs", "aus", "bes", "abi", "fhr", "beruf"],
+      "mittelpunkt": "Abschluss, Autonomie, Substanzen"
+    },
+    {
+      "id": "P7",
+      "slug": "19-27-junge-erwachsene",
+      "name": "Junge Erwachsene",
+      "von": 19,
+      "bis": 27,
+      "altersgruppe": "19-27",
+      "stationen": ["uni", "hsb", "dual", "master", "meister", "techn", "fachwirt", "zweiter", "bos", "betriebswirt", "promo"],
+      "mittelpunkt": "Selbstständigkeit, Geld, Berufsweg"
+    },
+    {
+      "id": "P8",
+      "slug": "27-45-erwerbsleben",
+      "name": "Erwerbsleben",
+      "von": 27,
+      "bis": 45,
+      "altersgruppe": "27-65",
+      "stationen": ["wb", "umsch", "promo"],
+      "mittelpunkt": "Beruf und Familie, Elternrolle"
+    },
+    {
+      "id": "P9",
+      "slug": "45-65-mittleres-alter",
+      "name": "Mittleres Alter",
+      "von": 45,
+      "bis": 65,
+      "altersgruppe": "27-65",
+      "stationen": ["umsch", "wb"],
+      "mittelpunkt": "Gesundheit, Neuorientierung"
+    },
+    {
+      "id": "P10",
+      "slug": "65-80-junge-alte",
+      "name": "Junge Alte",
+      "von": 65,
+      "bis": 80,
+      "altersgruppe": "65-plus",
+      "stationen": ["senior"],
+      "mittelpunkt": "Gedächtnis, Teilhabe, Ehrenamt"
+    },
+    {
+      "id": "P11",
+      "slug": "80-plus-hochaltrige",
+      "name": "Hochaltrige",
+      "von": 80,
+      "bis": null,
+      "altersgruppe": "65-plus",
+      "stationen": ["senior"],
+      "mittelpunkt": "Selbstständigkeit, Kognition, Kontakte"
+    }
+  ],
+  "altersgruppen": [
+    { "slug": "0-3", "name": "0–3 Jahre", "von": 0, "bis": 3, "phasen": ["P0", "P1"] },
+    { "slug": "3-6", "name": "3–6 Jahre", "von": 3, "bis": 6, "phasen": ["P2"] },
+    { "slug": "6-10", "name": "6–10 Jahre", "von": 6, "bis": 10, "phasen": ["P3"] },
+    { "slug": "10-13", "name": "10–13 Jahre", "von": 10, "bis": 13, "phasen": ["P4"] },
+    { "slug": "13-16", "name": "13–16 Jahre", "von": 13, "bis": 16, "phasen": ["P5"] },
+    { "slug": "16-19", "name": "16–19 Jahre", "von": 16, "bis": 19, "phasen": ["P6"] },
+    { "slug": "19-27", "name": "19–27 Jahre", "von": 19, "bis": 27, "phasen": ["P7"] },
+    { "slug": "27-65", "name": "27–65 Jahre", "von": 27, "bis": 65, "phasen": ["P8", "P9"] },
+    { "slug": "65-plus", "name": "65 Jahre und älter", "von": 65, "bis": null, "phasen": ["P10", "P11"] }
+  ],
+  "zielgruppen": [
+    { "id": "eltern", "name": "Eltern", "ansprache": "Sie, alltagsnah, ohne Schuldgefühle", "fokus": "Was ist jetzt dran, was kann ich tun, wann Hilfe holen" },
+    { "id": "lehrkraefte", "name": "Lehrkräfte und Erzieher", "ansprache": "Sie, fachlich", "fokus": "Unterricht, Klasse, Elterngespräch, Schulrecht Niedersachsen" },
+    { "id": "jugendliche", "name": "Jugendliche", "ansprache": "Du, kurz, ehrlich, ohne Belehrung", "fokus": "Eigene Entscheidungen, Fakten statt Panik" },
+    { "id": "erwachsene", "name": "Erwachsene und Ältere", "ansprache": "Sie, praktisch", "fokus": "Weiterbildung, Gedächtnis, Angebote vor Ort" }
+  ]
+}

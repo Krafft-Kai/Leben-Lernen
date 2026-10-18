@@ -1,0 +1,827 @@
+<title>Bildungswege Niedersachsen</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: Kopf mit KI-Hinweis, Steuerleiste (Ansicht, Alter), breite scrollbare Karte der Bildungswege,
+   darunter Infokarten (Alter, Station) und der KI-Wegfinder. Farben: je Bildungsbereich ein Ton, UI-Akzent Petrol. */
+:root{
+  --bg:#F1F5F4; --surface:#FFFFFF; --sunk:#E8EFED; --ink:#14201F; --muted:#56706C; --line:#D2DDDA;
+  --accent:#0E6F6B; --on-accent:#FFFFFF; --now:#D9480F; --on-now:#FFFFFF;
+  --edge:#93A9A5; --edge-hot:#14201F; --grid:#E2E9E7; --route:#0E6F6B;
+  --frueh:#B7791F; --frueh-bg:#FBF0DA;
+  --schule:#13867F; --schule-bg:#DDF1EE;
+  --beruf:#2D68A8; --beruf-bg:#E1EBF7;
+  --aufstieg:#B1532A; --aufstieg-bg:#F7E5DB;
+  --hoch:#6447A8; --hoch-bg:#ECE6F8;
+  --leben:#4C8536; --leben-bg:#E3EFDA;
+  --on-sec:#FFFFFF;
+  --f-display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --f-body:"Atkinson Hyperlegible","Segoe UI",system-ui,-apple-system,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --ease:cubic-bezier(.65,.05,.25,1);
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0D1514; --surface:#152020; --sunk:#101A19; --ink:#E3EDEB; --muted:#93AAA6; --line:#283836;
+  --accent:#4FC2B9; --on-accent:#06201E; --now:#FF8B5E; --on-now:#1A0B04;
+  --edge:#4C6460; --edge-hot:#E3EDEB; --grid:#1B2827; --route:#4FC2B9;
+  --frueh:#E6B451; --frueh-bg:#2A2214; --schule:#43C2B8; --schule-bg:#102F2C; --beruf:#76AEEB; --beruf-bg:#132438;
+  --aufstieg:#EC9466; --aufstieg-bg:#33201A; --hoch:#AD92F2; --hoch-bg:#231B39; --leben:#8CC874; --leben-bg:#192B15;
+  --on-sec:#0B1413; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0D1514; --surface:#152020; --sunk:#101A19; --ink:#E3EDEB; --muted:#93AAA6; --line:#283836;
+  --accent:#4FC2B9; --on-accent:#06201E; --now:#FF8B5E; --on-now:#1A0B04;
+  --edge:#4C6460; --edge-hot:#E3EDEB; --grid:#1B2827; --route:#4FC2B9;
+  --frueh:#E6B451; --frueh-bg:#2A2214; --schule:#43C2B8; --schule-bg:#102F2C; --beruf:#76AEEB; --beruf-bg:#132438;
+  --aufstieg:#EC9466; --aufstieg-bg:#33201A; --hoch:#AD92F2; --hoch-bg:#231B39; --leben:#8CC874; --leben-bg:#192B15;
+  --on-sec:#0B1413; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--f-body);-webkit-font-smoothing:antialiased}
+.page{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px;display:grid;gap:22px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:-.01em}
+.eyebrow{font:600 11.5px/1.3 var(--f-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+/* Kopf */
+.mast{display:grid;gap:10px}
+.mast h1{font-size:clamp(34px,6vw,60px);font-weight:800;line-height:1;letter-spacing:-.025em}
+.mast h1 span{color:var(--accent)}
+.lede{max-width:62ch;margin:0;color:var(--muted);font-size:17px}
+.ki-note{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:12px 14px;max-width:820px;font-size:14.5px}
+.ki-note b{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;background:var(--ink);color:var(--bg);border-radius:4px;padding:3px 6px;white-space:nowrap;margin-top:2px}
+.ki-note p{margin:0}
+
+/* Steuerleiste */
+.controls{display:flex;flex-wrap:wrap;gap:14px 22px;align-items:center}
+.seg{display:inline-flex;background:var(--sunk);border:1px solid var(--line);border-radius:999px;padding:3px}
+.seg button{border:0;background:transparent;padding:8px 16px;border-radius:999px;cursor:pointer;font-weight:700;font-size:14.5px;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.agebox{display:flex;align-items:center;gap:10px;flex:1 1 300px;min-width:0}
+.agebox label{font-weight:700}
+.agebox input[type=range]{flex:1;min-width:0;accent-color:var(--now)}
+.agebox output{font:600 15px var(--f-mono);font-variant-numeric:tabular-nums;min-width:8ch;color:var(--now)}
+.quick{display:flex;flex-wrap:wrap;gap:6px}
+.quick button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 10px;font:500 12.5px var(--f-mono);cursor:pointer}
+.quick button[aria-pressed="true"]{border-color:var(--now);color:var(--now)}
+.check{display:inline-flex;gap:8px;align-items:center;font-size:14.5px;cursor:pointer}
+.check input{accent-color:var(--accent);width:16px;height:16px}
+
+/* Legende */
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);align-items:center}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:6px;border:1.5px solid var(--c);background:var(--b)}
+.legend .ln{display:inline-block;width:26px;height:0;border-top:2px solid var(--edge-hot);vertical-align:3px;margin-right:6px}
+.legend .ln.d{border-top-style:dashed}
+.legend .ring{display:inline-block;width:14px;height:14px;border-radius:4px;box-shadow:0 0 0 2.5px var(--now);vertical-align:-2px;margin-right:6px}
+
+/* Karte */
+.board{display:grid;gap:10px;min-width:0}
+.scroller{overflow-x:auto;overflow-y:hidden;background:var(--surface);border:1px solid var(--line);border-radius:16px;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+.canvas{position:relative;transition:width .7s var(--ease),height .7s var(--ease)}
+.axis{position:absolute;inset:0;pointer-events:none;transition:opacity .45s}
+.view-path #axis-age,.view-age #axis-path{opacity:0}
+.colhead{position:absolute;top:12px;font:600 10.5px/1.25 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-top:2px solid var(--line);padding-top:6px}
+.tick{position:absolute;top:30px;bottom:0;border-left:1px solid var(--grid)}
+.tick span{position:absolute;top:-22px;left:-8px;font:500 11.5px var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.tick.brk{border-left:1px dashed var(--muted)}
+.tick.brk em{position:absolute;top:-22px;left:22px;font:500 10.5px var(--f-mono);font-style:normal;color:var(--muted);white-space:nowrap}
+.now-line{position:absolute;top:30px;bottom:0;border-left:2px solid var(--now);transition:left .35s var(--ease),opacity .4s;pointer-events:none;z-index:3}
+.now-line span{position:absolute;top:-24px;left:-1px;transform:translateX(-50%);background:var(--now);color:var(--on-now);font:600 11px var(--f-mono);padding:2px 6px;border-radius:4px;white-space:nowrap}
+.view-path .now-line{opacity:0}
+svg.edges{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;z-index:1}
+.edge{fill:none;stroke:var(--edge);stroke-width:1.4;opacity:.6;transition:opacity .25s}
+.edge.c{stroke-dasharray:5 4}
+.edge.hot{stroke:var(--edge-hot);stroke-width:2.1;opacity:1}
+.edge.route{stroke:var(--route);stroke-width:3;opacity:1}
+.view-age .edge:not(.hot):not(.route):not(.dim){opacity:.3}
+.edge.dim{opacity:.05}
+.ah{fill:var(--edge)} .ah-hot{fill:var(--edge-hot)} .ah-route{fill:var(--route)}
+
+.node{position:absolute;z-index:2;display:flex;flex-direction:column;justify-content:space-between;gap:2px;padding:6px 9px 7px;text-align:left;cursor:pointer;
+  background:var(--sb);border:1.5px solid var(--sc);border-color:color-mix(in srgb,var(--sc) 55%,transparent);border-radius:9px;
+  transition:left .7s var(--ease),top .7s var(--ease),width .7s var(--ease),height .7s var(--ease),border-radius .7s var(--ease),background-color .2s,color .2s,box-shadow .2s,opacity .25s}
+.node[data-sec="frueh"]{--sc:var(--frueh);--sb:var(--frueh-bg)}
+.node[data-sec="schule"]{--sc:var(--schule);--sb:var(--schule-bg)}
+.node[data-sec="beruf"]{--sc:var(--beruf);--sb:var(--beruf-bg)}
+.node[data-sec="aufstieg"]{--sc:var(--aufstieg);--sb:var(--aufstieg-bg)}
+.node[data-sec="hoch"]{--sc:var(--hoch);--sb:var(--hoch-bg)}
+.node[data-sec="leben"]{--sc:var(--leben);--sb:var(--leben-bg)}
+.node[data-sec="ab"]{--sc:var(--ink);--sb:var(--surface)}
+.node .t{font:700 13px/1.2 var(--f-body);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;hyphens:auto;overflow-wrap:anywhere}
+.node .m{font:500 10.5px/1.2 var(--f-mono);color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.node .m b{font-weight:600;color:var(--sc);letter-spacing:.04em;margin-right:3px}
+.node:hover{border-color:var(--sc)}
+.node.open{border-style:dashed}
+.node.ms{border-radius:999px;align-items:center;justify-content:center;text-align:center;padding:3px 8px;border-color:var(--ink)}
+.node.ms .t{font-size:11.5px;line-height:1.15}
+.view-age .node.ms{padding:0 3px}
+.view-age .node.ms .t{font-size:10px;-webkit-line-clamp:1}
+.node.is-sel{background:var(--sc);color:var(--on-sec);border-color:var(--sc)}
+.node.is-sel .m,.node.is-sel .m b{color:var(--on-sec)}
+.node.ms.is-sel{background:var(--ink);color:var(--bg)}
+.node.is-now{box-shadow:0 0 0 2.5px var(--now)}
+.node.is-dim{opacity:.16;filter:grayscale(1)}
+.node.is-route{box-shadow:0 0 0 3px var(--route);opacity:1}
+.node[data-step]::after{content:attr(data-step);position:absolute;top:-9px;left:-9px;width:20px;height:20px;border-radius:50%;background:var(--route);color:var(--on-accent);font:600 11px/20px var(--f-mono);text-align:center}
+.hint{margin:0;font-size:13px;color:var(--muted)}
+
+/* Infokarten */
+.info{display:grid;grid-template-columns:1fr;gap:16px}
+@media (min-width:900px){.info{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr)}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px 22px 22px;min-width:0;display:grid;gap:12px;align-content:start}
+.card h2{font-size:26px;font-weight:700;line-height:1.1}
+.card h3{font-size:15px;font-weight:700;font-family:var(--f-body);letter-spacing:0;margin-top:4px}
+.card p{margin:0}
+.age-card .eyebrow{color:var(--now)}
+.todo{margin:0;padding-left:20px;display:grid;gap:6px}
+.facts{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:8px 16px;margin:0}
+.facts dt{font:600 11px/1.6 var(--f-mono);letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.facts dd{margin:0;min-width:0}
+@media (max-width:520px){.facts{grid-template-columns:1fr}.facts dd{margin-bottom:6px}}
+.note{background:var(--sunk);border-radius:10px;padding:10px 12px;font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;cursor:pointer;font-size:14px;text-align:left}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--sc);flex:none}
+.chip:hover{border-color:var(--ink)}
+.nextlist{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.nextlist li{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.nextlist .cond{font-size:13.5px;color:var(--muted)}
+.nextlist .cond::before{content:"– "}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.btn{border:1.5px solid var(--ink);background:transparent;border-radius:10px;padding:8px 14px;font-weight:700;font-size:14.5px;cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.btn[disabled]{opacity:.5;cursor:default}
+.sec-dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--sc);margin-right:7px;vertical-align:0}
+.small{font-size:13.5px;color:var(--muted)}
+
+/* KI-Wegfinder */
+.finder{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:900px){.finder{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);column-gap:28px}}
+.finder h2{font-size:28px;font-weight:700}
+.finder textarea{width:100%;min-height:96px;resize:vertical;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);padding:10px 12px;font:15.5px/1.45 var(--f-body)}
+.finder textarea:focus{border-color:var(--accent);outline:none}
+.examples{display:flex;flex-wrap:wrap;gap:6px}
+.examples button{border:1px dashed var(--line);background:transparent;border-radius:8px;padding:5px 9px;font-size:13px;cursor:pointer;text-align:left}
+.answer{border-left:3px solid var(--route);padding:4px 0 4px 14px;display:grid;gap:10px;min-width:0}
+.answer .tag{font:600 10.5px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.route{display:flex;flex-wrap:wrap;gap:6px;align-items:center;list-style:none;margin:0;padding:0}
+.route li{display:flex;align-items:center;gap:6px}
+.route li+li::before{content:"→";color:var(--muted)}
+.status{font-size:14px;color:var(--muted);min-height:1.4em;margin:0}
+
+/* Fuß */
+footer{display:grid;gap:10px;font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px}
+footer h2{font-size:18px;color:var(--ink)}
+footer ul{margin:0;padding-left:18px;display:grid;gap:4px}
+footer a{color:var(--accent)}
+.log{list-style:none;padding:0}
+.log li{display:flex;gap:12px}
+.log time{font-family:var(--f-mono);font-size:12.5px;white-space:nowrap;padding-top:1px}
+
+@media (prefers-reduced-motion: reduce){
+  .canvas,.node,.now-line,.axis{transition:none!important}
+}
+</style>
+
+<div class="page" lang="de">
+  <header class="mast">
+    <p class="eyebrow">KI-Experiment · Niedersachsen · Stand Oktober 2026</p>
+    <h1>Bildungswege <span>Niedersachsen</span></h1>
+    <p class="lede">Von der Krippe bis zum Lernen im Ruhestand. Stell ein Alter ein oder tippe auf eine Station, um zu sehen, was gerade ansteht und welche Wege von dort weiterführen.</p>
+    <div class="ki-note" role="note">
+      <b>KI</b>
+      <p>Inhalte und Seite sind von KI recherchiert und gebaut und nicht redaktionell geprüft. Maßgeblich sind Schulgesetz, Verordnungen und die Beratung der Schulen. Etwas stimmt nicht? Station antippen und <strong>Diskutieren</strong> wählen.</p>
+    </div>
+  </header>
+
+  <section class="controls" aria-label="Ansicht und Alter">
+    <div class="seg" role="group" aria-label="Ansicht">
+      <button type="button" id="v-path" aria-pressed="true">Nach Bildungsstufe</button>
+      <button type="button" id="v-age" aria-pressed="false">Nach Alter</button>
+    </div>
+    <div class="agebox">
+      <label for="age">Alter</label>
+      <input type="range" id="age" min="0" max="80" step="1" value="5">
+      <output id="age-out" for="age">5 Jahre</output>
+    </div>
+    <div class="quick" id="quick" aria-label="Alter schnell wählen"></div>
+    <label class="check" for="bbs"><input type="checkbox" id="bbs"> Angebote der BBS hervorheben</label>
+  </section>
+
+  <section class="board" aria-label="Karte der Bildungswege">
+    <div class="legend" id="legend"></div>
+    <div class="scroller" id="scroller">
+      <div class="canvas view-path" id="canvas">
+        <div class="axis" id="axis-path"></div>
+        <div class="axis" id="axis-age"></div>
+        <div class="now-line" id="now-line"><span id="now-label">5 J.</span></div>
+        <svg class="edges" id="edges" aria-hidden="true">
+          <defs>
+            <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker>
+            <marker id="ah-hot" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto"><path class="ah-hot" d="M0,0 L10,5 L0,10 z"/></marker>
+            <marker id="ah-route" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path class="ah-route" d="M0,0 L10,5 L0,10 z"/></marker>
+          </defs>
+          <g id="edge-g"></g>
+        </svg>
+        <div id="nodes"></div>
+      </div>
+    </div>
+    <p class="hint">Tippe auf eine Station: Die Wege, die von dort möglich sind, bleiben farbig, alles andere tritt zurück. Nochmal tippen zeigt wieder alle Stationen. Die Karte ist breiter als der Bildschirm: seitlich wischen oder scrollen.</p>
+  </section>
+
+  <section class="info">
+    <article class="card age-card" id="age-card" aria-live="polite"></article>
+    <article class="card node-card" id="node-card" aria-live="polite"></article>
+  </section>
+
+  <section class="finder" id="finder" aria-labelledby="finder-h">
+    <div style="display:grid;gap:12px;align-content:start;min-width:0">
+      <p class="eyebrow">Live mit KI</p>
+      <h2 id="finder-h">Frag die KI nach deinem Weg</h2>
+      <p class="small">Beschreib deine Lage in ein, zwei Sätzen. Claude liest die Karte, schlägt einen Weg vor und markiert ihn. Die Antwort entsteht live und ist nicht geprüft.</p>
+      <label for="ask" class="small" style="font-weight:700;color:var(--ink)">Deine Lage</label>
+      <textarea id="ask" maxlength="600" placeholder="z. B. Ich habe den Hauptschulabschluss und möchte später Techniker werden."></textarea>
+      <div class="examples" id="examples"></div>
+      <div class="actions">
+        <button type="button" class="btn primary" id="ask-go">Weg vorschlagen</button>
+        <button type="button" class="btn" id="ask-stop" hidden>Stopp</button>
+      </div>
+      <p class="status" id="ask-status"></p>
+    </div>
+    <div class="answer" id="answer" aria-live="polite"></div>
+  </section>
+
+  <footer>
+    <h2>Quellen und Änderungen</h2>
+    <p>Die Angaben wurden am 17. Oktober 2026 per KI-Recherche zusammengestellt und von einem zweiten KI-Durchlauf gegen die folgenden Quellen geprüft. Altersangaben zeigen typische Zeiträume; Abweichungen sind normal.</p>
+    <ul id="sources"></ul>
+    <h2>Änderungsprotokoll</h2>
+    <ul class="log" id="log"></ul>
+  </footer>
+</div>
+
+<script>
+(() => {
+"use strict";
+/* ---------- Daten ---------- */
+const SECT = {
+  frueh:{name:"Frühe Bildung"}, schule:{name:"Allgemeinbildende Schule"}, beruf:{name:"Berufliche Bildung"},
+  aufstieg:{name:"Höhere Berufsbildung"}, hoch:{name:"Hochschule"}, leben:{name:"Weiterbildung"}, ab:{name:"Abschluss"}
+};
+
+/* p = [Spalte, Zeile] in der Stufen-Ansicht; a = [von, bis, Zeile] bzw. Abschluss [Alter, Zeile] in der Alters-Ansicht */
+const N = [
+ {id:"krippe", t:"Krippe / Tagespflege", s:"Krippe", sec:"frueh", p:[0,2.5], a:[1,3,2.5], pm:"ab 1 Jahr", am:"1–3 J.",
+  dur:"Bis zum 3. Geburtstag", zug:"Rechtsanspruch auf einen Platz in Krippe oder Kindertagespflege ab dem 1. Geburtstag.", abs:"Kein Abschluss", wo:"Krippe, Kita mit Krippengruppe oder Tagespflegeperson",
+  note:"Plätze vergibt die Kommune, oft über ein Online-Portal. Früh anmelden. Die Elternbeiträge legt die Kommune fest."},
+ {id:"kita", t:"Kindergarten", s:"Kita", sec:"frueh", p:[1,2.5], a:[3,6,2.5], pm:"3 Jahre bis Schule", am:"3–6 J.",
+  dur:"Vom 3. Geburtstag bis zur Einschulung", zug:"Rechtsanspruch ab dem 3. Geburtstag. In Niedersachsen beitragsfrei ab dem Monat, in dem das Kind 3 wird, bis zur Einschulung, für höchstens 8 Stunden am Tag. Verpflegung und Ausflüge zahlen die Eltern weiter.", abs:"Kein Abschluss", wo:"Kindertagesstätte",
+  note:"Die Kita fördert Sprache im Alltag. Spätestens zu Beginn des letzten Kindergartenjahres erfasst sie den Sprachstand und führt ein Entwicklungsgespräch mit den Eltern."},
+ {id:"gs", t:"Grundschule", s:"Grundschule", sec:"schule", p:[2,2.5], a:[6,10,2.5], pm:"Klasse 1–4", am:"6–10 J.",
+  dur:"4 Jahre", zug:"Schulpflichtig wird, wer bis zum 30. September 6 Jahre alt ist. Bei Geburtstag zwischen 1. Juli und 30. September können Eltern den Schulbeginn um ein Jahr verschieben: schriftliche Erklärung an die Schule bis zum 1. Mai, ohne Begründung. Jüngere Kinder können auf Antrag früher starten.", abs:"Übergang in die Sekundarstufe I", wo:"Grundschule",
+  note:"Seit 1. August 2026 haben Erstklässler einen Rechtsanspruch auf Ganztagsbetreuung (8 Stunden an 5 Werktagen). Jedes Jahr kommt eine Klassenstufe dazu, ab 2029/30 gilt er für die Klassen 1–4. In Klasse 4 bietet die Schule mindestens zwei Beratungsgespräche an; welche Schule danach kommt, entscheiden die Eltern."},
+ {id:"foe", t:"Förderschule", s:"Förderschule", sec:"schule", p:[3,5], a:[6,16,5], pm:"je nach Schwerpunkt", am:"6–16 J.",
+  dur:"Je nach Förderschwerpunkt", zug:"Seit 1. August 2026 nur noch mit festgestelltem Bedarf an sonderpädagogischer Unterstützung. Eltern wählen zwischen inklusivem Unterricht an einer allgemeinen Schule und einer Förderschule, soweit es sie für den Schwerpunkt gibt.", abs:"Je nach Schwerpunkt Abschluss der Förderschule, Hauptschulabschluss oder ein eigenes Abschlusszeugnis", wo:"Förderschule oder inklusiv an jeder Schulform",
+  note:"Inklusiver Unterricht ist der Regelfall. Die Förderschule Lernen läuft in der Sekundarstufe I aus; die Förderschule geistige Entwicklung geht bis Klasse 12."},
+ {id:"hs", t:"Hauptschule", s:"Hauptschule", sec:"schule", p:[3,4], a:[10,15,4], pm:"Klasse 5–9 (+10)", am:"10–15 J.",
+  dur:"5 Jahre, freiwillige 10. Klasse möglich", zug:"Nach der Grundschule, nach Wahl der Eltern", abs:"Hauptschulabschluss nach Klasse 9; nach Klasse 10 Sekundarabschluss I – Hauptschulabschluss oder Realschulabschluss", wo:"Hauptschule",
+  note:"Stark rückläufig: 2025 gab es noch 71 öffentliche Hauptschulen in Niedersachsen, viele sind in Oberschulen aufgegangen."},
+ {id:"rs", t:"Realschule", s:"Realschule", sec:"schule", p:[3,3], a:[10,16,3], pm:"Klasse 5–10", am:"10–16 J.",
+  dur:"6 Jahre", zug:"Nach der Grundschule, nach Wahl der Eltern", abs:"Sekundarabschluss I – Realschulabschluss, bei guten Leistungen Erweiterter Sekundarabschluss I", wo:"Realschule", note:"2025 gab es noch 82 öffentliche Realschulen in Niedersachsen."},
+ {id:"obs", t:"Oberschule", s:"Oberschule", sec:"schule", p:[3,2], a:[10,16,2], pm:"Klasse 5–10", am:"10–16 J.",
+  dur:"6 Jahre", zug:"Nach der Grundschule, nach Wahl der Eltern", abs:"Alle Abschlüsse der Sekundarstufe I", wo:"Oberschule",
+  note:"Niedersächsische Schulform, die Haupt- und Realschulbildung verbindet, wahlweise mit gymnasialem Angebot bis Klasse 10. 2025 gab es 290 öffentliche Oberschulen, mehr als von jeder anderen Schulform der Sekundarstufe I."},
+ {id:"ges", t:"Gesamtschule (IGS/KGS)", s:"IGS/KGS", sec:"schule", p:[3,1], a:[10,16,1], pm:"Klasse 5–10 + Oberstufe", am:"10–16 J.",
+  dur:"6 Jahre Sekundarstufe I, mit Oberstufe bis Klasse 13", zug:"Nach der Grundschule, nach Wahl der Eltern", abs:"Alle Abschlüsse bis zum Abitur", wo:"Integrierte (IGS) oder Kooperative Gesamtschule (KGS)",
+  note:"In der IGS lernen alle gemeinsam, mit Kursen auf unterschiedlichem Niveau. Die KGS vereint Haupt-, Real- und Gymnasialzweig unter einem Dach."},
+ {id:"gym", t:"Gymnasium", s:"Gymnasium", sec:"schule", p:[3,0], a:[10,16,0], pm:"Klasse 5–10", am:"10–16 J.",
+  dur:"6 Jahre Sekundarstufe I, dann Oberstufe", zug:"Nach der Grundschule, nach Wahl der Eltern", abs:"Mit der Versetzung in Klasse 11 der Erweiterte Sekundarabschluss I", wo:"Gymnasium",
+  note:"In Niedersachsen gilt wieder G9: Abitur nach 13 Schuljahren."},
+
+ {id:"ohne", t:"Ohne Abschluss", s:"o. A.", sec:"ab", ms:1, p:[4,5], a:[16,5],
+  note:"Wer die Schule ohne Abschluss verlässt, kann ihn nachholen: in der Berufseinstiegsschule einer BBS oder später über Kurse der Volkshochschule mit Prüfung beim Regionalen Landesamt für Schule und Bildung."},
+ {id:"hsa", t:"Hauptschul­abschluss", s:"HSA", sec:"ab", ms:1, p:[4,4], a:[15,4],
+  note:"Nach Klasse 9. Öffnet die duale Ausbildung und Berufsfachschulen."},
+ {id:"rsa", t:"Realschul­abschluss", s:"RSA", sec:"ab", ms:1, p:[4,2.5], a:[16,3],
+  note:"Sekundarabschluss I – Realschulabschluss nach Klasse 10. Öffnet Ausbildung, Berufsfachschulen und die Fachoberschule."},
+ {id:"esa", t:"Erweiterter Sek I", s:"Erw. I", sec:"ab", ms:1, p:[4,0.5], a:[16,0],
+  note:"Erweiterter Sekundarabschluss I: Realschulabschluss mit guten Leistungen, an der Realschule zum Beispiel mit einem Schnitt von höchstens 3,0, gesamt und in Deutsch, Englisch und Mathematik. Berechtigt zur gymnasialen Oberstufe und zum beruflichen Gymnasium."},
+
+ {id:"go", t:"Gymnasiale Oberstufe", s:"Oberstufe", sec:"schule", p:[5,0], a:[16,19,0], pm:"Klasse 11–13", am:"16–19 J.",
+  dur:"3 Jahre: Einführungsphase (Kl. 11) und Qualifikationsphase (Kl. 12–13)", zug:"Erweiterter Sekundarabschluss I oder Versetzung am Gymnasium", abs:"Abitur (allgemeine Hochschulreife); nach Klasse 12 schulischer Teil der Fachhochschulreife möglich", wo:"Gymnasium, Gesamtschule",
+  note:"Ab der Qualifikationsphase 2028/29 gibt es wieder Leistungs- und Grundkurse statt Schwerpunkten."},
+ {id:"bg", t:"Berufliches Gymnasium", s:"Berufl. Gym.", sec:"beruf", bbs:1, p:[5,1], a:[16,19,1], pm:"3 Jahre", am:"16–19 J.",
+  dur:"3 Jahre (Klasse 11–13)", zug:"Erweiterter Sekundarabschluss I oder Versetzung in Klasse 11 eines Gymnasiums. Der Realschulabschluss allein reicht nicht. Keine Altersgrenze.", abs:"Abitur (allgemeine Hochschulreife); schulischer Teil der Fachhochschulreife möglich", wo:"Berufsbildende Schule (BBS)",
+  note:"Abitur mit beruflichem Schwerpunkt: Wirtschaft, Technik (z. B. Elektro-, Informations-, Gestaltungs- und Medientechnik) oder Gesundheit und Soziales. Teils mit Doppelqualifikation, etwa als Sozialpädagogische Assistenz."},
+ {id:"fos", t:"Fachoberschule", s:"FOS", sec:"beruf", bbs:1, p:[5,2], a:[16,18,2], pm:"1–2 Jahre", am:"16–18 J.",
+  dur:"Klasse 11 und 12; mit abgeschlossener Berufsausbildung nur Klasse 12", zug:"Klasse 11: Realschulabschluss und Praktikumsvertrag mit einem Betrieb. Klasse 12 direkt: Realschulabschluss und abgeschlossene Berufsausbildung.", abs:"Fachhochschulreife mit staatlicher Prüfung", wo:"Berufsbildende Schule (BBS)",
+  note:"In Klasse 11 sind die Schülerinnen und Schüler 3 Tage pro Woche im Betrieb und 2 Tage in der Schule."},
+ {id:"bfs", t:"Berufsfachschule", s:"BFS", sec:"beruf", bbs:1, p:[5,3], a:[16,18,3], pm:"1–3 Jahre", am:"16–18 J.",
+  dur:"1 bis 3 Jahre, je nach Form", zug:"Einjährige BFS: Hauptschulabschluss. Berufsqualifizierende BFS: meist Realschulabschluss, bei manchen Berufen der Hauptschulabschluss.", abs:"Einjährige BFS und Klasse 2: Sekundarabschluss I bis zum Realschulabschluss. Berufsqualifizierende BFS: Berufsabschluss, z. B. staatlich geprüfte Assistenz", wo:"Berufsbildende Schule (BBS)",
+  note:"Pflegeschulen laufen als Berufsfachschulen. Ab 2027 gibt es bundesweit die Ausbildung Pflegefachassistenz (18 Monate, meist mit Hauptschulabschluss). An Pilotschulen erprobt das Land die „BFS dual“ mit Praxisanteil."},
+ {id:"aus", t:"Duale Ausbildung", s:"Ausbildung", sec:"beruf", bbs:1, p:[5,4], a:[16,19.5,4], pm:"2–3,5 Jahre", am:"16–20 J.",
+  dur:"2 bis 3,5 Jahre", zug:"Ausbildungsvertrag mit einem Betrieb. Ein bestimmter Schulabschluss ist gesetzlich nicht vorgeschrieben, Betriebe erwarten aber meist einen.", abs:"Berufsabschluss vor der Kammer (z. B. IHK, Handwerkskammer)", wo:"Betrieb und Berufsschule (BBS)",
+  note:"Mit dem Berufsschulabschluss kommen Schulabschlüsse dazu: nach einer dreijährigen Ausbildung der Realschulabschluss, mit guten Noten der Erweiterte Sekundarabschluss I. Über einen Ergänzungsbildungsgang ist die Fachhochschulreife möglich. Azubis sind die ganze Ausbildung über berufsschulpflichtig."},
+ {id:"bes", t:"Berufs\u00ADeinstiegs\u00ADschule", s:"BES", sec:"beruf", bbs:1, p:[5,5], a:[16,17.5,5], pm:"1–2 Jahre", am:"16–18 J.",
+  dur:"Klasse 1 und Klasse 2, je 1 Jahr", zug:"Für schulpflichtige Jugendliche ohne Hauptschulabschluss oder mit Förderbedarf", abs:"Klasse 2: Hauptschulabschluss mit Prüfung", wo:"Berufsbildende Schule (BBS)",
+  note:"Klasse 2 geht in Vollzeit oder in Teilzeit zusammen mit einer Einstiegsqualifizierung im Betrieb. Dazu gibt es Sprach- und Integrationsklassen. Danach geht es in Ausbildung oder Berufsfachschule."},
+
+ {id:"abi", t:"Abitur", s:"Abi", sec:"ab", ms:1, p:[6,0.5], a:[19,0],
+  note:"Allgemeine Hochschulreife: Zugang zu allen Studiengängen. Auch ein starker Startpunkt für eine Ausbildung."},
+ {id:"fhr", t:"Fachhochschul­reife", s:"FHR", sec:"ab", ms:1, p:[6,1.75], a:[18,2],
+  note:"Berechtigt zum Studium an Hochschulen (früher Fachhochschulen) und zu dualen Studiengängen."},
+ {id:"beruf", t:"Berufs­abschluss", s:"Beruf", sec:"ab", ms:1, p:[6,4], a:[19.5,4],
+  note:"Gesellen- oder Facharbeiterbrief bzw. staatlicher Berufsabschluss. Basis für Meister, Techniker, Fachwirt, die Fachoberschule Klasse 12, die Berufsoberschule und ein Studium ohne Abitur."},
+
+ {id:"zweiter", t:"Abendgymnasium / Kolleg", s:"Kolleg", sec:"schule", p:[7,2], a:[20,23,7], pm:"3 Jahre", am:"ab 19 J.",
+  dur:"3 Jahre: 1 Jahr Einführungsphase, 2 Jahre Qualifikationsphase", zug:"Ab 19 Jahren, mit Realschulabschluss und Berufsausbildung oder mindestens 2 Jahren Berufstätigkeit. Mit Hauptschulabschluss zuerst ein einjähriger Vorkurs.", abs:"Abitur (allgemeine Hochschulreife); nach der Einführungsphase der Erweiterte Sekundarabschluss I", wo:"Abendgymnasium (berufsbegleitend) oder Kolleg (Vollzeit)",
+  note:"Zweiter Bildungsweg für Erwachsene. In Niedersachsen gibt es 5 Abendgymnasien und 4 Kollegs."},
+ {id:"bos", t:"Berufsoberschule", s:"BOS", sec:"beruf", bbs:1, p:[7,3], a:[20,22,3], pm:"1–2 Jahre", am:"ab ca. 20 J.",
+  dur:"1 Jahr Vollzeit (Klasse 13), mit Klasse 12 zwei Jahre", zug:"Klasse 13: Fachhochschulreife und abgeschlossene Berufsausbildung. Klasse 12: Realschulabschluss und mindestens zweijährige Ausbildung; sie läuft als Klasse 12 der Fachoberschule.", abs:"Fachgebundene Hochschulreife, mit Nachweis einer zweiten Fremdsprache die allgemeine Hochschulreife", wo:"Berufsbildende Schule (BBS)",
+  note:"Fachrichtungen zum Beispiel Wirtschaft und Verwaltung, Technik sowie Gesundheit und Soziales."},
+ {id:"meister", t:"Meister/in", s:"Meister", sec:"aufstieg", p:[7,4], a:[20.5,22.5,4], pm:"1–3 Jahre", am:"ab ca. 20 J.",
+  dur:"In Vollzeit etwa 9 bis 12 Monate, berufsbegleitend entsprechend länger", zug:"Handwerk: Gesellenprüfung, im selben Handwerk ohne weitere Berufspraxis. Industriemeister (IHK): Ausbildung plus meist 1 bis 2 Jahre Praxis.", abs:"Meisterbrief, DQR-Niveau 6 wie ein Bachelor; Titelzusatz „Bachelor Professional“", wo:"Handwerkskammer, IHK und Bildungsträger",
+  note:"Gilt in Niedersachsen als allgemeine Hochschulzugangsberechtigung für jeden Studiengang. Förderung über das Aufstiegs-BAföG, ohne Altersgrenze."},
+ {id:"techn", t:"Staatl. gepr. Techniker/in", s:"Techniker", sec:"aufstieg", bbs:1, p:[7,5], a:[21,23,5], pm:"2 J. Vollzeit · 4 J. Teilzeit", am:"ab ca. 21 J.",
+  dur:"2 Jahre in Vollzeit oder 4 Jahre in Teilzeit", zug:"Realschulabschluss, einschlägige Berufsausbildung und mindestens 1 Jahr Berufstätigkeit (in Teilzeit auch während der Fachschule nachweisbar); alternativ 7 Jahre einschlägige Berufstätigkeit", abs:"Staatlich geprüfte/r Techniker/in (Bachelor Professional in Technik), DQR-Niveau 6; zusätzlich Fachhochschulreife möglich", wo:"Fachschule Technik an der BBS",
+  note:"Gilt in Niedersachsen als allgemeine Hochschulzugangsberechtigung. Förderung über das Aufstiegs-BAföG."},
+ {id:"fachwirt", t:"Fachwirt/in", s:"Fachwirt", sec:"aufstieg", p:[7,6], a:[22,24,6], pm:"meist berufsbegleitend", am:"ab ca. 22 J.",
+  dur:"Meist 1 bis 2 Jahre berufsbegleitend", zug:"Berufsausbildung plus Berufspraxis", abs:"Bachelor Professional, DQR-Niveau 6", wo:"IHK und Bildungsträger", note:"Fortbildungen ab 400 Unterrichtsstunden gelten in Niedersachsen als allgemeine Hochschulzugangsberechtigung. Förderung über das Aufstiegs-BAföG."},
+
+ {id:"uni", t:"Bachelor an der Universität", s:"Uni", sec:"hoch", p:[8,0], a:[19,23,0], pm:"6–8 Semester", am:"19–23 J.",
+  dur:"6 bis 8 Semester", zug:"Abitur; Meister, Techniker oder Fachwirt; nach Ausbildung und 3 Jahren Berufstätigkeit im passenden Fach (§ 18 NHG)", abs:"Bachelor", wo:"Universität", note:"Regelstudienzeit 6, 7 oder 8 Semester."},
+ {id:"hsb", t:"Bachelor an der Hochschule", s:"Hochschule", sec:"hoch", p:[8,1], a:[19,22.5,1], pm:"6–8 Semester", am:"19–23 J.",
+  dur:"6 bis 8 Semester", zug:"Fachhochschulreife oder Abitur; beruflich Qualifizierte", abs:"Bachelor", wo:"Hochschule, im Gesetz noch „Fachhochschule“",
+  note:"Praxisnah, meist mit Praxissemester. Eine geplante Novelle des Hochschulgesetzes soll sie „Hochschulen für angewandte Wissenschaften“ nennen; sie ist noch nicht beschlossen."},
+ {id:"dual", t:"Duales Studium", s:"Dual", sec:"hoch", p:[8,2], a:[19,22.5,2], pm:"3–4,5 Jahre", am:"19–23 J.",
+  dur:"Meist 3 bis 4,5 Jahre", zug:"Hochschulzugang plus Vertrag mit einem Unternehmen", abs:"Bachelor; ausbildungsintegriert zusätzlich ein Berufsabschluss", wo:"Hochschule bzw. Berufsakademie und Betrieb", note:""},
+ {id:"master", t:"Master", s:"Master", sec:"hoch", p:[9,0.5], a:[23,25,0], pm:"2–4 Semester", am:"23–25 J.",
+  dur:"2 bis 4 Semester", zug:"Bachelor; Wechsel zwischen Universität und Hochschule möglich", abs:"Master", wo:"Universität oder Hochschule", note:""},
+ {id:"betriebswirt", t:"Betriebswirt/in", s:"Betriebswirt", sec:"aufstieg", p:[9,5.5], a:[24,26,6], pm:"Master Professional", am:"ab ca. 24 J.",
+  dur:"Meist berufsbegleitend", zug:"Zum Beispiel Meister oder Fachwirt", abs:"Master Professional, DQR-Niveau 7", wo:"IHK, Handwerkskammer und Bildungsträger", note:""},
+ {id:"promo", t:"Promotion", s:"Promotion", sec:"hoch", p:[10,0], a:[25,30,0], pm:"im Schnitt 5 Jahre", am:"ab ca. 25 J.",
+  dur:"Im Schnitt gut 5 Jahre", zug:"Master", abs:"Doktorgrad", wo:"Universität", note:"Die geplante Novelle des Hochschulgesetzes sieht ein Promotionsrecht auch für Hochschulen für angewandte Wissenschaften vor; noch nicht beschlossen."},
+ {id:"wb", t:"Weiterbildung & Bildungsurlaub", s:"Weiterbildung", sec:"leben", open:1, p:[10,3], a:[25,67,3], pm:"jederzeit", am:"im Berufsleben",
+  dur:"Jederzeit, Kurse von Tagen bis Jahren", zug:"Offen für alle", abs:"Zertifikate, Kammerprüfungen, Hochschulzertifikate", wo:"Volkshochschulen, Kammern, Hochschulen, Bildungsträger",
+  note:"Beschäftigte haben Anspruch auf 5 Arbeitstage Bildungsurlaub pro Jahr. Ab 1. Januar 2027 gilt das neue Bildungszeitgesetz: weiter 5 Tage, auch tageweise, auch für Azubis und Beamte; Antrag 8 Wochen vorher."},
+ {id:"umsch", t:"Umschulung & Teilqualifizierung", s:"Umschulung", sec:"leben", open:1, p:[10,4.5], a:[25,60,4], pm:"jederzeit", am:"jederzeit",
+  dur:"Umschulung meist 2 Jahre, Teilqualifizierungen in Modulen", zug:"Beratung über Agentur für Arbeit oder Jobcenter", abs:"Berufsabschluss oder Teilqualifikationen", wo:"Bildungsträger, gefördert mit dem Bildungsgutschein der Agentur für Arbeit",
+  note:"Bei abschlussorientierter Weiterbildung gibt es 150 € Weiterbildungsgeld im Monat und Prämien für bestandene Zwischen- und Abschlussprüfung. Betriebe im Strukturwandel können Qualifizierungsgeld nutzen."},
+ {id:"senior", t:"Lernen im Ruhestand", s:"Ruhestand", sec:"leben", open:1, p:[10,6], a:[63,85,6], pm:"ohne Altersgrenze", am:"ab ca. 63 J.",
+  dur:"Ohne Altersgrenze", zug:"Offen für alle", abs:"Meist ohne Abschluss", wo:"Gasthörerstudium an Hochschulen (z. B. Uni Oldenburg, ohne Abitur), Volkshochschulen, Ehrenamt",
+  note:"Geistig und sozial aktiv zu bleiben gilt als Schutzfaktor fürs Gedächtnis."}
+];
+
+/* Übergänge: [von, nach, "c" = nur mit Zusatzvoraussetzung, Bedingung] */
+const E = [
+ ["krippe","kita"],["kita","gs"],["kita","foe","c","bei sonderpädagogischem Unterstützungsbedarf"],
+ ["gs","gym"],["gs","ges"],["gs","obs"],["gs","rs"],["gs","hs"],
+ ["gym","esa"],["ges","esa"],["ges","rsa"],["ges","hsa"],
+ ["obs","esa"],["obs","rsa"],["obs","hsa"],["obs","ohne","c"],
+ ["rs","esa"],["rs","rsa"],
+ ["hs","hsa"],["hs","rsa","c","mit Klasse 10 und passenden Leistungen"],["hs","ohne","c"],
+ ["foe","hsa","c","je nach Förderschwerpunkt"],["foe","ohne","c"],
+ ["ohne","bes"],
+ ["hsa","aus"],["hsa","bfs"],
+ ["rsa","aus"],["rsa","bfs"],["rsa","fos"],
+ ["esa","go"],["esa","bg"],
+ ["bes","aus"],["bes","bfs"],
+ ["go","abi"],["go","fhr","c","schulischer Teil nach Klasse 12, plus Ausbildung, einjähriges Praktikum oder Freiwilligendienst"],
+ ["bg","abi"],["fos","fhr"],
+ ["bfs","aus"],["bfs","beruf","c","nur mehrjährige Formen mit Berufsabschluss"],
+ ["aus","beruf"],["aus","fhr","c","mit Ergänzungsbildungsgang an der Berufsschule"],
+ ["abi","uni"],["abi","hsb"],["abi","dual"],["abi","aus","","auch nach dem Abitur ein starker Weg"],
+ ["fhr","hsb"],["fhr","dual"],
+ ["beruf","fos","c","mit Realschulabschluss direkt in Klasse 12"],
+ ["beruf","bos","c","Klasse 13 mit Fachhochschulreife"],
+ ["beruf","zweiter"],["beruf","meister"],
+ ["beruf","techn","c","plus mindestens 1 Jahr Berufstätigkeit"],["beruf","fachwirt","c","plus Berufspraxis"],
+ ["beruf","hsb","c","Studium ohne Abitur: nach 3-jähriger Ausbildung und 3 Jahren Beruf, im passenden Fach"],["beruf","uni","c","Studium ohne Abitur: nach 3-jähriger Ausbildung und 3 Jahren Beruf, im passenden Fach"],
+ ["zweiter","uni"],["zweiter","hsb"],["bos","uni"],["bos","hsb"],
+ ["meister","uni","c","gilt als allgemeine Hochschulzugangsberechtigung"],["meister","hsb","c","gilt als allgemeine Hochschulzugangsberechtigung"],
+ ["techn","hsb","c","gilt als allgemeine Hochschulzugangsberechtigung"],["techn","uni","c","gilt als allgemeine Hochschulzugangsberechtigung"],["fachwirt","hsb","c","gilt als allgemeine Hochschulzugangsberechtigung"],
+ ["meister","betriebswirt"],["fachwirt","betriebswirt"],
+ ["uni","master"],["hsb","master"],["dual","master"],["master","promo"]
+].map(([f,t,k,c]) => ({f,t,c:k==="c",note:c||""}));
+
+const AGES = [
+ {from:0,to:0,focus:"krippe",title:"Das erste Lebensjahr",text:"Bildung beginnt mit Bindung: sprechen, vorlesen, spielen. Für einen Betreuungsplatz beginnt jetzt die Suche.",
+  todo:["Krippen- oder Tagespflegeplatz früh bei der Kommune anmelden","Der Rechtsanspruch auf einen Platz gilt ab dem 1. Geburtstag"]},
+ {from:1,to:2,focus:"krippe",title:"Krippenalter",text:"Viele Kinder gehen jetzt in Krippe oder Tagespflege. Die Eingewöhnung braucht einige Wochen.",
+  todo:["Eingewöhnung mit genug Zeit planen","Kindergartenplatz ab 3 rechtzeitig anmelden"]},
+ {from:3,to:4,focus:"kita",title:"Kindergarten",text:"Ab dem 3. Geburtstag ist der Kindergarten in Niedersachsen beitragsfrei. Spielen, Sprache und Miteinander stehen im Mittelpunkt.",
+  todo:["Freies Spiel, Bewegung und Vorlesen sind Lernen","Spätestens zu Beginn des letzten Kita-Jahres: Sprachstand und Entwicklungsgespräch"]},
+ {from:5,to:5,focus:"kita",title:"Das Jahr vor der Schule",text:"Schulanmeldung und Schuleingangsuntersuchung stehen an. Kinder mit Geburtstag im Sommer können oft ein Jahr später starten.",
+  todo:["An der zuständigen Grundschule anmelden, Termine der Schule beachten","Schuleingangsuntersuchung beim Gesundheitsamt, sie ist Pflicht","Geburtstag zwischen 1. Juli und 30. September: Schulstart um ein Jahr verschieben per schriftlicher Erklärung bis 1. Mai"]},
+ {from:6,to:9,focus:"gs",title:"Grundschule",text:"Vier Jahre Grundschule. Seit 1. August 2026 gibt es für Erstklässler einen Rechtsanspruch auf Ganztagsbetreuung, der jedes Jahr eine Klasse weiter wächst.",
+  todo:["Ganztags- oder Hortplatz klären","In Klasse 4: mindestens zwei Beratungsgespräche zur weiterführenden Schule"]},
+ {from:10,to:10,focus:"obs",title:"Wechsel in die Sekundarstufe I",text:"Nach Klasse 4 wählen die Eltern die Schulform. Die Grundschule berät, eine Empfehlung gibt es nur auf Wunsch und sie ist nicht verbindlich.",
+  todo:["Tage der offenen Tür besuchen","Ein Wechsel zwischen Schulformen bleibt später möglich"]},
+ {from:11,to:14,focus:"obs",title:"Sekundarstufe I",text:"Seit August 2026 verpflichtet das Schulgesetz alle Schulen zu individueller Beruflicher Orientierung. Praktika gehören dazu.",
+  todo:["Praktika nutzen, um Berufe auszuprobieren","Über Abschlüsse und Anschlüsse früh informieren"]},
+ {from:15,to:16,focus:"rsa",title:"Erster Abschluss, große Entscheidung",text:"Mit dem Abschluss der Sekundarstufe I öffnen sich viele Wege: Oberstufe, berufliches Gymnasium, Fachoberschule, Berufsfachschule oder Ausbildung.",
+  todo:["Bewerbungen für Ausbildungsplätze laufen oft ein Jahr vorher","Anmeldefristen der berufsbildenden Schulen früh prüfen","Für Oberstufe und berufliches Gymnasium braucht es den Erweiterten Sekundarabschluss I"]},
+ {from:17,to:19,focus:"aus",title:"Sekundarstufe II und Ausbildung",text:"Abitur, Fachhochschulreife oder Berufsabschluss rücken näher. Auch nach dem Abitur ist eine Ausbildung ein starker Weg.",
+  todo:["Studium, duales Studium und Ausbildung vergleichen","Fristen für Studienbewerbungen beachten"]},
+ {from:20,to:25,focus:"beruf",title:"Studium oder Aufstieg",text:"Bachelor, Meister, Techniker oder Fachwirt. Wer eine Ausbildung hat, kann auch ohne Abitur studieren.",
+  todo:["Aufstiegs-BAföG für Meister, Techniker und Fachwirt prüfen","BAföG fürs Studium beantragen"]},
+ {from:26,to:44,focus:"wb",title:"Weiterbildung im Beruf",text:"Master, Promotion, Aufstiegsfortbildung oder Bildungsurlaub. Beschäftigten in Niedersachsen stehen 5 Tage pro Jahr zu, ab 2027 nach dem neuen Bildungszeitgesetz auch tageweise.",
+  todo:["Bildungszeit 8 Wochen vorher beim Arbeitgeber beantragen (ab 2027)","Aufstiegs-BAföG hat keine Altersgrenze"]},
+ {from:45,to:62,focus:"umsch",title:"Neu orientieren",text:"Umschulung, Teilqualifizierung oder ein spätes Studium: Lernen hört nicht auf. Agentur für Arbeit und Jobcenter beraten und fördern.",
+  todo:["Bildungsgutschein und Weiterbildungsgeld bei der Agentur für Arbeit erfragen","Studium ohne Abitur mit Berufserfahrung prüfen","Schulabschlüsse lassen sich über die Volkshochschule nachholen"]},
+ {from:63,to:80,focus:"senior",title:"Lernen im Ruhestand",text:"Gasthörerstudium, Volkshochschule, Ehrenamt. Geistig und sozial aktiv zu bleiben gilt als Schutzfaktor fürs Gedächtnis.",
+  todo:["Gasthörer- oder Seniorenstudium der nächsten Hochschule ansehen","Kurse und Ehrenamt verbinden Lernen mit Kontakten"]}
+];
+
+const SOURCES = [
+ ["Niedersächsisches Schulgesetz (NSchG)","https://schure.de/2241001/nschg.htm"],
+ ["Kultusministerium: Informationsblatt zum Einschulungstermin","https://www.mk.niedersachsen.de/download/128260/Informationsblatt_zum_Einschulungstermin.pdf"],
+ ["Kultusministerium: Erlass „Die Arbeit in der Grundschule“","https://mk.niedersachsen.de/download/208883/Grundsatzerlass_Die_Arbeit_in_der_Grundschule.pdf"],
+ ["Kultusministerium: Entwicklung der Schulen 2025","https://www.mk.niedersachsen.de/download/229722/2_Entwicklung_der_Schulen_2025.pdf.pdf"],
+ ["Verordnung über die Abschlüsse in der Sekundarstufe I (AVO-Sek I)","https://schure.de/2241001/4100000.htm"],
+ ["Verordnung über berufsbildende Schulen (BbS-VO), Lesefassung 2025","https://www.mk.niedersachsen.de/download/220431/BBS-VO_2025_Lesefassung.pdf"],
+ ["NiBiS: Information zur Berufseinstiegsschule","https://wordpress.nibis.de/bes/files/2025/08/Information_BES.pdf"],
+ ["Niedersächsisches Gesetz über Kindertagesstätten (NKiTaG)","https://schure.de/21130/nkitag.htm"],
+ ["BMBFSFJ: Rechtsanspruch auf Ganztagsbetreuung","https://www.bmbfsfj.bund.de/bmbfsfj/themen/bildung/schule/ganztagsangebote-275354"],
+ ["§ 18 Niedersächsisches Hochschulgesetz (Hochschulzugang)","https://www.anwalt24.de/gesetze/nhg-1/18"],
+ ["KMK: Zweiter Bildungsweg","https://www.kmk.org/bildungsministerkonferenz/vertiefende-bildungsinhalte/allgemeinbildende-schulen/zweiter-bildungsweg-und-abschluesse.html"],
+ ["Aufstiegs-BAföG","https://www.aufstiegs-bafoeg.de/"],
+ ["Niedersächsisches Bildungszeitgesetz (ab 2027)","https://www.umwelt-online.de/recht/arbeitss/arbeitsrecht/laender/nds/bzg.htm"],
+ ["Agentur für Arbeit: Bildungsgutschein","https://www.arbeitsagentur.de/karriere-und-weiterbildung/bildungsgutschein"],
+ ["Landtag: Beschlussempfehlung zur Schulgesetz-Novelle 2026 (Drs. 19/10940)","https://www.landtag-niedersachsen.de/Drucksachen/Drucksachen_19_12500/10501-11000/19-10940.pdf"]
+];
+const LOG = [
+ ["17.10.2026","Bedienung: Nach dem Antippen einer Station bleiben nur die von dort möglichen Wege farbig."],
+ ["17.10.2026","Faktencheck durch einen KI-Rechercheagenten gegen offizielle Quellen. Korrigiert: Berufseinstiegsschule (Klasse 1 und 2), Zugang zum beruflichen Gymnasium, Berufsoberschule, Fachschule Technik, Studium ohne Abitur. Neu: Schulgesetz-Novelle 2026, Ganztag seit August 2026, Bildungszeitgesetz ab 2027, Pflegefachassistenz ab 2027."],
+ ["17.10.2026","Erste Fassung: KI-recherchiert und von KI gebaut, ohne redaktionelle Prüfung."]
+];
+
+/* ---------- Geometrie ---------- */
+const ROW=76, NH=60, TOP=60, PADX=20, GAP=40;
+const COLS=[148,148,148,148,120,148,120,148,148,148,148];
+const colX=[]; { let x=PADX; COLS.forEach((w,i)=>{ colX[i]=x; x+=w+GAP; }); }
+const PATH_W = colX[10]+COLS[10]+PADX;
+const HEADS=[[0,1,"Frühe Bildung"],[2,2,"Primarstufe"],[3,3,"Sekundarstufe I"],[4,4,"Abschluss"],[5,5,"Sek II · Beruf"],[6,6,"Abschluss"],[7,7,"Aufstieg · 2. Weg"],[8,8,"Studium"],[9,9,"Master · Profi"],[10,10,"Ein Leben lang"]];
+const K1=50, K2=9, SPLIT=26, AMAX=85;
+const xAge = a => PADX + (a<=SPLIT ? a*K1 : SPLIT*K1 + (a-SPLIT)*K2);
+const AGE_W = xAge(AMAX)+PADX;
+const TICKS=[0,1,3,6,10,13,16,19,22,26,40,50,60,67,80];
+
+const byId = Object.fromEntries(N.map(n=>[n.id,n]));
+const $ = s => document.querySelector(s);
+const canvas=$("#canvas"), scroller=$("#scroller"), nodesEl=$("#nodes"), edgeG=$("#edge-g");
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const state = {view:"path", age:5, sel:"kita", all:false, bbs:false, route:null};
+
+function geom(n, view){
+  if(view==="path"){
+    const [c,r]=n.p, w=COLS[c];
+    return n.ms ? {x:colX[c], y:TOP+r*ROW+10, w, h:40} : {x:colX[c], y:TOP+r*ROW, w, h:NH};
+  }
+  if(n.ms){ const [at,r]=n.a; return {x:xAge(at)-25, y:TOP+r*ROW-21, w:50, h:20}; }
+  const [f,t,r]=n.a; return {x:xAge(f)+2, y:TOP+r*ROW, w:xAge(t)-xAge(f)-4, h:NH};
+}
+const esc = s => String(s).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const plain = s => s.replace(/­/g,"");
+
+/* ---------- Aufbau ---------- */
+const els={};
+N.forEach(n=>{
+  const b=document.createElement("button");
+  b.type="button"; b.id="n-"+n.id;
+  b.className="node"+(n.ms?" ms":"")+(n.open?" open":"");
+  b.dataset.sec=n.sec; b.setAttribute("data-comment-target","");
+  b.innerHTML='<span class="t"></span><span class="m"></span>';
+  b.addEventListener("click",()=>{ select(n.id); });
+  nodesEl.appendChild(b); els[n.id]=b;
+});
+const EP = E.map(e=>{
+  const p=document.createElementNS("http://www.w3.org/2000/svg","path");
+  p.setAttribute("class","edge"+(e.c?" c":""));
+  edgeG.appendChild(p); return {...e, el:p};
+});
+// Achsen
+const axPath=$("#axis-path"), axAge=$("#axis-age");
+HEADS.forEach(([a,b,l])=>{ const d=document.createElement("div"); d.className="colhead"; d.style.left=colX[a]+"px"; d.style.width=(colX[b]+COLS[b]-colX[a])+"px"; d.textContent=l; axPath.appendChild(d); });
+TICKS.forEach(a=>{ const d=document.createElement("div"); d.className="tick"+(a===SPLIT?" brk":""); d.style.left=xAge(a)+"px";
+  d.innerHTML="<span>"+a+"</span>"+(a===SPLIT?"<em>ab hier gestaucht</em>":""); axAge.appendChild(d); });
+// Legende
+$("#legend").innerHTML = ["frueh","schule","beruf","aufstieg","hoch","leben"].map(k=>
+  `<span><i style="--c:var(--${k});--b:var(--${k}-bg)"></i>${SECT[k].name}</span>`).join("")
+  + '<span><span class="ln"></span>direkter Anschluss</span><span><span class="ln d"></span>mit Zusatzvoraussetzung</span><span><span class="ring"></span>passt zum gewählten Alter</span>';
+// Schnellwahl
+const QUICK=[1,4,6,10,16,19,24,45,67];
+$("#quick").innerHTML = QUICK.map(a=>`<button type="button" data-age="${a}">${a}</button>`).join("");
+$("#quick").addEventListener("click",e=>{ const b=e.target.closest("button[data-age]"); if(b) setAge(+b.dataset.age, true); });
+// Quellen + Protokoll
+function renderFooter(){
+  $("#sources").innerHTML = SOURCES.map(([t,u])=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a></li>`).join("");
+  $("#log").innerHTML = LOG.map(([d,t])=>`<li><time>${esc(d)}</time><span>${esc(t)}</span></li>`).join("");
+}
+
+/* ---------- Layout ---------- */
+function setText(n, view, g){
+  const el=els[n.id], t=el.firstChild, m=el.lastChild;
+  const narrow = view==="age" && !n.ms && g.w<128;
+  t.textContent = (view==="age" && (n.ms||narrow)) ? n.s : n.t;
+  if(n.ms){ m.hidden=true; }
+  else {
+    const meta = view==="path" ? n.pm : n.am;
+    m.innerHTML = (n.bbs && g.w>=96 ? "<b>BBS</b>" : "") + esc(meta);
+    m.hidden = g.w<70;
+  }
+  el.setAttribute("aria-label", plain(n.t) + (n.ms ? ", Abschluss" : ", " + n.am));
+}
+function layout(view, animate){
+  canvas.classList.toggle("view-age", view==="age");
+  canvas.classList.toggle("view-path", view==="path");
+  const W = view==="path" ? PATH_W : AGE_W;
+  const rows = view==="path" ? 7 : 8;
+  canvas.style.width=W+"px"; canvas.style.height=(TOP+rows*ROW+4)+"px";
+  N.forEach(n=>{ const g=geom(n,view), s=els[n.id].style;
+    s.left=g.x+"px"; s.top=g.y+"px"; s.width=g.w+"px"; s.height=g.h+"px"; setText(n,view,g); });
+  updateNowLine();
+  if(animate && !reduce) animateEdges(820); else drawEdges();
+}
+
+/* ---------- Kanten ---------- */
+function rectOf(id){ const e=els[id]; return {x:e.offsetLeft,y:e.offsetTop,w:e.offsetWidth,h:e.offsetHeight}; }
+function pathD(a,b){
+  let p0,p1,d0,d1;
+  if(b.x >= a.x+a.w-6){ p0=[a.x+a.w,a.y+a.h/2]; d0=[1,0]; p1=[b.x,b.y+b.h/2]; d1=[1,0]; }
+  else if(b.x+b.w <= a.x+6){ p0=[a.x,a.y+a.h/2]; d0=[-1,0]; p1=[b.x+b.w,b.y+b.h/2]; d1=[-1,0]; }
+  else {
+    const down=b.y>a.y, mx=(Math.max(a.x,b.x)+Math.min(a.x+a.w,b.x+b.w))/2;
+    p0=[mx, down?a.y+a.h:a.y]; d0=[0,down?1:-1]; p1=[mx, down?b.y:b.y+b.h]; d1=[0,down?1:-1];
+  }
+  const dist=Math.hypot(p1[0]-p0[0],p1[1]-p0[1]);
+  if(dist<7) return "";
+  const k=Math.max(16,Math.min(72,dist*0.45));
+  const c0=[p0[0]+d0[0]*k,p0[1]+d0[1]*k], c1=[p1[0]-d1[0]*k,p1[1]-d1[1]*k];
+  const f=v=>v.map(n=>n.toFixed(1)).join(",");
+  return `M${f(p0)} C${f(c0)} ${f(c1)} ${f(p1)}`;
+}
+function drawEdges(){ EP.forEach(ep=>{ ep.el.setAttribute("d", pathD(rectOf(ep.f), rectOf(ep.t))); }); }
+let animUntil=0;
+function animateEdges(ms){
+  const start=animUntil===0||performance.now()>animUntil;
+  animUntil=performance.now()+ms;
+  if(!start) return;
+  const step=()=>{ drawEdges(); if(performance.now()<animUntil) requestAnimationFrame(step); else animUntil=0; };
+  requestAnimationFrame(step);
+}
+
+/* ---------- Zustand ---------- */
+function isNow(n, age){
+  if(n.ms) return age>=n.a[0]-0.5 && age<=n.a[0]+0.5;
+  return age>=n.a[0] && (age<n.a[1] || (n.a[1]>=AMAX && age<=AMAX));
+}
+function reachable(id){ const seen=new Set([id]), q=[id]; while(q.length){ const c=q.shift(); E.forEach(e=>{ if(e.f===c && !seen.has(e.t)){ seen.add(e.t); q.push(e.t); } }); } return seen; }
+function applyState(){
+  const {sel, route}=state;
+  const reach = !route && sel && !state.all ? reachable(sel) : null;
+  const rset = route ? new Set(route) : null;
+  N.forEach(n=>{
+    const el=els[n.id];
+    el.classList.toggle("is-sel", n.id===sel && !route);
+    el.setAttribute("aria-pressed", String(n.id===sel));
+    el.classList.toggle("is-now", isNow(n,state.age) && !route);
+    el.classList.toggle("is-route", !!rset && rset.has(n.id));
+    if(rset && rset.has(n.id)) el.dataset.step = route.indexOf(n.id)+1; else delete el.dataset.step;
+    let dim=false;
+    if(rset) dim=!rset.has(n.id); else dim=(!!reach && !reach.has(n.id)) || (state.bbs && !n.bbs);
+    el.classList.toggle("is-dim", dim);
+  });
+  const routePairs = new Set(); if(route) for(let i=0;i<route.length-1;i++) routePairs.add(route[i]+">"+route[i+1]);
+  EP.forEach(ep=>{
+    const isRoute = routePairs.has(ep.f+">"+ep.t);
+    const hot = !route && (reach ? (reach.has(ep.f)&&reach.has(ep.t)) : (sel && (ep.f===sel||ep.t===sel)));
+    ep.el.classList.toggle("route", isRoute);
+    ep.el.classList.toggle("hot", !!hot);
+    ep.el.classList.toggle("dim", (!!route && !isRoute) || (!!reach && !hot) || (state.bbs && !route && !(byId[ep.f].bbs||byId[ep.t].bbs)));
+    ep.el.setAttribute("marker-end", isRoute?"url(#ah-route)":hot?"url(#ah-hot)":"url(#ah)");
+    if(isRoute||hot) edgeG.appendChild(ep.el);
+  });
+}
+function updateNowLine(){
+  const x=xAge(state.age); const nl=$("#now-line");
+  nl.style.left=x+"px"; $("#now-label").textContent=state.age+" J.";
+}
+function scrollToX(x, smooth){
+  const left=Math.max(0, x - scroller.clientWidth*0.35);
+  scroller.scrollTo({left, behavior: smooth && !reduce ? "smooth" : "auto"});
+}
+function scrollToAgeFocus(smooth){
+  if(state.view==="age"){ scrollToX(xAge(state.age), smooth); return; }
+  const first=N.filter(n=>isNow(n,state.age)).map(n=>geom(n,"path").x);
+  if(first.length) scrollToX(Math.min(...first), smooth);
+}
+
+/* ---------- Karten ---------- */
+const nodeChip = (id, extra="") => { const n=byId[id]; return `<button type="button" class="chip" data-go="${n.id}" data-sec="${n.sec}" style="--sc:var(--${n.sec==="ab"?"ink":n.sec})"><i></i>${esc(plain(n.t))}</button>${extra}`; };
+function ageWord(a){ return a===0 ? "Im ersten Lebensjahr" : a===1 ? "Mit 1 Jahr" : `Mit ${a} Jahren`; }
+function renderAge(){
+  const a=state.age, b=AGES.find(x=>a>=x.from && a<=x.to) || AGES[AGES.length-1];
+  const now=N.filter(n=>isNow(n,a));
+  $("#age-card").innerHTML = `
+    <p class="eyebrow">${ageWord(a)}</p>
+    <h2>${esc(b.title)}</h2>
+    <p>${esc(b.text)}</p>
+    <h3>Was jetzt ansteht</h3>
+    <ul class="todo">${b.todo.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>
+    ${now.length?`<h3>Typische Stationen in diesem Alter</h3><ul class="chips">${now.map(n=>`<li>${nodeChip(n.id)}</li>`).join("")}</ul>`:""}`;
+}
+let commentsApi=null, commentsState="loading";
+function renderNode(){
+  const n=byId[state.sel]; if(!n) return;
+  const secName = SECT[n.sec].name + (n.bbs ? " · an der BBS" : "");
+  const outs=E.filter(e=>e.f===n.id), ins=E.filter(e=>e.t===n.id);
+  const li = (id, note, c) => `<li>${nodeChip(id)}${note||c?`<span class="cond">${esc(note|| "mit Zusatzvoraussetzung")}</span>`:""}</li>`;
+  const facts = n.ms ? "" : `<dl class="facts">
+      <dt>Alter</dt><dd>${esc(n.am)}</dd>
+      <dt>Dauer</dt><dd>${esc(n.dur)}</dd>
+      <dt>Zugang</dt><dd>${esc(n.zug)}</dd>
+      <dt>Abschluss</dt><dd>${esc(n.abs)}</dd>
+      <dt>Wo</dt><dd>${esc(n.wo)}</dd></dl>`;
+  const discuss = commentsState==="off" ? `<p class="small">Diskutieren geht, wenn die Seite in Claude geöffnet ist und du kommentieren darfst.</p>`
+    : `<button type="button" class="btn" id="discuss">Diskutieren</button>`;
+  $("#node-card").innerHTML = `
+    <p class="eyebrow" style="--sc:var(--${n.sec==="ab"?"ink":n.sec})"><span class="sec-dot"></span>${esc(secName)}</p>
+    <h2>${esc(plain(n.t))}</h2>
+    ${facts}
+    ${n.note?`<p class="note">${esc(n.note)}</p>`:""}
+    ${outs.length?`<h3>Wie geht es weiter?</h3><ul class="nextlist">${outs.map(e=>li(e.t,e.note,e.c)).join("")}</ul>`:""}
+    ${ins.length?`<h3>Wie kommt man hierher?</h3><ul class="nextlist">${ins.map(e=>li(e.f,e.note,e.c)).join("")}</ul>`:""}
+    <div class="actions">
+      <button type="button" class="btn" id="allbtn" aria-pressed="${state.all}">${state.all?"Nur Wege ab hier zeigen":"Alle Stationen zeigen"}</button>
+      ${discuss}
+    </div>`;
+}
+document.addEventListener("click", e=>{
+  const go=e.target.closest("[data-go]"); if(go){ select(go.dataset.go, true); return; }
+  if(e.target.closest("#allbtn")){ state.all=!state.all; state.route=null; applyState(); renderNode(); renderAnswerRouteBtn(); return; }
+  if(e.target.closest("#discuss")) openDiscussion();
+});
+
+function select(id, scroll){
+  if(state.sel===id && !state.route){ state.all=!state.all; }
+  else { state.sel=id; state.all=false; }
+  state.route=null;
+  applyState(); renderNode(); renderAnswerRouteBtn();
+  if(scroll){ const g=geom(byId[id],state.view); scrollToX(g.x, true); }
+}
+function setAge(a, smooth){
+  state.age=a; $("#age").value=a; $("#age-out").textContent = a===1 ? "1 Jahr" : a+" Jahre";
+  document.querySelectorAll("#quick button").forEach(b=>b.setAttribute("aria-pressed", String(+b.dataset.age===a)));
+  const b=AGES.find(x=>a>=x.from && a<=x.to);
+  if(b && !(byId[state.sel] && isNow(byId[state.sel],a))){ state.sel=b.focus; state.all=false; }
+  state.route=null;
+  updateNowLine(); applyState(); renderAge(); renderNode(); renderAnswerRouteBtn();
+  scrollToAgeFocus(smooth);
+}
+function setView(v){
+  if(state.view===v) return;
+  state.view=v;
+  $("#v-path").setAttribute("aria-pressed", String(v==="path"));
+  $("#v-age").setAttribute("aria-pressed", String(v==="age"));
+  layout(v, true);
+  setTimeout(()=>scrollToAgeFocus(true), reduce?0:420);
+}
+$("#v-path").addEventListener("click",()=>setView("path"));
+$("#v-age").addEventListener("click",()=>setView("age"));
+$("#age").addEventListener("input",e=>setAge(+e.target.value,false));
+$("#bbs").addEventListener("change",e=>{ state.bbs=e.target.checked; applyState(); });
+window.addEventListener("resize",()=>drawEdges());
+
+/* ---------- Diskussion (Kommentare) ---------- */
+async function openDiscussion(){
+  if(!commentsApi){ commentsState="off"; renderNode(); return; }
+  try{
+    const r = await commentsApi.openComposer({element: els[state.sel]});
+    if(!r.opened){ /* Kommentarfeld ist schon offen: nichts tun */ }
+  }catch(err){
+    if(err && (err.code==="unavailable"||err.code==="not_granted"||err.code==="capability_disabled"||err.code==="capability_removed")){ commentsState="off"; renderNode(); }
+  }
+}
+
+/* ---------- KI-Wegfinder ---------- */
+const EXAMPLES=[
+ "Ich habe den Hauptschulabschluss und möchte später Techniker werden.",
+ "Mein Sohn macht bald Abitur, will aber erst praktisch arbeiten.",
+ "Ich bin 45, Bürokauffrau, und möchte studieren.",
+ "Meine Tochter ist in Klasse 10 an der Oberschule und mag Technik."
+];
+const EXAMPLE_ANSWER = {sample:true, q:EXAMPLES[0], weg:["hsa","aus","beruf","techn"],
+  antwort:"Mit dem Hauptschulabschluss steht dir die duale Ausbildung offen, am besten in einem technischen Beruf wie Elektroniker oder Industriemechaniker. Nach dem Berufsabschluss sammelst du Berufserfahrung und gehst dann an die Fachschule Technik einer BBS: 2 Jahre in Vollzeit oder 4 Jahre berufsbegleitend.",
+  tipp:"Als staatlich geprüfter Techniker kannst du später sogar studieren, auch ohne Abitur."};
+let lastAnswer = EXAMPLE_ANSWER, askCtl=null, sampleApi=null, sampleState="loading";
+
+$("#examples").innerHTML = EXAMPLES.map((q,i)=>`<button type="button" data-ex="${i}">${esc(q)}</button>`).join("");
+$("#examples").addEventListener("click",e=>{ const b=e.target.closest("[data-ex]"); if(b){ $("#ask").value=EXAMPLES[+b.dataset.ex]; $("#ask").focus(); } });
+
+function renderAnswer(){
+  const a=lastAnswer, el=$("#answer");
+  if(!a){ el.innerHTML=""; return; }
+  const weg=(a.weg||[]).filter(id=>byId[id]);
+  el.innerHTML = `
+    <p class="tag">${a.sample ? "Beispielantwort · so sieht eine Antwort aus" : "KI-Antwort · live erzeugt, nicht geprüft"}</p>
+    <p style="font-weight:700">${esc(a.q)}</p>
+    ${weg.length?`<ol class="route">${weg.map(id=>`<li>${nodeChip(id)}</li>`).join("")}</ol>`:""}
+    <p>${esc(a.antwort||"")}</p>
+    ${a.tipp?`<p class="note">${esc(a.tipp)}</p>`:""}
+    <div class="actions" id="route-actions"></div>`;
+  renderAnswerRouteBtn();
+}
+function renderAnswerRouteBtn(){
+  const box=$("#route-actions"); if(!box) return;
+  const weg=(lastAnswer?.weg||[]).filter(id=>byId[id]);
+  if(!weg.length){ box.innerHTML=""; return; }
+  box.innerHTML = state.route ? `<button type="button" class="btn" id="route-off">Weg ausblenden</button>`
+                              : `<button type="button" class="btn primary" id="route-on">Weg auf der Karte zeigen</button>`;
+}
+document.addEventListener("click",e=>{
+  if(e.target.closest("#route-on")){
+    const weg=(lastAnswer?.weg||[]).filter(id=>byId[id]); if(!weg.length) return;
+    state.route=weg; state.sel=weg[weg.length-1]; state.all=false;
+    applyState(); renderNode(); renderAnswerRouteBtn();
+    scroller.scrollIntoView({behavior: reduce?"auto":"smooth", block:"center"});
+    scrollToX(geom(byId[weg[0]],state.view).x, true);
+  }
+  if(e.target.closest("#route-off")){ state.route=null; applyState(); renderAnswerRouteBtn(); }
+});
+
+function buildPrompt(q){
+  const nodes=N.map(n=>({id:n.id, name:plain(n.t), bereich:SECT[n.sec].name, abschluss:!!n.ms, alter:n.am||undefined, dauer:n.dur, zugang:n.zug, ergebnis:n.abs, hinweis:n.note||undefined}));
+  const edges=E.map(e=>e.c?[e.f,e.t,e.note||"mit Zusatzvoraussetzung"]:[e.f,e.t]);
+  return `Du bist Bildungsberater:in für das Bildungssystem in Niedersachsen (Deutschland). Unten steht eine Karte der Bildungswege als JSON: Stationen (nodes) und Übergänge (edges, [von, nach, Bedingung]).
+
+Aufgabe: Lies die Lage der Person und schlage EINEN sinnvollen Weg durch die Karte vor, vom aktuellen Stand bis zum Ziel. Nutze nur Stations-IDs aus der Karte, in der richtigen Reihenfolge, und nur Schritte, die als Übergang existieren. Wenn die Lage zu unklar ist, wähle den naheliegendsten Weg und sag kurz, was du angenommen hast.
+
+Schreib auf Deutsch, in einfacher Sprache, per Du. "antwort": höchstens 90 Wörter. "tipp": ein Satz mit einer Alternative oder einem praktischen Hinweis (z. B. Förderung, Fristen). Erfinde keine Fakten, die nicht in der Karte stehen; bei Unsicherheit verweise auf die Beratung der Schule, Kammer oder Agentur für Arbeit.
+
+Antworte NUR mit JSON in genau dieser Form:
+{"weg":["id1","id2","id3"],"antwort":"...","tipp":"..."}
+
+Lage der Person: ${q}
+
+Karte:
+${JSON.stringify({nodes, edges})}`;
+}
+const SAMPLE_COPY = {
+  not_granted:"Du hast der Seite nicht erlaubt, Claude zu fragen. Das lässt sich in den Berechtigungen der Seite ändern.",
+  sampling_disabled:"Claude ist für dein Konto hier nicht verfügbar.",
+  rate_limited:"Gerade zu viele Anfragen. Versuch es in einer Minute noch einmal.",
+  session_expired:"Bitte melde dich bei Claude neu an und versuch es dann noch einmal.",
+  refused:"Dazu kann die KI keinen Weg vorschlagen. Formuliere die Frage anders.",
+  invalid_json:"Die Antwort kam in einem unerwarteten Format. Versuch es noch einmal.",
+  empty_completion:"Es kam keine Antwort. Formuliere die Frage etwas genauer.",
+  upstream_error:"Die Verbindung ist abgebrochen. Versuch es noch einmal."
+};
+async function ask(){
+  const q=$("#ask").value.trim();
+  const st=$("#ask-status");
+  if(!q){ st.textContent="Beschreib zuerst kurz die Lage, oder wähle ein Beispiel."; $("#ask").focus(); return; }
+  if(!sampleApi){ st.textContent="Die KI-Frage funktioniert, wenn die Seite in Claude geöffnet ist."; return; }
+  askCtl=new AbortController();
+  $("#ask-go").disabled=true; $("#ask-stop").hidden=false;
+  st.textContent="Claude liest die Karte und denkt nach. Das dauert meist 10 bis 40 Sekunden.";
+  try{
+    const res = await sampleApi.json(buildPrompt(q), {signal:askCtl.signal});
+    const weg = Array.isArray(res?.weg) ? res.weg.map(String).filter(id=>byId[id]) : [];
+    lastAnswer = {q, weg, antwort:String(res?.antwort||""), tipp:res?.tipp?String(res.tipp):""};
+    st.textContent="";
+    renderAnswer();
+    if(weg.length){ state.route=weg; state.sel=weg[weg.length-1]; applyState(); renderNode(); renderAnswerRouteBtn(); scrollToX(geom(byId[weg[0]],state.view).x, true); }
+  }catch(err){
+    const code=err&&err.code;
+    if(code==="cancelled"){ st.textContent="Abgebrochen."; }
+    else if(code==="not_granted"||code==="sampling_disabled"||code==="not_declared"||code==="capability_disabled"||code==="capability_removed"){ st.textContent=SAMPLE_COPY[code]||"Die KI-Frage ist hier nicht verfügbar."; sampleState="off"; }
+    else st.textContent=SAMPLE_COPY[code]||SAMPLE_COPY.upstream_error;
+  }finally{
+    $("#ask-go").disabled=false; $("#ask-stop").hidden=true; askCtl=null;
+  }
+}
+$("#ask-go").addEventListener("click",ask);
+$("#ask-stop").addEventListener("click",()=>askCtl?.abort());
+
+/* ---------- Start ---------- */
+renderFooter();
+layout("path", false);
+setAge(5, false);
+renderAnswer();
+if(document.fonts && document.fonts.ready) document.fonts.ready.then(()=>drawEdges());
+
+(async()=>{
+  const c = window.claude && window.claude.use ? await window.claude.use("comments").catch(()=>null) : null;
+  commentsApi=c; commentsState = c ? "on" : "off"; renderNode();
+})();
+(async()=>{
+  const s = window.claude && window.claude.use ? await window.claude.use("sample").catch(()=>null) : null;
+  sampleApi=s; sampleState = s ? "on" : "off";
+  if(!s) $("#ask-status").textContent="Die KI-Frage funktioniert, wenn die Seite in Claude geöffnet ist. Unten siehst du eine Beispielantwort.";
+})();
+})();
+</script>

@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Krafft-Kai/Leben-Lernen/daten/schema-aussage.json",
+  "title": "Aussage",
+  "description": "Eine belegte Aussage zu einem Thema. Dateien in daten/themen/<thema>.json enthalten ein Array solcher Objekte. Jede Aussage braucht mindestens eine Quelle mit DOI oder Link und eine Evidenzampel; scripts/validate.js prüft das vor jedem Build.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "thema", "phasen", "aussage", "erklaerung", "wirkung", "ampel", "studientyp", "quellen", "stand", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*-[0-9]{3}$",
+      "description": "Eindeutig, stabil, kleingeschrieben: <thema>-<kürzel>-<laufende Nummer>, z. B. schlaf-jugend-003. Wird in Kommentaren und Korrekturen referenziert und nie geändert."
+    },
+    "thema": {
+      "type": "string",
+      "enum": ["entwicklung-gehirn", "foerdern-lernen", "zukunftskompetenzen", "ernaehrung", "bewegung-sport", "schlaf", "medien-gaming-ki", "sucht-risiko", "finanzen", "gesundheit-schutz", "schule-unterricht", "lernen-im-alter"]
+    },
+    "phasen": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "enum": ["P0", "P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11"] },
+      "description": "Lebensphasen aus daten/phasen.json, für die die Aussage gilt."
+    },
+    "aussage": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 240,
+      "description": "Ein Satz in einfacher Sprache. Keine Zahl ohne Quelle."
+    },
+    "erklaerung": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 900,
+      "description": "Zwei bis drei Sätze: Was heißt das, für wen gilt es, wie groß ist der Effekt?"
+    },
+    "gehirn": {
+      "type": "string",
+      "maxLength": 700,
+      "description": "Was dabei im Gehirn passiert, nur soweit belegt. Tier- und Bildgebungsstudien werden als solche benannt."
+    },
+    "wirkung": {
+      "type": "string",
+      "enum": ["hilft", "schadet", "neutral", "einordnung"],
+      "description": "hilft: fördert Lernen, Entwicklung oder Gesundheit. schadet: beeinträchtigt sie. neutral: kein belegter Effekt oder Mythos-Check. einordnung: Hintergrund ohne Handlungsrichtung."
+    },
+    "ampel": {
+      "type": "string",
+      "enum": ["stark", "mittel", "schwach", "umstritten", "mythos"],
+      "description": "stark: Leitlinien oder mehrere Meta-Analysen mit gleichem Ergebnis. mittel: einzelne Meta-Analysen oder mehrere übereinstimmende gute Studien. schwach: Einzelstudien, Querschnitt, Tierversuche, kleine Stichproben. umstritten: gute Studien widersprechen sich. mythos: mehrfach widerlegt."
+    },
+    "studientyp": {
+      "type": "string",
+      "enum": ["Leitlinie", "Meta-Analyse", "Systematischer Review", "RCT", "Kohorte", "Querschnitt", "Einzelstudie", "Expertenkonsens"],
+      "description": "Stärkster Belegtyp unter den Quellen."
+    },
+    "quellen": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["titel", "jahr", "doi_oder_url"],
+        "properties": {
+          "titel": { "type": "string", "minLength": 3 },
+          "autoren": { "type": "string", "description": "Nachnamen, bei mehr als drei: „et al.“ Bei Institutionen der Name der Stelle." },
+          "jahr": { "type": "integer", "minimum": 1900, "maximum": 2100 },
+          "doi_oder_url": { "type": "string", "pattern": "^(https?://|10\\.\\d{4,9}/)", "description": "DOI (10.xxxx/…) oder vollständige URL. Muss in der Sitzung geöffnet worden sein." },
+          "typ": { "type": "string", "enum": ["Leitlinie", "Meta-Analyse", "Systematischer Review", "RCT", "Kohorte", "Querschnitt", "Einzelstudie", "Expertenkonsens", "Gesetz", "Statistik"] },
+          "kernzitat": { "type": "string", "maxLength": 160, "description": "Höchstens 15 Wörter, wörtlich, in der Sprache der Quelle. Sonst leer lassen und paraphrasieren." },
+          "finanzierung": { "type": "string", "description": "Nur ausfüllen, wenn Hersteller oder Interessengruppen finanziert haben." },
+          "geoeffnet_am": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "empfehlung_offiziell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stelle", "jahr", "inhalt"],
+      "properties": {
+        "stelle": { "type": "string", "description": "z. B. WHO, DGE, BfR, BIÖG, Kultusministerium Niedersachsen" },
+        "jahr": { "type": "integer" },
+        "inhalt": { "type": "string" },
+        "url": { "type": "string" }
+      }
+    },
+    "gegenstimmen": {
+      "type": "string",
+      "description": "Wer widerspricht, mit welchen Belegen. Leer, wenn es keine ernsthafte Gegenposition gibt."
+    },
+    "rechtslage": {
+      "type": "string",
+      "description": "Nur bei rechtlichen Fragen: Bund, Niedersachsen, EU. Gesetzesvorhaben, die noch nicht beschlossen sind, werden als „geplant“ gekennzeichnet."
+    },
+    "tipps": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "eltern": { "type": "array", "items": { "type": "string" } },
+        "lehrkraefte": { "type": "array", "items": { "type": "string" } },
+        "jugendliche": { "type": "array", "items": { "type": "string" } },
+        "erwachsene": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "wann_hilfe": {
+      "type": "string",
+      "description": "Woran man erkennt, dass Fachleute gefragt sind, und wohin man sich wenden kann."
+    },
+    "stand": { "type": "string", "format": "date", "description": "Datum der letzten inhaltlichen Prüfung." },
+    "status": {
+      "type": "string",
+      "enum": ["recherchiert", "geprueft", "korrigiert", "in_diskussion", "zurueckgezogen"],
+      "description": "recherchiert: aus P1. geprueft/korrigiert: durch den Faktencheck P3. in_diskussion: ein Kommentar ist offen. zurueckgezogen: bleibt mit Begründung im Protokoll, wird nicht mehr angezeigt."
+    },
+    "aenderungen": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["datum", "was", "warum"],
+        "properties": {
+          "datum": { "type": "string", "format": "date" },
+          "was": { "type": "string" },
+          "warum": { "type": "string" },
+          "quelle": { "type": "string" },
+          "ausloeser": { "type": "string", "description": "z. B. Faktencheck, Kommentar #12, Quartalsupdate" }
+        }
+      }
+    }
+  }
+}

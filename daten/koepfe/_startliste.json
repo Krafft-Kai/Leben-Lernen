@@ -1,0 +1,66 @@
+{
+  "$comment": "Startliste für Prompt P2 (Köpfe und Studien). Stammt aus Vorwissen, wird in der Recherche geprüft und ergänzt. Jede Person bekommt danach eine eigene Datei nach schema-kopf.json. Bekannte Namen sind nicht automatisch der Forschungsstand; die Gegenposition gehört immer dazu.",
+  "stand": "2026-10-17",
+  "eintraege": [
+    {
+      "thema": "entwicklung-gehirn",
+      "personen": ["Jack Shonkoff", "Patricia Kuhl", "Adele Diamond", "Sarah-Jayne Blakemore", "Laurence Steinberg"],
+      "pruefauftrag": "Welche „Zeitfenster“ sind belegt, welche überdehnt?"
+    },
+    {
+      "thema": "foerdern-lernen",
+      "personen": ["James Heckman"],
+      "pruefauftrag": "Rendite früher Förderung: Wie gut übertragen sich US-Programme auf Deutschland?"
+    },
+    {
+      "thema": "schule-unterricht",
+      "personen": ["John Hattie", "Klaus Zierer", "Benedikt Wisniewski", "Dylan Wiliam", "Barak Rosenshine", "John Sweller", "Henry Roediger", "Jeffrey Karpicke", "John Dunlosky", "Elsbeth Stern"],
+      "pruefauftrag": "Methodenkritik an Hatties Effektstärken-Ranglisten"
+    },
+    {
+      "thema": "medien-gaming-ki",
+      "personen": ["Jonathan Haidt", "Jean Twenge", "Amy Orben", "Andrew Przybylski", "Candice Odgers"],
+      "pruefauftrag": "Social Media: Ursache oder Zusammenhang? Größe der Effekte. Gegenpositionen Orben, Przybylski, Odgers. Dazu JIM- und KIM-Studien."
+    },
+    {
+      "thema": "medien-gaming-ki",
+      "personen": ["Daphne Bavelier"],
+      "pruefauftrag": "Nutzen von Actionspielen und Risiko Computerspielsucht"
+    },
+    {
+      "thema": "medien-gaming-ki",
+      "personen": ["Manfred Spitzer"],
+      "pruefauftrag": "Fachkritik an selektiver Studienauswahl"
+    },
+    {
+      "thema": "medien-gaming-ki",
+      "personen": [],
+      "pruefauftrag": "KI und Lernen: Studien zu KI-Tutoren und zum Auslagern des Denkens. Viele Studien sind neu oder Preprints: Ampel streng setzen."
+    },
+    {
+      "thema": "schlaf",
+      "personen": ["Mary Carskadon", "Till Roenneberg", "Matthew Walker"],
+      "pruefauftrag": "Walkers Bestseller wurde für Zuspitzungen kritisiert"
+    },
+    {
+      "thema": "ernaehrung",
+      "personen": ["Berthold Koletzko", "Carlos Monteiro", "Kevin Hall"],
+      "pruefauftrag": "Wie gut ist „hochverarbeitet“ (NOVA) als Kategorie? Halls Studie zu hochverarbeiteten Lebensmitteln."
+    },
+    {
+      "thema": "bewegung-sport",
+      "personen": ["Charles Hillman"],
+      "pruefauftrag": "Wirkt Bewegung direkt auf Schulleistung oder über Aufmerksamkeit? Dazu WHO-Bewegungsempfehlungen."
+    },
+    {
+      "thema": "finanzen",
+      "personen": ["Annamaria Lusardi", "Walter Mischel"],
+      "pruefauftrag": "Was bleibt vom Marshmallow-Test nach den Wiederholungen?"
+    },
+    {
+      "thema": "lernen-im-alter",
+      "personen": ["Gill Livingston", "Miia Kivipelto", "Ulman Lindenberger"],
+      "pruefauftrag": "Lancet-Kommission, FINGER, ACTIVE-Studie: Bringt Gehirnjogging mehr als die geübte Aufgabe?"
+    }
+  ]
+}

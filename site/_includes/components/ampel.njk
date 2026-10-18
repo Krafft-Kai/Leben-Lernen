@@ -1,0 +1,6 @@
+{#- Evidenzampel: ampel("stark") → Badge. Namen und Kurzbeschreibung kommen aus daten.ampel (site/_data/daten.js). -#}
+{% macro ampel(stufe, info, gross) %}
+{%- if stufe -%}
+<span class="ampel{% if gross %} gross{% endif %}" data-ampel="{{ stufe }}"{% if info and info.kurz %} title="{{ info.kurz }}"{% endif %}>{{ (info and info.name) or stufe }}</span>
+{%- endif -%}
+{% endmacro %}

@@ -1,0 +1,20 @@
+---
+layout: layouts/seite.njk
+permalink: /protokoll/
+title: Änderungsprotokoll
+eyebrow: Protokoll
+lede: Jede Änderung an Inhalten mit Datum, Grund und Quelle, neueste zuerst. Nichts wird still geändert.
+quellenLeerText: Quellen stehen bei den einzelnen Aussagen; das Protokoll nennt sie bei jeder Korrektur.
+ohneProtokoll: true
+---
+<section class="abschnitt" aria-labelledby="alle-h">
+  <h2 id="alle-h">Alle Einträge <span class="small">{{ daten.protokoll.length }}</span></h2>
+  <ul class="protokoll">
+    {%- for e in daten.protokoll %}
+    <li>
+      <time datetime="{{ e.datum }}">{{ e.datum | datumKurz }}</time>
+      <span><span class="bereich">{{ e.bereich }}</span>{{ e.text }}{% if e.url %} <a href="{{ e.url }}">ansehen</a>{% endif %}</span>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>

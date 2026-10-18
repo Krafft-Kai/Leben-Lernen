@@ -1,0 +1,80 @@
+---
+layout: layouts/seite.njk
+pagination:
+  data: daten.koepfe
+  size: 1
+  alias: kopf
+permalink: "/koepfe/{{ kopf.id }}/"
+eleventyComputed:
+  title: "{{ kopf.name }}"
+  eyebrow: "Köpfe · {{ kopf.fachgebiet }}"
+  lede: "{{ kopf.kurz }}"
+---
+{%- from "components/ampel.njk" import ampel -%}
+<section class="abschnitt" aria-labelledby="person-h">
+  <h2 id="person-h" class="visually-hidden">Person</h2>
+  <dl class="facts">
+    <dt>Fachgebiet</dt><dd>{{ kopf.fachgebiet }}</dd>
+    {%- if kopf.institution %}<dt>Institution</dt><dd>{{ kopf.institution }}</dd>{% endif %}
+    {%- if kopf.themen and kopf.themen.length %}
+    <dt>Themen</dt><dd>{% for slug in kopf.themen %}{% set t = daten.themaBySlug[slug] %}<a class="chip" data-thema="{{ slug }}" href="{{ t.url }}"><i></i>{{ t.name }}</a> {% endfor %}</dd>
+    {%- endif %}
+    <dt>Status</dt><dd>{{ kopf.status }}</dd>
+  </dl>
+</section>
+
+<section class="abschnitt" aria-labelledby="studien-h">
+  <h2 id="studien-h">Schlüsselstudien</h2>
+  <div class="gitter zwei">
+    {%- for st in kopf.studien %}
+    {%- set href = ("https://doi.org/" ~ st.doi_oder_url) if st.doi_oder_url.startsWith("10.") else st.doi_oder_url %}
+    <article class="karte flach">
+      <p class="eyebrow">{{ st.jahr }} · {{ st.design }}</p>
+      <h3><a href="{{ href }}" rel="noopener">{{ st.titel }}</a></h3>
+      <p>{{ st.ergebnis }}</p>
+      <p class="small">{% if st.stichprobe %}Stichprobe: {{ st.stichprobe }}{% endif %}{% if st.stichprobe and st.effektgroesse %} · {% endif %}{% if st.effektgroesse %}Effekt: {{ st.effektgroesse }}{% endif %}</p>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="abschnitt" aria-labelledby="kritik-h">
+  <h2 id="kritik-h">Kritik und Replikation</h2>
+  {%- if kopf.kritik.length %}
+  <div class="gitter zwei">
+    {%- for k in kopf.kritik %}
+    <article class="kasten">
+      <p><b>{{ k.von }}:</b> {{ k.argument }}</p>
+      {%- if k.replikation %}<p class="small">Replikation: {{ k.replikation }}</p>{% endif %}
+      {%- if k.quelle %}<p class="small">Quelle: {% if k.quelle.startsWith("http") %}<a href="{{ k.quelle }}" rel="noopener">{{ k.quelle }}</a>{% else %}{{ k.quelle }}{% endif %}</p>{% endif %}
+    </article>
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p class="leer">Keine ernsthafte Kritik dokumentiert.</p>
+  {%- endif %}
+</section>
+
+{%- if kopf.praxis %}
+<section class="abschnitt" aria-labelledby="praxis-h">
+  <h2 id="praxis-h">Was folgt für die Praxis?</h2>
+  <p class="kasten">{{ kopf.praxis }}</p>
+</section>
+{%- endif %}
+
+<section class="abschnitt" aria-labelledby="kern-h">
+  <h2 id="kern-h">Kernaussagen</h2>
+  {%- if kopf.kernaussagen and kopf.kernaussagen.length %}
+  <ul class="gitter zwei" style="list-style:none;padding:0">
+    {%- for ka in kopf.kernaussagen %}
+    {%- set a = daten.aussageById[ka.aussage_id] if ka.aussage_id else none %}
+    <li class="karte flach">
+      <p>{{ ka.aussage }}</p>
+      <p class="zeile">{{ ampel(ka.ampel, daten.ampel[ka.ampel]) }}{% if a %} <a class="small" href="/themen/{{ a.thema }}/#{{ a.id }}">{{ a.id }}</a>{% endif %}</p>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- else %}
+  <p class="leer">Noch keine Kernaussagen eingetragen.</p>
+  {%- endif %}
+</section>

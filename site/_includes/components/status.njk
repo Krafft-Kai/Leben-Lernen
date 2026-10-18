@@ -1,0 +1,6 @@
+{#- Status einer Schwerpunktseite: status("geprueft", daten.statusSeite.geprueft) → Kästchen mit Namen. -#}
+{% macro status(wert, info, mitKurz) %}
+{%- if wert -%}
+<span class="status" data-status="{{ wert }}"{% if info and info.kurz %} title="{{ info.kurz }}"{% endif %}>{{ (info and info.name) or wert }}{% if mitKurz and info and info.kurz %}: {{ info.kurz }}{% endif %}</span>
+{%- endif -%}
+{% endmacro %}

@@ -1,0 +1,20 @@
+{#- Änderungsprotokoll. Erwartet die Variable eintraege: datum (ISO), bereich oder bezug, text oder was/warum/quelle, url. -#}
+<section class="abschnitt" id="protokoll" aria-labelledby="protokoll-h">
+  <h2 id="protokoll-h">Änderungsprotokoll <a class="small" href="/protokoll/">alle Änderungen</a></h2>
+  {%- if eintraege and eintraege.length %}
+  <ul class="protokoll">
+    {%- for e in eintraege %}
+    <li>
+      <time datetime="{{ e.datum }}">{{ e.datum | datumKurz }}</time>
+      <span>
+        {%- if e.bereich or e.bezug %}<span class="bereich">{{ e.bereich or e.bezug }}</span>{% endif %}
+        {%- if e.text %}{{ e.text }}{% else %}{{ e.was }}{% if e.warum %} ({{ e.warum }}{% if e.quelle %}; Quelle: {{ e.quelle }}{% endif %}){% endif %}{% endif %}
+        {%- if e.url and zeigeLinks %} <a href="{{ e.url }}">ansehen</a>{% endif %}
+      </span>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- else %}
+  <p class="leer">{{ protokollLeer or "Noch keine Änderungen an den Inhalten dieser Seite. Jede Korrektur erscheint hier mit Datum, Grund und Quelle." }}</p>
+  {%- endif %}
+</section>

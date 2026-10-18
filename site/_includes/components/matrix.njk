@@ -1,0 +1,46 @@
+{#- Matrix Thema × Altersgruppe aus daten.themen[].zellen: ● Schwerpunktseite (Link, Farbe nach Status), ○ Abschnitt, – entfällt. -#}
+{% macro matrix(daten, kompakt) %}
+<div class="matrix-wrap">
+  <table class="matrix">
+    <caption class="visually-hidden">Themen und Altersgruppen: ● eigene Schwerpunktseite, ○ kurzer Abschnitt, – entfällt</caption>
+    <thead>
+      <tr>
+        <th scope="col">Thema</th>
+        {%- for g in daten.altersgruppen %}
+        <th scope="col">{{ g.name | replace(" Jahre", "") | replace(" und älter", "+") }}</th>
+        {%- endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {%- for t in daten.themen %}
+      <tr data-thema="{{ t.slug }}">
+        <th scope="row"><a href="{{ t.url }}">{% if kompakt %}{{ t.kurz }}{% else %}{{ t.nummer }} {{ t.name }}{% endif %}</a></th>
+        {%- for z in t.zellen %}
+        <td>
+          {%- if z.gewicht == "schwerpunkt" -%}
+          <a href="{{ z.url }}" data-status="{{ z.status }}" title="{{ z.titel }}: {{ z.statusInfo.name }}" aria-label="{{ z.titel }}, Schwerpunktseite, {{ z.statusInfo.name }}">●</a>
+          {%- elif z.gewicht == "abschnitt" -%}
+          <span class="o" title="{{ z.titel }}: kurzer Abschnitt auf der Themen- und Altersseite" aria-label="kurzer Abschnitt">○</span>
+          {%- else -%}
+          <span class="o" aria-label="entfällt">–</span>
+          {%- endif -%}
+        </td>
+        {%- endfor %}
+      </tr>
+      {%- endfor %}
+    </tbody>
+  </table>
+</div>
+{% endmacro %}
+
+{#- Legende der Status-Farben -#}
+{% macro legende(daten) %}
+<p class="legende">
+  {%- set farben = { geplant: "var(--line)", recherchiert: "var(--a-schwach)", geprueft: "var(--a-mittel)", texte: "var(--beruf)", veroeffentlicht: "var(--a-stark)" } %}
+  {%- for key, info in daten.statusSeite %}
+  <span><i style="--c:{{ farben[key] }}"></i>{{ info.name }}: {{ info.kurz }}</span>
+  {%- endfor %}
+  <span>○ kurzer Abschnitt</span>
+  <span>– entfällt</span>
+</p>
+{% endmacro %}

@@ -1,0 +1,13 @@
+{#- Stationen des Navigators als Links: Variable stationen (Objekte aus daten/navigator.json). Link /navigator/#s-<id> wählt die Station aus. -#}
+{%- if stationen and stationen.length %}
+<div class="stationen">
+  {%- for s in stationen %}
+  <a class="station" href="/navigator/#s-{{ s.id }}" data-bereich="{{ s.bereich }}">
+    <b>{{ s.titel }}</b>
+    <span>{{ daten.navigator.bereiche[s.bereich] }}{% if s.meta_alter %} · {{ s.meta_alter }}{% endif %}</span>
+  </a>
+  {%- endfor %}
+</div>
+{%- else %}
+<p class="leer">{{ stationenLeer or "In dieser Phase gibt es keine Station im Navigator." }}</p>
+{%- endif %}

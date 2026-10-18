@@ -1,0 +1,43 @@
+---
+layout: layouts/seite.njk
+permalink: /mythen/
+title: Mythen-Check
+eyebrow: Mythen
+lede: Neuromythen und verbreitete Irrtümer, geprüft gegen die Forschung. Jede Behauptung steht mit Befund, Evidenzampel und Quelle.
+---
+{%- from "components/aussage.njk" import aussage -%}
+{%- from "components/ampel.njk" import ampel -%}
+{%- set seiteObj = { titel: title, url: page.url } -%}
+{%- if daten.mythen.length or daten.mythenSeiten.length %}
+{%- if daten.mythen.length %}
+<section class="abschnitt" aria-labelledby="mythen-h">
+  <h2 id="mythen-h">Geprüfte Mythen <span class="small">{{ daten.mythen.length }}</span></h2>
+  <div class="gitter zwei">
+    {%- for a in daten.mythen %}{{ aussage(a, site, seiteObj, daten, true) }}{% endfor %}
+  </div>
+</section>
+{%- endif %}
+{%- if daten.mythenSeiten.length %}
+<section class="abschnitt" aria-labelledby="seiten-h">
+  <h2 id="seiten-h">Mythos-Checks der Schwerpunktseiten</h2>
+  <div class="gitter zwei">
+    {%- for m in daten.mythenSeiten %}
+    <article class="karte flach" data-thema="{{ m.zelle.thema.slug }}">
+      <p class="zeile"><a class="eyebrow" href="{{ m.zelle.url }}">{{ m.zelle.titel }}</a>{% if m.aussage %}{{ ampel(m.aussage.ampel, daten.ampel[m.aussage.ampel]) }}{% endif %}</p>
+      <p><b>{{ m.behauptung }}</b></p>
+      <p>{{ m.befund }}</p>
+      {%- if m.aussage %}<p class="small">Beleg: <a href="/themen/{{ m.aussage.thema }}/#{{ m.aussage.id }}">{{ m.aussage.id }}</a></p>{% endif %}
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}
+{%- else %}
+<section class="abschnitt" aria-labelledby="leer-h">
+  <h2 id="leer-h">Noch keine geprüften Mythen</h2>
+  <div class="prosa">
+    <p>Hier erscheinen Behauptungen, die gute Studien mehrfach widerlegt haben. Sie tragen die Evidenzampel „Mythos“ und eine Quelle. Neuromythen werden in jeder Recherche aktiv geprüft.</p>
+    <p>Eine Behauptung landet erst hier, wenn ein unabhängiger Faktencheck die Quellen geöffnet und den Befund bestätigt hat. Den Stand der Recherche zeigt die <a href="/werkstatt/">Werkstatt</a>.</p>
+  </div>
+</section>
+{%- endif %}

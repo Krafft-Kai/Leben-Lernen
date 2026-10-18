@@ -1,0 +1,47 @@
+{#- Eine belegte Aussage als Karte.
+    Aufruf: {% from "components/aussage.njk" import aussage %} {{ aussage(a, site, { titel: title, url: page.url }, daten) }}
+    Alle Inhalte kommen aus dem Datensatz (daten/themen/*.json); die Vorlage ergänzt nur Beschriftungen. -#}
+{%- from "components/ampel.njk" import ampel -%}
+{% macro aussage(a, site, seite, daten, ohneWirkung) %}
+{%- set wirkungen = { hilft: "hilft", schadet: "schadet", neutral: "kein Effekt belegt", einordnung: "Einordnung" } -%}
+<article class="aussage" id="{{ a.id }}" data-ampel="{{ a.ampel }}" data-wirkung="{{ a.wirkung }}">
+  <p class="satz">{{ a.aussage }}</p>
+  <p class="meta">
+    {{ ampel(a.ampel, daten.ampel[a.ampel]) }}
+    {%- if not ohneWirkung %}<span>Wirkung: {{ wirkungen[a.wirkung] or a.wirkung }}</span>{% endif %}
+    <span>{{ a.studientyp }}</span>
+    <span>{% for p in a.phasen %}{{ daten.phaseById[p].name if daten.phaseById[p] else p }}{% if not loop.last %}, {% endif %}{% endfor %}</span>
+    {%- if a.status == "in_diskussion" %}<span class="status" data-status="in_diskussion" title="Ein Hinweis dazu wird gerade geprüft">in Diskussion</span>{% endif %}
+    {%- if a.status == "korrigiert" %}<span class="status" data-status="korrigiert" title="Nach einem Hinweis korrigiert, siehe Änderungsprotokoll">korrigiert</span>{% endif %}
+  </p>
+  <details>
+    <summary>Erklärung, Belege und Gegenstimmen</summary>
+    <div class="prosa">
+      <p>{{ a.erklaerung }}</p>
+      {%- if a.gehirn %}
+      <h4>Was passiert im Gehirn?</h4>
+      <p>{{ a.gehirn }}</p>
+      {%- endif %}
+      {%- if a.gegenstimmen %}
+      <h4>Gegenstimmen</h4>
+      <p>{{ a.gegenstimmen }}</p>
+      {%- endif %}
+      {%- if a.empfehlung_offiziell %}
+      <h4>Offizielle Empfehlung</h4>
+      <p>{{ a.empfehlung_offiziell.stelle }} ({{ a.empfehlung_offiziell.jahr }}): {{ a.empfehlung_offiziell.inhalt }}{% if a.empfehlung_offiziell.url %} <a href="{{ a.empfehlung_offiziell.url }}" rel="noopener">Zur Empfehlung</a>{% endif %}</p>
+      {%- endif %}
+      {%- if a.rechtslage %}
+      <h4>Rechtslage</h4>
+      <p>{{ a.rechtslage }}</p>
+      {%- endif %}
+    </div>
+  </details>
+  <ul class="quelle">
+    {%- for q in a.quellen %}
+    {%- set href = ("https://doi.org/" ~ q.doi_oder_url) if q.doi_oder_url.startsWith("10.") else q.doi_oder_url %}
+    <li>{% if q.autoren %}{{ q.autoren }} {% endif %}({{ q.jahr }}): <a href="{{ href }}" rel="noopener">{{ q.titel }}</a>{% if q.typ %} · {{ q.typ }}{% endif %}{% if q.kernzitat %} · „{{ q.kernzitat }}“{% endif %}{% if q.finanzierung %} · Finanzierung: {{ q.finanzierung }}{% endif %}</li>
+    {%- endfor %}
+  </ul>
+  <p class="korrektur small"><span class="mono">{{ a.id }}</span> · Stand {{ a.stand | datumKurz }} · <a href="{{ site | issueLink(seite, a.id) }}">Korrektur vorschlagen</a></p>
+</article>
+{% endmacro %}

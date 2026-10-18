@@ -1,0 +1,102 @@
+<!doctype html>
+{%- set seitenTitel = (title ~ " · " ~ site.titel) if title else (site.titel ~ " – " ~ site.untertitel) -%}
+{%- set seitenBeschreibung = description or lede or site.beschreibung -%}
+{%- set absoluteUrl = site.url ~ (site.pathPrefix | replace(r/\/$/, "")) ~ page.url -%}
+{%- set imSuchindex = suchindex != false and not robots -%}
+<html lang="de" data-rolle="alle">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ seitenTitel }}</title>
+  <meta name="description" content="{{ seitenBeschreibung }}">
+  {%- if robots %}
+  <meta name="robots" content="{{ robots }}">
+  {%- endif %}
+  <link rel="canonical" href="{{ absoluteUrl }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="{{ site.titel }}">
+  <meta property="og:title" content="{{ title or site.titel }}">
+  <meta property="og:description" content="{{ seitenBeschreibung }}">
+  <meta property="og:url" content="{{ absoluteUrl }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="preload" href="/assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/stil.css">
+  {%- for css in zusatzCss %}
+  <link rel="stylesheet" href="{{ css }}">
+  {%- endfor %}
+  {#- Gespeicherte Rolle und Darstellung vor dem ersten Zeichnen setzen (nur localStorage, kein Tracking) #}
+  <script>
+    (function () {
+      var d = document.documentElement;
+      try {
+        var r = localStorage.getItem("ll-rolle"); if (r) d.dataset.rolle = r;
+        var t = localStorage.getItem("ll-theme"); if (t === "light" || t === "dark") d.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+  <script src="/assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+  <header class="kopf">
+    <div class="seite">
+      <a class="marke" href="/">Leben <span>Lernen</span></a>
+      <nav class="hauptnav" aria-label="Hauptnavigation">
+        {%- set navigation = [
+          { url: "/alter/", name: "Alter" },
+          { url: "/themen/", name: "Themen" },
+          { url: "/navigator/", name: "Navigator" },
+          { url: "/koepfe/", name: "Köpfe" },
+          { url: "/mythen/", name: "Mythen" },
+          { url: "/werkstatt/", name: "Werkstatt" },
+          { url: "/suche/", name: "Suche" }
+        ] %}
+        {%- for punkt in navigation %}
+        <a href="{{ punkt.url }}"{% if page.url == punkt.url %} aria-current="page"{% elif page.url.startsWith(punkt.url) %} class="aktiv"{% endif %}>{{ punkt.name }}</a>
+        {%- endfor %}
+      </nav>
+      <div class="rollen" role="group" aria-label="Ich bin …">
+        <span class="label" aria-hidden="true">Ich bin</span>
+        <div class="seg">
+          <button type="button" data-rolle="alle" aria-pressed="true">Alle</button>
+          {%- for z in daten.zielgruppen %}
+          <button type="button" data-rolle="{{ z.id }}" aria-pressed="false">{{ z.name | replace(" und Erzieher", "") | replace(" und Ältere", "") }}</button>
+          {%- endfor %}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="ki-leiste" role="note">
+    <div class="seite">
+      <span class="ki-badge">KI</span>
+      <span>Inhalte sind KI-recherchiert und geprüft, nicht redaktionell. Maßgeblich sind Leitlinien, Gesetze und die Beratung von Fachleuten.</span>
+      <a href="/methodik/">Methodik</a>
+    </div>
+  </div>
+
+  <main id="inhalt" class="seite inhalt"{% if imSuchindex %} data-pagefind-body{% endif %}>
+    {{ content | safe }}
+  </main>
+
+  <footer class="fuss">
+    <div class="seite">
+      <div class="reihe">
+        <span>Stand: <time datetime="{{ daten.stand }}">{{ daten.stand | datum }}</time></span>
+        <nav aria-label="Weitere Seiten" class="reihe">
+          <a href="/methodik/">Methodik</a>
+          <a href="/protokoll/">Protokoll</a>
+          <a href="/werkstatt/">Werkstatt</a>
+          <a href="/impressum/">Impressum</a>
+          <a href="{{ site.repoUrl }}">GitHub</a>
+        </nav>
+        <button type="button" class="btn klein theme" data-theme-umschalter aria-live="polite">Darstellung: automatisch</button>
+      </div>
+      <p>Keine KI-Funktionen auf dieser Seite, keine Tracker. Die KI arbeitet im Hintergrund: Recherche, Faktencheck und Korrekturen, sichtbar im <a href="/protokoll/">Änderungsprotokoll</a>.</p>
+      <p class="small">{{ site.titel }}: {{ site.untertitel }}. Keine individuelle medizinische, rechtliche oder finanzielle Beratung.</p>
+    </div>
+  </footer>
+</body>
+</html>

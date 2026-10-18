@@ -1,0 +1,20 @@
+---
+layout: layouts/seite.njk
+permalink: /themen/
+title: Themen
+ueberschrift: Zwölf Themen über die ganze Lebensspanne
+eyebrow: Themen
+lede: Jedes Thema hat eine Übersichtsseite mit Kernaussagen, Zeitstrahl, Mythen und Köpfen. Wo die Matrix einen Schwerpunkt zeigt, gibt es eine eigene Seite mit konkretem Rat für diese Altersgruppe.
+---
+{%- from "components/matrix.njk" import matrix, legende -%}
+<section class="abschnitt" aria-labelledby="kacheln-h">
+  <h2 id="kacheln-h" class="visually-hidden">Alle Themen</h2>
+  {% include "components/kacheln.njk" %}
+</section>
+
+<section class="abschnitt" aria-labelledby="matrix-h">
+  <h2 id="matrix-h">Matrix: Thema × Altersgruppe <a class="small" href="/werkstatt/">ausführlich in der Werkstatt</a></h2>
+  <p class="small">● eigene Schwerpunktseite (Farbe zeigt den Stand), ○ kurzer Abschnitt auf der Themen- und Altersseite, – entfällt.</p>
+  {{ matrix(daten, true) }}
+  {{ legende(daten) }}
+</section>

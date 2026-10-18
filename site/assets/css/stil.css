@@ -250,9 +250,9 @@ hr{border:0;border-top:1px solid var(--line);margin:0}
 
 /* Zielgruppen-Filter */
 [data-fuer]{position:relative}
-html[data-rolle]:not([data-rolle="alle"]) [data-fuer]:not([data-fuer~=""]){display:none}
-html[data-rolle="eltern"] [data-fuer~="eltern"],html[data-rolle="lehrkraefte"] [data-fuer~="lehrkraefte"],
-html[data-rolle="jugendliche"] [data-fuer~="jugendliche"],html[data-rolle="erwachsene"] [data-fuer~="erwachsene"]{display:revert}
+/* Bei gewählter Rolle verschwindet alles, was für andere Zielgruppen gedacht ist; das Passende behält seine eigene Darstellung. */
+html[data-rolle="eltern"] [data-fuer]:not([data-fuer~="eltern"]),html[data-rolle="lehrkraefte"] [data-fuer]:not([data-fuer~="lehrkraefte"]),
+html[data-rolle="jugendliche"] [data-fuer]:not([data-fuer~="jugendliche"]),html[data-rolle="erwachsene"] [data-fuer]:not([data-fuer~="erwachsene"]){display:none}
 html[data-rolle]:not([data-rolle="alle"]) .fuer-label{display:none}
 .fuer-label{font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 .rollen-hinweis{font-size:13.5px;color:var(--muted)}

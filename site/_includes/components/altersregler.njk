@@ -1,0 +1,26 @@
+{#- Altersregler 0–80: app.js sucht die Phase zum Alter, aktualisiert den Link und wechselt beim Loslassen die Seite.
+    Die Phasen-Links stehen als echte Links im HTML, damit sie auch ohne JavaScript und mit PATH_PREFIX funktionieren. -#}
+{%- set startAlter = startAlter if startAlter is defined else 5 -%}
+<div class="gruppe" data-altersregler>
+  <label for="alter-{{ reglerId or 'regler' }}"><b>Alter</b> <span class="small">Wählen Sie ein Alter, um alles zu dieser Lebensphase zu sehen.</span></label>
+  <div class="alterwahl">
+    <input type="range" id="alter-{{ reglerId or 'regler' }}" min="0" max="80" step="1" value="{{ startAlter }}" data-alter-eingabe>
+    <output for="alter-{{ reglerId or 'regler' }}" data-alter-ausgabe>{{ startAlter }} Jahre</output>
+    {%- for p in daten.phasen %}{% if startAlter >= p.von and (p.bis == null or startAlter < p.bis) %}
+    <a class="btn primary" href="{{ p.url }}" data-alter-link>Zur Phase {{ p.name }} ({{ p | alter }})</a>
+    {%- endif %}{% endfor %}
+  </div>
+  <ul hidden data-phasen>
+    {%- for p in daten.phasen %}
+    <li><a href="{{ p.url }}" data-von="{{ p.von }}" data-bis="{{ p.bis if p.bis != null else '' }}" data-name="{{ p.name }}" data-alter="{{ p | alter }}">{{ p.name }}</a></li>
+    {%- endfor %}
+  </ul>
+  <p class="schnell" aria-label="Alter schnell wählen">
+    <span class="small">Schnellwahl:</span>
+    {%- for a in [1, 4, 6, 10, 13, 16, 19, 24, 45, 67] %}
+    {%- for p in daten.phasen %}{% if a >= p.von and (p.bis == null or a < p.bis) %}
+    <a href="{{ p.url }}" title="{{ p.name }}, {{ p | alter }}">{{ a }}</a>
+    {%- endif %}{% endfor %}
+    {%- endfor %}
+  </p>
+</div>

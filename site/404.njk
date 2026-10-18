@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+permalink: /404.html
+title: Seite nicht gefunden
+suchindex: false
+robots: noindex
+---
+<section class="held">
+  <p class="eyebrow">Fehler 404</p>
+  <h1>Seite nicht gefunden</h1>
+  <p class="lede">Diese Adresse gibt es nicht oder nicht mehr. Inhalte werden nie gelöscht, aber Seiten können umziehen.</p>
+  <p class="zeile">
+    <a class="btn primary" href="/">Zur Startseite</a>
+    <a class="btn" href="/themen/">Themen</a>
+    <a class="btn" href="/alter/">Lebensphasen</a>
+    <a class="btn" href="/suche/">Suche</a>
+  </p>
+  <p class="small">Ein Link auf dieser Seite führt ins Leere? <a href="{{ site | issueLink({ titel: 'Defekter Link', url: page.url }) }}">Bitte melden</a>.</p>
+</section>

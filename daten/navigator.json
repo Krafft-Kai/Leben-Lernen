@@ -1241,6 +1241,15 @@
       ]
     }
   ],
+  "beispiel": {
+    "$comment": "Beispielantwort des früheren KI-Wegfinders, wörtlich aus docs/navigator-original.html (EXAMPLE_ANSWER). Sie zeigt, wie eine KI-Antwort aussähe; auf der Website läuft keine KI. weg: Stations-IDs in der Reihenfolge des Weges.",
+    "frage": "Ich habe den Hauptschulabschluss und möchte später Techniker werden.",
+    "weg": ["hsa", "aus", "beruf", "techn"],
+    "antwort": "Mit dem Hauptschulabschluss steht dir die duale Ausbildung offen, am besten in einem technischen Beruf wie Elektroniker oder Industriemechaniker. Nach dem Berufsabschluss sammelst du Berufserfahrung und gehst dann an die Fachschule Technik einer BBS: 2 Jahre in Vollzeit oder 4 Jahre berufsbegleitend.",
+    "tipp": "Als staatlich geprüfter Techniker kannst du später sogar studieren, auch ohne Abitur.",
+    "quelle": "docs/navigator-original.html",
+    "stand": "2026-10-17"
+  },
   "quellen": [
     {
       "titel": "Niedersächsisches Schulgesetz (NSchG)",
@@ -1304,6 +1313,10 @@
     }
   ],
   "protokoll": [
+    {
+      "datum": "18.10.2026",
+      "text": "Übernommen in „Leben Lernen“: Die Beispielantwort des früheren KI-Wegfinders steht jetzt als Datensatz unter beispiel (Quelle: docs/navigator-original.html, unverändert übernommen). Die Seite zeigt sie als festes Beispiel; eine Live-KI gibt es nicht mehr."
+    },
     {
       "datum": "17.10.2026",
       "text": "Bedienung: Nach dem Antippen einer Station bleiben nur die von dort möglichen Wege farbig."

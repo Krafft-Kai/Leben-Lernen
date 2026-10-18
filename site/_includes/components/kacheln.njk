@@ -1,0 +1,14 @@
+{#- Themenkacheln für alle zwölf Themen aus daten.themen. -#}
+{%- from "components/status.njk" import status -%}
+<div class="gitter">
+  {%- for t in daten.themen %}
+  <a class="kachel" href="{{ t.url }}" data-thema="{{ t.slug }}">
+    <span class="nr">Thema {{ t.nummer }}</span>
+    <h3>{{ t.name }}</h3>
+    <p>{{ t.beschreibung }}</p>
+    <span class="fuss small">
+      {{ t.anzahlSchwerpunkte }} Schwerpunktseiten · {{ t.oeffentlich.length }} geprüfte Aussagen
+    </span>
+  </a>
+  {%- endfor %}
+</div>

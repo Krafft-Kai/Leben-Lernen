@@ -1,0 +1,216 @@
+---
+layout: layouts/seite.njk
+pagination:
+  data: daten.schwerpunkte
+  size: 1
+  alias: zelle
+permalink: "/themen/{{ zelle.slug }}/"
+eleventyComputed:
+  title: "{{ zelle.titel }}"
+  eyebrow: "Schwerpunkt · {{ zelle.thema.name }} · {{ zelle.gruppe.name }}"
+  lede: "Konkreter Rat für die Altersgruppe {{ zelle.gruppe.name }}: was hilft, was schadet, was im Gehirn passiert, was sich anderswo bewährt hat und wann Hilfe nötig ist."
+  robots: "{% if zelle.status == 'geplant' or zelle.status == 'recherchiert' %}noindex{% endif %}"
+  datenThema: "{{ zelle.thema.slug }}"
+---
+{%- from "components/aussage.njk" import aussage -%}
+{%- from "components/ampel.njk" import ampel -%}
+{%- set seiteObj = { titel: title, url: page.url } -%}
+{%- set s = zelle.seite -%}
+<div data-thema="{{ zelle.thema.slug }}" style="display:grid;gap:28px">
+
+{%- if zelle.status == "geplant" or zelle.status == "recherchiert" %}
+
+<div class="banner geplant" role="status">
+  <span class="ki-badge">KI</span>
+  <div>
+    {%- if zelle.status == "geplant" %}
+    <p><b>Diese Seite ist geplant. Recherche steht aus.</b></p>
+    {%- else %}
+    <p><b>Für diese Seite liegen {{ zelle.anzahlAussagen }} recherchierte Aussagen vor.</b> Sie erscheinen erst, wenn der Faktencheck sie bestätigt hat.</p>
+    {%- endif %}
+    <p class="small">Unten stehen die Leitfragen, mit denen recherchiert wird. Hinweise und gute Quellen sind schon jetzt willkommen: in den <a href="#kommentare">Kommentaren</a>.</p>
+  </div>
+</div>
+
+<section class="abschnitt" aria-labelledby="leitfragen-h">
+  <h2 id="leitfragen-h">Leitfragen zum Thema {{ zelle.thema.name }}</h2>
+  <ol class="prosa">
+    {%- for f in zelle.thema.leitfragen %}<li>{{ f }}</li>{% endfor %}
+  </ol>
+  <p class="small">Dazu für jede Seite: Was passiert im Gehirn? Was ist Mythos? Was hat sich in den letzten 24 Monaten geändert? Welche Praxis aus anderen Ländern ist evaluiert? <a href="{{ zelle.thema.url }}">Zur Themenseite</a></p>
+</section>
+
+<section class="abschnitt" aria-labelledby="phasen-h">
+  <h2 id="phasen-h">Was in dieser Altersgruppe im Mittelpunkt steht</h2>
+  <div class="gitter">
+    {%- for p in zelle.gruppe.phasenObjekte %}
+    <a class="karte flach" href="{{ p.url }}">
+      <span class="eyebrow">{{ p.id }} · {{ p | alter }}</span>
+      <b>{{ p.name }}</b>
+      <span>{{ p.mittelpunkt }}</span>
+    </a>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="abschnitt" aria-labelledby="stationen-h">
+  <h2 id="stationen-h">Stationen im Navigator</h2>
+  {% set stationen = zelle.stationen %}{% set stationenLeer = "Für diese Altersgruppe gibt es keine Station im Navigator." %}
+  {% include "components/stationen.njk" %}
+</section>
+
+{%- else %}
+
+{%- if zelle.status == "geprueft" %}
+<div class="banner" role="status">
+  <span class="ki-badge">KI</span>
+  <p>Die Aussagen auf dieser Seite sind geprüft. Die Texte für Eltern, Lehrkräfte, Jugendliche und Erwachsene folgen; bis dahin stehen hier die Aussagen selbst.</p>
+</div>
+{%- elif zelle.status == "texte" %}
+<div class="banner" role="status">
+  <span class="ki-badge">KI</span>
+  <p>Die Texte dieser Seite sind ein Entwurf. Die Aussagen darunter sind geprüft.</p>
+</div>
+{%- endif %}
+
+{%- set mitKernaussage = zelle.kernaussagen %}
+{%- if mitKernaussage.length %}
+<section class="abschnitt" aria-labelledby="kern-h">
+  <h2 id="kern-h">Das Wichtigste</h2>
+  <div class="gitter">
+    {%- for z in mitKernaussage %}
+    <div class="karte" data-fuer="{{ z.id }}">
+      <span class="fuer-label">Für {{ z.name }}</span>
+      <p class="lede" style="color:var(--ink)">{{ z.kernaussage }}</p>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}
+
+<section class="abschnitt" aria-labelledby="hs-h">
+  <h2 id="hs-h">Was hilft, was schadet</h2>
+  <div class="hilft-schadet">
+    <div class="spalte hilft">
+      <h3>Hilft</h3>
+      {%- for a in zelle.hilft %}{{ aussage(a, site, seiteObj, daten, true) }}{% else %}<p class="leer">Noch keine geprüfte Aussage.</p>{% endfor %}
+    </div>
+    <div class="spalte schadet">
+      <h3>Schadet</h3>
+      {%- for a in zelle.schadet %}{{ aussage(a, site, seiteObj, daten, true) }}{% else %}<p class="leer">Noch keine geprüfte Aussage.</p>{% endfor %}
+    </div>
+  </div>
+</section>
+
+{%- if zelle.einordnung.length %}
+<section class="abschnitt" aria-labelledby="einordnung-h">
+  <h2 id="einordnung-h">Einordnung</h2>
+  <div class="gitter zwei">
+    {%- for a in zelle.einordnung %}{{ aussage(a, site, seiteObj, daten) }}{% endfor %}
+  </div>
+</section>
+{%- endif %}
+
+<section class="abschnitt" aria-labelledby="gehirn-h">
+  <h2 id="gehirn-h">Was passiert im Gehirn?</h2>
+  <div class="kasten akzent prosa">
+    {%- if s and s.gehirn %}
+    <p>{{ s.gehirn }}</p>
+    {%- elif zelle.gehirnAussagen.length %}
+    {%- for a in zelle.gehirnAussagen %}<p>{{ a.gehirn }} <span class="small">{{ ampel(a.ampel, daten.ampel[a.ampel]) }} <a href="#{{ a.id }}">{{ a.id }}</a></span></p>{% endfor %}
+    {%- else %}
+    <p>Dazu liegt noch keine geprüfte Aussage vor.</p>
+    {%- endif %}
+    <p class="small">Hier steht nur, was belegt ist. Tier- und Bildgebungsstudien sind als solche gekennzeichnet.</p>
+  </div>
+</section>
+
+<section class="abschnitt" aria-labelledby="weltweit-h">
+  <h2 id="weltweit-h">Weltweit bewährt</h2>
+  {%- if s and s.weltweit and s.weltweit.length %}
+  <div class="gitter zwei">
+    {%- for w in s.weltweit %}
+    {%- set href = ("https://doi.org/" ~ w.quelle.doi_oder_url) if w.quelle.doi_oder_url.startsWith("10.") else w.quelle.doi_oder_url %}
+    <article class="karte">
+      <p class="zeile"><span class="eyebrow">{{ w.land }}</span>{{ ampel(w.ampel, daten.ampel[w.ampel]) }}</p>
+      <p><b>{{ w.praxis }}</b></p>
+      <dl class="facts">
+        <dt>Beleg</dt><dd>{{ w.beleg }}</dd>
+        {%- if w.uebertragbarkeit %}<dt>Für Deutschland</dt><dd>{{ w.uebertragbarkeit }}</dd>{% endif %}
+        <dt>Quelle</dt><dd>{% if w.quelle.autoren %}{{ w.quelle.autoren }} {% endif %}({{ w.quelle.jahr }}): <a href="{{ href }}" rel="noopener">{{ w.quelle.titel }}</a></dd>
+      </dl>
+    </article>
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p class="leer">Noch keine evaluierte Praxis aus anderen Ländern eingetragen. Hier erscheint nur, was dort wissenschaftlich ausgewertet wurde, mit Einschätzung der Übertragbarkeit.</p>
+  {%- endif %}
+</section>
+
+<section class="abschnitt" aria-labelledby="tipps-h">
+  <h2 id="tipps-h">Tipps</h2>
+  {%- set mitTipps = zelle.mitTipps %}
+  {%- if mitTipps.length %}
+  <div class="gitter">
+    {%- for z in mitTipps %}
+    <div class="karte" data-fuer="{{ z.id }}">
+      <h3>{{ z.name }}</h3>
+      <ul>{% for t in z.tipps %}<li>{{ t }}</li>{% endfor %}</ul>
+      {%- if z.gespraech %}<p class="kasten"><b>Gesprächseinstieg:</b> {{ z.gespraech }}</p>{% endif %}
+    </div>
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p class="leer">Tipps für die Zielgruppen folgen mit den Texten.</p>
+  {%- endif %}
+</section>
+
+<section class="abschnitt" aria-labelledby="mythos-h">
+  <h2 id="mythos-h">Mythos-Check</h2>
+  {%- if zelle.mythen.length %}
+  <div class="gitter zwei">
+    {%- for m in zelle.mythen %}
+    <article class="karte flach">
+      <p class="zeile"><span class="eyebrow">Behauptung</span>{% if m.aussage %}{{ ampel(m.aussage.ampel, daten.ampel[m.aussage.ampel]) }}{% endif %}</p>
+      <p><b>{{ m.behauptung }}</b></p>
+      <p><span class="eyebrow">Befund</span><br>{{ m.befund }}</p>
+      {%- if m.aussage %}<p class="small">Beleg: <a href="/themen/{{ m.aussage.thema }}/#{{ m.aussage.id }}">{{ m.aussage.id }}</a></p>{% endif %}
+    </article>
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p class="leer">Noch kein geprüfter Mythos für diese Altersgruppe.</p>
+  {%- endif %}
+</section>
+
+<section class="abschnitt" aria-labelledby="hilfe-h">
+  <h2 id="hilfe-h">Wann Hilfe holen</h2>
+  <div class="kasten akzent prosa">
+    {%- if s and s.wann_hilfe %}
+    <p>{{ s.wann_hilfe }}</p>
+    {%- elif zelle.hilfeAussagen.length %}
+    <ul>{% for a in zelle.hilfeAussagen %}<li>{{ a.wann_hilfe }}</li>{% endfor %}</ul>
+    {%- else %}
+    <p>Wenden Sie sich bei Sorgen an Fachleute, etwa die Kinder- oder Hausarztpraxis oder eine Beratungsstelle.</p>
+    {%- endif %}
+    {%- if s and s.hilfsangebote and s.hilfsangebote.length %}
+    <h3>Hilfsangebote</h3>
+    <ul>
+      {%- for h in s.hilfsangebote %}
+      <li><a href="{{ h.url }}" rel="noopener">{{ h.name }}</a>{% if h.telefon %} · Telefon {{ h.telefon }}{% endif %}{% if h.fuer %} <span class="small">({{ h.fuer }})</span>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+    <p class="small">Diese Seite ersetzt keine Beratung im Einzelfall.</p>
+  </div>
+</section>
+
+{%- if s %}
+<section class="abschnitt" aria-labelledby="checkliste-h">
+  <h2 id="checkliste-h">Checkliste zum Ausdrucken</h2>
+  <p><a class="btn primary" href="{{ zelle.url }}checkliste/">Checkliste öffnen</a> <span class="small">Eine Seite je Zielgruppe, mit Quellen und Stand.</span></p>
+</section>
+{%- endif %}
+
+{%- endif %}
+</div>

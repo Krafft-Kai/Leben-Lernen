@@ -3,6 +3,11 @@
   "eintraege": [
     {
       "datum": "2026-10-18",
+      "bereich": "Website",
+      "text": "Grundgerüst Teil 2: Vorlagen für alle Seitentypen, Navigator ohne KI-Wegfinder (Daten aus daten/navigator.json, Stationen per Adresse wählbar), Kommentare über giscus erst nach Klick, Link „Korrektur vorschlagen“ bei jeder Aussage und Station, Prüfung der Daten mit npm test, Veröffentlichung über GitHub Pages. Noch keine Fachinhalte."
+    },
+    {
+      "datum": "2026-10-18",
       "bereich": "Projekt",
       "text": "Grundgerüst angelegt: Repository-Struktur, Leitplanken (CLAUDE.md), Datenschemata für Aussagen, Schwerpunktseiten und Köpfe, zwölf Themen mit Leitfragen und Matrix, zwölf Lebensphasen, Navigator als Datensatz und Seite, Generator mit Validierung, Veröffentlichung über GitHub Pages. Noch kein Thema recherchiert."
     },

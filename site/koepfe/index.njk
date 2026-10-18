@@ -1,0 +1,47 @@
+---
+layout: layouts/seite.njk
+permalink: /koepfe/
+title: Köpfe und Studien
+eyebrow: Köpfe
+lede: Forscherinnen und Forscher, deren Arbeiten die Debatten prägen, mit Schlüsselstudien, Kritik und Replikation. Bekannte Namen sind nicht automatisch der Forschungsstand; die Gegenposition gehört immer dazu.
+quellenLeerText: Quellen stehen auf der Seite jeder einzelnen Person.
+---
+{%- from "components/status.njk" import status -%}
+{%- if daten.koepfe.length %}
+<section class="abschnitt" aria-labelledby="liste-h">
+  <h2 id="liste-h">Recherchiert <span class="small">{{ daten.koepfe.length }}</span></h2>
+  <div class="gitter">
+    {%- for k in daten.koepfe %}
+    <a class="karte flach" href="/koepfe/{{ k.id }}/">
+      <b>{{ k.name }}</b>
+      <span class="small">{{ k.fachgebiet }}{% if k.institution %} · {{ k.institution }}{% endif %}</span>
+      <span class="small">{{ k.studien.length }} Studien · {{ k.kritik.length }} kritische Einwände</span>
+    </a>
+    {%- endfor %}
+  </div>
+</section>
+{%- else %}
+<div class="banner geplant" role="status">
+  <span class="ki-badge">KI</span>
+  <p><b>Noch nicht recherchiert.</b> Die Liste unten stammt aus Vorwissen. Jede Person wird in einer eigenen Sitzung geprüft, mit Studien, Kritik und Replikation.</p>
+</div>
+{%- endif %}
+
+<section class="abschnitt" aria-labelledby="start-h">
+  <h2 id="start-h">Startliste <span class="small">aus Vorwissen, wird in der Recherche geprüft</span></h2>
+  {%- if daten.startliste.length %}
+  <div class="gitter">
+    {%- for e in daten.startliste %}
+    {%- set t = daten.themaBySlug[e.thema] %}
+    <div class="karte flach" data-thema="{{ e.thema }}">
+      <a class="eyebrow" href="{{ t.url if t else '/themen/' }}">{{ t.name if t else e.thema }}</a>
+      <b>{{ e.personen | join(", ") }}</b>
+      {%- if e.pruefauftrag %}<span class="small">Prüfauftrag: {{ e.pruefauftrag }}</span>{% endif %}
+      <span class="status" data-status="geplant">noch nicht recherchiert</span>
+    </div>
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p class="leer">Die Startliste ist leer.</p>
+  {%- endif %}
+</section>

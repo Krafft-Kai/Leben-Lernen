@@ -1,0 +1,21 @@
+{#- Quellenliste. Erwartet die Variable quellen: Einträge mit titel, autoren, jahr, doi_oder_url oder url, typ, kernzitat, finanzierung, aussagen. -#}
+<section class="abschnitt quellen" id="quellen" aria-labelledby="quellen-h">
+  <h2 id="quellen-h">Quellen</h2>
+  {%- if quellen and quellen.length %}
+  <ol>
+    {%- for q in quellen %}
+    {%- set link = q.doi_oder_url or q.url %}
+    {%- set href = ("https://doi.org/" ~ link) if (link and link.startsWith("10.")) else link %}
+    <li>
+      {% if q.autoren %}{{ q.autoren }}{% if q.jahr %} ({{ q.jahr }}){% endif %}: {% elif q.jahr %}({{ q.jahr }}) {% endif %}
+      {%- if href %}<a href="{{ href }}" rel="noopener">{{ q.titel }}</a>{% else %}{{ q.titel }}{% endif %}
+      {%- if q.typ or q.design %}<span class="typ">{{ q.typ or q.design }}</span>{% endif %}
+      {%- if q.finanzierung %} <span class="small">Finanzierung: {{ q.finanzierung }}</span>{% endif %}
+      {%- if q.aussagen and q.aussagen.length %} <span class="small mono">· {{ q.aussagen | join(", ") }}</span>{% endif %}
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- else %}
+  <p class="leer">{{ quellenLeer or "Noch keine Quellen: Auf dieser Seite stehen noch keine geprüften Aussagen. Jede Aussage bringt ihre Quellen mit, sobald sie den Faktencheck bestanden hat." }}</p>
+  {%- endif %}
+</section>

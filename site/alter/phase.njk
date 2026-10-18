@@ -1,0 +1,95 @@
+---
+layout: layouts/seite.njk
+pagination:
+  data: daten.phasen
+  size: 1
+  alias: phase
+permalink: "/alter/{{ phase.slug }}/"
+eleventyComputed:
+  title: "{{ phase.name }} ({{ phase | alter }})"
+  ueberschrift: "{{ phase.name }}"
+  eyebrow: "Lebensphase {{ phase.id }} · {{ phase | alter }}"
+  lede: "Im Mittelpunkt: {{ phase.mittelpunkt }}."
+---
+{%- from "components/aussage.njk" import aussage -%}
+{%- from "components/status.njk" import status -%}
+{%- set seiteObj = { titel: title, url: page.url } -%}
+{%- set idx = phase.index -%}
+<nav class="zeile small" aria-label="Benachbarte Phasen">
+  {%- if idx > 0 %}{% set vor = daten.phasen[idx - 1] %}<a class="chip" href="{{ vor.url }}">← {{ vor.name }} ({{ vor | alter }})</a>{% endif %}
+  <a class="chip" href="/alter/">Alle Phasen</a>
+  {%- if idx < daten.phasen.length - 1 %}{% set nach = daten.phasen[idx + 1] %}<a class="chip" href="{{ nach.url }}">{{ nach.name }} ({{ nach | alter }}) →</a>{% endif %}
+</nav>
+
+<section class="abschnitt" aria-labelledby="ansteht-h">
+  <h2 id="ansteht-h">Was jetzt ansteht <span class="small">aus dem Navigator</span></h2>
+  {%- if phase.altersphasen.length %}
+  <div class="gitter">
+    {%- for a in phase.altersphasen %}
+    <article class="karte">
+      <p class="eyebrow">{% if a.von == a.bis %}{{ a.von }} Jahre{% else %}{{ a.von }}–{{ a.bis }} Jahre{% endif %}</p>
+      <h3>{{ a.titel }}</h3>
+      <p>{{ a.text }}</p>
+      {%- if a.todo.length %}
+      <ul>
+        {%- for t in a.todo %}<li>{{ t }}</li>{% endfor %}
+      </ul>
+      {%- endif %}
+      <p class="small"><a href="/navigator/#s-{{ a.fokus }}">Im Navigator ansehen</a></p>
+    </article>
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p class="leer">Für dieses Alter hat der Navigator noch keine Einträge.</p>
+  {%- endif %}
+</section>
+
+<section class="abschnitt" aria-labelledby="stationen-h">
+  <h2 id="stationen-h">Stationen im Navigator</h2>
+  {% set stationen = phase.stationenObjekte %}{% set stationenLeer = "In dieser Phase gibt es keine Station im Navigator." %}
+  {% include "components/stationen.njk" %}
+</section>
+
+<section class="abschnitt" aria-labelledby="themen-h">
+  <h2 id="themen-h">Themen in dieser Phase <span class="small">● eigene Seite · ○ kurzer Abschnitt auf der Themenseite</span></h2>
+  <ul class="gitter eng" role="list" style="list-style:none;padding:0">
+    {%- for z in phase.themen %}
+    <li data-thema="{{ z.thema.slug }}" class="karte flach">
+      {%- if z.gewicht == "schwerpunkt" %}
+      <a href="{{ z.url }}"><b>● {{ z.thema.name }}</b></a>
+      {{ status(z.status, z.statusInfo) }}
+      {%- else %}
+      <a href="{{ z.thema.url }}"><b>○ {{ z.thema.name }}</b></a>
+      <span class="small">Abschnitt auf der Themenseite</span>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="abschnitt" aria-labelledby="warn-h">
+  <h2 id="warn-h">Warnsignale und wann Hilfe holen</h2>
+  {%- if phase.warnsignale.length %}
+  <ul class="gitter zwei" style="list-style:none;padding:0">
+    {%- for a in phase.warnsignale %}
+    <li class="kasten akzent" data-thema="{{ a.thema }}">
+      <p>{{ a.wann_hilfe }}</p>
+      <p class="small">Zu: {{ a.aussage }} · <a href="/themen/{{ a.thema }}/#{{ a.id }}">{{ a.id }}</a></p>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- else %}
+  <p class="leer">Noch keine geprüften Warnsignale für diese Phase. Wenden Sie sich bei Sorgen an Fachleute, etwa die Kinder- oder Hausarztpraxis oder eine Beratungsstelle.</p>
+  {%- endif %}
+</section>
+
+<section class="abschnitt" aria-labelledby="aussagen-h">
+  <h2 id="aussagen-h">Geprüfte Aussagen zu dieser Phase <span class="small">{{ phase.aussagen.length }}</span></h2>
+  {%- if phase.aussagen.length %}
+  <div class="gitter zwei">
+    {%- for a in phase.aussagen %}{{ aussage(a, site, seiteObj, daten) }}{% endfor %}
+  </div>
+  {%- else %}
+  <p class="leer">Noch keine geprüften Aussagen. Sie erscheinen hier, sobald die Themen recherchiert und im Faktencheck bestätigt sind. Den Stand zeigt die <a href="/werkstatt/">Werkstatt</a>.</p>
+  {%- endif %}
+</section>

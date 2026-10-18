@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+---
+{#- Seite mit Kopfzeile, Inhalt, Quellen, Änderungsprotokoll und Kommentaren.
+    Quellen, Protokoll und Stand kommen aus dem Datensatz der Seite (zelle, thema, phase, kopf),
+    sonst aus den Front-Matter-Feldern quellenListe/protokollListe oder dem Projektprotokoll. -#}
+{%- from "components/status.njk" import status -%}
+{%- set bezugObjekt = zelle or thema or phase or kopf -%}
+{%- set seitenQuellen = quellenListe or (bezugObjekt.studien if kopf else (bezugObjekt.quellen if bezugObjekt else [])) -%}
+{%- set seitenProtokoll = protokollListe or (bezugObjekt.aenderungen if bezugObjekt else (daten.protokoll | limit(5))) -%}
+{%- set seitenStand = stand or (bezugObjekt.stand if bezugObjekt) or daten.stand -%}
+{%- set seitenStatus = zelle.status if zelle else statusSeite -%}
+<header class="abschnitt"{% if datenThema %} data-thema="{{ datenThema }}"{% endif %}>
+  {%- if eyebrow %}
+  <p class="eyebrow">{{ eyebrow }}</p>
+  {%- endif %}
+  <h1>{{ ueberschrift or title }}</h1>
+  {%- if lede %}
+  <p class="lede">{{ lede }}</p>
+  {%- endif %}
+  <p class="seitenmeta">
+    <span>Stand: <time datetime="{{ seitenStand }}">{{ seitenStand | datum }}</time></span>
+    {%- if seitenStatus %}
+    {{ status(seitenStatus, daten.statusSeite[seitenStatus]) }}
+    {%- endif %}
+    <a href="{{ site | issueLink({ titel: title, url: page.url }) }}">Korrektur vorschlagen</a>
+    <a href="#kommentare">Kommentare</a>
+  </p>
+</header>
+
+{{ content | safe }}
+
+{% set quellen = seitenQuellen %}{% set quellenLeer = quellenLeerText %}
+{% include "components/quellen.njk" %}
+{% if not ohneProtokoll %}{% set eintraege = seitenProtokoll %}{% set protokollLeer = protokollLeerText %}
+{% include "components/protokoll.njk" %}{% endif %}
+{% include "components/kommentare.njk" %}

@@ -1,0 +1,42 @@
+---
+layout: layouts/seite.njk
+permalink: /suche/
+title: Suche
+eyebrow: Suche
+lede: Volltextsuche über alle veröffentlichten Seiten. Die Suche läuft im Browser; nichts wird an einen Server geschickt.
+suchindex: false
+quellenLeerText: Die Suche enthält keine eigenen Aussagen.
+---
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+<section class="abschnitt" aria-label="Suche">
+  <div id="suche"></div>
+  <noscript><p class="leer">Die Suche braucht JavaScript. Alternativ: <a href="/themen/">Themen</a>, <a href="/alter/">Lebensphasen</a>, <a href="/navigator/">Navigator</a>.</p></noscript>
+</section>
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    if (typeof PagefindUI === "undefined") {
+      document.getElementById("suche").innerHTML = '<p class="leer">Der Suchindex fehlt. Er entsteht mit <code>npm run build</code>.</p>';
+      return;
+    }
+    new PagefindUI({
+      element: "#suche",
+      showSubResults: true,
+      showImages: false,
+      baseUrl: {{ site.pathPrefix | json | safe }},
+      translations: {
+        placeholder: "Suchbegriff eingeben, z. B. Schlaf oder Ausbildung",
+        clear_search: "Löschen",
+        load_more: "Mehr Ergebnisse laden",
+        search_label: "Diese Seite durchsuchen",
+        filters_label: "Filter",
+        zero_results: "Keine Ergebnisse für [SEARCH_TERM]",
+        many_results: "[COUNT] Ergebnisse für [SEARCH_TERM]",
+        one_result: "[COUNT] Ergebnis für [SEARCH_TERM]",
+        alt_search: "Keine Ergebnisse für [SEARCH_TERM]. Stattdessen Ergebnisse für [DIFFERENT_TERM]",
+        search_suggestion: "Keine Ergebnisse für [SEARCH_TERM]. Versuchen Sie eine dieser Suchen:",
+        searching: "Suche nach [SEARCH_TERM] …"
+      }
+    });
+  });
+</script>

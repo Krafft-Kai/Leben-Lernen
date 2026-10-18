@@ -1,0 +1,25 @@
+---
+layout: layouts/seite.njk
+permalink: /alter/
+title: Alter
+ueberschrift: Lebensphasen von 0 bis 80+
+eyebrow: Alter
+lede: Zwölf Phasen von der Geburt bis ins hohe Alter. Jede Phase zeigt, was gerade ansteht, welche Stationen im Navigator passen und welche Themen wichtig sind.
+---
+<section class="einstieg">
+  {% set reglerId = "alter" %}{% include "components/altersregler.njk" %}
+</section>
+
+<section class="abschnitt" aria-labelledby="phasen-h">
+  <h2 id="phasen-h">Alle Phasen</h2>
+  <div class="gitter">
+    {%- for p in daten.phasen %}
+    <a class="karte flach kachel" href="{{ p.url }}" style="--tc:var(--accent)">
+      <span class="nr">{{ p.id }} · {{ p | alter }}</span>
+      <h3>{{ p.name }}</h3>
+      <p>{{ p.mittelpunkt }}</p>
+      <span class="small">{{ p.stationenObjekte.length }} Stationen im Navigator · {{ p.themen | where("gewicht", "schwerpunkt") | length }} Schwerpunktseiten</span>
+    </a>
+    {%- endfor %}
+  </div>
+</section>

@@ -1,0 +1,52 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: daten.checklisten
+  size: 1
+  alias: zelle
+permalink: "/themen/{{ zelle.slug }}/checkliste/"
+suchindex: false
+eleventyComputed:
+  title: "Checkliste: {{ zelle.titel }}"
+---
+{#- Druckseite: Checkliste je Zielgruppe aus daten/seiten (zielgruppen.*.checkliste). Fakten kommen nur aus den Daten. -#}
+{%- set absoluteUrl = site.url ~ (site.pathPrefix | replace(r/\/$/, "")) ~ zelle.url -%}
+<header class="abschnitt" data-thema="{{ zelle.thema.slug }}">
+  <p class="eyebrow">Checkliste · {{ zelle.thema.name }} · {{ zelle.gruppe.name }}</p>
+  <h1>{{ zelle.titel }}</h1>
+  <p class="seitenmeta">
+    <span>Stand: <time datetime="{{ zelle.stand }}">{{ zelle.stand | datum }}</time></span>
+    <span>{{ absoluteUrl }}</span>
+  </p>
+  <p class="zeile nicht-drucken">
+    <button type="button" class="btn primary" data-drucken>Drucken</button>
+    <a class="btn" href="{{ zelle.url }}">Zurück zur Seite</a>
+  </p>
+</header>
+
+{%- set listen = zelle.mitCheckliste %}
+{%- for z in listen %}
+<section class="karte" data-fuer="{{ z.id }}" aria-labelledby="liste-{{ z.id }}">
+  <h2 id="liste-{{ z.id }}">Für {{ z.name }}</h2>
+  {%- if z.kernaussage %}<p><b>{{ z.kernaussage }}</b></p>{% endif %}
+  <ul class="checkliste">
+    {%- for punkt in z.checkliste %}<li>{{ punkt }}</li>{% endfor %}
+  </ul>
+</section>
+{%- else %}
+<p class="leer">Für diese Seite gibt es noch keine Checkliste.</p>
+{%- endfor %}
+
+<section class="abschnitt small">
+  <h2>Quellen</h2>
+  {%- if zelle.quellen.length %}
+  <ol>
+    {%- for q in zelle.quellen %}
+    <li>{% if q.autoren %}{{ q.autoren }} {% endif %}({{ q.jahr }}): {{ q.titel }}. {{ ("https://doi.org/" ~ q.doi_oder_url) if q.doi_oder_url.startsWith("10.") else q.doi_oder_url }}</li>
+    {%- endfor %}
+  </ol>
+  {%- else %}
+  <p>Die Quellen stehen auf der Seite selbst.</p>
+  {%- endif %}
+  <p>KI-recherchiert und geprüft, nicht redaktionell. Maßgeblich sind Leitlinien, Gesetze und die Beratung von Fachleuten. Aktuelle Fassung, Quellen und Kommentare: {{ absoluteUrl }}</p>
+</section>

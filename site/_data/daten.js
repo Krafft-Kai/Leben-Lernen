@@ -22,6 +22,8 @@ const AMPEL = {
   umstritten: { name: "Umstritten", kurz: "gute Studien widersprechen sich" },
   mythos: { name: "Mythos", kurz: "mehrfach widerlegt" }
 };
+const AMPEL_RANG = ["stark", "mittel", "schwach", "umstritten", "mythos"];
+const zaehleNach = (liste, key) => liste.reduce((acc, x) => { acc[x[key]] = (acc[x[key]] || 0) + 1; return acc; }, {});
 const STATUS_SEITE = {
   geplant: { name: "geplant", kurz: "Recherche steht aus" },
   recherchiert: { name: "recherchiert", kurz: "Aussagen liegen vor, Faktencheck steht aus" },
@@ -94,6 +96,13 @@ module.exports = () => {
     return out.sort((x, y) => (y.datum || "").localeCompare(x.datum || ""));
   };
 
+  // Tipps je Zielgruppe: aus der Seite (P4), sonst gesammelt aus den geprüften Aussagen
+  const tippsJeZielgruppe = (seite, liste) => zielgruppen.map(z => {
+    const text = seite && seite.zielgruppen && seite.zielgruppen[z.id];
+    const tipps = text ? text.tipps : [...new Set(liste.flatMap(a => (a.tipps && a.tipps[z.id]) || []))];
+    return { ...z, kernaussage: text ? text.kernaussage : null, tipps, checkliste: (text && text.checkliste) || [], gespraech: (text && text.gespraech) || null };
+  }).filter(z => z.kernaussage || z.tipps.length || z.checkliste.length);
+
   // Schwerpunktseiten (●) und Abschnitte (○)
   const schwerpunkte = [];
   const abschnitte = [];
@@ -122,8 +131,16 @@ module.exports = () => {
         mythen: (seite && seite.mythen ? seite.mythen.map(m => ({ ...m, aussage: aussageById[m.aussage_id] })) : oeff.filter(a => a.ampel === "mythos").map(a => ({ behauptung: a.aussage, befund: a.erklaerung, aussage: a }))),
         quellen: quellenAus(oeff),
         aenderungen: aenderungenAus(oeff, seite),
-        stand: [seite && seite.stand, ...oeff.map(a => a.stand)].filter(Boolean).sort().pop() || null
+        stand: [seite && seite.stand, ...oeff.map(a => a.stand)].filter(Boolean).sort().pop() || null,
+        // Für die Vorlagen: Tipps und Checklisten je Zielgruppe, Gehirn und Warnsignale aus den Aussagen
+        tipps: tippsJeZielgruppe(seite, oeff),
+        gehirnAussagen: oeff.filter(a => a.gehirn),
+        hilfeAussagen: oeff.filter(a => a.wann_hilfe),
+        stationen: [...new Set(gruppe.phasen.flatMap(id => phaseById[id].stationen))].map(id => stationById[id]).filter(Boolean)
       };
+      zelle.kernaussagen = zelle.tipps.filter(z => z.kernaussage);
+      zelle.mitTipps = zelle.tipps.filter(z => z.tipps.length);
+      zelle.mitCheckliste = zelle.tipps.filter(z => z.checkliste.length);
       t.zellen.push(zelle);
       if (gewicht === "schwerpunkt") schwerpunkte.push(zelle);
       else if (gewicht === "abschnitt") abschnitte.push(zelle);
@@ -135,6 +152,12 @@ module.exports = () => {
     t.quellen = quellenAus(t.oeffentlich);
     t.stand = t.oeffentlich.map(a => a.stand).filter(Boolean).sort().pop() || null;
     t.anzahlSchwerpunkte = t.matrix.filter(m => m === "schwerpunkt").length;
+    t.kernaussagen = t.oeffentlich.filter(a => a.ampel !== "mythos").sort((x, y) => AMPEL_RANG.indexOf(x.ampel) - AMPEL_RANG.indexOf(y.ampel));
+    t.aenderungen = aenderungenAus(t.oeffentlich);
+    t.aussagenStatus = zaehleNach(aussagenByThema[t.slug] || [], "status");
+    t.abschnitte = t.zellen.filter(z => z.gewicht === "abschnitt");
+    t.startliste = startliste.filter(e => e.thema === t.slug);
+    t.url = `/themen/${t.slug}/`;
   }
 
   // Lebensphasen: Themen, Stationen, Navigator-Altersphasen
@@ -149,6 +172,10 @@ module.exports = () => {
     p.aussagen = aussagen.filter(a => a.oeffentlich && a.phasen.includes(p.id));
     p.warnsignale = p.aussagen.filter(a => a.wann_hilfe);
     p.url = `/alter/${p.slug}/`;
+    p.index = phasen.indexOf(p);
+    p.quellen = quellenAus(p.aussagen);
+    p.aenderungen = aenderungenAus(p.aussagen);
+    p.stand = p.aussagen.map(a => a.stand).filter(Boolean).sort().pop() || null;
   }
 
   // Protokoll zusammenführen
@@ -172,11 +199,17 @@ module.exports = () => {
     quellen: quellenAus(aussagen.filter(a => a.oeffentlich)).length
   };
   const mythen = aussagen.filter(a => a.oeffentlich && a.ampel === "mythos");
+  // Mythen-Checks der Schwerpunktseiten (seite.mythen), Seiten mit Checkliste, offene Diskussionen
+  const mythenSeiten = schwerpunkte.filter(z => z.seite && z.seite.mythen).flatMap(z => z.mythen.map(m => ({ ...m, zelle: z })));
+  const checklisten = schwerpunkte.filter(z => z.seite);
+  const offeneDiskussionen = aussagen.filter(a => a.status === "in_diskussion");
+  // Navigator-Protokoll mit ISO-Datum für die Protokoll-Komponente
+  const navigatorProtokoll = navigator.protokoll.map(e => ({ datum: e.datum.split(".").reverse().join("-"), text: e.text }));
   const stand = [protokoll[0]?.datum, ...aussagen.map(a => a.stand)].filter(Boolean).sort().pop();
 
   return {
     phasen, altersgruppen, zielgruppen, themen, aussagen, aussageById, seiten, koepfe, startliste,
-    navigator, protokoll, schwerpunkte, abschnitte, statistik, mythen, stand,
+    navigator, navigatorProtokoll, protokoll, schwerpunkte, abschnitte, statistik, mythen, mythenSeiten, checklisten, offeneDiskussionen, stand,
     ampel: AMPEL, statusSeite: STATUS_SEITE, themaBySlug, gruppeBySlug, phaseById, stationById
   };
 };

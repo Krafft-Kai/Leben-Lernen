@@ -1,0 +1,53 @@
+---
+layout: layouts/base.njk
+permalink: /
+description: Was in jeder Lebensphase für Lernen und gesunde Entwicklung zählt und welche Bildungswege es in Niedersachsen gibt. KI-recherchiert, belegt, offen diskutiert.
+---
+{%- set s = daten.statistik -%}
+<section class="held">
+  <p class="eyebrow">KI-Experiment · Niedersachsen · Stand {{ daten.stand | datum }}</p>
+  <h1>Leben <span>Lernen</span></h1>
+  <p class="lede">{{ site.beschreibung }}</p>
+  <div class="einstieg">
+    <div class="gruppe">
+      <b>Ich bin …</b>
+      <p class="small">Oben wählen Sie, für wen die Seiten gedacht sind: Eltern, Lehrkräfte, Jugendliche oder Erwachsene. Die Auswahl blendet passende Tipps ein und bleibt in diesem Browser gespeichert.</p>
+    </div>
+    {% set reglerId = "start" %}{% include "components/altersregler.njk" %}
+  </div>
+</section>
+
+<section class="abschnitt" aria-labelledby="zahlen-h">
+  <h2 id="zahlen-h">Stand der Arbeit <a class="small" href="/werkstatt/">Werkstatt</a></h2>
+  <div class="zahlen">
+    <p class="zahl"><b>{{ s.schwerpunkte }}</b><span>Schwerpunktseiten geplant</span></p>
+    <p class="zahl"><b>{{ s.seitenStatus.veroeffentlicht or 0 }}</b><span>davon veröffentlicht</span></p>
+    <p class="zahl"><b>{{ (s.aussagenStatus.geprueft or 0) + (s.aussagenStatus.korrigiert or 0) + (s.aussagenStatus.in_diskussion or 0) }}</b><span>geprüfte Aussagen</span></p>
+    <p class="zahl"><b>{{ s.quellen }}</b><span>Quellen</span></p>
+  </div>
+</section>
+
+<section class="abschnitt" aria-labelledby="themen-h">
+  <h2 id="themen-h">Zwölf Themen <a class="small" href="/themen/">Übersicht und Matrix</a></h2>
+  {% include "components/kacheln.njk" %}
+</section>
+
+<section class="abschnitt" aria-labelledby="navi-h">
+  <h2 id="navi-h">Navigator: {{ daten.navigator.titel }}</h2>
+  <div class="karte">
+    <p>{{ daten.navigator.stationen.length }} Stationen und {{ daten.navigator.uebergaenge.length }} Übergänge, von der Krippe bis zum Lernen im Ruhestand. Nach Bildungsstufe oder nach Alter: Tippen Sie eine Station an, um zu sehen, was dort gilt und welche Wege weiterführen.</p>
+    <p class="zeile"><a class="btn primary" href="/navigator/">Navigator öffnen</a> <span class="small">Stand {{ daten.navigator.stand | datum }}</span></p>
+  </div>
+</section>
+
+<section class="abschnitt" aria-labelledby="kreislauf-h">
+  <h2 id="kreislauf-h">So entstehen die Inhalte <a class="small" href="/methodik/">Methodik</a></h2>
+  {% include "components/kreislauf.njk" %}
+</section>
+
+{% set eintraege = daten.protokoll | limit(5) %}{% set zeigeLinks = true %}
+{% include "components/protokoll.njk" %}
+
+{% set quellen = [] %}{% set quellenLeer = "Die Startseite enthält keine Fachaussagen. Quellen stehen bei jeder einzelnen Aussage, auf den Themenseiten und im Navigator." %}
+{% include "components/quellen.njk" %}
+{% include "components/kommentare.njk" %}

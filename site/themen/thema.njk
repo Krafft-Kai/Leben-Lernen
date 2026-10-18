@@ -1,0 +1,97 @@
+---
+layout: layouts/seite.njk
+pagination:
+  data: daten.themen
+  size: 1
+  alias: thema
+permalink: "/themen/{{ thema.slug }}/"
+eleventyComputed:
+  title: "{{ thema.name }}"
+  eyebrow: "Thema {{ thema.nummer }}"
+  lede: "{{ thema.beschreibung }}"
+  datenThema: "{{ thema.slug }}"
+---
+{%- from "components/aussage.njk" import aussage -%}
+{%- from "components/status.njk" import status -%}
+{%- set seiteObj = { titel: title, url: page.url } -%}
+<div data-thema="{{ thema.slug }}" style="display:grid;gap:28px">
+
+<section class="abschnitt" aria-labelledby="zeitstrahl-h">
+  <h2 id="zeitstrahl-h">Über die Lebensspanne</h2>
+  <div class="zeitstrahl">
+    {%- for z in thema.zellen %}
+    {%- if z.gewicht == "schwerpunkt" %}
+    <a href="{{ z.url }}"><b>{{ z.gruppe.name }}</b>● Schwerpunktseite<small class="status" data-status="{{ z.status }}">{{ z.statusInfo.name }}</small></a>
+    {%- elif z.gewicht == "abschnitt" %}
+    <span><b>{{ z.gruppe.name }}</b>○ kurzer Abschnitt<small class="small">{% if z.aussagen.length %}{{ z.aussagen.length }} Aussagen weiter unten{% else %}folgt{% endif %}</small></span>
+    {%- else %}
+    <span><b>{{ z.gruppe.name }}</b>– entfällt</span>
+    {%- endif %}
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="abschnitt" aria-labelledby="leitfragen-h">
+  <h2 id="leitfragen-h">Leitfragen der Recherche</h2>
+  <ol class="prosa">
+    {%- for f in thema.leitfragen %}<li>{{ f }}</li>{% endfor %}
+  </ol>
+  <p class="small">Jede Recherche beantwortet zusätzlich: Was passiert dabei im Gehirn? Was ist Mythos? Was hat sich in den letzten 24 Monaten geändert? Welche Praxis aus anderen Ländern ist evaluiert?</p>
+</section>
+
+<section class="abschnitt" aria-labelledby="kern-h">
+  <h2 id="kern-h">Kernaussagen <span class="small">geprüft, starke Evidenz zuerst</span></h2>
+  {%- if thema.kernaussagen.length %}
+  <div class="gitter zwei">
+    {%- for a in thema.kernaussagen %}{{ aussage(a, site, seiteObj, daten) }}{% endfor %}
+  </div>
+  {%- else %}
+  <p class="leer">Noch keine geprüften Aussagen zu diesem Thema. Recherchiert: {{ thema.anzahlAussagen }}. Den Stand zeigt die <a href="/werkstatt/">Werkstatt</a>.</p>
+  {%- endif %}
+</section>
+
+{%- for z in thema.abschnitte %}{% if z.aussagen.length %}
+<section class="abschnitt" id="abschnitt-{{ z.gruppe.slug }}" aria-labelledby="abschnitt-{{ z.gruppe.slug }}-h">
+  <h2 id="abschnitt-{{ z.gruppe.slug }}-h">Kurz: {{ z.gruppe.name }}</h2>
+  <div class="gitter zwei">
+    {%- for a in z.aussagen %}{{ aussage(a, site, seiteObj, daten) }}{% endfor %}
+  </div>
+</section>
+{%- endif %}{% endfor %}
+
+<section class="abschnitt" aria-labelledby="mythen-h">
+  <h2 id="mythen-h">Mythen <a class="small" href="/mythen/">alle Mythen</a></h2>
+  {%- if thema.mythen.length %}
+  <div class="gitter zwei">
+    {%- for a in thema.mythen %}{{ aussage(a, site, seiteObj, daten, true) }}{% endfor %}
+  </div>
+  {%- else %}
+  <p class="leer">Noch keine geprüften Mythen zu diesem Thema.</p>
+  {%- endif %}
+</section>
+
+<section class="abschnitt" aria-labelledby="koepfe-h">
+  <h2 id="koepfe-h">Köpfe und Studien <a class="small" href="/koepfe/">alle Köpfe</a></h2>
+  {%- if thema.koepfe.length %}
+  <ul class="gitter eng" style="list-style:none;padding:0">
+    {%- for k in thema.koepfe %}
+    <li class="karte flach"><a href="/koepfe/{{ k.id }}/"><b>{{ k.name }}</b></a><span class="small">{{ k.fachgebiet }}</span></li>
+    {%- endfor %}
+  </ul>
+  {%- elif thema.startliste.length %}
+  <p class="small">Noch nicht recherchiert. Geplant sind (Startliste aus Vorwissen, wird in der Recherche geprüft und um Gegenpositionen ergänzt):</p>
+  <ul class="gitter eng" style="list-style:none;padding:0">
+    {%- for e in thema.startliste %}
+    <li class="karte flach">
+      <b>{{ e.personen | join(", ") }}</b>
+      {%- if e.pruefauftrag %}<span class="small">Prüfauftrag: {{ e.pruefauftrag }}</span>{% endif %}
+      <span class="status" data-status="geplant">geplant</span>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- else %}
+  <p class="leer">Für dieses Thema sind noch keine Köpfe geplant.</p>
+  {%- endif %}
+</section>
+
+</div>

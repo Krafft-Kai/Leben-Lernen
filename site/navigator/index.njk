@@ -1,0 +1,100 @@
+---
+layout: layouts/base.njk
+permalink: /navigator/
+title: "Navigator: Bildungswege Niedersachsen"
+description: "Bildungswege in Niedersachsen von der Krippe bis zum Lernen im Ruhestand: Stationen, Anschlüsse und Zugangsvoraussetzungen nach Bildungsstufe und nach Alter."
+zusatzCss:
+  - /assets/css/navigator.css
+---
+{#- Navigator-Port aus docs/navigator-original.html. Alle Inhalte stammen aus daten/navigator.json;
+    die Karte zeichnet assets/js/navigator.js. Keine KI-Funktionen. -#}
+{%- set nav = daten.navigator -%}
+{%- set seiteObj = { titel: title, url: page.url } -%}
+<div class="navi" id="navi" data-issue-basis="{{ site | issueLink(seiteObj) }}">
+  <header class="mast">
+    <p class="eyebrow">Navigator · Niedersachsen · Stand {{ nav.stand | datum }}</p>
+    <h1>Bildungswege <span>Niedersachsen</span></h1>
+    <p class="lede">Von der Krippe bis zum Lernen im Ruhestand. Ein Alter einstellen oder eine Station antippen: Die Karte zeigt, was gerade ansteht und welche Wege von dort weiterführen.</p>
+    <p class="seitenmeta">
+      <span>Stand: <time datetime="{{ nav.stand }}">{{ nav.stand | datum }}</time></span>
+      <span>{{ nav.stationen.length }} Stationen · {{ nav.uebergaenge.length }} Übergänge</span>
+      <a href="{{ site | issueLink(seiteObj) }}">Korrektur vorschlagen</a>
+      <a href="#kommentare">Kommentare</a>
+    </p>
+  </header>
+
+  <noscript><p class="leer">Die Karte braucht JavaScript. Die Stationen je Lebensphase stehen auch auf den <a href="/alter/">Altersseiten</a>.</p></noscript>
+
+  <section class="controls" aria-label="Ansicht und Alter">
+    <div class="seg" role="group" aria-label="Ansicht">
+      <button type="button" id="v-path" aria-pressed="true">Nach Bildungsstufe</button>
+      <button type="button" id="v-age" aria-pressed="false">Nach Alter</button>
+    </div>
+    <div class="agebox">
+      <label for="age">Alter</label>
+      <input type="range" id="age" min="0" max="80" step="1" value="5">
+      <output id="age-out" for="age">5 Jahre</output>
+    </div>
+    <div class="quick" id="quick" role="group" aria-label="Alter schnell wählen"></div>
+    <label class="check" for="bbs"><input type="checkbox" id="bbs"> Angebote der BBS hervorheben</label>
+  </section>
+
+  <section class="board" aria-label="Karte der Bildungswege">
+    <div class="legend" id="legend"></div>
+    <div class="scroller" id="scroller">
+      <div class="canvas view-path" id="canvas">
+        <div class="axis" id="axis-path"></div>
+        <div class="axis" id="axis-age"></div>
+        <div class="now-line" id="now-line"><span id="now-label">5 J.</span></div>
+        <svg class="edges" id="edges" aria-hidden="true">
+          <defs>
+            <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker>
+            <marker id="ah-hot" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto"><path class="ah-hot" d="M0,0 L10,5 L0,10 z"/></marker>
+          </defs>
+          <g id="edge-g"></g>
+        </svg>
+        <div id="nodes"></div>
+      </div>
+    </div>
+    <p class="hint">Eine Station antippen: Die Wege, die von dort möglich sind, bleiben farbig, alles andere tritt zurück. Nochmal antippen zeigt wieder alle Stationen. Die Karte ist breiter als der Bildschirm: seitlich wischen oder scrollen. Jede Station hat eine eigene Adresse, etwa <code>/navigator/#s-kita</code>.</p>
+  </section>
+
+  <section class="info">
+    <article class="card age-card" id="age-card" aria-live="polite"></article>
+    <article class="card node-card" id="node-card" aria-live="polite"></article>
+  </section>
+
+  {%- set b = nav.beispiel %}
+  {%- if b %}
+  <section class="beispiel" aria-labelledby="beispiel-h">
+    <div class="abschnitt" style="align-content:start">
+      <p class="eyebrow">Beispiel · keine Live-KI</p>
+      <h2 id="beispiel-h">So würde eine KI-Antwort aussehen</h2>
+      <p>In der ersten Fassung des Navigators konnte man eine KI nach dem eigenen Weg fragen. Sie las die Karte, schlug einen Weg vor und markierte ihn.</p>
+      <p>Auf dieser Seite gibt es keine Live-KI: Jede Anfrage würde Kontingent der Nutzerinnen und Nutzer verbrauchen, und eine live erzeugte Antwort wäre nicht geprüft. Die KI arbeitet stattdessen im Hintergrund, bei Recherche, Faktencheck und Korrekturen. Für die eigene Lage beraten Schulen, Kammern und die Agentur für Arbeit.</p>
+    </div>
+    <div class="answer">
+      <p class="tag">Beispielantwort · festes Beispiel aus der ersten Fassung</p>
+      <p><b>{{ b.frage }}</b></p>
+      <ol class="route" aria-label="Vorgeschlagener Weg">
+        {%- for id in b.weg %}{% set st = daten.stationById[id] %}
+        <li><button type="button" class="chip" data-go="{{ id }}" data-bereich="{{ st.bereich }}"><i></i>{{ st.titel }}</button></li>
+        {%- endfor %}
+      </ol>
+      <p>{{ b.antwort }}</p>
+      {%- if b.tipp %}<p class="note">{{ b.tipp }}</p>{% endif %}
+      <p class="small">Quelle: Beispielantwort aus <code>{{ b.quelle }}</code>, Stand {{ b.stand | datum }}. Die Stationen lassen sich antippen und auf der Karte ansehen.</p>
+    </div>
+  </section>
+  {%- endif %}
+
+  {% set quellen = nav.quellen %}{% set quellenLeer = "" %}
+  {% include "components/quellen.njk" %}
+  <p class="small">Die Angaben wurden per KI-Recherche zusammengestellt und von einem zweiten KI-Durchlauf gegen diese Quellen geprüft. Altersangaben zeigen typische Zeiträume; Abweichungen sind normal. Maßgeblich sind Schulgesetz, Verordnungen und die Beratung der Schulen.</p>
+  {% set eintraege = daten.navigatorProtokoll %}
+  {% include "components/protokoll.njk" %}
+  {% include "components/kommentare.njk" %}
+</div>
+
+<script id="navigator-data" type="application/json">{{ nav | json | replace("<", "\\u003c") | safe }}</script>
+<script src="/assets/js/navigator.js" defer></script>

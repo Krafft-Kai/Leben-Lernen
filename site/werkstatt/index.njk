@@ -1,0 +1,72 @@
+---
+layout: layouts/seite.njk
+permalink: /werkstatt/
+title: Werkstatt
+ueberschrift: "Werkstatt: Stand der Arbeit"
+eyebrow: Werkstatt
+lede: Welche der Schwerpunktseiten in welchem Stand sind, wie viele Aussagen recherchiert und geprüft sind und wo gerade diskutiert wird.
+quellenLeerText: Die Werkstatt zählt nur; Quellen stehen bei jeder Aussage.
+---
+{%- from "components/matrix.njk" import matrix, legende -%}
+{%- from "components/status.njk" import status -%}
+{%- set s = daten.statistik -%}
+<section class="abschnitt" aria-labelledby="zaehler-h">
+  <h2 id="zaehler-h">Schwerpunktseiten <span class="small">{{ s.schwerpunkte }} insgesamt</span></h2>
+  <div class="zahlen">
+    {%- for key, info in daten.statusSeite %}
+    <p class="zahl"><b>{{ s.seitenStatus[key] or 0 }}</b><span>{{ status(key, info) }}</span></p>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="abschnitt" aria-labelledby="matrix-h">
+  <h2 id="matrix-h">Matrix: Thema × Altersgruppe</h2>
+  {{ matrix(daten) }}
+  {{ legende(daten) }}
+</section>
+
+<section class="abschnitt" aria-labelledby="aussagen-h">
+  <h2 id="aussagen-h">Aussagen je Thema <span class="small">{{ s.aussagen }} insgesamt</span></h2>
+  {%- set aussageStatus = [
+    { key: "recherchiert", name: "recherchiert" },
+    { key: "geprueft", name: "geprüft" },
+    { key: "korrigiert", name: "korrigiert" },
+    { key: "in_diskussion", name: "in Diskussion" },
+    { key: "zurueckgezogen", name: "zurückgezogen" }
+  ] %}
+  <div class="matrix-wrap">
+    <table class="matrix">
+      <thead>
+        <tr><th scope="col">Thema</th>{% for st in aussageStatus %}<th scope="col">{{ st.name }}</th>{% endfor %}<th scope="col">gesamt</th></tr>
+      </thead>
+      <tbody>
+        {%- for t in daten.themen %}
+        <tr>
+          <th scope="row"><a href="{{ t.url }}">{{ t.nummer }} {{ t.name }}</a></th>
+          {%- for st in aussageStatus %}<td>{{ t.aussagenStatus[st.key] or "–" }}</td>{% endfor %}
+          <td><b>{{ t.anzahlAussagen }}</b></td>
+        </tr>
+        {%- endfor %}
+        <tr>
+          <th scope="row">Summe</th>
+          {%- for st in aussageStatus %}<td><b>{{ s.aussagenStatus[st.key] or 0 }}</b></td>{% endfor %}
+          <td><b>{{ s.aussagen }}</b></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="small">Köpfe recherchiert: {{ s.koepfe }} · Quellen in geprüften Aussagen: {{ s.quellen }}</p>
+</section>
+
+<section class="abschnitt" aria-labelledby="diskussion-h">
+  <h2 id="diskussion-h">Offene Diskussionen <span class="small">{{ daten.offeneDiskussionen.length }}</span></h2>
+  {%- if daten.offeneDiskussionen.length %}
+  <ul class="protokoll">
+    {%- for a in daten.offeneDiskussionen %}
+    <li><span class="mono small">{{ a.id }}</span><span><a href="/themen/{{ a.thema }}/#{{ a.id }}">{{ a.aussage }}</a></span></li>
+    {%- endfor %}
+  </ul>
+  {%- else %}
+  <p class="leer">Gerade wird kein Hinweis zu einer Aussage geprüft. Offene Kommentare und Issues stehen im <a href="{{ site.repoUrl }}/issues">Repository</a>.</p>
+  {%- endif %}
+</section>

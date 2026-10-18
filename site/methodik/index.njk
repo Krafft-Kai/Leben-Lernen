@@ -1,0 +1,104 @@
+---
+layout: layouts/seite.njk
+permalink: /methodik/
+title: Methodik
+ueberschrift: Wie diese Seite entsteht
+eyebrow: Methodik
+lede: KI recherchiert, prüft und baut alle Inhalte. Menschen diskutieren sie öffentlich, und die KI arbeitet die Hinweise sichtbar ein. Hier steht, nach welchen Regeln das geschieht.
+quellenLeerText: Diese Seite beschreibt das Vorgehen und enthält keine Fachaussagen. Die Regeln stehen im Repository in CLAUDE.md und docs/struktur.md.
+---
+{%- from "components/ampel.njk" import ampel -%}
+{%- from "components/status.njk" import status -%}
+<section class="abschnitt prosa" aria-labelledby="idee-h">
+  <h2 id="idee-h">Die Idee</h2>
+  <p>„Leben Lernen“ zeigt, welche Bildungswege es von der Krippe bis ins hohe Alter gibt und was in jeder Lebensphase für Lernen und gesunde Entwicklung zählt. Die Seite richtet sich an Eltern, Lehrkräfte, Jugendliche, Erwachsene und Ältere.</p>
+  <p>Jede Aussage hat eine Evidenzampel, eine Quelle und ein Datum. Das Änderungsprotokoll zeigt jede Korrektur. Nebenbei zeigt die Seite, wie weit KI-Recherche heute trägt, wo sie Fehler macht und wie offene Diskussion sie besser macht.</p>
+</section>
+
+<section class="abschnitt prosa" aria-labelledby="ampel-h">
+  <h2 id="ampel-h">Evidenzampel</h2>
+  <p>Jede einzelne Aussage trägt eine Stufe. Sie sagt, wie sicher die Forschung ist, nicht wie wichtig das Thema ist.</p>
+  {%- set belege = {
+    stark: "Leitlinien, mehrere Meta-Analysen mit gleichem Ergebnis",
+    mittel: "Einzelne Meta-Analysen, mehrere gute Studien, die übereinstimmen",
+    schwach: "Einzelstudien, Querschnittsdaten, Tierversuche, kleine Stichproben",
+    umstritten: "Widersprüchliche Meta-Analysen, offene Fachdebatte",
+    mythos: "Befund in guten Studien mehrfach nicht bestätigt"
+  } %}
+  <table>
+    <thead><tr><th scope="col">Stufe</th><th scope="col">Bedeutung</th><th scope="col">Typische Belege</th></tr></thead>
+    <tbody>
+      {%- for key, info in daten.ampel %}
+      <tr><td>{{ ampel(key, info) }}</td><td>{{ info.kurz }}</td><td>{{ belege[key] }}</td></tr>
+      {%- endfor %}
+    </tbody>
+  </table>
+  <h3>Wirkung</h3>
+  <p>Jede Aussage hat zusätzlich eine Richtung: <b>hilft</b> (fördert Lernen, Entwicklung oder Gesundheit), <b>schadet</b> (beeinträchtigt sie), <b>kein Effekt belegt</b> oder <b>Einordnung</b> (Hintergrund ohne Handlungsrichtung). Was schadet, wird genauso streng belegt wie das, was hilft.</p>
+</section>
+
+<section class="abschnitt prosa" aria-labelledby="rang-h">
+  <h2 id="rang-h">Quellenrang</h2>
+  <ol>
+    <li>Leitlinien und offizielle Empfehlungen (zum Beispiel WHO, EFSA, BfR, DGE, BIÖG, Fachgesellschaften, Ministerien)</li>
+    <li>Systematische Reviews und Meta-Analysen</li>
+    <li>Randomisierte Studien und große Längsschnittstudien</li>
+    <li>Einzelstudien</li>
+    <li>Expertenmeinung, nur zur Einordnung</li>
+  </ol>
+  <p>Blogs und Ratgeber ohne Belege zählen nicht. Finanzierung durch Hersteller oder Interessengruppen wird gekennzeichnet. Zitate aus Quellen haben höchstens 15 Wörter.</p>
+  <p><b>Deutschland zuerst:</b> Zuerst stehen deutsche Empfehlungen und die Rechtslage in Bund und Niedersachsen, dann internationale Vergleiche. Evaluierte Praxis aus anderen Ländern steht im Kasten „Weltweit bewährt“, mit Beleg und Einschätzung der Übertragbarkeit. Gesetzesvorhaben, die noch nicht beschlossen sind, sind als geplant gekennzeichnet.</p>
+</section>
+
+<section class="abschnitt" aria-labelledby="kreislauf-h">
+  <h2 id="kreislauf-h">Der Kreislauf</h2>
+  {% include "components/kreislauf.njk" %}
+  <p class="small">Die Diskussion ist der Prüfschritt. Nichts wird still geändert: Jede Korrektur steht im <a href="/protokoll/">Änderungsprotokoll</a> mit Datum, Grund und Quelle. Recherche und Faktencheck laufen immer in getrennten Sitzungen.</p>
+</section>
+
+<section class="abschnitt prosa" aria-labelledby="status-h">
+  <h2 id="status-h">Stand einer Seite</h2>
+  <ul>
+    {%- for key, info in daten.statusSeite %}
+    <li>{{ status(key, info) }} {{ info.kurz }}</li>
+    {%- endfor %}
+  </ul>
+  <p>Auf der Seite erscheinen nur Aussagen, die der Faktencheck bestätigt hat (geprüft oder korrigiert) oder zu denen gerade ein Hinweis geprüft wird (in Diskussion). Zurückgezogene Aussagen bleiben mit Begründung im Protokoll; gelöscht wird nichts. Den Stand aller Seiten zeigt die <a href="/werkstatt/">Werkstatt</a>.</p>
+</section>
+
+<section class="abschnitt prosa" aria-labelledby="gehirn-h">
+  <h2 id="gehirn-h">Blick aufs Gehirn</h2>
+  <p>Jede Schwerpunktseite hat einen Kasten „Was passiert im Gehirn?“. Er erklärt nur, was belegt ist, und kennzeichnet Tier- und Bildgebungsstudien. Neuromythen werden in jeder Recherche aktiv geprüft und im <a href="/mythen/">Mythen-Check</a> gesammelt.</p>
+</section>
+
+<section class="abschnitt prosa" aria-labelledby="transparenz-h">
+  <h2 id="transparenz-h">Transparenz</h2>
+  <ul>
+    <li>KI-Hinweis, Stand-Datum, Quellen, Kommentare und Änderungsprotokoll auf jeder Seite</li>
+    <li>Ein Link „Korrektur vorschlagen“ bei jeder Aussage und jeder Station im Navigator</li>
+    <li>Alle Inhalte liegen offen als Daten im <a href="{{ site.repoUrl }}">Repository</a>; die Seiten werden daraus erzeugt, nie von Hand geschrieben</li>
+    <li>Keine Einzelfallberatung; bei Gesundheit, Sucht und psychischer Belastung Verweis auf Fachleute und Hilfsangebote</li>
+    <li>Ansprache: Eltern, Lehrkräfte und Erwachsene per Sie, Jugendliche per Du</li>
+  </ul>
+</section>
+
+<section class="abschnitt prosa" aria-labelledby="ki-h">
+  <h2 id="ki-h">Was die Seite über KI zeigt</h2>
+  <p>Alle Inhalte entstehen in Sitzungen mit einem KI-Modell: eine Etappe je Sitzung, jede als Pull Request, den ein Mensch prüft und übernimmt. Eine zweite, unabhängige Sitzung prüft jede Quelle. Was der Faktencheck oder die Diskussion korrigiert, steht im Protokoll. So wird sichtbar, wo KI-Recherche trägt und wo sie Fehler macht.</p>
+</section>
+
+<section class="abschnitt prosa" aria-labelledby="keine-ki-h">
+  <h2 id="keine-ki-h">Warum es auf der Seite keine KI-Funktionen gibt</h2>
+  <p>Es gibt keine Chatfelder und keine Live-Anfragen an ein Modell. Sie würden Kontingent der Nutzerinnen und Nutzer verbrauchen, und live erzeugte Antworten wären nicht geprüft. Die KI arbeitet im Hintergrund: bei Recherche, Faktencheck und Korrekturen. Der <a href="/navigator/">Navigator</a> zeigt an einem festen Beispiel, wie eine KI-Antwort aussähe.</p>
+  <p>Die Seite setzt keine Tracker ein und lädt keine fremden Skripte. Schriften liegen auf diesem Server. Nur die Kommentare laden auf Wunsch Inhalte von GitHub.</p>
+</section>
+
+<section class="abschnitt prosa" aria-labelledby="kommentieren">
+  <h2 id="kommentieren">Wie Sie kommentieren und korrigieren</h2>
+  <ul>
+    <li><b>Kommentare</b> unter jeder Seite laufen über GitHub Discussions. Zum Schreiben braucht es ein GitHub-Konto.</li>
+    <li><b>Korrektur vorschlagen</b> bei jeder Aussage und jeder Station öffnet ein vorausgefülltes GitHub-Issue mit Seite und Kennung.</li>
+    <li>Hilfreich sind konkrete Hinweise mit Quelle (Link oder DOI). Bitte keine persönlichen Daten angeben; Kommentare und Issues sind öffentlich.</li>
+    <li>Berechtigte Hinweise gehen über eine Nachrecherche zurück in den Faktencheck. Die Änderung erscheint im <a href="/protokoll/">Änderungsprotokoll</a>, die Aussage trägt so lange den Status „in Diskussion“.</li>
+  </ul>
+</section>

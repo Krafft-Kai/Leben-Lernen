@@ -1,0 +1,3593 @@
+[
+  {
+    "id": "schlaf-kleinkind-001",
+    "thema": "schlaf",
+    "phasen": [
+      "P0",
+      "P1"
+    ],
+    "aussage": "Babys ab 4 Monaten brauchen täglich etwa 12 bis 16 Stunden Schlaf. Ein- bis Zweijährige brauchen etwa 11 bis 14 Stunden.",
+    "erklaerung": "Diese Spannen nennen die WHO-Leitlinie (2019) und der Konsens der US-Schlafmedizin (AASM, 2016) übereinstimmend. Beide Angaben schließen den Tagschlaf ein. Für Babys unter 4 Monaten gibt die AASM keine Empfehlung, weil das Normale stark schwankt. Die WHO nennt 14 bis 17 Stunden. Das BIÖG nennt als Durchschnitt etwa 14 Stunden mit einem Jahr und 12 bis 13 Stunden mit zwei Jahren. Einzelne Kinder weichen deutlich davon ab, ohne krank zu sein.",
+    "wirkung": "einordnung",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "To grow up healthy, children need to sit less and play more (Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age)",
+        "autoren": "World Health Organization",
+        "jahr": 2019,
+        "doi_oder_url": "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Recommended Amount of Sleep for Pediatric Populations: A Consensus Statement of the American Academy of Sleep Medicine",
+        "autoren": "Paruthi et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.5664/jcsm.5866",
+        "typ": "Expertenkonsens",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Schlafbedarf und Schlafdauer (1–6 Jahre)",
+        "autoren": "Bundesinstitut für Öffentliche Gesundheit (BIÖG), kindergesundheit-info.de",
+        "jahr": 2025,
+        "doi_oder_url": "https://www.kindergesundheit-info.de/themen/schlafen/1-6-jahre/schlafbedarf/",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "WHO",
+      "jahr": 2019,
+      "inhalt": "0–3 Monate 14–17 Std., 4–11 Monate 12–16 Std., 1–2 Jahre 11–14 Std. guter Schlaf inklusive Tagschlaf, mit regelmäßigen Schlaf- und Aufwachzeiten.",
+      "url": "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more"
+    },
+    "tipps": {
+      "eltern": [
+        "Achten Sie auf Müdigkeitszeichen Ihres Kindes statt auf die Uhr.",
+        "Regelmäßige Zeiten für Schlafen und Aufwachen helfen dem Rhythmus."
+      ]
+    },
+    "wann_hilfe": "Schläft Ihr Kind dauerhaft viel weniger oder viel mehr als üblich? Ist es tagsüber auffällig erschöpft? Dann sprechen Sie mit der Kinderarztpraxis.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kleinkind-002",
+    "thema": "schlaf",
+    "phasen": [
+      "P0"
+    ],
+    "aussage": "Rückenlage, ein Schlafsack, ein eigenes Bett im Elternschlafzimmer und eine rauchfreie Umgebung senken das Risiko für den Plötzlichen Kindstod.",
+    "erklaerung": "Die deutsche S1-Leitlinie (DGSM, 2022) und das BIÖG empfehlen außerdem eine feste Matratze ohne Kissen, Nestchen und Kuscheltiere. Dazu kommen: nicht pucken, nicht überwärmen (etwa 18 °C) und einen Schnuller anbieten. Die AAP (2022) empfiehlt dasselbe Prinzip: gemeinsames Zimmer, aber kein gemeinsames Bett. In Deutschland sank die Zahl der Fälle von 1.285 (1991) auf 84 (2020); 2024 starben noch 75 Kinder. Der Rückgang wird vor allem der Aufklärung zugeschrieben.",
+    "wirkung": "hilft",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "Wirksame Vorbeugung ist möglich – Empfehlungen zum Plötzlichen Kindstod (mit Bezug auf die S1-Leitlinie 063-002 der DGSM, 2022)",
+        "autoren": "Bundesinstitut für Öffentliche Gesundheit (BIÖG), kindergesundheit-info.de",
+        "jahr": 2024,
+        "doi_oder_url": "https://www.kindergesundheit-info.de/themen/risiken-vorbeugen/ploetzlicher-kindstod-sids/vorbeugung-kindstod/",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment",
+        "autoren": "Moon, Carlin, Hand; AAP Task Force on SIDS",
+        "jahr": 2022,
+        "doi_oder_url": "10.1542/peds.2022-057990",
+        "typ": "Leitlinie",
+        "kernzitat": "room sharing without bed sharing",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Plötzlicher Kindstod in 30 Jahren um 93 Prozent zurückgegangen",
+        "autoren": "Deutsches Ärzteblatt (Meldung zur Stiftung Kindergesundheit)",
+        "jahr": 2022,
+        "doi_oder_url": "https://www.aerzteblatt.de/nachrichten/139643/Ploetzlicher-Kindstod-in-30-Jahren-um-93-Prozent-zurueckgegangen",
+        "typ": "Statistik",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Plötzlicher Kindstod (SIDS) – Übersicht",
+        "autoren": "Bundesinstitut für Öffentliche Gesundheit (BIÖG), kindergesundheit-info.de",
+        "jahr": 2026,
+        "doi_oder_url": "https://www.kindergesundheit-info.de/themen/risiken-vorbeugen/ploetzlicher-kindstod-sids/",
+        "typ": "Statistik",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "DGSM u. a. (AWMF-S1-Leitlinie 063-002), vermittelt durch BIÖG",
+      "jahr": 2022,
+      "inhalt": "Rückenlage, Schlafsack, eigenes Bett im Elternschlafzimmer im ersten Lebensjahr, rauchfreie Umgebung, Stillen, Schnuller anbieten, Überwärmung vermeiden.",
+      "url": "https://www.kindergesundheit-info.de/themen/risiken-vorbeugen/ploetzlicher-kindstod-sids/vorbeugung-kindstod/"
+    },
+    "tipps": {
+      "eltern": [
+        "Legen Sie Ihr Baby zum Schlafen immer auf den Rücken.",
+        "Nutzen Sie einen passenden Schlafsack statt Decke und Kissen.",
+        "Babyphone und Atemmonitore senken das Risiko laut BIÖG nicht."
+      ]
+    },
+    "wann_hilfe": "Bei Fragen zum sicheren Schlaf hilft die Kinderarztpraxis oder die Hebamme. Bei Atemaussetzern oder Blauverfärbung rufen Sie sofort den Notruf 112.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kleinkind-003",
+    "thema": "schlaf",
+    "phasen": [
+      "P0"
+    ],
+    "aussage": "Schlafen im Elternbett erhöht das Kindstod-Risiko vor allem bei Rauchen, Alkohol, Drogen und jungen Babys. Sonst ist das Ausmaß umstritten.",
+    "erklaerung": "Eine Meta-Analyse aus 11 Studien fand ein etwa 2,9-fach erhöhtes Risiko. Bei rauchenden Müttern war es rund 6-fach, unter 12 Wochen rund 10-fach erhöht. Eine Auswertung von fünf großen Fall-Kontroll-Studien fand auch ohne Rauchen und Alkohol ein erhöhtes Risiko unter 3 Monaten. Das absolute Risiko blieb dabei klein: etwa 0,23 statt 0,08 Fälle pro 1.000 Geburten. Deutsche Empfehlung (BIÖG, DGSM-Leitlinie) und AAP raten vom gemeinsamen Bett ab.",
+    "wirkung": "schadet",
+    "ampel": "umstritten",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Bed sharing and the risk of sudden infant death syndrome: can we resolve the debate?",
+        "autoren": "Vennemann et al.",
+        "jahr": 2012,
+        "doi_oder_url": "10.1016/j.jpeds.2011.06.052",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Bed sharing is a risk factor for SIDS",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Bed sharing when parents do not smoke: is there a risk of SIDS? An individual level analysis of five major case-control studies",
+        "autoren": "Carpenter et al.",
+        "jahr": 2013,
+        "doi_oder_url": "10.1136/bmjopen-2012-002299",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Smoking and alcohol use greatly increased bed sharing risk.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Bed-sharing in the absence of hazardous circumstances: is there a risk of sudden infant death syndrome?",
+        "autoren": "Blair, Sidebotham, Pease, Fleming",
+        "jahr": 2014,
+        "doi_oder_url": "10.1371/journal.pone.0107799",
+        "typ": "Einzelstudie",
+        "kernzitat": "Sofa-sharing is not a safe alternative to bed-sharing",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Wirksame Vorbeugung ist möglich – Empfehlungen zum Plötzlichen Kindstod (mit Bezug auf die S1-Leitlinie 063-002 der DGSM, 2022)",
+        "autoren": "Bundesinstitut für Öffentliche Gesundheit (BIÖG), kindergesundheit-info.de",
+        "jahr": 2024,
+        "doi_oder_url": "https://www.kindergesundheit-info.de/themen/risiken-vorbeugen/ploetzlicher-kindstod-sids/vorbeugung-kindstod/",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment",
+        "autoren": "Moon, Carlin, Hand; AAP Task Force on SIDS",
+        "jahr": 2022,
+        "doi_oder_url": "10.1542/peds.2022-057990",
+        "typ": "Leitlinie",
+        "kernzitat": "room sharing without bed sharing",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "BIÖG / DGSM-Leitlinie; AAP",
+      "jahr": 2022,
+      "inhalt": "Eigenes Babybett im Elternschlafzimmer; vom Schlafen im Familienbett wird abgeraten.",
+      "url": "https://www.kindergesundheit-info.de/themen/risiken-vorbeugen/ploetzlicher-kindstod-sids/vorbeugung-kindstod/"
+    },
+    "gegenstimmen": "Blair et al. (2014, zwei britische Fall-Kontroll-Studien) fanden ohne Gefahrenfaktoren kein signifikant erhöhtes Risiko. Sehr hoch war das Risiko auf dem Sofa und neben Erwachsenen, die Alkohol getrunken hatten. Sie empfehlen daher, gezielt vor diesen Situationen zu warnen statt pauschal. Carpenter et al. (2013) kommen zum gegenteiligen Schluss. Die Debatte dreht sich auch um die Kontrolle von Störfaktoren.",
+    "tipps": {
+      "eltern": [
+        "Schlafen Sie nie mit dem Baby auf dem Sofa oder im Sessel ein.",
+        "Nach Alkohol, Medikamenten, die müde machen, oder Rauchen gehört das Baby ins eigene Bett.",
+        "Ein Beistellbett hält das Baby nah, ohne das Bett zu teilen."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kleinkind-004",
+    "thema": "schlaf",
+    "phasen": [
+      "P0"
+    ],
+    "aussage": "Stillen senkt das Risiko für den Plötzlichen Kindstod; der Schutz zeigt sich ab etwa zwei Monaten Stilldauer.",
+    "erklaerung": "Eine Meta-Analyse aus 18 Fall-Kontroll-Studien fand ein deutlich geringeres Risiko bei gestillten Babys, stärker bei ausschließlichem Stillen. Eine zweite Meta-Analyse mit Einzeldaten von über 2.200 Fällen fand: Ab zwei Monaten Stillen halbiert sich das Risiko etwa. Das gilt auch ohne ausschließliches Stillen. Beides sind Beobachtungsdaten. Deutsche Empfehlung (BIÖG) und AAP nennen Stillen als Schutzfaktor.",
+    "wirkung": "hilft",
+    "ampel": "stark",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Breastfeeding and reduced risk of sudden infant death syndrome: a meta-analysis",
+        "autoren": "Hauck et al.",
+        "jahr": 2011,
+        "doi_oder_url": "10.1542/peds.2010-3000",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Breastfeeding is protective against SIDS",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Duration of Breastfeeding and Risk of SIDS: An Individual Participant Data Meta-analysis",
+        "autoren": "Thompson et al.",
+        "jahr": 2017,
+        "doi_oder_url": "10.1542/peds.2017-1324",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Breastfeeding does not need to be exclusive to confer this protection.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Wirksame Vorbeugung ist möglich – Empfehlungen zum Plötzlichen Kindstod (mit Bezug auf die S1-Leitlinie 063-002 der DGSM, 2022)",
+        "autoren": "Bundesinstitut für Öffentliche Gesundheit (BIÖG), kindergesundheit-info.de",
+        "jahr": 2024,
+        "doi_oder_url": "https://www.kindergesundheit-info.de/themen/risiken-vorbeugen/ploetzlicher-kindstod-sids/vorbeugung-kindstod/",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment",
+        "autoren": "Moon, Carlin, Hand; AAP Task Force on SIDS",
+        "jahr": 2022,
+        "doi_oder_url": "10.1542/peds.2022-057990",
+        "typ": "Leitlinie",
+        "kernzitat": "room sharing without bed sharing",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "BIÖG (nach DGSM-Leitlinie)",
+      "jahr": 2024,
+      "inhalt": "Möglichst lange stillen, idealerweise die ersten sechs Monate voll stillen.",
+      "url": "https://www.kindergesundheit-info.de/themen/risiken-vorbeugen/ploetzlicher-kindstod-sids/vorbeugung-kindstod/"
+    },
+    "tipps": {
+      "eltern": [
+        "Auch teilweises Stillen zählt als Schutzfaktor.",
+        "Holen Sie sich bei Stillproblemen früh Hilfe bei Hebamme oder Stillberatung."
+      ]
+    },
+    "wann_hilfe": "Bei Stillproblemen helfen Hebammen, Stillberaterinnen und die Kinderarztpraxis.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kleinkind-005",
+    "thema": "schlaf",
+    "phasen": [
+      "P0",
+      "P1"
+    ],
+    "aussage": "Mythos: Ein gesundes Baby muss mit sechs Monaten nachts durchschlafen.",
+    "erklaerung": "In einer kanadischen Kohorte schliefen je nach Definition 28 bis 57 Prozent der 6- und 12-Monatigen nicht sechs bzw. acht Stunden am Stück. Das hing nicht mit der geistigen oder motorischen Entwicklung zusammen, auch nicht mit der Stimmung der Mütter. Das BIÖG nennt nächtliches Aufwachen auch nach dem ersten Geburtstag normal. Die Erwartung an frühes Durchschlafen kann daher gelassener sein.",
+    "wirkung": "neutral",
+    "ampel": "mythos",
+    "studientyp": "Kohorte",
+    "quellen": [
+      {
+        "titel": "Uninterrupted Infant Sleep, Development, and Maternal Mood",
+        "autoren": "Pennestri et al.",
+        "jahr": 2018,
+        "doi_oder_url": "10.1542/peds.2017-4330",
+        "typ": "Kohorte",
+        "kernzitat": "expectations for early sleep consolidation could be moderated",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Wann Babys einschlafen und durchschlafen",
+        "autoren": "Bundesinstitut für Öffentliche Gesundheit (BIÖG), kindergesundheit-info.de",
+        "jahr": 2026,
+        "doi_oder_url": "https://www.kindergesundheit-info.de/themen/schlafen/0-12-monate/schlaftipps/",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Recommended Amount of Sleep for Pediatric Populations: A Consensus Statement of the American Academy of Sleep Medicine",
+        "autoren": "Paruthi et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.5664/jcsm.5866",
+        "typ": "Expertenkonsens",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "eltern": [
+        "Nächtliches Aufwachen ist im ersten Lebensjahr normal und kein Erziehungsfehler.",
+        "Teilen Sie die Nächte, wenn möglich, mit einer zweiten Person."
+      ]
+    },
+    "wann_hilfe": "Wenn sich nach dem 6. Lebensmonat kein Tag-Nacht-Rhythmus zeigt oder Ihr Baby sich nicht beruhigen lässt, sprechen Sie mit der Kinderarztpraxis. Bei eigener Erschöpfung oder gedrückter Stimmung holen Sie sich Unterstützung.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kleinkind-006",
+    "thema": "schlaf",
+    "phasen": [
+      "P0",
+      "P1"
+    ],
+    "aussage": "Verhaltensmethoden gegen Schlafprobleme wirken ab dem zweiten Lebenshalbjahr, ohne laut Studien Bindung oder Psyche zu schaden.",
+    "erklaerung": "Ein Review der US-Schlafmedizin über 52 Studien fand bei über 80 Prozent der Kinder eine deutliche Besserung. Belegt sind unter anderem schrittweises Warten vor dem Trösten, späteres Zubettgehen und feste Rituale. Ein australisches RCT fand fünf Jahre später keine Unterschiede bei Psyche, Stress oder Eltern-Kind-Bindung. Ein kleineres RCT fand nach 12 Monaten ebenfalls keine Nachteile für die Bindung.",
+    "wirkung": "hilft",
+    "ampel": "mittel",
+    "studientyp": "Systematischer Review",
+    "quellen": [
+      {
+        "titel": "Behavioral treatment of bedtime problems and night wakings in infants and young children",
+        "autoren": "Mindell, Kuhn, Lewin, Meltzer, Sadeh; AASM",
+        "jahr": 2006,
+        "doi_oder_url": "https://pubmed.ncbi.nlm.nih.gov/17068979/",
+        "typ": "Systematischer Review",
+        "kernzitat": "behavioral therapies produce reliable and durable changes",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Five-year follow-up of harms and benefits of behavioral infant sleep intervention: randomized trial",
+        "autoren": "Price, Wake, Ukoumunne, Hiscock",
+        "jahr": 2012,
+        "doi_oder_url": "10.1542/peds.2011-3467",
+        "typ": "RCT",
+        "kernzitat": "Behavioral sleep techniques have no marked long-lasting effects (positive or negative).",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Behavioral Interventions for Infant Sleep Problems: A Randomized Controlled Trial",
+        "autoren": "Gradisar et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.1542/peds.2015-1486",
+        "typ": "RCT",
+        "kernzitat": "convey no adverse stress responses or long-term effects on parent-child attachment",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Douglas und Hill (2013) betonen: Für die ersten sechs Monate fehlen Belege, und frühe Programme können Nebenwirkungen haben. Die Langzeitstudien sind wenige und zum Teil klein (Gradisar: 43 Kinder). Elterliche Werte und Belastung sollten in die Wahl der Methode einfließen.",
+    "tipps": {
+      "eltern": [
+        "Wählen Sie eine Methode, die zu Ihrer Familie passt, und bleiben Sie dabei.",
+        "Sanftere Wege wie späteres Zubettgehen sind ebenfalls belegt."
+      ]
+    },
+    "wann_hilfe": "Bei anhaltenden Schlafproblemen, starker Belastung oder Verdacht auf eine Erkrankung beraten Kinderarztpraxis, Schreiambulanzen oder Erziehungsberatungsstellen.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kleinkind-007",
+    "thema": "schlaf",
+    "phasen": [
+      "P0"
+    ],
+    "aussage": "In den ersten sechs Lebensmonaten ist für Schlaftraining kein Nutzen belegt.",
+    "erklaerung": "Ein systematischer Review fand keinen Beleg, dass Verhaltensprogramme in den ersten sechs Monaten Schreien, spätere Schlafprobleme oder Wochenbettdepression verringern. Die Autoren warnen vor möglichen Nebenwirkungen, etwa früherem Abstillen. Schläft das Baby dabei im eigenen Zimmer, widerspricht das der Empfehlung zum Elternschlafzimmer. Die US-Schlafmedizin gibt für unter 4 Monate keine Schlafempfehlung, weil das Normale stark schwankt.",
+    "wirkung": "neutral",
+    "ampel": "mittel",
+    "studientyp": "Systematischer Review",
+    "quellen": [
+      {
+        "titel": "Behavioral sleep interventions in the first six months of life do not improve outcomes for mothers or infants: a systematic review",
+        "autoren": "Douglas, Hill",
+        "jahr": 2013,
+        "doi_oder_url": "10.1097/DBP.0b013e31829cafa6",
+        "typ": "Systematischer Review",
+        "kernzitat": "these strategies have not been shown to decrease infant crying",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Recommended Amount of Sleep for Pediatric Populations: A Consensus Statement of the American Academy of Sleep Medicine",
+        "autoren": "Paruthi et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.5664/jcsm.5866",
+        "typ": "Expertenkonsens",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Wirksame Vorbeugung ist möglich – Empfehlungen zum Plötzlichen Kindstod (mit Bezug auf die S1-Leitlinie 063-002 der DGSM, 2022)",
+        "autoren": "Bundesinstitut für Öffentliche Gesundheit (BIÖG), kindergesundheit-info.de",
+        "jahr": 2024,
+        "doi_oder_url": "https://www.kindergesundheit-info.de/themen/risiken-vorbeugen/ploetzlicher-kindstod-sids/vorbeugung-kindstod/",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "eltern": [
+        "Reagieren Sie in den ersten Monaten auf Ihr Baby, wie es Ihnen gut tut.",
+        "Lassen Sie Ihr Baby im ersten Jahr im Elternschlafzimmer schlafen."
+      ]
+    },
+    "wann_hilfe": "Bei sehr viel Schreien helfen Kinderarztpraxis und Schreiambulanzen. Wenn Sie an Ihre Grenzen kommen, legen Sie das Baby sicher ab und holen Sie Hilfe; niemals schütteln.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kleinkind-008",
+    "thema": "schlaf",
+    "phasen": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "aussage": "Ein regelmäßiges Abendritual hängt bei Kindern bis fünf Jahre mit früherem Einschlafen, weniger nächtlichem Aufwachen und längerem Schlaf zusammen.",
+    "erklaerung": "Eine Befragung zu über 10.000 Kindern in 13 Ländern fand: Je regelmäßiger das Ritual, desto besser der Schlaf. Das gilt für asiatische und westliche Länder. Die Daten sind Querschnitt und von Eltern berichtet; Ursache und Wirkung sind damit nicht bewiesen. Ein Review nennt mögliche Vorteile für Sprache und Bindung, etwa durch Vorlesen. Diese sind noch wenig geprüft. Das BIÖG empfiehlt Rituale von etwa 30 Minuten.",
+    "wirkung": "hilft",
+    "ampel": "mittel",
+    "studientyp": "Systematischer Review",
+    "quellen": [
+      {
+        "titel": "Bedtime routines for young children: a dose-dependent association with sleep outcomes",
+        "autoren": "Mindell, Li, Sadeh, Kwon, Goh",
+        "jahr": 2015,
+        "doi_oder_url": "10.5665/sleep.4662",
+        "typ": "Querschnitt",
+        "kernzitat": "a regular nightly bedtime routine is associated with improved sleep in young children",
+        "finanzierung": "Ein Mitautor (Kwon) ist bei Johnson & Johnson Asia Pacific angestellt.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Benefits of a bedtime routine in young children: Sleep, development, and beyond",
+        "autoren": "Mindell, Williamson",
+        "jahr": 2018,
+        "doi_oder_url": "10.1016/j.smrv.2017.10.007",
+        "typ": "Systematischer Review",
+        "finanzierung": "Erstautorin war Beraterin von Johnson & Johnson Consumer Inc. und erhielt Fördermittel; laut Angabe keine Finanzierung dieses Artikels.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Wann Babys einschlafen und durchschlafen",
+        "autoren": "Bundesinstitut für Öffentliche Gesundheit (BIÖG), kindergesundheit-info.de",
+        "jahr": 2026,
+        "doi_oder_url": "https://www.kindergesundheit-info.de/themen/schlafen/0-12-monate/schlaftipps/",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "eltern": [
+        "Halten Sie jeden Abend dieselbe kurze Abfolge ein, etwa Waschen, Zähneputzen, Vorlesen.",
+        "Legen Sie Ihr Kind müde, aber noch wach ins Bett."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kita-001",
+    "thema": "schlaf",
+    "phasen": [
+      "P2"
+    ],
+    "aussage": "Kinder von 3 bis 5 Jahren brauchen etwa 10 bis 13 Stunden Schlaf pro Tag, einschließlich eines möglichen Mittagsschlafs.",
+    "erklaerung": "WHO (2019, für 3–4 Jahre) und AASM (2016, für 3–5 Jahre) nennen diese Spanne. Das BIÖG nennt als Durchschnitt etwa 12,5 Stunden mit drei und etwa 11,4 Stunden mit fünf Jahren. Abweichungen von bis zu zwei Stunden gelten bei Drei- und Vierjährigen als normal. Wichtig sind auch regelmäßige Schlafens- und Aufstehzeiten.",
+    "wirkung": "einordnung",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "To grow up healthy, children need to sit less and play more (Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age)",
+        "autoren": "World Health Organization",
+        "jahr": 2019,
+        "doi_oder_url": "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Recommended Amount of Sleep for Pediatric Populations: A Consensus Statement of the American Academy of Sleep Medicine",
+        "autoren": "Paruthi et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.5664/jcsm.5866",
+        "typ": "Expertenkonsens",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Schlafbedarf und Schlafdauer (1–6 Jahre)",
+        "autoren": "Bundesinstitut für Öffentliche Gesundheit (BIÖG), kindergesundheit-info.de",
+        "jahr": 2025,
+        "doi_oder_url": "https://www.kindergesundheit-info.de/themen/schlafen/1-6-jahre/schlafbedarf/",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "WHO",
+      "jahr": 2019,
+      "inhalt": "3–4 Jahre: 10–13 Std. guter Schlaf, eventuell mit Mittagsschlaf, mit regelmäßigen Schlafens- und Aufwachzeiten.",
+      "url": "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more"
+    },
+    "tipps": {
+      "eltern": [
+        "Planen Sie die Abendzeit so, dass genug Nachtschlaf bis zum Kita-Start bleibt.",
+        "Halten Sie auch am Wochenende ähnliche Zeiten ein."
+      ],
+      "lehrkraefte": [
+        "Müdigkeit am Vormittag kann ein Hinweis auf zu wenig Nachtschlaf sein; sprechen Sie Eltern behutsam an."
+      ]
+    },
+    "wann_hilfe": "Bei lautem Schnarchen, Atemaussetzern oder ausgeprägter Tagesmüdigkeit sprechen Sie mit der Kinderarztpraxis.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kita-002",
+    "thema": "schlaf",
+    "phasen": [
+      "P1",
+      "P2"
+    ],
+    "aussage": "Wann Kinder den Mittagsschlaf aufgeben, ist sehr verschieden; meist geschieht es zwischen drei und fünf Jahren.",
+    "erklaerung": "Eine Meta-Analyse zeigt: Weniger als 2,5 Prozent hören vor dem zweiten Geburtstag auf, 94 Prozent bis zum fünften. Nach BIÖG-Angaben schläft mit drei Jahren noch etwa die Hälfte mittags, mit vier etwa ein Drittel. Manche Kinder brauchen ohne Schlaf weiterhin eine Ruhepause.",
+    "wirkung": "einordnung",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Many naps, one nap, none: A systematic review and meta-analysis of napping patterns in children 0-12 years",
+        "autoren": "Staton et al.",
+        "jahr": 2020,
+        "doi_oder_url": "10.1016/j.smrv.2019.101247",
+        "typ": "Meta-Analyse",
+        "kernzitat": "94% cease napping by age 5",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Schlafbedarf und Schlafdauer (1–6 Jahre)",
+        "autoren": "Bundesinstitut für Öffentliche Gesundheit (BIÖG), kindergesundheit-info.de",
+        "jahr": 2025,
+        "doi_oder_url": "https://www.kindergesundheit-info.de/themen/schlafen/1-6-jahre/schlafbedarf/",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "eltern": [
+        "Erzwingen Sie den Mittagsschlaf nicht, streichen Sie ihn aber nicht, solange Ihr Kind deutlich müde ist.",
+        "Ist Ihr Kind abends nicht müde, kann ein kürzerer Mittagsschlaf helfen."
+      ],
+      "lehrkraefte": [
+        "Bieten Sie Kindern, die nicht mehr schlafen, eine ruhige Alternative an."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kita-003",
+    "thema": "schlaf",
+    "phasen": [
+      "P2"
+    ],
+    "aussage": "Ab etwa zwei Jahren geht ein Mittagsschlaf oft mit späterem Einschlafen und kürzerem oder unruhigerem Nachtschlaf einher.",
+    "erklaerung": "Ein systematischer Review von 26 Studien fand dies als den einheitlichsten Befund. Alle Studien waren Beobachtungsstudien von geringer Qualität (GRADE niedrig). Ob der Mittagsschlaf die Ursache ist, bleibt offen. Für Verhalten, Gesundheit und Denken waren die Befunde widersprüchlich.",
+    "wirkung": "einordnung",
+    "ampel": "schwach",
+    "studientyp": "Systematischer Review",
+    "quellen": [
+      {
+        "titel": "Napping, development and health from 0 to 5 years: a systematic review",
+        "autoren": "Thorpe et al.",
+        "jahr": 2015,
+        "doi_oder_url": "10.1136/archdischild-2014-307241",
+        "typ": "Systematischer Review",
+        "kernzitat": "beyond the age of 2 years napping is associated with later night sleep onset",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "eltern": [
+        "Wenn Ihr Kind abends lange wach liegt, prüfen Sie Länge und Uhrzeit des Mittagsschlafs."
+      ]
+    },
+    "wann_hilfe": "Bei anhaltenden Einschlafproblemen fragt die Kinderarztpraxis auch nach dem Mittagsschlaf; das empfehlen die Review-Autoren ausdrücklich.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kita-004",
+    "thema": "schlaf",
+    "phasen": [
+      "P1",
+      "P2"
+    ],
+    "aussage": "Ein Mittagsschlaf nach dem Lernen kann bei Kleinkindern und Kindergartenkindern das Behalten von Gelerntem verbessern.",
+    "erklaerung": "Eine Meta-Analyse von 2025 (27 Studien) fand einen kleinen Effekt auf das Gedächtnis für Fakten und Ereignisse. Bei Kindergartenkindern war er mittelgroß. In einer viel zitierten Studie profitierten vor allem Kinder, die gewohnheitsmäßig mittags schlafen. Die Studien sind meist klein und im Labor oder in einer Einrichtung gemacht. Für andere Gedächtnisarten fand sich teils kein Effekt.",
+    "gehirn": "In einer Studie mit Schlaf-EEG (Polysomnographie, keine Bildgebung) hing der Nutzen mit Schlafspindeln zusammen. Das sind kurze Hirnstromwellen im Leichtschlaf, die mit dem Festigen von Erinnerungen in Verbindung gebracht werden (Kurdziel et al. 2013). Der Mechanismus ist bei Kindern nicht abschließend geklärt.",
+    "wirkung": "hilft",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Napping and memory consolidation in early childhood: A systematic review and meta-analysis",
+        "autoren": "Souabni et al.",
+        "jahr": 2025,
+        "doi_oder_url": "10.1016/j.sleep.2025.106649",
+        "typ": "Meta-Analyse",
+        "kernzitat": "napping has beneficial effects on memory consolidation throughout early childhood",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep spindles in midday naps enhance learning in preschool children",
+        "autoren": "Kurdziel, Duclos, Spencer",
+        "jahr": 2013,
+        "doi_oder_url": "10.1073/pnas.1306418110",
+        "typ": "Einzelstudie",
+        "kernzitat": "classroom naps support learning in preschool children",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "No effect of napping on episodic foresight and prospective memory in kindergarten children",
+        "autoren": "Konrad, Voigt",
+        "jahr": 2024,
+        "doi_oder_url": "10.1111/jsr.14387",
+        "typ": "Einzelstudie",
+        "kernzitat": "napping did not significantly affect children's episodic foresight or prospective memory performance",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Nap-dependent declarative memory consolidation in 12-month-old infants – A conceptual replication study",
+        "autoren": "Konrad et al.",
+        "jahr": 2026,
+        "doi_oder_url": "10.1016/j.infbeh.2026.102180",
+        "typ": "RCT",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Konrad und Voigt (2024) fanden bei 2- bis 3-Jährigen keinen Effekt auf das Vorausplanen und das Erinnern an Vorhaben. Thorpe et al. (2015) fanden in Beobachtungsstudien uneinheitliche Ergebnisse für Kognition. Der Nutzen gilt vor allem für Kinder, die noch mittags schlafen; daraus folgt kein Schlafzwang.",
+    "tipps": {
+      "lehrkraefte": [
+        "Lassen Sie Kinder, die müde sind, nach dem Vormittag schlafen.",
+        "Ein Schlafangebot ist sinnvoll, ein Schlafzwang nicht."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kita-005",
+    "thema": "schlaf",
+    "phasen": [
+      "P2"
+    ],
+    "aussage": "Für eine Pflicht-Schlafenszeit in der Kita bei Kindern, die nicht mehr mittags schlafen, ist kein Nutzen belegt.",
+    "erklaerung": "Viele Kindergartenkinder schlafen mittags nicht mehr, liegen aber in Kitas oft trotzdem zur festen Zeit. In einer kleinen australischen Studie (43 Kinder) war die Liegezeit laut Cortisol weder belastend noch erholsam. Kinder, die dabei nicht schliefen, zeigten bis zum Abend keinen Cortisolabfall; das könnte das Einschlafen stören. Fast 79 Prozent der Eltern in einer großen australischen Befragung wollten keinen regelmäßigen Kita-Schlaf.",
+    "wirkung": "neutral",
+    "ampel": "schwach",
+    "studientyp": "Einzelstudie",
+    "quellen": [
+      {
+        "titel": "Mandatory Naptimes in Childcare do not Reduce Children's Cortisol Levels",
+        "autoren": "Thorpe, Pattinson, Smith, Staton",
+        "jahr": 2018,
+        "doi_oder_url": "10.1038/s41598-018-22555-8",
+        "typ": "Einzelstudie",
+        "kernzitat": "naptime is neither stressful nor restful for children in any group",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "What parents want: parent preference regarding sleep for their preschool child when attending early care and education",
+        "autoren": "Sinclair et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.1016/j.sleh.2015.11.002",
+        "typ": "Querschnitt",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Supporting sleep in early care and education: an assessment of observed sleep times using a sleep practices optimality index",
+        "autoren": "Staton et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.1016/j.sleh.2015.12.005",
+        "typ": "Querschnitt",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Napping, development and health from 0 to 5 years: a systematic review",
+        "autoren": "Thorpe et al.",
+        "jahr": 2015,
+        "doi_oder_url": "10.1136/archdischild-2014-307241",
+        "typ": "Systematischer Review",
+        "kernzitat": "beyond the age of 2 years napping is associated with later night sleep onset",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "lehrkraefte": [
+        "Bieten Sie Schlaf und Ruhe an, aber mit ruhiger Alternative für wache Kinder.",
+        "Stimmen Sie die Mittagsruhe mit den Eltern ab."
+      ],
+      "eltern": [
+        "Sprechen Sie mit der Kita, wenn Ihr Kind nach dem Kita-Schlaf abends nicht einschlafen kann."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kita-006",
+    "thema": "schlaf",
+    "phasen": [
+      "P1",
+      "P2"
+    ],
+    "aussage": "Mehr Bildschirmzeit, besonders am Abend, hängt bei Kindern unter fünf Jahren mit schlechterem Schlaf zusammen.",
+    "erklaerung": "Eine Meta-Analyse von 31 Studien fand ungünstige Zusammenhänge bei Babys, Kleinkindern und Kindergartenkindern. Die Qualität der Belege war sehr niedrig; die meisten Studien sind Beobachtungsstudien. In einer italienischen Studie mit 1.117 Kleinkindern hing tägliche Tablet- oder Handynutzung mit kürzerem Schlaf und längerem Einschlafen zusammen. Die WHO (2019) rät unter zwei Jahren von Bildschirmzeit im Sitzen ab, ab zwei Jahren zu höchstens einer Stunde.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Associations of screen time, sedentary time and physical activity with sleep in under 5s: A systematic review and meta-analysis",
+        "autoren": "Janssen et al.",
+        "jahr": 2020,
+        "doi_oder_url": "10.1016/j.smrv.2019.101226",
+        "typ": "Meta-Analyse",
+        "kernzitat": "screen time is associated with poorer sleep outcomes in infants, toddlers and preschoolers",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep and new media usage in toddlers",
+        "autoren": "Chindamo et al.",
+        "jahr": 2019,
+        "doi_oder_url": "10.1007/s00431-019-03318-7",
+        "typ": "Querschnitt",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "To grow up healthy, children need to sit less and play more (Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age)",
+        "autoren": "World Health Organization",
+        "jahr": 2019,
+        "doi_oder_url": "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "WHO",
+      "jahr": 2019,
+      "inhalt": "Unter 2 Jahren keine Bildschirmzeit im Sitzen; 2–4 Jahre höchstens 1 Stunde, weniger ist besser.",
+      "url": "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more"
+    },
+    "tipps": {
+      "eltern": [
+        "Lassen Sie die letzte Stunde vor dem Schlafen bildschirmfrei.",
+        "Lesen oder erzählen Sie lieber eine Geschichte."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-kita-007",
+    "thema": "schlaf",
+    "phasen": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "aussage": "Melatonin als Nahrungsergänzung, etwa in Gummibärchen, ist für Kinder keine harmlose Einschlafhilfe.",
+    "erklaerung": "Das BfR rät Kindern und Jugendlichen von solchen Produkten ab, weil Langzeitdaten zu Wachstum und Pubertät fehlen. Manche Produkte erreichen die Dosis zugelassener Arzneimittel. Für Kinder ist Melatonin als Arzneimittel nur für wenige Diagnosen zugelassen, etwa Autismus. In den USA stiegen gemeldete Melatonin-Einnahmen bei Kindern von 2012 bis 2021 um 530 Prozent, mit zwei Todesfällen. Die DGKJ fordert 2026 ein Verbot kindgerechter Melatonin-Süßigkeiten.",
+    "wirkung": "schadet",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "Melatoninhaltige Nahrungsergänzungsmittel: BfR weist auf mögliche Gesundheitsrisiken hin (Stellungnahme Nr. 038/2024)",
+        "autoren": "Bundesinstitut für Risikobewertung (BfR)",
+        "jahr": 2024,
+        "doi_oder_url": "https://www.bfr.bund.de/stellungnahme/melatoninhaltige-nahrungsergaenzungsmittel-bfr-weist-auf-moegliche-gesundheitsrisiken-hin/",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Melatonin in Süßigkeiten für Kinder. Stellungnahme der Ernährungskommission der DGKJ",
+        "autoren": "Lücke, Kalhoff; Ernährungskommission der DGKJ",
+        "jahr": 2026,
+        "doi_oder_url": "10.1007/s00112-026-02409-8",
+        "typ": "Expertenkonsens",
+        "kernzitat": "Melatonin sollte bei Kindern ausschließlich unter ärztlicher Kontrolle",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Pediatric Melatonin Ingestions – United States, 2012–2021",
+        "autoren": "Lelak, Vohra, Neuman, Toce, Sethuraman",
+        "jahr": 2022,
+        "doi_oder_url": "10.15585/mmwr.mm7122a1",
+        "typ": "Statistik",
+        "kernzitat": "the annual number of ingestions increased 530%",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "BfR (Stellungnahme Nr. 038/2024); DGKJ-Ernährungskommission",
+      "jahr": 2026,
+      "inhalt": "Keine eigenständige, unkontrollierte Melatonin-Einnahme bei Kindern; Einsatz nur unter ärztlicher Kontrolle bei klarer Indikation.",
+      "url": "https://www.bfr.bund.de/stellungnahme/melatoninhaltige-nahrungsergaenzungsmittel-bfr-weist-auf-moegliche-gesundheitsrisiken-hin/"
+    },
+    "rechtslage": "Nahrungsergänzungsmittel brauchen in Deutschland keine Zulassung wie Arzneimittel. Ein Verbot melatoninhaltiger Süßigkeiten fordert die DGKJ (2026); beschlossen ist es nicht (Stand 18.10.2026).",
+    "tipps": {
+      "eltern": [
+        "Bewahren Sie Melatonin-Produkte wie Medikamente kindersicher auf.",
+        "Probieren Sie bei Einschlafproblemen zuerst feste Rituale und Zeiten."
+      ]
+    },
+    "wann_hilfe": "Bei anhaltenden Schlafproblemen klären Sie mit der Kinderarztpraxis, ob eine Behandlung nötig ist. Bei versehentlicher Einnahme rufen Sie den Giftnotruf an.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-grundschule-001",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4"
+    ],
+    "aussage": "Kinder von 6 bis 12 Jahren sollten regelmäßig 9 bis 12 Stunden pro 24 Stunden schlafen.",
+    "erklaerung": "So lautet der Konsens der American Academy of Sleep Medicine von 2016. Weniger Schlaf hängt dort mit Problemen bei Aufmerksamkeit, Verhalten und Lernen zusammen. Auch Unfälle, Übergewicht und Depression werden häufiger. Regelmäßig deutlich mehr Schlaf kann ebenfalls mit gesundheitlichen Nachteilen verbunden sein. Der Bedarf ist individuell; die Spanne ist ein Richtwert.",
+    "wirkung": "hilft",
+    "ampel": "stark",
+    "studientyp": "Expertenkonsens",
+    "quellen": [
+      {
+        "titel": "Recommended Amount of Sleep for Pediatric Populations: A Consensus Statement of the American Academy of Sleep Medicine",
+        "autoren": "Paruthi et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.5664/jcsm.5866",
+        "typ": "Expertenkonsens",
+        "kernzitat": "should sleep 9 to 12 hours per 24 hours on a regular basis",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "American Academy of Sleep Medicine (AASM)",
+      "jahr": 2016,
+      "inhalt": "6–12 Jahre: 9 bis 12 Stunden pro 24 Stunden, regelmäßig; 13–18 Jahre: 8 bis 10 Stunden.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877308/"
+    },
+    "gegenstimmen": "Eine eigene deutsche Empfehlung für Schulkinder (BIÖG/kindergesundheit-info.de) haben wir für diese Altersgruppe nicht gefunden. Der AASM-Wert beruht auf Expertenkonsens (RAND-Methode), nicht auf einer Meta-Analyse.",
+    "tipps": {
+      "eltern": [
+        "Rechnen Sie von der Weckzeit zurück: Wer um 6:30 Uhr aufsteht, braucht etwa ab 20:30 Uhr Schlaf.",
+        "Halten Sie feste Zubettgehzeiten, auch am Wochenende ungefähr."
+      ],
+      "lehrkraefte": [
+        "Achten Sie auf anhaltende Müdigkeit im Unterricht und sprechen Sie Eltern behutsam an."
+      ]
+    },
+    "wann_hilfe": "Wenn Ihr Kind trotz ausreichender Bettzeit dauerhaft müde ist, sprechen Sie mit der Kinderärztin oder dem Kinderarzt.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-grundschule-002",
+    "thema": "schlaf",
+    "phasen": [
+      "P3"
+    ],
+    "aussage": "Kürzerer Schlaf geht bei Schulkindern mit etwas schwächeren Denkleistungen und mehr Verhaltensproblemen einher.",
+    "erklaerung": "Eine Meta-Analyse von 86 Studien mit 35.936 Kindern (5–12 Jahre) fand kleine, aber stabile Zusammenhänge. Betroffen waren exekutive Funktionen, komplexe Aufgaben und Schulleistung, nicht aber die Intelligenz. Kürzerer Schlaf ging mit mehr inneren und äußeren Verhaltensproblemen einher. Die Effekte sind klein (r um 0,08 bis 0,10) und meist aus Beobachtungsstudien.",
+    "gehirn": "Bei Erwachsenen hängt Schlafdauer mit Aufmerksamkeit und Gedächtnis zusammen, bei Kindern hier nicht. Die Autoren vermuten als Grund das noch reifende Gehirn. Das ist eine Deutung, kein Nachweis.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Sleep, cognition, and behavioral problems in school-age children: a century of research meta-analyzed",
+        "autoren": "Astill et al.",
+        "jahr": 2012,
+        "doi_oder_url": "10.1037/a0028204",
+        "typ": "Meta-Analyse",
+        "kernzitat": "insufficient sleep in children is associated with deficits in higher-order and complex cognitive functions",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Überraschend fand die Meta-Analyse keinen Zusammenhang mit Daueraufmerksamkeit und Gedächtnis. Ursache und Wirkung sind aus Beobachtungsdaten nicht sicher zu trennen.",
+    "tipps": {
+      "eltern": [
+        "Wenn Ihr Kind gereizt oder unkonzentriert ist, prüfen Sie zuerst den Schlaf der letzten Tage."
+      ],
+      "lehrkraefte": [
+        "Deuten Sie Unruhe nicht vorschnell; Schlafmangel kann eine Ursache sein."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-grundschule-003",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4"
+    ],
+    "aussage": "Kinder, die kurz schlafen, haben ein höheres Risiko, später Übergewicht zu entwickeln.",
+    "erklaerung": "Zwei Meta-Analysen prospektiver Studien kommen zum gleichen Ergebnis. Im mittleren Kindesalter war das Risiko bei kurzem Schlaf mehr als doppelt so hoch (RR 2,23; nur drei Studien). Für Schulkinder von 6 bis 13 Jahren fand eine zweite Analyse ein RR von 1,82. Pro Stunde mehr Schlaf ist die Änderung des BMI aber sehr klein.",
+    "wirkung": "schadet",
+    "ampel": "stark",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Sleep duration and incidence of obesity in infants, children, and adolescents: a systematic review and meta-analysis of prospective studies",
+        "autoren": "Miller et al.",
+        "jahr": 2018,
+        "doi_oder_url": "10.1093/sleep/zsy018",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Short sleep duration is a risk factor or marker of the development of obesity",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep duration and obesity in children and adolescents: evidence from an updated and dose-response meta-analysis",
+        "autoren": "Deng et al.",
+        "jahr": 2021,
+        "doi_oder_url": "10.1016/j.sleep.2020.12.027",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "The efficacy of sleep lifestyle interventions for the management of overweight or obesity in children: a systematic review and meta-analysis",
+        "autoren": "Liu et al.",
+        "jahr": 2024,
+        "doi_oder_url": "10.1186/s12889-024-17708-6",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Ob kurzer Schlaf Übergewicht verursacht, ist offen; Miller et al. sprechen von „Risikofaktor oder Marker“. Eine Meta-Analyse von Programmen mit Schlafanteil fand keinen signifikanten Effekt auf den BMI übergewichtiger Kinder (Liu et al. 2024).",
+    "tipps": {
+      "eltern": [
+        "Sehen Sie genug Schlaf als Teil eines gesunden Alltags, neben Bewegung und Essen."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-grundschule-004",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4"
+    ],
+    "aussage": "Regelmäßiges Schnarchen und Schlafapnoe gehen bei Kindern mit Verhaltens- und Lernproblemen einher und sollten ärztlich abgeklärt werden.",
+    "erklaerung": "Eine Meta-Analyse von 63 Studien fand bei schlafbezogenen Atemstörungen Nachteile in allen Denkbereichen, auch bei bloßem Schnarchen. Zwei große Studien (CHAT, 464 Kinder; PATS, 459 Kinder) prüften eine frühe Mandeloperation gegen Abwarten. Verhalten, Beschwerden und Lebensqualität besserten sich mit Operation stärker. Aufmerksamkeit und exekutive Funktionen in Tests besserten sich nicht stärker.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "RCT",
+    "quellen": [
+      {
+        "titel": "Neurocognitive outcomes of children with sleep disordered breathing: A systematic review with meta-analysis",
+        "autoren": "Menzies et al.",
+        "jahr": 2022,
+        "doi_oder_url": "10.1016/j.smrv.2022.101629",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "A randomized trial of adenotonsillectomy for childhood sleep apnea (CHAT)",
+        "autoren": "Marcus et al.",
+        "jahr": 2013,
+        "doi_oder_url": "10.1056/NEJMoa1215881",
+        "typ": "RCT",
+        "kernzitat": "did not significantly improve attention or executive function",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Adenotonsillectomy for Snoring and Mild Sleep Apnea in Children: A Randomized Clinical Trial (PATS)",
+        "autoren": "Redline et al.",
+        "jahr": 2023,
+        "doi_oder_url": "10.1001/jama.2023.22114",
+        "typ": "RCT",
+        "kernzitat": "did not significantly improve executive function or attention at 12 months",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Meta-Analyse beruht überwiegend auf Beobachtungsdaten. Die Studien zeigen, dass eine Operation nicht automatisch die Testleistung verbessert. In PATS hatten 2,7 % der operierten Kinder ein schweres unerwünschtes Ereignis.",
+    "tipps": {
+      "eltern": [
+        "Achten Sie auf lautes Schnarchen an den meisten Nächten, Atempausen oder Mundatmung."
+      ],
+      "lehrkraefte": [
+        "Bei auffälliger Tagesmüdigkeit kann ein Hinweis an die Eltern sinnvoll sein."
+      ]
+    },
+    "wann_hilfe": "Schnarcht Ihr Kind fast jede Nacht oder setzt die Atmung aus, wenden Sie sich an die Kinderarztpraxis. Sie kann an HNO oder Schlafmedizin überweisen.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-grundschule-005",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4"
+    ],
+    "aussage": "Melatonin als Nahrungsergänzung oder Gummibärchen ist für Kinder nicht empfohlen; Melatonin gehört nur in ärztliche Hand.",
+    "erklaerung": "Das BfR rät seit 2024, Kinder und Jugendliche von melatoninhaltigen Nahrungsergänzungsmitteln auszunehmen. Gründe sind fehlende Langzeitdaten zu Wachstum und Pubertät sowie Nebenwirkungen wie Kopfschmerzen und Müdigkeit am Morgen. Die DGKJ fordert 2026 ein Verbot kindgerechter Melatonin-Süßigkeiten. In den USA stiegen gemeldete Melatonin-Einnahmen bei Kindern von 2012 bis 2021 um 530 %.",
+    "wirkung": "schadet",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "Melatoninhaltige Nahrungsergänzungsmittel: BfR weist auf mögliche Gesundheitsrisiken hin (Stellungnahme 038/2024)",
+        "autoren": "Bundesinstitut für Risikobewertung (BfR)",
+        "jahr": 2024,
+        "doi_oder_url": "10.17590/20240808-103443-0",
+        "typ": "Leitlinie",
+        "kernzitat": "wird empfohlen, Kinder und Jugendliche von der Verwendung melatoninhaltiger NEM auszunehmen",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Melatonin in Süßigkeiten für Kinder. Stellungnahme der Ernährungskommission der DGKJ",
+        "autoren": "Lücke, Kalhoff, Ernährungskommission der DGKJ",
+        "jahr": 2026,
+        "doi_oder_url": "10.1007/s00112-026-02409-8",
+        "typ": "Expertenkonsens",
+        "kernzitat": "ausschließlich unter ärztlicher Kontrolle und nur bei klaren medizinischen Indikationen",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Pediatric Melatonin Ingestions — United States, 2012–2021",
+        "autoren": "Lelak et al.",
+        "jahr": 2022,
+        "doi_oder_url": "10.15585/mmwr.mm7122a1",
+        "typ": "Statistik",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "Bundesinstitut für Risikobewertung (BfR)",
+      "jahr": 2024,
+      "inhalt": "Kinder und Jugendliche sollen von der Verwendung melatoninhaltiger Nahrungsergänzungsmittel ausgenommen werden.",
+      "url": "https://doi.org/10.17590/20240808-103443-0"
+    },
+    "rechtslage": "Als Arzneimittel ist Melatonin für Kinder nur bei wenigen Diagnosen zugelassen (u. a. Autismus-Spektrum-Störung, Smith-Magenis-Syndrom; laut DGKJ auch ADHS ab 6 Jahren), wenn Schlafhygiene nicht reicht. Nahrungsergänzungsmittel sind nicht zulassungspflichtig. Ein Verbot von Melatonin-Süßigkeiten ist eine Forderung der DGKJ, kein beschlossenes Recht.",
+    "tipps": {
+      "eltern": [
+        "Geben Sie Melatonin nicht ohne ärztlichen Rat.",
+        "Bewahren Sie solche Produkte für Kinder unerreichbar auf."
+      ]
+    },
+    "wann_hilfe": "Bei anhaltenden Einschlafproblemen sprechen Sie mit der Kinderärztin oder dem Kinderarzt. Bei versehentlicher Einnahme größerer Mengen rufen Sie den Giftnotruf an.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-grundschule-006",
+    "thema": "schlaf",
+    "phasen": [
+      "P3"
+    ],
+    "aussage": "Abends helles Licht unterdrückt das Schlafhormon Melatonin bei Grundschulkindern stärker als bei Erwachsenen.",
+    "erklaerung": "In einer japanischen Laborstudie sank Melatonin unter hellem Licht bei Kindern um 88 %. Bei Erwachsenen waren es 46 %. Schon normales Zimmerlicht zu Hause senkte es bei Kindern, nicht bei Erwachsenen. Die Gruppen waren sehr klein. Das spricht für gedimmtes Licht am Abend, beweist aber keine Folgen für den Schlaf.",
+    "gehirn": "Melatonin wird nachts in der Zirbeldrüse gebildet und gibt dem Körper das Signal „Nacht“. Kinder haben größere Pupillen und klarere Linsen. Dadurch erreicht mehr kurzwelliges Licht die lichtempfindlichen Zellen der Netzhaut (Laborstudien, je etwa 9 bis 20 Kinder).",
+    "wirkung": "einordnung",
+    "ampel": "schwach",
+    "studientyp": "Einzelstudie",
+    "quellen": [
+      {
+        "titel": "Influence of light at night on melatonin suppression in children",
+        "autoren": "Higuchi et al.",
+        "jahr": 2014,
+        "doi_oder_url": "10.1210/jc.2014-1629",
+        "typ": "Einzelstudie",
+        "kernzitat": "melatonin is more sensitive to light in children than in adults at night",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Crystalline lens transmittance spectra and pupil sizes as factors affecting light-induced melatonin suppression in children and adults",
+        "autoren": "Eto et al.",
+        "jahr": 2021,
+        "doi_oder_url": "10.1111/opo.12809",
+        "typ": "Einzelstudie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "eltern": [
+        "Dimmen Sie das Licht in der letzten Stunde vor dem Schlafengehen."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-grundschule-007",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4"
+    ],
+    "aussage": "Für 6- bis 9-Jährige empfiehlt die deutsche Medienleitlinie höchstens 30 bis 45 Minuten Bildschirmzeit in der Freizeit.",
+    "erklaerung": "Die Elternfassung der deutschen Medienleitlinie nennt Schlafstörungen als mögliche Folge übermäßiger Bildschirmnutzung. Sie rät, Freizeit-Bildschirmzeit auf einzelne Tage zu beschränken. Eine eigene Spielkonsole soll es nicht vor neun Jahren geben. Schulische Nutzung für Hausaufgaben zählt nicht mit.",
+    "wirkung": "einordnung",
+    "ampel": "mittel",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "Medienleitlinie für Eltern: Die wichtigsten Empfehlungen für den Umgang mit Smartphone, Computer, Spielkonsole und TV in der Familie",
+        "autoren": "kinderaerzte-im-netz.de; Kontakt: Schwarz (Universität Witten/Herdecke)",
+        "jahr": 2023,
+        "doi_oder_url": "https://www.kinderaerzte-im-netz.de/media/65c39121b49d384a085d213d/source/medienleitlinie-fur-eltern-pdf..pdf",
+        "typ": "Leitlinie",
+        "kernzitat": "Höchstens 30–45 Minuten Bildschirmnutzung!",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "Medienleitlinie für Eltern (kinderaerzte-im-netz.de)",
+      "jahr": 2023,
+      "inhalt": "6–9 Jahre: höchstens 30–45 Minuten Bildschirmnutzung, möglichst nur an einzelnen Tagen; eigene Spielkonsole nicht vor 9 Jahren.",
+      "url": "https://www.kinderaerzte-im-netz.de/media/65c39121b49d384a085d213d/source/medienleitlinie-fur-eltern-pdf..pdf"
+    },
+    "gegenstimmen": "Die Minutenwerte sind Konsens, nicht aus Studien abgeleitet. Die Langfassung der AWMF-Leitlinie konnten wir in dieser Sitzung nicht öffnen (Seite gesperrt).",
+    "tipps": {
+      "eltern": [
+        "Legen Sie bildschirmfreie Tage fest.",
+        "Eine Sanduhr oder Zeitbegrenzung im Gerät hilft beim Aufhören."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-grundschule-008",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4"
+    ],
+    "aussage": "Kurzer Schlafunterricht in der Schule allein verändert den Schlaf von Kindern meist nicht.",
+    "erklaerung": "Ein systematischer Review von 21 randomisierten Studien (2024) fand Schlafbildung meist unwirksam für das Schlafverhalten. In Hongkong verbesserte ein Programm an zwölf Grundschulen das Wissen der Eltern, nicht aber den Schlaf der Kinder. Für Jugendliche fand eine Meta-Analyse nur kurzfristig längeren Schlaf, der nicht anhielt.",
+    "wirkung": "neutral",
+    "ampel": "mittel",
+    "studientyp": "Systematischer Review",
+    "quellen": [
+      {
+        "titel": "Sleep behavioral outcomes of school-based interventions for promoting sleep health in children and adolescents aged 5 to 18 years: a systematic review",
+        "autoren": "Gaskin et al.",
+        "jahr": 2024,
+        "doi_oder_url": "10.1093/sleepadvances/zpae019",
+        "typ": "Systematischer Review",
+        "kernzitat": "Sleep education interventions were typically ineffective.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "School-Based Sleep Education Program for Children: A Cluster Randomized Controlled Trial",
+        "autoren": "Chen et al.",
+        "jahr": 2023,
+        "doi_oder_url": "10.3390/healthcare11131853",
+        "typ": "RCT",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "School-Based Sleep Education Programs for Short Sleep Duration in Adolescents: A Systematic Review and Meta-Analysis",
+        "autoren": "Chung et al.",
+        "jahr": 2017,
+        "doi_oder_url": "10.1111/josh.12509",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "School-based sleep education program improves sleep and academic performance of school-age children",
+        "autoren": "Gruber et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.1016/j.sleep.2016.01.012",
+        "typ": "Einzelstudie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Das kanadische Programm „Sleep for Success“ verlängerte den Schlaf um 18,2 Minuten pro Nacht und verbesserte Noten. Die Studie war aber klein (71 Kinder) und nicht randomisiert. Die Review-Autoren empfehlen, umfassendere Ansätze für die ganze Schule zu prüfen.",
+    "tipps": {
+      "lehrkraefte": [
+        "Beziehen Sie Eltern ein; Schlaf wird zu Hause entschieden.",
+        "Verbinden Sie Schlafthemen mit Bewegung und Mediennutzung statt einer Einzelstunde."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-uebergang-001",
+    "thema": "schlaf",
+    "phasen": [
+      "P4",
+      "P5"
+    ],
+    "aussage": "Mit der Pubertät verschiebt sich die innere Uhr nach hinten: Jugendliche werden abends später müde.",
+    "erklaerung": "In einer Befragung von 458 Sechstklässlern hingen Pubertätsstand und Abendtyp zusammen, bei Mädchen signifikant. Psychosoziale Faktoren erklärten das nicht. Ein Übersichtsartikel beschreibt die spätere Schlafphase im zweiten Lebensjahrzehnt als Zusammenspiel von innerer Uhr, Schlafdruck und Umwelt. Frühe Schulzeiten verkürzen dann den Schlaf an Schultagen.",
+    "gehirn": "Die innere Uhr und der Schlafdruck verändern sich in der Pubertät. Bei Ratten verschob sich der Aktivitätsrhythmus in der Pubertät ebenfalls nach hinten, teils abhängig von Geschlechtshormonen (Tierversuch).",
+    "wirkung": "einordnung",
+    "ampel": "mittel",
+    "studientyp": "Systematischer Review",
+    "quellen": [
+      {
+        "titel": "Association between puberty and delayed phase preference",
+        "autoren": "Carskadon et al.",
+        "jahr": 1993,
+        "doi_oder_url": "10.1093/sleep/16.3.258",
+        "typ": "Querschnitt",
+        "kernzitat": "These data support involvement of a biological factor in the adolescent phase preference delay",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep, circadian rhythms, and delayed phase in adolescence",
+        "autoren": "Crowley et al.",
+        "jahr": 2007,
+        "doi_oder_url": "10.1016/j.sleep.2006.12.002",
+        "typ": "Systematischer Review",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Effects of school start time and its interaction with the solar clock on adolescents' chronotype and sleep: A systematic review and meta-analysis",
+        "autoren": "Rodríguez Ferrante et al.",
+        "jahr": 2024,
+        "doi_oder_url": "10.1016/j.smrv.2024.101988",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Changes in circadian rhythms during puberty in Rattus norvegicus: developmental time course and gonadal dependency",
+        "autoren": "Hagenauer et al.",
+        "jahr": 2011,
+        "doi_oder_url": "10.1016/j.yhbeh.2011.03.001",
+        "typ": "Einzelstudie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "eltern": [
+        "Sehen Sie spätes Müdewerden nicht nur als Trotz; es ist auch biologisch.",
+        "Helles Tageslicht am Morgen und gedimmtes Licht am Abend unterstützen die innere Uhr."
+      ],
+      "jugendliche": [
+        "Wenn du abends nicht müde bist: Handy weg, Licht dimmen, aber zur festen Zeit ins Bett."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-uebergang-002",
+    "thema": "schlaf",
+    "phasen": [
+      "P4",
+      "P5"
+    ],
+    "aussage": "Zwischen 11 und 16 Jahren nimmt der Tiefschlaf im Schlaf-EEG stark ab, ein Zeichen der Gehirnreifung.",
+    "erklaerung": "In einer Längsschnittstudie mit wiederholten Schlaf-EEG-Messungen blieb die Delta-Aktivität zwischen 9 und 11 Jahren gleich. Danach sank sie bis 16,5 Jahre um 66 %. Das ist eine normale Entwicklung und kein Schaden.",
+    "gehirn": "Delta-Wellen (1–4 Hz) zeigen tiefen Schlaf an. Die Autoren vermuten, dass der Abfall den Abbau überzähliger Synapsen spiegelt. Diese Deutung ist eine Hypothese aus EEG-Daten, nicht direkt gemessen.",
+    "wirkung": "einordnung",
+    "ampel": "schwach",
+    "studientyp": "Kohorte",
+    "quellen": [
+      {
+        "titel": "Longitudinal trajectories of non-rapid eye movement delta and theta EEG as indicators of adolescent brain maturation",
+        "autoren": "Campbell, Feinberg",
+        "jahr": 2009,
+        "doi_oder_url": "10.1073/pnas.0812947106",
+        "typ": "Kohorte",
+        "kernzitat": "decreasing by 66% between age 11 and 16.5 years",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "lehrkraefte": [
+        "Rechnen Sie in Klasse 5 bis 7 mit großen Unterschieden im Schlaf- und Reifestand."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-uebergang-003",
+    "thema": "schlaf",
+    "phasen": [
+      "P4",
+      "P5"
+    ],
+    "aussage": "Müdigkeit und schlechter Schlaf hängen mit schwächeren Schulleistungen zusammen, bei jüngeren Schülern stärker.",
+    "erklaerung": "Eine Meta-Analyse mit bis zu 19.530 Kindern und Jugendlichen fand kleine, aber signifikante Zusammenhänge. Am stärksten war Tagesmüdigkeit mit schlechteren Leistungen verbunden (r = −0,133), danach Schlafqualität und Schlafdauer. Die Zusammenhänge waren bei jüngeren Teilnehmenden größer.",
+    "gehirn": "Die Autoren erklären den Alterseffekt mit starken Umbauten des präfrontalen Kortex in der frühen Pubertät. Das ist eine Deutung, nicht direkt gemessen.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "The influence of sleep quality, sleep duration and sleepiness on school performance in children and adolescents: A meta-analytic review",
+        "autoren": "Dewald et al.",
+        "jahr": 2010,
+        "doi_oder_url": "10.1016/j.smrv.2009.10.004",
+        "typ": "Meta-Analyse",
+        "kernzitat": "All three sleep variables were significantly but modestly related to school performance.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep, cognition, and behavioral problems in school-age children: a century of research meta-analyzed",
+        "autoren": "Astill et al.",
+        "jahr": 2012,
+        "doi_oder_url": "10.1037/a0028204",
+        "typ": "Meta-Analyse",
+        "kernzitat": "insufficient sleep in children is associated with deficits in higher-order and complex cognitive functions",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Effekte sind klein, und die meisten Studien sind Querschnittsstudien. Ursache und Wirkung bleiben offen.",
+    "tipps": {
+      "lehrkraefte": [
+        "Planen Sie anspruchsvolle Aufgaben nicht nur in die erste Stunde."
+      ],
+      "jugendliche": [
+        "Vor Prüfungen hilft ausreichender Schlaf mehr als eine lange Nacht am Schreibtisch."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-uebergang-004",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "aussage": "Ein Smartphone oder Tablet im Bett hängt mit kürzerem, schlechterem Schlaf und mehr Tagesmüdigkeit zusammen.",
+    "erklaerung": "Eine Meta-Analyse umfasste 20 Studien mit 125.198 Kindern und Jugendlichen. Nutzung vor dem Schlafen ging mit etwa doppeltem Risiko für zu wenig Schlaf einher (OR 2,17). Schon ein Gerät im Zimmer ohne Nutzung ging mit schlechterem Schlaf einher. Ein Review fand ungünstige Zusammenhänge in 90 % von 67 Studien. Eine Meta-Analyse von 2025 fand pro Stunde Bildschirm etwa 3 bis 5 Minuten weniger Schlaf.",
+    "wirkung": "schadet",
+    "ampel": "stark",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Association Between Portable Screen-Based Media Device Access or Use and Sleep Outcomes: A Systematic Review and Meta-analysis",
+        "autoren": "Carter et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.1001/jamapediatrics.2016.2341",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Bedtime access to and use of a media device were significantly associated",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Screen time and sleep among school-aged children and adolescents: a systematic literature review",
+        "autoren": "Hale, Guan",
+        "jahr": 2015,
+        "doi_oder_url": "10.1016/j.smrv.2014.07.007",
+        "typ": "Systematischer Review",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "The association of screen time and the risk of sleep outcomes: a systematic review and meta-analysis",
+        "autoren": "He et al.",
+        "jahr": 2025,
+        "doi_oder_url": "10.3389/fpsyt.2025.1640263",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Alle Studien in Carter et al. waren Querschnittsstudien; Ursache und Wirkung sind nicht belegt. Eine Meta-Analyse von 2026 zeigt innerhalb derselben Person nur einen kleinen Effekt auf die Einschlafzeit (siehe schlaf-uebergang-005).",
+    "tipps": {
+      "eltern": [
+        "Richten Sie eine Ladestation außerhalb des Kinderzimmers ein.",
+        "Gehen Sie mit gutem Beispiel voran: auch Ihr Handy schläft draußen."
+      ],
+      "jugendliche": [
+        "Lade dein Handy nachts außerhalb deines Zimmers. Ein einfacher Wecker reicht."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-uebergang-005",
+    "thema": "schlaf",
+    "phasen": [
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "aussage": "Ob Bildschirme den Schlaf direkt verkürzen oder vor allem das Zubettgehen verschieben, ist umstritten.",
+    "erklaerung": "Eine Meta-Analyse von 2026 (25 Studien, 4.562 junge Menschen) verglich Tage derselben Person. An Tagen mit mehr Bildschirmzeit gingen sie etwas später schlafen. Schlafdauer, Einschlafdauer und Schlafqualität änderten sich kaum. Nur Bildschirmnutzung nach dem Zubettgehen verschlechterte die empfundene Schlafqualität.",
+    "wirkung": "einordnung",
+    "ampel": "umstritten",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Within-Person Association Between Daily Screen Use and Sleep in Youth: A Systematic Review and Meta-Analysis",
+        "autoren": "Bourke et al.",
+        "jahr": 2026,
+        "doi_oder_url": "10.1001/jamapediatrics.2025.6490",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Screen time may delay bedtime but is not inherently detrimental to other aspects",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Association Between Portable Screen-Based Media Device Access or Use and Sleep Outcomes: A Systematic Review and Meta-analysis",
+        "autoren": "Carter et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.1001/jamapediatrics.2016.2341",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Bedtime access to and use of a media device were significantly associated",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "The association of screen time and the risk of sleep outcomes: a systematic review and meta-analysis",
+        "autoren": "He et al.",
+        "jahr": 2025,
+        "doi_oder_url": "10.3389/fpsyt.2025.1640263",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Vergleiche zwischen Personen (Carter 2016, He 2025) zeigen deutlich ungünstigere Zusammenhänge. Bourke et al. sehen darin teils Störfaktoren. Beide Ansätze messen Unterschiedliches: kurzfristige Tagesschwankungen gegenüber langfristigen Gewohnheiten.",
+    "tipps": {
+      "jugendliche": [
+        "Kritisch ist vor allem das Handy im Bett nach dem Licht-aus."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-uebergang-006",
+    "thema": "schlaf",
+    "phasen": [
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "aussage": "Nachtmodus oder Blaulichtfilter verbessern den Schlaf nicht nachweislich; wichtiger ist, das Gerät wegzulegen.",
+    "erklaerung": "In einer randomisierten Studie mit 167 jungen Erwachsenen machte der iPhone-Nachtmodus keinen Unterschied im gemessenen Schlaf. Wer sonst genug schlief, schlief ohne Handy am besten. Ein Cochrane-Review fand für Blaulichtfilter-Brillen bei Erwachsenen nur widersprüchliche Ergebnisse zum Schlaf. Studien mit Kindern dazu fehlen.",
+    "wirkung": "neutral",
+    "ampel": "schwach",
+    "studientyp": "RCT",
+    "quellen": [
+      {
+        "titel": "Does iPhone night shift mitigate negative effects of smartphone use on sleep outcomes in emerging adults?",
+        "autoren": "Duraccio et al.",
+        "jahr": 2021,
+        "doi_oder_url": "10.1016/j.sleh.2021.03.005",
+        "typ": "RCT",
+        "kernzitat": "there were no differences in sleep outcomes attributable to Night Shift",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults (Cochrane Review)",
+        "autoren": "Singh et al.",
+        "jahr": 2023,
+        "doi_oder_url": "10.1002/14651858.CD013244.pub2",
+        "typ": "Systematischer Review",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Laborstudien zeigen, dass abendliches Licht Melatonin unterdrückt, bei Kindern stärker (schlaf-grundschule-006). Ob ein Filter das im Alltag ausgleicht, ist nicht belegt. Inhalt, Erregung und verdrängte Schlafzeit gelten als mögliche weitere Wege.",
+    "tipps": {
+      "jugendliche": [
+        "Der Nachtmodus ist kein Freifahrtschein. Leg das Handy lieber eine halbe Stunde vor dem Schlafen weg."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-uebergang-007",
+    "thema": "schlaf",
+    "phasen": [
+      "P4",
+      "P5"
+    ],
+    "aussage": "Ein Handyverbot während der Schulzeit allein verlängert den Schlaf von Jugendlichen laut einer englischen Studie nicht.",
+    "erklaerung": "Die SMART-Schools-Studie verglich 2025 Jugendliche (12–15 Jahre) an 30 englischen Schulen. An Schulen mit Verbot war die Handyzeit in der Schule kürzer, nicht aber am ganzen Tag. Schlafdauer und Schlafeffizienz unterschieden sich nicht. Mehr Handy- und Social-Media-Zeit insgesamt hing jedoch mit kürzerem Schlaf zusammen.",
+    "wirkung": "neutral",
+    "ampel": "schwach",
+    "studientyp": "Querschnitt",
+    "quellen": [
+      {
+        "titel": "School phone policies and their association with mental wellbeing, phone use, and social media use (SMART Schools): a cross-sectional observational study",
+        "autoren": "Goodyear et al.",
+        "jahr": 2025,
+        "doi_oder_url": "10.1016/j.lanepe.2025.101211",
+        "typ": "Querschnitt",
+        "kernzitat": "did not differ in their sleep duration and efficiency",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Es handelt sich um eine Querschnittsstudie; Schulen wurden nicht zufällig zugeteilt. Die Autoren empfehlen, Regeln weiterzuentwickeln, etwa mit Blick auf die Nutzung außerhalb der Schule.",
+    "rechtslage": "Regeln zur privaten Handynutzung an Schulen legen in Niedersachsen die Schulen selbst fest; eine landesweite Verbotsregel haben wir in dieser Sitzung nicht geprüft.",
+    "tipps": {
+      "lehrkraefte": [
+        "Verbinden Sie Schulregeln mit Elternarbeit zur Handynutzung am Abend."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-uebergang-008",
+    "thema": "schlaf",
+    "phasen": [
+      "P4",
+      "P5"
+    ],
+    "aussage": "Energydrinks können den Schlaf von Kindern stören. Unter 3 mg Koffein pro kg Körpergewicht sieht das BfR keine Hinweise auf Schäden.",
+    "erklaerung": "Das BfR hat seine Bewertung im Juli 2026 aktualisiert. Kinder und Jugendliche gelten als Risikogruppe bei akut hohem Verzehr. In einer Studie mit Hochkonsum berichtete knapp die Hälfte über Herzrasen, Kopfschmerzen und schlechten Schlaf. Unterhalb von 3 mg Koffein pro kg Körpergewicht sieht das BfR keine Hinweise auf Schäden.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "Energydrinks: BfR aktualisiert Bewertung der gesundheitlichen Risiken für Kinder und Jugendliche bei akutem und chronischem Verzehr (Stellungnahme 037/2026)",
+        "autoren": "Bundesinstitut für Risikobewertung (BfR)",
+        "jahr": 2026,
+        "doi_oder_url": "10.17590/20260707-104801-0",
+        "typ": "Leitlinie",
+        "kernzitat": "über Herzrasen, Kopfschmerzen und schlechten Schlaf nach dem Konsum von Energydrinks berichtet",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "Bundesinstitut für Risikobewertung (BfR), nach EFSA",
+      "jahr": 2026,
+      "inhalt": "Für gesunde Kinder und Jugendliche gelten 3 mg Koffein pro kg Körpergewicht aus allen Quellen, als Einzeldosis und pro Tag, als unbedenklich.",
+      "url": "https://doi.org/10.17590/20260707-104801-0"
+    },
+    "gegenstimmen": "Das BfR nennt die Datenlage für Kinder und Jugendliche ausdrücklich schwach; Langzeitstudien zu moderatem Konsum fehlen.",
+    "tipps": {
+      "eltern": [
+        "Halten Sie Energydrinks von Ihrem Kind fern. Der Richtwert gilt für Koffein aus allen Quellen zusammen."
+      ],
+      "jugendliche": [
+        "Energydrinks am Nachmittag können dir die Nacht kosten. Wasser ist die bessere Wahl."
+      ]
+    },
+    "wann_hilfe": "Bei Herzrasen, starker Unruhe oder Übelkeit nach Energydrinks holen Sie ärztliche Hilfe.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-jugend-001",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "Jugendliche zwischen 13 und 18 Jahren brauchen regelmäßig 8 bis 10 Stunden Schlaf pro Nacht.",
+    "erklaerung": "Die US-Schlafmedizin (AASM) empfiehlt seit 2016 für 13- bis 18-Jährige 8 bis 10 Stunden. Wer regelmäßig weniger schläft, hat häufiger Probleme mit Aufmerksamkeit, Verhalten und Lernen. Eine eigene deutsche Leitlinie mit Stundenangaben für diese Altersgruppe wurde in dieser Recherche nicht gefunden.",
+    "gehirn": "Im Schlaflabor nimmt bei 15- bis 19-Jährigen die Tiefschlafaktivität (EEG) mit dem Alter ab. Das geht mit einer Ausdünnung der Hirnrinde in der Bildgebung (MRT) einher. Beides gilt als Zeichen normaler Reifung. Es handelt sich um eine Querschnitts- und Bildgebungsstudie, nicht um einen Beweis, dass Schlaf die Reifung verursacht.",
+    "wirkung": "hilft",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "Recommended Amount of Sleep for Pediatric Populations: A Consensus Statement of the American Academy of Sleep Medicine",
+        "autoren": "Paruthi et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.5664/jcsm.5866",
+        "typ": "Leitlinie",
+        "kernzitat": "should sleep 8 to 10 hours per 24 hours on a regular basis",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "School start times for adolescents (Policy Statement)",
+        "autoren": "American Academy of Pediatrics, Adolescent Sleep Working Group et al.",
+        "jahr": 2014,
+        "doi_oder_url": "10.1542/peds.2014-1697",
+        "typ": "Leitlinie",
+        "kernzitat": "aim for start times that allow students the opportunity to achieve optimal levels of sleep",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Cortical thinning and sleep slow wave activity reductions mediate age-related improvements in cognition during mid-late adolescence",
+        "autoren": "Ong et al.",
+        "jahr": 2022,
+        "doi_oder_url": "10.1093/sleep/zsab206",
+        "typ": "Querschnitt",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "American Academy of Sleep Medicine (AASM), von der AAP mitgetragen",
+      "jahr": 2016,
+      "inhalt": "13- bis 18-Jährige sollen regelmäßig 8 bis 10 Stunden pro 24 Stunden schlafen.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877308/"
+    },
+    "tipps": {
+      "eltern": [
+        "Rechnen Sie vom Weckzeitpunkt 8 bis 10 Stunden zurück, um eine realistische Bettzeit zu finden."
+      ],
+      "jugendliche": [
+        "Rechne von deinem Wecker 8 bis 10 Stunden zurück – das ist deine Ziel-Schlafenszeit.",
+        "Versuche, auch am Wochenende ähnliche Zeiten zu halten."
+      ]
+    },
+    "wann_hilfe": "Ist Ihr Kind trotz genug Zeit im Bett dauerhaft müde, schnarcht es oder kann nicht einschlafen? Dann sprechen Sie mit der Kinder- und Jugendarztpraxis.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-jugend-002",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "In der Pubertät verschiebt sich die innere Uhr nach hinten: Jugendliche werden abends später müde.",
+    "erklaerung": "Mit der Pubertät verlagert sich der Tagesrhythmus biologisch nach hinten. Zugleich baut sich der Schlafdruck abends langsamer auf. Der Schlafbedarf bleibt aber bei etwa 9 Stunden. Frühe Schulzeiten verkürzen deshalb den Schlaf. Die AAP nennt frühe Schulanfänge als wichtigen veränderbaren Faktor.",
+    "gehirn": "Belegt beim Menschen: Der Melatonin-Anstieg am Abend (im Speichel gemessen) setzt bei reiferen Jugendlichen später ein. Der Schlafdruck baut sich langsamer auf. Eine ähnliche Verschiebung zeigt sich bei Tieren (Primaten, Nagetiere). Das spricht für eine biologische Ursache, nicht nur für Lebensstil.",
+    "wirkung": "einordnung",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "School start times for adolescents (Policy Statement)",
+        "autoren": "American Academy of Pediatrics, Adolescent Sleep Working Group et al.",
+        "jahr": 2014,
+        "doi_oder_url": "10.1542/peds.2014-1697",
+        "typ": "Leitlinie",
+        "kernzitat": "aim for start times that allow students the opportunity to achieve optimal levels of sleep",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "An update on adolescent sleep: New evidence informing the perfect storm model",
+        "autoren": "Crowley, Wolfson, Tarokh, Carskadon",
+        "jahr": 2018,
+        "doi_oder_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6054480/",
+        "typ": "Expertenkonsens",
+        "kernzitat": "the major societal constraint on adolescents' sleep continues to be school start times",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Weitgehend unstrittig. Diskutiert wird, wie stark Licht am Abend, Bildschirme und soziale Faktoren die biologische Verschiebung zusätzlich verstärken („perfect storm“-Modell).",
+    "tipps": {
+      "jugendliche": [
+        "Morgens Tageslicht hilft deiner inneren Uhr, früher zu ticken.",
+        "Helles Licht spät am Abend schiebt sie weiter nach hinten."
+      ],
+      "lehrkraefte": [
+        "Legen Sie anspruchsvolle Prüfungen möglichst nicht in die erste Stunde."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-jugend-003",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "Mythos: Jugendliche, die abends nicht ins Bett kommen und morgens nicht aufstehen, sind einfach faul.",
+    "erklaerung": "Das späte Einschlafen hat eine belegte biologische Grundlage: Die innere Uhr verschiebt sich in der Pubertät. Frühe Schulzeiten passen nicht zu diesem Rhythmus. Erziehung und Gewohnheiten spielen zusätzlich eine Rolle, erklären das Muster aber nicht allein.",
+    "wirkung": "neutral",
+    "ampel": "mythos",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "School start times for adolescents (Policy Statement)",
+        "autoren": "American Academy of Pediatrics, Adolescent Sleep Working Group et al.",
+        "jahr": 2014,
+        "doi_oder_url": "10.1542/peds.2014-1697",
+        "typ": "Leitlinie",
+        "kernzitat": "aim for start times that allow students the opportunity to achieve optimal levels of sleep",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "An update on adolescent sleep: New evidence informing the perfect storm model",
+        "autoren": "Crowley, Wolfson, Tarokh, Carskadon",
+        "jahr": 2018,
+        "doi_oder_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6054480/",
+        "typ": "Expertenkonsens",
+        "kernzitat": "the major societal constraint on adolescents' sleep continues to be school start times",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "eltern": [
+        "Sprechen Sie Müdigkeit ohne Vorwurf an. Feste Zeiten und weniger Abendlicht helfen mehr als Strenge."
+      ],
+      "jugendliche": [
+        "Später müde zu sein ist normal. Du kannst trotzdem gegensteuern: gleiche Zeiten, Handy weg, Licht morgens."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-jugend-004",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "Ein späterer Schulbeginn verlängert den Schlaf von Jugendlichen an Schultagen.",
+    "erklaerung": "Mehrere Reviews und Meta-Analysen kommen zum selben Ergebnis. Bei 25 bis 60 Minuten späterem Beginn stieg die Schlafzeit um 25 bis 77 Minuten pro Nacht. Eine Meta-Analyse von 2026 fand im Mittel 69 Minuten mehr Schlaf und eine kleine Abnahme depressiver Symptome. Die Studien unterscheiden sich stark; randomisierte Studien sind selten.",
+    "wirkung": "hilft",
+    "ampel": "stark",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "School start times for adolescents (Policy Statement)",
+        "autoren": "American Academy of Pediatrics, Adolescent Sleep Working Group et al.",
+        "jahr": 2014,
+        "doi_oder_url": "10.1542/peds.2014-1697",
+        "typ": "Leitlinie",
+        "kernzitat": "aim for start times that allow students the opportunity to achieve optimal levels of sleep",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Delayed school start times and adolescent sleep: A systematic review of the experimental evidence",
+        "autoren": "Minges, Redeker",
+        "jahr": 2016,
+        "doi_oder_url": "10.1016/j.smrv.2015.06.002",
+        "typ": "Systematischer Review",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Effects of school start time on students' sleep duration, daytime sleepiness, and attendance: a meta-analysis",
+        "autoren": "Bowers, Moyer",
+        "jahr": 2017,
+        "doi_oder_url": "10.1016/j.sleh.2017.08.004",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Effects of school start time and its interaction with the solar clock on adolescents' chronotype and sleep: A systematic review and meta-analysis",
+        "autoren": "Rodríguez Ferrante, Lee, Leone",
+        "jahr": 2024,
+        "doi_oder_url": "10.1016/j.smrv.2024.101988",
+        "typ": "Meta-Analyse",
+        "kernzitat": "later SSTs are associated with later sleep timings and longer sleep duration on weekdays",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Delayed school start times to improve sleep duration and mitigate depression in adolescents: a systematic review and meta-analysis",
+        "autoren": "Wang et al.",
+        "jahr": 2026,
+        "doi_oder_url": "10.1007/s44470-026-00116-5",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Unterrichtsorganisation, RdErl. d. MK v. 18.1.2021 – 36.3-82 000 (SVBl. 2/2021 S. 64), VORIS 22410",
+        "autoren": "Niedersächsisches Kultusministerium",
+        "jahr": 2021,
+        "doi_oder_url": "https://schure.de/22410/36-3-82000.htm",
+        "typ": "Gesetz",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "American Academy of Pediatrics (AAP)",
+      "jahr": 2014,
+      "inhalt": "Mittel- und Oberstufen sollen nicht vor 8:30 Uhr beginnen, damit 8,5–9,5 Stunden Schlaf möglich sind.",
+      "url": "https://doi.org/10.1542/peds.2014-1697"
+    },
+    "gegenstimmen": "Methodische Vorbehalte: Viele Studien sind Vorher-nachher- oder Querschnittsvergleiche. Bowers & Moyer (2017) raten zu vorsichtiger Deutung. Wang et al. (2026) fanden hohe Unterschiede zwischen den Studien. Ob Schülerinnen und Schüler abends später ins Bett gehen, hängt laut Rodríguez Ferrante et al. (2024) auch vom Sonnenstand ab.",
+    "rechtslage": "Niedersachsen regelt das im Erlass „Unterrichtsorganisation“ (2021, gültig bis 31.12.2026). Danach soll der Unterricht in der Regel nicht vor 7.30 Uhr beginnen. Eltern- und Schülervertretungen sind vorher zu hören. Eine landesweite Vorgabe für einen späteren Beginn gibt es nicht.",
+    "tipps": {
+      "lehrkraefte": [
+        "Bringen Sie Schlafbefunde in Schulvorstand und Schulelternrat ein, wenn Unterrichtszeiten geplant werden."
+      ],
+      "eltern": [
+        "Fragen Sie im Schulelternrat nach, wie die Anfangszeiten festgelegt werden."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-jugend-005",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "Smartphone und Social Media im Bett hängen mit kürzerem Schlaf zusammen; wie groß der Effekt ist, bleibt umstritten.",
+    "erklaerung": "Eine Meta-Analyse wertete 20 Querschnittsstudien aus. Wer Mediengeräte nachts im Bett nutzte, hatte etwa doppelt so oft zu wenig Schlaf. Schon ein Gerät im Zimmer ohne Nutzung zeigte einen Zusammenhang. Eine große britische Kohorte mit Tagebuchdaten fand dagegen nur kleine Zusammenhänge. Ein kleiner Pilot-Test von 2026 zeigte durch Handy-Verzicht kurzfristig etwas mehr Schlaf.",
+    "wirkung": "schadet",
+    "ampel": "umstritten",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Association Between Portable Screen-Based Media Device Access or Use and Sleep Outcomes: A Systematic Review and Meta-analysis",
+        "autoren": "Carter et al.",
+        "jahr": 2016,
+        "doi_oder_url": "10.1001/jamapediatrics.2016.2341",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Teenage sleep and technology engagement across the week",
+        "autoren": "Orben, Przybylski",
+        "jahr": 2020,
+        "doi_oder_url": "10.7717/peerj.8427",
+        "typ": "Kohorte",
+        "kernzitat": "digital technology use before bedtime is not substantively associated with the amount of sleep",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Adolescent use of social media and associations with sleep patterns across 18 European and North American countries",
+        "autoren": "Boniel-Nissim et al.",
+        "jahr": 2023,
+        "doi_oder_url": "10.1016/j.sleh.2023.01.005",
+        "typ": "Querschnitt",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Innovations in Practice: A pilot randomised trial on smartphone and social media abstinence – effects on sleep quality and psychological wellbeing in adolescents",
+        "autoren": "Sullivan, Cairney, Henderson",
+        "jahr": 2026,
+        "doi_oder_url": "10.1111/camh.70118",
+        "typ": "RCT",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Orben & Przybylski (2020) fanden in 11.884 britischen Jugendlichen nur kleine Zusammenhänge. Bildschirmnutzung vor dem Schlafen hing nicht wesentlich mit der Schlafmenge zusammen. Die stärkeren Befunde stammen vor allem aus rückblickenden Selbstauskünften. Intensive und problematische Social-Media-Nutzung hing in 18 Ländern aber durchgängig mit weniger Schlaf zusammen (Boniel-Nissim et al. 2023). Der Pilot-Test von Sullivan et al. (2026) hatte nur 82 Teilnehmende; die Effekte hielten nach zwei Monaten nicht an.",
+    "tipps": {
+      "jugendliche": [
+        "Lade dein Handy nachts außerhalb deines Zimmers.",
+        "Stell eine feste Handy-Pause vor dem Schlafen ein."
+      ],
+      "eltern": [
+        "Vereinbaren Sie gemeinsam handyfreie Nachtzeiten – auch für Erwachsene."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-jugend-006",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "Energy Drinks und viel Koffein können Jugendlichen den Schlaf rauben; das BfR rät Kindern vom Konsum ab.",
+    "erklaerung": "Laut EFSA gelten für Kinder und Jugendliche bis zu 3 mg Koffein pro kg Körpergewicht als unbedenklich. Hohe Mengen können Nervosität, Schlaflosigkeit und Herzrasen auslösen. In einer DAK-Schulbefragung (2021/22) tranken 14 % der Klassen 9/10 mindestens wöchentlich Energy Drinks. Vielkonsumierende Berliner Jugendliche berichteten oft schlechten Schlaf.",
+    "wirkung": "schadet",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "Kaffee, Energy Drinks oder Koffeinpulver: Muntermacher mit gesundheitlichen Risiken? (FAQ vom 5. Januar 2026)",
+        "autoren": "Bundesinstitut für Risikobewertung (BfR)",
+        "jahr": 2026,
+        "doi_oder_url": "https://www.bfr.bund.de/cm/343/fragen-und-antworten-zu-koffein-und-koffeinhaltigen-lebensmitteln-einschlie%C3%9Flich-energy-drinks.pdf",
+        "typ": "Leitlinie",
+        "kernzitat": "sollten auf den Konsum von Getränken mit erhöhtem Koffeingehalt, wie z.B. Energy Drinks, verzichten",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "Bundesinstitut für Risikobewertung (BfR), gestützt auf EFSA 2015",
+      "jahr": 2026,
+      "inhalt": "3 mg Koffein pro kg Körpergewicht gelten für gesunde Kinder und Jugendliche als unbedenklich. Kinder sollen auf Energy Drinks verzichten.",
+      "url": "https://www.bfr.bund.de/cm/343/fragen-und-antworten-zu-koffein-und-koffeinhaltigen-lebensmitteln-einschlie%C3%9Flich-energy-drinks.pdf"
+    },
+    "gegenstimmen": "Die EDKAR-Studie (BfR/Charité) fand bei 97 Vielkonsumierenden keine Unterschiede in Herzwerten. Das BfR betont, dass dies nichts über Langzeitfolgen aussagt. Die DAK-Zahlen stammen aus einer Schulbefragung einer Krankenkasse.",
+    "tipps": {
+      "jugendliche": [
+        "Ab dem Nachmittag lieber keine Energy Drinks, Cola oder Kaffee.",
+        "Zwei Dosen können für dich schon über der unbedenklichen Menge liegen."
+      ],
+      "eltern": [
+        "Achten Sie auf versteckte Koffeinquellen wie Cola, Eistee und Energy Drinks."
+      ]
+    },
+    "wann_hilfe": "Bei Herzrasen, Brustschmerz oder Unruhe nach Energy Drinks ärztlich abklären lassen; im Notfall 112.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-jugend-007",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "Zu wenig Schlaf verschlechtert bei Jugendlichen die Stimmung und hängt mit depressiven Symptomen zusammen.",
+    "erklaerung": "Eine Meta-Analyse mit über 361.000 Jugendlichen fand: Weniger Schlaf ging mit 55 % höherer Wahrscheinlichkeit für Stimmungsprobleme einher. Im Schlaflabor machten fünf Nächte mit 5 Stunden 15- bis 17-Jährige deutlich niedergeschlagener. Zwei Erholungsnächte reichten nicht, um die negative Stimmung auszugleichen.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "The relationship between sleep duration and mood in adolescents: A systematic review and meta-analysis",
+        "autoren": "Short, Booth, Omar, Ostlundh, Arora",
+        "jahr": 2020,
+        "doi_oder_url": "10.1016/j.smrv.2020.101311",
+        "typ": "Meta-Analyse",
+        "kernzitat": "less sleep was associated with a 55% increase in the likelihood of mood deficits",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep duration and mood in adolescents: an experimental study",
+        "autoren": "Booth, Carskadon, Young, Short",
+        "jahr": 2021,
+        "doi_oder_url": "10.1093/sleep/zsaa253",
+        "typ": "RCT",
+        "kernzitat": "Two nights of recovery sleep was not sufficient to recover from increased negative mood states",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Der Zusammenhang wirkt in beide Richtungen: Depression stört auch den Schlaf. Die meisten Studien sind Beobachtungsstudien; das Laborexperiment hatte nur 34 Teilnehmende.",
+    "tipps": {
+      "jugendliche": [
+        "Wenn du dich länger niedergeschlagen fühlst, sprich mit jemandem, dem du vertraust."
+      ],
+      "eltern": [
+        "Achten Sie auf anhaltende Schlafprobleme zusammen mit Rückzug oder Traurigkeit."
+      ]
+    },
+    "wann_hilfe": "Bei anhaltender Niedergeschlagenheit oder Schlafstörungen: Kinder- und Jugendarztpraxis oder Kinder- und Jugendpsychiatrie. Die Nummer gegen Kummer (116 111) ist für Jugendliche kostenlos.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-jugend-008",
+    "thema": "schlaf",
+    "phasen": [
+      "P5"
+    ],
+    "aussage": "Schlafunterricht in der Schule verbessert vor allem das Wissen; der Schlaf selbst ändert sich nur wenig.",
+    "erklaerung": "Das britische Programm Teensleep (zehn Unterrichtsstunden, 1.504 Schülerinnen und Schüler, etwa 14 Jahre) steigerte das Schlafwissen deutlich. Schlafqualität und Schlafgewohnheiten verbesserten sich nur gering. Am meisten profitierten Jugendliche, die vorher schlecht schliefen.",
+    "wirkung": "hilft",
+    "ampel": "schwach",
+    "studientyp": "Einzelstudie",
+    "quellen": [
+      {
+        "titel": "The Teensleep study: the effectiveness of a school-based sleep education programme at improving early adolescent sleep",
+        "autoren": "Illingworth et al.",
+        "jahr": 2020,
+        "doi_oder_url": "10.1016/j.sleepx.2019.100011",
+        "typ": "Einzelstudie",
+        "kernzitat": "Teensleep was effective at improving sleep knowledge but sleep changes were small",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Studie hatte keine Kontrollgruppe (Vorher-nachher-Vergleich). Langzeiteffekte sind nicht belegt.",
+    "tipps": {
+      "lehrkraefte": [
+        "Kombinieren Sie Schlafunterricht mit konkreten Übungen, z. B. Schlaftagebuch oder Handy-Pause."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-spaetjugend-001",
+    "thema": "schlaf",
+    "phasen": [
+      "P6",
+      "P7"
+    ],
+    "aussage": "Der Schlafrhythmus ist um das 20. Lebensjahr am spätesten; danach werden Menschen wieder früher.",
+    "erklaerung": "Eine Befragung von etwa 25.000 Menschen zwischen 8 und 90 Jahren zeigte einen Wendepunkt. Bei Frauen lag er bei 19,5 Jahren, bei Männern bei 20,9 Jahren. Die Forschenden schlugen ihn als biologischen Marker für das Ende der Adoleszenz vor. Wer mit 16 bis 19 abends spät müde ist, liegt also im normalen Entwicklungsbereich.",
+    "wirkung": "einordnung",
+    "ampel": "mittel",
+    "studientyp": "Querschnitt",
+    "quellen": [
+      {
+        "titel": "Pressemitteilung LMU München zu Roenneberg et al. (2004) „A marker for the end of adolescence“, Current Biology, doi 10.1016/j.cub.2004.11.039",
+        "autoren": "Informationsdienst Wissenschaft / LMU München",
+        "jahr": 2004,
+        "doi_oder_url": "https://idw-online.de/de/news95513",
+        "typ": "Querschnitt",
+        "kernzitat": "Frauen im Alter von 19,5 Jahren, bei Männern im Alter von 20,9 Jahren",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Nature News zu Roenneberg et al. (2004), Current Biology",
+        "autoren": "Nature News",
+        "jahr": 2004,
+        "doi_oder_url": "https://www.nature.com/news/2004/041229/full/news041229-5.html",
+        "typ": "Querschnitt",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Daten beruhen auf Fragebögen und sind ein Querschnitt, keine Verlaufsstudie. Ob der Wendepunkt wirklich das Ende der Adoleszenz markiert, ist eine Deutung der Autoren.",
+    "tipps": {
+      "jugendliche": [
+        "Dein später Rhythmus ist normal – aber feste Aufstehzeiten helfen dir trotzdem."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-spaetjugend-002",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "Wo Schulen später begonnen haben, schliefen Jugendliche messbar länger; teils stiegen auch Noten und Anwesenheit.",
+    "erklaerung": "In Seattle begann die Oberstufe fast eine Stunde später. Gemessen mit Aktivitätsuhren stieg der Schlaf im Median um 34 Minuten; Noten und Anwesenheit verbesserten sich. In Kalifornien gilt seit Juli 2022 ein Landesgesetz. Eine noch nicht begutachtete Auswertung fand 13 % mehr Jugendliche mit mindestens 8 Stunden Schlaf.",
+    "wirkung": "hilft",
+    "ampel": "mittel",
+    "studientyp": "Kohorte",
+    "quellen": [
+      {
+        "titel": "Sleepmore in Seattle: Later school start times are associated with more sleep and better performance in high school students",
+        "autoren": "Dunster et al.",
+        "jahr": 2018,
+        "doi_oder_url": "10.1126/sciadv.aau6200",
+        "typ": "Kohorte",
+        "kernzitat": "an increase in the daily median sleep duration of 34 min",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Breaking the Early Bell: Lessons from the First Statewide Mandate on School Start Times (NBER Working Paper 35184, nicht begutachtet)",
+        "autoren": "Dou, Gihleb, Giuntella, Lonsky",
+        "jahr": 2026,
+        "doi_oder_url": "https://www.nber.org/papers/w35184",
+        "typ": "Kohorte",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep Duration and Daytime Sleepiness Among Adolescents",
+        "autoren": "Dong, Troxel",
+        "jahr": 2026,
+        "doi_oder_url": "10.1001/jamanetworkopen.2026.38588",
+        "typ": "Querschnitt",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Seattle war eine Vorher-nachher-Studie ohne zufällige Zuteilung. Die NBER-Studie ist ein Arbeitspapier ohne Begutachtung; Effekte auf die Psyche waren im Mittel unsicher. Eine Befragung 2024 fand: Kalifornische Jugendliche schliefen 38 Minuten länger als Gleichaltrige anderswo, sie gingen nicht später ins Bett. Dieser Querschnitt beweist aber keine Ursache.",
+    "rechtslage": "Kalifornien (USA), Senate Bill 328, in Kraft seit 1. Juli 2022: Öffentliche High Schools beginnen nicht vor 8:30 Uhr. Middle Schools beginnen nicht vor 8:00 Uhr; ländliche Bezirke sind ausgenommen. In Deutschland und Niedersachsen gibt es keine vergleichbare Regelung.",
+    "tipps": {
+      "lehrkraefte": [
+        "Prüfen Sie, ob einzelne Kurse oder Jahrgänge später starten können, etwa mit Freistunden am Morgen."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-spaetjugend-003",
+    "thema": "schlaf",
+    "phasen": [
+      "P6"
+    ],
+    "aussage": "Gleitzeit an Schulen (8:00 oder 8:50 Uhr) bringt an späten Tagen etwa eine Stunde mehr Schlaf.",
+    "erklaerung": "An einer weiterführenden Schule in Deutschland konnten Oberstufenschülerinnen und -schüler täglich wählen. An späten Tagen schliefen sie 1,1 Stunden länger und besser; der Effekt hielt nach einem Jahr an. Sie wählten den späten Beginn aber nur etwa zweimal pro Woche. An zwei Schweizer Schulen nutzten 95 % die späte Option (Studie 2026); Schlaf und einige Noten verbesserten sich.",
+    "wirkung": "hilft",
+    "ampel": "schwach",
+    "studientyp": "Kohorte",
+    "quellen": [
+      {
+        "titel": "Later school start times in a flexible system improve teenage sleep",
+        "autoren": "Winnebeck et al.",
+        "jahr": 2020,
+        "doi_oder_url": "10.1093/sleep/zsz307",
+        "typ": "Kohorte",
+        "kernzitat": "students slept 1.1 h longer when starting school later",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep improvements on days with later school starts persist after 1 year in a flexible start system",
+        "autoren": "Biller et al.",
+        "jahr": 2022,
+        "doi_oder_url": "10.1038/s41598-022-06209-4",
+        "typ": "Kohorte",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "A 4-year longitudinal study investigating the relationship between flexible school starts and grades",
+        "autoren": "Biller et al.",
+        "jahr": 2022,
+        "doi_oder_url": "10.1038/s41598-022-06804-5",
+        "typ": "Kohorte",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "The Power of Flexible School Start Times: Longitudinal Associations with Sleep, Health, and Academic Performance",
+        "autoren": "Albrecht, Risch, Huber, Jenni",
+        "jahr": 2026,
+        "doi_oder_url": "10.1016/j.jadohealth.2026.01.011",
+        "typ": "Kohorte",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Unterrichtsorganisation, RdErl. d. MK v. 18.1.2021 – 36.3-82 000 (SVBl. 2/2021 S. 64), VORIS 22410",
+        "autoren": "Niedersächsisches Kultusministerium",
+        "jahr": 2021,
+        "doi_oder_url": "https://schure.de/22410/36-3-82000.htm",
+        "typ": "Gesetz",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die deutschen Studien sind klein (28 bis 157 Teilnehmende) und ohne Kontrollgruppe. Über vier Jahre zeigten sich dort keine besseren Noten. Die Schweizer Studie fand bessere Werte in Mathematik und Englisch. Gründe gegen den späten Start waren Nachholzeit, Lernzeit und Busverbindungen.",
+    "rechtslage": "Niedersachsen: Unterricht soll in der Regel nicht vor 7.30 Uhr beginnen (Erlass „Unterrichtsorganisation“ 2021, gültig bis 31.12.2026). Wer die Unterrichtszeiten grundsätzlich festlegt, nennt der Erlass nicht ausdrücklich; Schulvorstand und Schulbehörde sind bei Staffelung beteiligt. Eine Gleitzeit-Regel enthält der Erlass nicht.",
+    "tipps": {
+      "lehrkraefte": [
+        "Gleitzeit wirkt nur, wenn die späte Option oft genutzt werden kann – planen Sie Nachholzeiten und Busse mit."
+      ],
+      "jugendliche": [
+        "Wenn deine Schule Gleitzeit anbietet: Nutze den späten Start, statt abends länger aufzubleiben."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-spaetjugend-004",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "aussage": "Großer sozialer Jetlag hängt mit mehr Depression und Angst zusammen. Gemeint sind sehr unterschiedliche Schlafzeiten an Schul- und freien Tagen.",
+    "erklaerung": "Zwei Meta-Analysen von 2026 fanden einen Zusammenhang mit Depression und Angst. Bei mehr als 2 Stunden Unterschied waren die Chancen für Depression deutlich erhöht. Der Effekt für Angst war klein. Die Vertrauenswürdigkeit der Evidenz wurde als sehr niedrig eingestuft.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Associations of Social Jetlag With Depression and Anxiety in Adolescents and Young People: A Systematic Review and Meta-Analysis",
+        "autoren": "Lu, Tsai",
+        "jahr": 2026,
+        "doi_oder_url": "10.1155/da/5542425",
+        "typ": "Meta-Analyse",
+        "kernzitat": "as the certainty of evidence was rated as very low",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "\"Out of sync and overlooked\" – Relationship between social jetlag and anxiety in adolescents: Systematic review and meta-analysis",
+        "autoren": "Ravenhall, Bellato, Chellappa, Garner",
+        "jahr": 2026,
+        "doi_oder_url": "10.1016/j.smrv.2026.102345",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Alle einbezogenen Studien sind Beobachtungsstudien. Ursache und Wirkung lassen sich nicht trennen: Ängstliche oder depressive Jugendliche schlafen womöglich unregelmäßiger.",
+    "tipps": {
+      "jugendliche": [
+        "Steh am Wochenende höchstens 1 bis 2 Stunden später auf als an Schultagen."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-spaetjugend-005",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "Mythos: Am Wochenende ausschlafen gleicht den Schlafmangel der Woche vollständig aus.",
+    "erklaerung": "In Schlaflabor-Studien mit 15- bis 19-Jährigen erholte sich die Aufmerksamkeit am Wochenende nur teilweise. In der zweiten Woche mit 5 oder 6,5 Stunden Schlaf wurden die Fehler größer. Bei 15- bis 17-Jährigen reichten zwei Erholungsnächte nicht, um gedrückte Stimmung auszugleichen. Mit 8 oder 9 Stunden pro Nacht blieb die Leistung stabil.",
+    "wirkung": "neutral",
+    "ampel": "mythos",
+    "studientyp": "RCT",
+    "quellen": [
+      {
+        "titel": "Staying vigilant during recurrent sleep restriction: dose-response effects of time-in-bed and benefits of daytime napping",
+        "autoren": "Lo, Koa, Ong, Gooley, Chee",
+        "jahr": 2022,
+        "doi_oder_url": "10.1093/sleep/zsac023",
+        "typ": "RCT",
+        "kernzitat": "despite partial recuperation during the intervening recovery period",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep duration and mood in adolescents: an experimental study",
+        "autoren": "Booth, Carskadon, Young, Short",
+        "jahr": 2021,
+        "doi_oder_url": "10.1093/sleep/zsaa253",
+        "typ": "RCT",
+        "kernzitat": "Two nights of recovery sleep was not sufficient to recover from increased negative mood states",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Studien fanden im Schlaflabor mit kleinen Gruppen statt. Ausschlafen hilft teilweise – es ersetzt aber regelmäßigen Schlaf nicht.",
+    "tipps": {
+      "jugendliche": [
+        "Ausschlafen hilft ein bisschen, ersetzt aber keine Woche mit zu wenig Schlaf.",
+        "Ein kurzer Mittagsschlaf kann helfen, wenn die Nacht zu kurz war."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-spaetjugend-006",
+    "thema": "schlaf",
+    "phasen": [
+      "P6",
+      "P7"
+    ],
+    "aussage": "Müdigkeit erhöht das Unfallrisiko junger Fahrerinnen und Fahrer; ein späterer Schulbeginn ging mit weniger Unfällen einher.",
+    "erklaerung": "In einem US-Schulbezirk begann die High School eine Stunde später. In den zwei Jahren danach sanken die Unfallraten jugendlicher Fahrer um 16,5 %. Im Rest des Bundesstaats stiegen sie um 7,8 %. Die AAP nennt Unfälle durch Müdigkeit als Folge von Schlafmangel.",
+    "wirkung": "schadet",
+    "ampel": "schwach",
+    "studientyp": "Einzelstudie",
+    "quellen": [
+      {
+        "titel": "Adolescent sleep, school start times, and teen motor vehicle crashes",
+        "autoren": "Danner, Phillips",
+        "jahr": 2008,
+        "doi_oder_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2603528/",
+        "typ": "Einzelstudie",
+        "kernzitat": "Later school start times may both increase the sleep of adolescents",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "School start times for adolescents (Policy Statement)",
+        "autoren": "American Academy of Pediatrics, Adolescent Sleep Working Group et al.",
+        "jahr": 2014,
+        "doi_oder_url": "10.1542/peds.2014-1697",
+        "typ": "Leitlinie",
+        "kernzitat": "aim for start times that allow students the opportunity to achieve optimal levels of sleep",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Es handelt sich um eine einzelne Vorher-nachher-Studie aus einem Bezirk. Andere Einflüsse auf die Unfallzahlen sind nicht ausgeschlossen.",
+    "tipps": {
+      "jugendliche": [
+        "Fahr nicht, wenn du sehr müde bist – auch nicht kurz. Lass dich abholen oder nimm Bus und Bahn."
+      ],
+      "eltern": [
+        "Vereinbaren Sie, dass Ihr Kind nach durchwachten Nächten nicht selbst fährt."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-spaetjugend-007",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "US-Jugendliche schlafen heute kürzer als in früheren Jahrzehnten. Mit 18 bis 19 schläft nur gut jeder Fünfte 7 Stunden.",
+    "erklaerung": "Eine Auswertung von 401.160 US-Jugendlichen (1991–2023) zeigt: Mit jedem Lebensjahr sinkt die Schlafdauer. 2021–2023 schliefen nur 22,3 % der 18- bis 19-Jährigen mindestens 7 Stunden. Bei 12- bis 13-Jährigen waren es 37,2 %. Für Deutschland wurden in dieser Recherche keine aktuellen repräsentativen Zahlen gefunden.",
+    "wirkung": "einordnung",
+    "ampel": "mittel",
+    "studientyp": "Querschnitt",
+    "quellen": [
+      {
+        "titel": "Sleep Duration Among US Adolescents, 1991-2023",
+        "autoren": "Widome, Kreski, Maslowsky, Patrick, Keyes",
+        "jahr": 2026,
+        "doi_oder_url": "10.1542/peds.2025-074933",
+        "typ": "Querschnitt",
+        "kernzitat": "For decades, adolescents' sleep had been eroding.",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Daten beruhen auf Selbstauskünften und stammen aus den USA. Sie lassen sich nicht direkt auf Deutschland übertragen.",
+    "tipps": {
+      "eltern": [
+        "Fragen Sie Ihr Kind, wie lange es an Schultagen wirklich schläft – oft ist es weniger als gedacht."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-spaetjugend-008",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6"
+    ],
+    "aussage": "Ein späterer Schulbeginn ist in Großbritannien bisher nicht randomisiert erprobt worden, weil kaum Schulen teilnehmen wollten.",
+    "erklaerung": "Die Oxford-Teensleep-Studie wollte 100 Schulen zufällig einem Beginn um 10 Uhr zuteilen. Nur zwei Schulen meldeten sich freiwillig. Hauptgrund war der spätere Beginn selbst. Die Autorinnen und Autoren halten eine solche Studie in Großbritannien für nicht durchführbar.",
+    "wirkung": "einordnung",
+    "ampel": "schwach",
+    "studientyp": "Einzelstudie",
+    "quellen": [
+      {
+        "titel": "Challenges in implementing and assessing outcomes of school start time change in the UK: experience of the Oxford Teensleep study",
+        "autoren": "Illingworth et al.",
+        "jahr": 2019,
+        "doi_oder_url": "10.1016/j.sleep.2018.10.021",
+        "typ": "Einzelstudie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Das Ergebnis betrifft die Machbarkeit, nicht die Wirkung. Es zeigt, warum es zum Schulbeginn kaum randomisierte Studien gibt.",
+    "tipps": {
+      "lehrkraefte": [
+        "Beteiligen Sie Eltern, Schülerschaft und Schulträger früh, wenn Sie Anfangszeiten ändern wollen."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-jungerw-001",
+    "phasen": [
+      "P7"
+    ],
+    "aussage": "Junge Erwachsene sollten regelmäßig mindestens 7 Stunden pro Nacht schlafen. Etwas mehr als 9 Stunden kann in diesem Alter normal sein.",
+    "erklaerung": "Die US-Fachgesellschaften AASM und SRS empfehlen Erwachsenen 2015 mindestens 7 Stunden Schlaf. Für junge Erwachsene halten sie regelmäßig mehr als 9 Stunden für möglicherweise angemessen. Die National Sleep Foundation nennt für 18- bis 25-Jährige 7 bis 9 Stunden. Beides sind Expertenkonsense für Gesunde, keine Grenzwerte für Einzelne.",
+    "wirkung": "einordnung",
+    "ampel": "stark",
+    "studientyp": "Expertenkonsens",
+    "quellen": [
+      {
+        "titel": "Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the AASM and SRS",
+        "autoren": "Watson et al.",
+        "jahr": 2015,
+        "doi_oder_url": "10.5664/jcsm.4758",
+        "typ": "Expertenkonsens",
+        "kernzitat": "may be appropriate for young adults",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "National Sleep Foundation's sleep time duration recommendations: methodology and results summary",
+        "autoren": "Hirshkowitz et al.",
+        "jahr": 2015,
+        "doi_oder_url": "10.1016/j.sleh.2014.12.010",
+        "typ": "Expertenkonsens",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "American Academy of Sleep Medicine / Sleep Research Society",
+      "jahr": 2015,
+      "inhalt": "Erwachsene sollen regelmäßig 7 oder mehr Stunden pro Nacht schlafen; mehr als 9 Stunden kann für junge Erwachsene angemessen sein.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4442216/"
+    },
+    "gegenstimmen": "Eine eigene deutsche Empfehlung zur Schlafdauer Erwachsener fand sich nicht. gesund.bund.de nennt nur einen Durchschnittswert von etwa 7 Stunden.",
+    "tipps": {
+      "jugendliche": [
+        "Plane in Prüfungsphasen feste Schlafzeiten wie Termine ein.",
+        "Steh auch am Wochenende ungefähr zur gleichen Zeit auf."
+      ],
+      "erwachsene": [
+        "Orientieren Sie sich an etwa 7 bis 9 Stunden und daran, ob Sie tagsüber wach sind."
+      ]
+    },
+    "wann_hilfe": "Wenn Sie trotz ausreichender Bettzeit dauerhaft müde sind, sprechen Sie mit Ihrer Hausärztin oder Ihrem Hausarzt.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-jungerw-002",
+    "phasen": [
+      "P7"
+    ],
+    "aussage": "Wer besser und ausreichend schläft, hat im Mittel etwas bessere Studien- und Schulleistungen; der Zusammenhang ist aber klein.",
+    "erklaerung": "Eine Meta-Analyse von 2026 umfasst 59 Arbeiten mit über 163.000 Teilnehmenden. Sie fand eine kleine positive Korrelation (r = 0,17) zwischen Schlafqualität und Leistung. Sozialer Jetlag, also stark verschobene Schlafzeiten am Wochenende, schwächte den Zusammenhang. Die Daten sind überwiegend korrelativ und belegen keine Ursache.",
+    "wirkung": "hilft",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "The Effect of Sleep Quality on Academic Performance: A Systematic Review and Meta-Analysis Study",
+        "autoren": "Zhou et al.",
+        "jahr": 2026,
+        "doi_oder_url": "10.3390/bs16050634",
+        "typ": "Meta-Analyse",
+        "kernzitat": "a modest positive correlation between sleep quality and academic performance",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Meta-Analyse mischt Altersgruppen und Kulturen; Alter und Kultur moderierten den Effekt. Für deutsche Studierende fehlen eigene Daten.",
+    "tipps": {
+      "jugendliche": [
+        "Lern lieber über Wochen verteilt als in einer Nacht.",
+        "Halte deinen Schlafrhythmus auch in der Prüfungszeit stabil."
+      ],
+      "lehrkraefte": [
+        "Legen Sie Prüfungen möglichst nicht in die frühen Morgenstunden nach Abgabefristen."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-jungerw-003",
+    "phasen": [
+      "P7",
+      "P8"
+    ],
+    "aussage": "Eine durchwachte Nacht vor dem Lernen verschlechtert das Einprägen deutlich; Schlafentzug nach dem Lernen schwächt das Behalten.",
+    "erklaerung": "Zwei Meta-Analysen (2021) werteten Studien von 1970 bis 2020 aus. Schlafentzug vor dem Lernen hatte einen mittleren Effekt (Hedges g = 0,62). Schlafentzug nach dem Lernen hatte einen kleinen Effekt (g = 0,28). Viele Studien waren klein, und es gab Hinweise auf Publikationsbias. Die Richtung ist klar, die genaue Größe unsicher.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Sleep deprivation and memory: Meta-analytic reviews of studies on sleep deprivation before and after learning",
+        "autoren": "Newbury et al.",
+        "jahr": 2021,
+        "doi_oder_url": "10.1037/bul0000348",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Statistical power was very low in most of the analyzed studies.",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "jugendliche": [
+        "Verzichte vor Prüfungen auf Allnighter: Schlaf ist Teil des Lernens.",
+        "Wiederhole wichtigen Stoff am Abend und schlaf dann."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-jungerw-004",
+    "phasen": [
+      "P7",
+      "P8"
+    ],
+    "aussage": "Am Wochenende auszuschlafen gleicht wiederholten Schlafmangel unter der Woche nicht vollständig aus.",
+    "erklaerung": "In einer kleinen randomisierten Laborstudie (2019) mit jungen Erwachsenen schliefen die Teilnehmenden am Wochenende etwa 1,1 Stunden mehr. Danach sank die Insulinempfindlichkeit bei erneutem Schlafmangel trotzdem um etwa 9 bis 27 Prozent. Das ist ein Einzelbefund mit wenigen Personen; er betrifft den Stoffwechsel, nicht alle Folgen von Schlafmangel.",
+    "wirkung": "einordnung",
+    "ampel": "schwach",
+    "studientyp": "RCT",
+    "quellen": [
+      {
+        "titel": "Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation during a Repeating Pattern of Insufficient Sleep and Weekend Recovery Sleep",
+        "autoren": "Depner et al.",
+        "jahr": 2019,
+        "doi_oder_url": "10.1016/j.cub.2019.01.069",
+        "typ": "RCT",
+        "kernzitat": "weekend recovery sleep is not an effective strategy to prevent metabolic dysregulation",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die AASM/SRS-Konsenserklärung (2015) nennt längeren Schlaf als angemessen für Menschen, die Schlafschuld abbauen. Kurzfristiges Nachholen ist also nicht nutzlos, ersetzt aber keinen regelmäßigen Schlaf.",
+    "tipps": {
+      "jugendliche": [
+        "Schlaf lieber jeden Tag genug, statt am Wochenende alles nachholen zu wollen."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-erwachsen-001",
+    "phasen": [
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Bei chronischer Insomnie ist die kognitive Verhaltenstherapie für Insomnie (KVT-I) laut deutscher S3-Leitlinie 2025 die erste Behandlungsoption.",
+    "erklaerung": "Die Leitlinie der DGSM empfiehlt KVT-I für alle Betroffenen zuerst, bevorzugt in Präsenz, auch bei Begleiterkrankungen (Empfehlungsgrad A). KVT-I umfasst unter anderem Bettzeitrestriktion, Stimuluskontrolle und Psychoedukation. Nach der Akutphase war KVT-I allein in Studien besser als die Kombination mit Schlafmitteln. Bettzeitrestriktion kann vorübergehend müder machen.",
+    "wirkung": "hilft",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "S3-Leitlinie Insomnie bei Erwachsenen – Update 2025 (AWMF 063-003, Version 2.0)",
+        "autoren": "Spiegelhalder et al. (DGSM)",
+        "jahr": 2025,
+        "doi_oder_url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+        "typ": "Leitlinie",
+        "kernzitat": "soll bei allen Patientinnen und Patienten mit Insomnie als erste Behandlungsoption empfohlen werden",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "Deutsche Gesellschaft für Schlafforschung und Schlafmedizin (DGSM), S3-Leitlinie AWMF 063-003",
+      "jahr": 2025,
+      "inhalt": "KVT-I soll allen Erwachsenen mit Insomnie als erste Behandlungsoption empfohlen werden, präferentiell in Präsenz (A).",
+      "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf"
+    },
+    "tipps": {
+      "erwachsene": [
+        "Fragen Sie in der Hausarztpraxis gezielt nach KVT-I.",
+        "Führen Sie vor dem Termin ein bis zwei Wochen ein Schlaftagebuch."
+      ]
+    },
+    "wann_hilfe": "Schlafen Sie über einen Monat schlecht und leiden tagsüber darunter? Dann wenden Sie sich an Ihre Hausarztpraxis oder ein schlafmedizinisches Zentrum. Bei Bettzeitrestriktion vorsichtig sein beim Autofahren.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-erwachsen-002",
+    "phasen": [
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Benzodiazepine und Z-Substanzen wirken bei Insomnie nur kurzfristig belegt; eine Langzeiteinnahme soll laut S3-Leitlinie nicht empfohlen werden.",
+    "erklaerung": "Die Leitlinie hält diese Mittel für bis zu 4 Wochen für wirksam, rät aber von Langzeitbehandlung ab. Sedierende Antihistaminika und Antipsychotika (ohne psychiatrische Erkrankung) sollen nicht eingesetzt werden. Pflanzliche Mittel sollten nicht empfohlen werden. Medikamente kommen erst infrage, wenn KVT-I nicht reicht oder nicht machbar ist.",
+    "wirkung": "schadet",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "S3-Leitlinie Insomnie bei Erwachsenen – Update 2025 (AWMF 063-003, Version 2.0)",
+        "autoren": "Spiegelhalder et al. (DGSM)",
+        "jahr": 2025,
+        "doi_oder_url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+        "typ": "Leitlinie",
+        "kernzitat": "Eine Langzeitbehandlung der Insomnie mit Benzodiazepinen oder Benzodiazepin-Rezeptor-Agonisten soll nicht empfohlen werden",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "DGSM, S3-Leitlinie Insomnie bei Erwachsenen",
+      "jahr": 2025,
+      "inhalt": "Benzodiazepine und BZRA sind kurzfristig (≤4 Wochen) effektiv; Langzeitbehandlung soll nicht empfohlen werden (A). Sedierende Antihistaminika sollen nicht empfohlen werden (A).",
+      "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf"
+    },
+    "gegenstimmen": "Die Empfehlung gegen Langzeitbehandlung mit Benzodiazepinen erhielt nur mehrheitliche Zustimmung, keinen starken Konsens. Für Orexin-Rezeptor-Antagonisten weicht die europäische ESRS-Leitlinie 2023 teilweise ab.",
+    "tipps": {
+      "erwachsene": [
+        "Setzen Sie Schlafmittel nach längerer Einnahme nie abrupt ab, sondern nur mit ärztlicher Begleitung.",
+        "Fragen Sie bei jedem Rezept, wie lange Sie es nehmen sollen."
+      ]
+    },
+    "wann_hilfe": "Wenn Sie seit Wochen Schlafmittel nehmen, besprechen Sie mit Ihrer Ärztin oder Ihrem Arzt einen Ausschleichplan.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-erwachsen-003",
+    "phasen": [
+      "P7",
+      "P8",
+      "P9",
+      "P10"
+    ],
+    "aussage": "Digitale KVT-I-Programme verringern Insomnie-Beschwerden in Studien deutlich; in Deutschland gibt es sie als DiGA auf Rezept.",
+    "erklaerung": "Laut S3-Leitlinie 2025 wirkt KVT-I auch digital; persönliche Begleitung verstärkt den Effekt. Genannt werden die DiGA somnio (dauerhaft gelistet) und HelloBetter Schlafen (vorläufig gelistet). Ein deutsches RCT (2023, 238 Personen) fand mit somnio eine große Verbesserung gegenüber Warteliste. Studien zu somnio und zum britischen Sleepio sind teils herstellernah.",
+    "wirkung": "hilft",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "S3-Leitlinie Insomnie bei Erwachsenen – Update 2025 (AWMF 063-003, Version 2.0)",
+        "autoren": "Spiegelhalder et al. (DGSM)",
+        "jahr": 2025,
+        "doi_oder_url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "The clinical effects of digital cognitive behavioral therapy for insomnia in a heterogenous study sample: results from a randomized controlled trial",
+        "autoren": "Schuffelen et al.",
+        "jahr": 2023,
+        "doi_oder_url": "10.1093/sleep/zsad184",
+        "typ": "RCT",
+        "finanzierung": "Mehrere Autorinnen und Autoren bei mementor DE GmbH (Hersteller von somnio) angestellt bzw. Gründer; Open-Access-Kosten von mementor getragen.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Effect of Digital Cognitive Behavioral Therapy for Insomnia on Health, Psychological Well-being, and Sleep-Related Quality of Life",
+        "autoren": "Espie et al.",
+        "jahr": 2019,
+        "doi_oder_url": "10.1001/jamapsychiatry.2018.2745",
+        "typ": "RCT",
+        "finanzierung": "Erstautor Mitgründer und Anteilseigner von Big Health Ltd (Hersteller von Sleepio).",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Leitlinie bevorzugt KVT-I in Präsenz. Direkte Vergleiche von Apps mit Präsenz-KVT-I sind rar; NICE fordert dazu weitere Forschung.",
+    "rechtslage": "Nach § 33a SGB V übernehmen gesetzliche Kassen DiGA aus dem BfArM-Verzeichnis nach ärztlicher oder psychotherapeutischer Verordnung oder mit Genehmigung der Kasse. Den aktuellen Listungsstatus zeigt das DiGA-Verzeichnis.",
+    "tipps": {
+      "erwachsene": [
+        "Fragen Sie Ihre Praxis nach einer verordnungsfähigen Schlaf-DiGA.",
+        "Prüfen Sie im DiGA-Verzeichnis, ob die App dauerhaft oder vorläufig gelistet ist."
+      ]
+    },
+    "wann_hilfe": "Bei Verdacht auf Schlafapnoe, Schwangerschaft oder schweren Begleiterkrankungen vorher ärztlich abklären lassen.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-erwachsen-004",
+    "phasen": [
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Obstruktive Schlafapnoe ist häufig, nimmt mit dem Alter zu und erhöht bei Tagesschläfrigkeit das Unfallrisiko im Straßenverkehr deutlich.",
+    "erklaerung": "Die deutsche S3-Leitlinie beschreibt eine 3- bis 7-fach erhöhte Unfallwahrscheinlichkeit bei Betroffenen mit Tagesschläfrigkeit; eine CPAP-Therapie senkt das Unfallrisiko. Die Häufigkeit steigt zwischen 35 und 65 Jahren an; im Alter werden 20 bis 40 Prozent angegeben. Eine weltweite Schätzung (2019) kommt auf 936 Millionen Erwachsene von 30 bis 69 Jahren mit leichter bis schwerer Form. Leitsymptome sind Schnarchen, Atemaussetzer und Tagesmüdigkeit.",
+    "wirkung": "schadet",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "S3-Leitlinie Nicht erholsamer Schlaf/Schlafstörungen, Kapitel Schlafbezogene Atmungsstörungen bei Erwachsenen (AWMF 063-001, Version 2.0 mit Teil-Aktualisierungen)",
+        "autoren": "Mayer et al. (DGSM)",
+        "jahr": 2017,
+        "doi_oder_url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf",
+        "typ": "Leitlinie",
+        "kernzitat": "3- bis 7-fach erhöhte Unfallwahrscheinlichkeit im Straßenverkehr",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis",
+        "autoren": "Benjafield et al.",
+        "jahr": 2019,
+        "doi_oder_url": "10.1016/S2213-2600(19)30198-5",
+        "typ": "Querschnitt",
+        "finanzierung": "Finanziert von ResMed (Hersteller von Schlafapnoe-Geräten).",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Weltschätzung beruht auf Daten aus nur 16 Ländern und einem Umrechnungsalgorithmus; sie ist herstellerfinanziert.",
+    "rechtslage": "Die Leitlinie nennt eine EU-Regelung zur Fahrerlaubnis (Richtlinie, Juli 2014): Bei Verdacht auf mittelschwere oder schwere Schlafapnoe ist vor Erteilung oder Verlängerung eine ärztliche Begutachtung vorgesehen. Gut behandelte Betroffene können die Fahrerlaubnis behalten.",
+    "tipps": {
+      "erwachsene": [
+        "Nehmen Sie lautes Schnarchen mit Atemaussetzern ernst.",
+        "Fahren Sie nicht Auto, wenn Sie am Steuer gegen Müdigkeit kämpfen."
+      ]
+    },
+    "wann_hilfe": "Bei Atemaussetzern, starkem Schnarchen oder Einschlafen am Tag: Hausarztpraxis und gegebenenfalls Schlaflabor.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-erwachsen-005",
+    "phasen": [
+      "P7",
+      "P8",
+      "P9"
+    ],
+    "aussage": "Die Internationale Krebsforschungsagentur IARC stuft Nachtschichtarbeit seit 2019 als „wahrscheinlich krebserregend“ ein (Gruppe 2A).",
+    "erklaerung": "Grundlage sind ausreichende Belege aus Tierversuchen und starke mechanistische Hinweise. Die Belege beim Menschen gelten nur als begrenzt: Fall-Kontroll-Studien zeigten Zusammenhänge mit Brust-, Prostata- und Darmkrebs, Kohortenstudien waren uneinheitlich. Die Einstufung beschreibt eine Gefahr, nicht die Höhe des Risikos für Einzelne.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Expertenkonsens",
+    "quellen": [
+      {
+        "titel": "IARC Monographs Volume 124: Night Shift Work – Section 6 Evaluation and Rationale",
+        "autoren": "IARC Working Group",
+        "jahr": 2020,
+        "doi_oder_url": "https://publications.iarc.who.int/593",
+        "typ": "Expertenkonsens",
+        "kernzitat": "Night shift work is probably carcinogenic to humans (Group 2A).",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Arbeitsgruppe selbst nennt die Kohortenstudien inkonsistent; die Einstufung stützt sich stark auf Tierdaten zu verschobenen Licht-Dunkel-Zyklen.",
+    "rechtslage": "Nach § 6 Arbeitszeitgesetz dürfen Nachtarbeitnehmer sich vor Beginn und mindestens alle drei Jahre arbeitsmedizinisch untersuchen lassen, ab 50 Jahren jährlich; die Kosten trägt der Arbeitgeber. Bei Gesundheitsgefährdung besteht Anspruch auf Umsetzung auf einen Tagesarbeitsplatz.",
+    "tipps": {
+      "erwachsene": [
+        "Nutzen Sie Ihr Recht auf arbeitsmedizinische Untersuchung bei Nachtarbeit.",
+        "Schützen Sie Ihren Tagschlaf mit Verdunkelung und Ruhe."
+      ]
+    },
+    "wann_hilfe": "Bei anhaltenden Schlafproblemen durch Schichtarbeit: Betriebsärztin, Betriebsarzt oder Hausarztpraxis.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-alter-001",
+    "phasen": [
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Mit dem Alter wird Schlaf leichter: Der Tiefschlaf- und REM-Anteil sinkt, nächtliches Wachsein nimmt zu.",
+    "erklaerung": "Eine Meta-Analyse von 65 Schlaflabor-Studien (2004) zeigt: Mit dem Alter sinken Gesamtschlaf, Tiefschlaf und REM-Schlaf. Die Wachzeit in der Nacht steigt. Nach dem 60. Lebensjahr sank nur noch die Schlafeffizienz deutlich. Die Effekte hingen stark davon ab, ob Kranke ausgeschlossen wurden. Viel der Veränderung geschieht also schon im mittleren Alter.",
+    "gehirn": "Die Daten stammen überwiegend aus Polysomnographie, also EEG-Messungen im Schlaflabor. Tiefschlaf ist dort als Schlaf mit langsamen Hirnwellen definiert. Ursachen im Gehirn sind in dieser Aussage nicht belegt.",
+    "wirkung": "einordnung",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Meta-analysis of quantitative sleep parameters from childhood to old age in healthy individuals",
+        "autoren": "Ohayon et al.",
+        "jahr": 2004,
+        "doi_oder_url": "10.1093/sleep/27.7.1255",
+        "typ": "Meta-Analyse",
+        "kernzitat": "only sleep efficiency continued to significantly decrease after 60 years of age",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "tipps": {
+      "erwachsene": [
+        "Ein leichteres Durchschlafen im Alter ist häufig und nicht automatisch krankhaft."
+      ]
+    },
+    "wann_hilfe": "Wenn Sie tagsüber stark beeinträchtigt sind, lassen Sie die Ursache hausärztlich abklären.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-alter-002",
+    "phasen": [
+      "P10",
+      "P11"
+    ],
+    "aussage": "Für über 65-Jährige empfiehlt die US-amerikanische National Sleep Foundation 7 bis 8 Stunden Schlaf. Ob Ältere weniger Schlaf brauchen, ist offen.",
+    "erklaerung": "Die Expertenempfehlung der NSF (2015) liegt für Ältere nur wenig unter der für jüngere Erwachsene (7 bis 9 Stunden). gesund.bund.de nennt für über 80-Jährige einen Durchschnitt von etwa 6 Stunden. Das beschreibt, wie viel geschlafen wird, nicht den Bedarf. Ob Ältere weniger brauchen oder nur weniger schlafen können, gilt als ungeklärt.",
+    "wirkung": "einordnung",
+    "ampel": "mittel",
+    "studientyp": "Expertenkonsens",
+    "quellen": [
+      {
+        "titel": "National Sleep Foundation's sleep time duration recommendations: methodology and results summary",
+        "autoren": "Hirshkowitz et al.",
+        "jahr": 2015,
+        "doi_oder_url": "10.1016/j.sleh.2014.12.010",
+        "typ": "Expertenkonsens",
+        "kernzitat": "7 to 8 hours of sleep for older adults",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Schlafstörungen – gesund.bund.de (Stand 04.04.2025)",
+        "autoren": "Bundesministerium für Gesundheit",
+        "jahr": 2025,
+        "doi_oder_url": "https://gesund.bund.de/schlafstoerungen",
+        "typ": "Statistik",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep and Human Aging",
+        "autoren": "Mander, Winer, Walker",
+        "jahr": 2017,
+        "doi_oder_url": "10.1016/j.neuron.2017.02.004",
+        "typ": "Systematischer Review",
+        "kernzitat": "a still-debated question",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "National Sleep Foundation (USA)",
+      "jahr": 2015,
+      "inhalt": "7 bis 8 Stunden für ältere Erwachsene (65+), bei individueller Spanne.",
+      "url": "https://www.thensf.org/how-many-hours-of-sleep-do-you-really-need/"
+    },
+    "gegenstimmen": "Die Übersicht von Mander et al. (2017, Mitautor Matthew Walker) stellt offen die Frage: Brauchen Ältere weniger Schlaf, oder können sie ihn nicht mehr erzeugen?",
+    "tipps": {
+      "erwachsene": [
+        "Achten Sie weniger auf Stunden als darauf, ob Sie tagsüber wach und leistungsfähig sind.",
+        "Verbringen Sie nicht viel mehr Zeit im Bett, als Sie schlafen."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-alter-003",
+    "phasen": [
+      "P10",
+      "P11"
+    ],
+    "aussage": "Benzodiazepine und Z-Substanzen wie Zolpidem und Zopiclon gelten für Ältere als potenziell ungeeignet, vor allem wegen Sturz- und Bruchgefahr.",
+    "erklaerung": "Die deutsche PRISCUS-2.0-Liste (2023) führt Benzodiazepine sowie Zolpidem und Zopiclon als potenziell inadäquat. Die US-Beers-Kriterien 2023 raten Älteren davon ab: Nebenwirkungen wie Delir, Stürze und Brüche, bei nur minimal besserem Schlaf. Eine Meta-Analyse (2018) fand für Z-Substanzen eine um gut 60 Prozent erhöhte Chance (Odds Ratio 1,63) für Knochenbrüche.",
+    "wirkung": "schadet",
+    "ampel": "stark",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "Potentially Inadequate Medications in the Elderly: PRISCUS 2.0",
+        "autoren": "Mann et al.",
+        "jahr": 2023,
+        "doi_oder_url": "10.3238/arztebl.m2022.0377",
+        "typ": "Expertenkonsens",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults",
+        "autoren": "American Geriatrics Society Beers Criteria Update Expert Panel",
+        "jahr": 2023,
+        "doi_oder_url": "10.1111/jgs.18372",
+        "typ": "Leitlinie",
+        "kernzitat": "minimal improvement in sleep latency and duration",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Z-drugs and risk for falls and fractures in older adults – a systematic review and meta-analysis",
+        "autoren": "Treves et al.",
+        "jahr": 2018,
+        "doi_oder_url": "10.1093/ageing/afx167",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Z-drugs are associated with an increased risk for fractures",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "S3-Leitlinie Insomnie bei Erwachsenen – Update 2025 (AWMF 063-003, Version 2.0)",
+        "autoren": "Spiegelhalder et al. (DGSM)",
+        "jahr": 2025,
+        "doi_oder_url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "PRISCUS 2.0 (Mann et al., Deutsches Ärzteblatt) und DGSM S3-Leitlinie Insomnie",
+      "jahr": 2023,
+      "inhalt": "Benzodiazepine sowie Zolpidem und Zopiclon sind potenziell inadäquate Medikamente für Ältere; die S3-Leitlinie 2025 rät zu großer Zurückhaltung mit Schlafmitteln bei Älteren.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10035347/"
+    },
+    "gegenstimmen": "Die Bruch-Daten stammen aus Beobachtungsstudien mit hoher Heterogenität; das Sturzrisiko war in der Meta-Analyse nicht signifikant erhöht.",
+    "tipps": {
+      "erwachsene": [
+        "Lassen Sie Schlafmittel bei Angehörigen regelmäßig im Medikationsplan prüfen.",
+        "Fragen Sie nach Alternativen wie KVT-I."
+      ]
+    },
+    "wann_hilfe": "Nicht eigenmächtig absetzen: Ein Ausschleichen gehört in ärztliche Begleitung.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-alter-004",
+    "phasen": [
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Melatonin ist in Deutschland ab 55 Jahren zur kurzen Behandlung der Insomnie zugelassen. Eine Langzeitbehandlung soll laut S3-Leitlinie nicht erfolgen.",
+    "erklaerung": "Meta-Analysen zeigen bei Älteren kleine bis mittlere Effekte, am stärksten auf die Einschlafzeit. Für die Langzeitanwendung fehlen Daten. Die Leitlinie empfiehlt den Bezug über Apotheken und sieht Melatonin-Gummibärchen sehr kritisch. In einer Pflegeheim-Studie verschlechterte Melatonin allein die Stimmung, nicht aber in Kombination mit Licht.",
+    "wirkung": "einordnung",
+    "ampel": "mittel",
+    "studientyp": "Leitlinie",
+    "quellen": [
+      {
+        "titel": "S3-Leitlinie Insomnie bei Erwachsenen – Update 2025 (AWMF 063-003, Version 2.0)",
+        "autoren": "Spiegelhalder et al. (DGSM)",
+        "jahr": 2025,
+        "doi_oder_url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+        "typ": "Leitlinie",
+        "kernzitat": "Eine Langzeitbehandlung der Insomnie mit Melatonin soll nicht empfohlen werden",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Effect of bright light and melatonin on cognitive and noncognitive function in elderly residents of group care facilities: a randomized controlled trial",
+        "autoren": "Riemersma-van der Lek et al.",
+        "jahr": 2008,
+        "doi_oder_url": "10.1001/jama.299.22.2642",
+        "typ": "RCT",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "DGSM, S3-Leitlinie Insomnie bei Erwachsenen",
+      "jahr": 2025,
+      "inhalt": "Melatonin ist bei Insomnie ab 55 Jahren effektiv (Statement); eine Langzeitbehandlung soll nicht empfohlen werden (A).",
+      "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf"
+    },
+    "tipps": {
+      "erwachsene": [
+        "Kaufen Sie Melatonin in der Apotheke und nicht als Süßigkeit.",
+        "Besprechen Sie die Dauer der Einnahme mit Ihrer Praxis."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-alter-005",
+    "phasen": [
+      "P10",
+      "P11"
+    ],
+    "aussage": "Helles Tageslicht in Pflegeeinrichtungen kann bei Menschen mit Demenz einige Symptome leicht bessern.",
+    "erklaerung": "Eine niederländische randomisierte Studie (2008) umfasste 189 Bewohnerinnen und Bewohner. Ganztägig helles Licht (etwa 1000 Lux) bremste den kognitiven Abbau leicht und milderte depressive Symptome. Licht plus Melatonin verbesserte zudem die Schlafeffizienz etwas. Die S3-Leitlinie 2025 sagt: Lichttherapie bei Insomnie kann erwogen werden.",
+    "wirkung": "hilft",
+    "ampel": "mittel",
+    "studientyp": "RCT",
+    "quellen": [
+      {
+        "titel": "Effect of bright light and melatonin on cognitive and noncognitive function in elderly residents of group care facilities: a randomized controlled trial",
+        "autoren": "Riemersma-van der Lek et al.",
+        "jahr": 2008,
+        "doi_oder_url": "10.1001/jama.299.22.2642",
+        "typ": "RCT",
+        "kernzitat": "Light has a modest benefit in improving some cognitive and noncognitive symptoms of dementia.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "S3-Leitlinie Insomnie bei Erwachsenen – Update 2025 (AWMF 063-003, Version 2.0)",
+        "autoren": "Spiegelhalder et al. (DGSM)",
+        "jahr": 2025,
+        "doi_oder_url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+        "typ": "Leitlinie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Es handelt sich im Kern um eine einzelne große Studie; die Effekte waren klein. Meta-Analysen zur Lichttherapie bei Insomnie zeigen laut Leitlinie nur kleine positive Effekte.",
+    "tipps": {
+      "erwachsene": [
+        "Ermöglichen Sie Angehörigen im Heim tagsüber viel Tageslicht, etwa am Fenster oder draußen.",
+        "Halten Sie es nachts dunkel und ruhig."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-alter-006",
+    "phasen": [
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Ob ein Mittagsschlaf im Alter gut oder schlecht ist, ist umstritten. Lange Nickerchen über 30 Minuten gehen mit mehr Gesundheitsrisiken einher.",
+    "erklaerung": "Eine Meta-Analyse (2024) wertete 44 Kohortenstudien mit über 1,8 Millionen Menschen aus. Nickerchen ab 30 Minuten gingen mit höherer Sterblichkeit und mehr Herz-Kreislauf-Erkrankungen einher. Kürzere Nickerchen nicht. Zugleich war Mittagsschlaf mit weniger kognitiver Beeinträchtigung verbunden. Häufige lange Nickerchen können auch Zeichen einer Krankheit sein.",
+    "wirkung": "einordnung",
+    "ampel": "umstritten",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "To nap or not? Evidence from a meta-analysis of cohort studies of habitual daytime napping and health outcomes",
+        "autoren": "Yang et al.",
+        "jahr": 2024,
+        "doi_oder_url": "10.1016/j.smrv.2024.101989",
+        "typ": "Meta-Analyse",
+        "kernzitat": "napping durations less than 30 min had no significant risks",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Effect of Excessive Daytime Sleepiness and Long Sleep Duration on All Cause Dementia: A Systematic Review and Meta-analysis",
+        "autoren": "Khaing et al.",
+        "jahr": 2025,
+        "doi_oder_url": "10.1093/gerona/glaf087",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Beobachtungsdaten können umgekehrte Ursachen nicht ausschließen: Wer krank ist, schläft tagsüber mehr. Eine Meta-Analyse (2025) verbindet übermäßige Tagesschläfrigkeit mit höherem Demenzrisiko.",
+    "tipps": {
+      "erwachsene": [
+        "Halten Sie einen Mittagsschlaf eher kurz, unter etwa 30 Minuten.",
+        "Neue, starke Tagesmüdigkeit sollten Sie ärztlich abklären lassen."
+      ]
+    },
+    "wann_hilfe": "Wenn Sie tagsüber ungewollt einschlafen, wenden Sie sich an Ihre Hausarztpraxis.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-alter-007",
+    "phasen": [
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Kurzer Schlaf im mittleren Alter und Schlafstörungen gehen mit einem höheren Demenzrisiko einher. Ob Schlaf die Ursache ist, ist nicht geklärt.",
+    "erklaerung": "Die britische Whitehall-II-Studie (2021) begleitete knapp 8000 Personen über 25 Jahre. Wer mit 50 oder 60 Jahren 6 Stunden oder weniger schlief, hatte ein höheres Demenzrisiko. Meta-Analysen von Kohortenstudien bestätigen Zusammenhänge mit Schlafstörungen und Alzheimer (2018, 2026). Die Studien beruhen meist auf Selbstauskünften. Frühe Krankheitsprozesse könnten den Schlaf selbst verändern.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Association of sleep duration in middle and old age with incidence of dementia",
+        "autoren": "Sabia et al.",
+        "jahr": 2021,
+        "doi_oder_url": "10.1038/s41467-021-22354-2",
+        "typ": "Kohorte",
+        "kernzitat": "short sleep duration in midlife is associated with an increased risk of late-onset dementia",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep disturbances increase the risk of dementia: A systematic review and meta-analysis",
+        "autoren": "Shi et al.",
+        "jahr": 2018,
+        "doi_oder_url": "10.1016/j.smrv.2017.06.010",
+        "typ": "Meta-Analyse",
+        "kernzitat": "some confounders may mediate the relationship between sleep disturbances and dementia",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep disturbances and risk of Alzheimer's disease: a systematic review and meta-analysis of longitudinal cohort studies",
+        "autoren": "Li et al.",
+        "jahr": 2026,
+        "doi_oder_url": "10.1186/s13195-026-02102-8",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Umgekehrte Kausalität ist möglich: Demenz beginnt Jahre vor der Diagnose. Die Meta-Analyse von 2026 fand den Zusammenhang aber auch in Kohorten mit Beginn im mittleren Alter und langer Nachbeobachtung. Interventionsstudien, die Demenz durch besseren Schlaf verhindern, fehlen.",
+    "tipps": {
+      "erwachsene": [
+        "Nehmen Sie anhaltende Schlafprobleme im mittleren Alter ernst und lassen Sie sie behandeln.",
+        "Lassen Sie Schnarchen mit Atemaussetzern abklären."
+      ]
+    },
+    "wann_hilfe": "Bei Gedächtnisproblemen oder anhaltenden Schlafstörungen: Hausarztpraxis, gegebenenfalls Gedächtnissprechstunde oder Schlafmedizin.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "thema": "schlaf",
+    "id": "schlaf-alter-008",
+    "phasen": [
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Die Idee, dass das Gehirn im Schlaf Abfallstoffe wie Beta-Amyloid verstärkt „ausspült“, stammt aus Mausstudien und ist inzwischen umstritten.",
+    "erklaerung": "Eine Mausstudie (2013) fand im Schlaf mehr Raum zwischen Hirnzellen und schnelleren Abtransport von Beta-Amyloid. Eine Mausstudie von 2024 fand das Gegenteil: weniger Abtransport im Schlaf. Eine weitere Mausstudie (2025) stützt wieder die Reinigung im Tiefschlaf. Für Menschen ist der Mechanismus nicht belegt.",
+    "gehirn": "Alle drei Kernstudien sind Tierversuche an Mäusen. Xie et al. 2013: im Schlaf etwa 60 Prozent mehr Zwischenzellraum. Miao et al. 2024: Abtransport im Schlaf und unter Narkose deutlich verringert. Hauglund et al. 2025: Schwankungen von Noradrenalin treiben im NREM-Schlaf den Flüssigkeitsstrom an; das Schlafmittel Zolpidem unterdrückte ihn bei Mäusen.",
+    "wirkung": "einordnung",
+    "ampel": "umstritten",
+    "studientyp": "Einzelstudie",
+    "quellen": [
+      {
+        "titel": "Sleep drives metabolite clearance from the adult brain",
+        "autoren": "Xie et al.",
+        "jahr": 2013,
+        "doi_oder_url": "10.1126/science.1241224",
+        "typ": "Einzelstudie",
+        "kernzitat": "natural sleep or anesthesia are associated with a 60% increase in the interstitial space",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Brain clearance is reduced during sleep and anesthesia",
+        "autoren": "Miao et al.",
+        "jahr": 2024,
+        "doi_oder_url": "10.1038/s41593-024-01638-y",
+        "typ": "Einzelstudie",
+        "kernzitat": "brain clearance is markedly reduced, not increased, during sleep and anesthesia",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep",
+        "autoren": "Hauglund et al.",
+        "jahr": 2025,
+        "doi_oder_url": "10.1016/j.cell.2024.11.027",
+        "typ": "Einzelstudie",
+        "kernzitat": "the sleep aid zolpidem suppressed norepinephrine oscillations and glymphatic flow",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Gruppe um Nedergaard (Xie 2013, Hauglund 2025) vertritt die glymphatische Reinigung im Schlaf. Die Gruppe um Franks und Wisden (Miao 2024) widerspricht mit anderen Messmethoden. Populäre Darstellungen, Schlaf „wasche“ das Gehirn, gehen über die Belege hinaus.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-gehirn-001",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Wer nach dem Lernen schläft, behält mehr als nach gleich langer Wachzeit; der Effekt ist mäßig groß.",
+    "erklaerung": "Eine Meta-Analyse mit 823 Effektgrößen aus 177 Artikeln fand einen mittleren Schlafvorteil für das episodische Gedächtnis (g = 0,44). Nach Korrektur für mögliche selektive Veröffentlichung bleibt ein kleinerer, aber signifikanter Effekt (g = 0,28). Der Vorteil ist größer, wenn Stoff mehrfach gelernt wurde, und bei normalem Nachtschlaf.",
+    "gehirn": "Im Tiefschlaf werden frisch gelernte Inhalte reaktiviert. Langsame Hirnwellen, Schlafspindeln und Ripples koordinieren dabei den Transfer vom Hippocampus in die Großhirnrinde (Übersichtsarbeiten). REM-Schlaf stabilisiert die umgebauten Erinnerungen vermutlich. Eine zweite Erklärung ist die Hypothese der synaptischen Homöostase (Tononi, Cirelli). Danach schwächt Schlaf Verbindungen insgesamt ab und schafft Platz für Neues. Sie ist eine Hypothese, kein gesicherter Befund.",
+    "wirkung": "hilft",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "The sleep benefit in episodic memory: An integrative review and a meta-analysis",
+        "autoren": "Berres, Erdfelder",
+        "jahr": 2021,
+        "doi_oder_url": "10.1037/bul0000350",
+        "typ": "Meta-Analyse",
+        "kernzitat": "we found a moderate overall sleep benefit in episodic memory (g = 0.44)",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "The memory function of sleep",
+        "autoren": "Diekelmann, Born",
+        "jahr": 2010,
+        "doi_oder_url": "10.1038/nrn2762",
+        "typ": "Systematischer Review",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "About sleep's role in memory",
+        "autoren": "Rasch, Born",
+        "jahr": 2013,
+        "doi_oder_url": "10.1152/physrev.00032.2012",
+        "typ": "Systematischer Review",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep and the price of plasticity: from synaptic and cellular homeostasis to memory consolidation and integration",
+        "autoren": "Tononi, Cirelli",
+        "jahr": 2014,
+        "doi_oder_url": "10.1016/j.neuron.2013.12.025",
+        "typ": "Expertenkonsens",
+        "kernzitat": "sleep is the price the brain pays for plasticity",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die genauen Mechanismen sind offen. Aktive Systemkonsolidierung (Born und Kollegen) und synaptische Homöostase (Tononi, Cirelli) konkurrieren. Berres und Erdfelder sehen mehrere Ursachen zugleich, auch weniger Störung durch neue Eindrücke.",
+    "tipps": {
+      "eltern": [
+        "Planen Sie Lernzeit so, dass danach eine normale Nacht Schlaf folgt."
+      ],
+      "lehrkraefte": [
+        "Wiederholen Sie wichtigen Stoff über mehrere Tage; Schlaf dazwischen hilft beim Behalten."
+      ],
+      "jugendliche": [
+        "Die Nacht vor der Prüfung durchlernen bringt wenig. Lern lieber verteilt und schlaf danach."
+      ],
+      "erwachsene": [
+        "Wer Neues lernt, profitiert von einer vollen Nacht Schlaf danach."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-gehirn-002",
+    "thema": "schlaf",
+    "phasen": [
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Zu wenig Schlaf schwächt vor allem die Aufmerksamkeit. Bei dauerhaft kurzem Schlaf summieren sich die Ausfälle unbemerkt.",
+    "erklaerung": "Eine Meta-Analyse (70 Artikel) fand nach einer Nacht ohne Schlaf große Einbußen bei einfacher Aufmerksamkeit. Logisches Denken litt kaum. In einem Laborexperiment schliefen 48 Erwachsene 14 Tage lang 4 oder 6 Stunden. Ihre Leistung sank stetig bis auf das Niveau von bis zu zwei durchwachten Nächten. Sie selbst fühlten sich dabei nur wenig müder.",
+    "gehirn": "Typisch sind Sekundenausfälle (Lapses): Das Gehirn reagiert kurz gar nicht. Sie hängen fast linear mit der Zeit zusammen, die man über etwa 16 Wachstunden hinaus wach ist (Laborstudie).",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "A meta-analysis of the impact of short-term sleep deprivation on cognitive variables",
+        "autoren": "Lim, Dinges",
+        "jahr": 2010,
+        "doi_oder_url": "10.1037/a0018883",
+        "typ": "Meta-Analyse",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "The cumulative cost of additional wakefulness: dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation",
+        "autoren": "Van Dongen, Maislin, Mullington, Dinges",
+        "jahr": 2003,
+        "doi_oder_url": "10.1093/sleep/26.2.117",
+        "typ": "RCT",
+        "kernzitat": "subjects were largely unaware of these increasing cognitive deficits",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Patterns of performance degradation and restoration during sleep restriction and subsequent recovery: a sleep dose-response study",
+        "autoren": "Belenky et al.",
+        "jahr": 2003,
+        "doi_oder_url": "10.1046/j.1365-2869.2003.00337.x",
+        "typ": "RCT",
+        "kernzitat": "These results suggest that the brain adapts to chronic sleep restriction.",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Belenky und Kollegen sehen eine Anpassung: Bei 5 bis 7 Stunden stabilisierte sich die Leistung, allerdings auf niedrigerem Niveau. Nach drei Erholungsnächten war sie noch nicht wieder auf dem Ausgangswert. Die Mythos-Aussage „Man gewöhnt sich an wenig Schlaf“ trifft also nur für das Gefühl zu, nicht für die Leistung.",
+    "tipps": {
+      "jugendliche": [
+        "Dass du dich an wenig Schlaf gewöhnt fühlst, heißt nicht, dass dein Kopf wieder voll da ist."
+      ],
+      "erwachsene": [
+        "Verlassen Sie sich nach kurzen Nächten nicht auf Ihr Gefühl, etwa beim Autofahren."
+      ],
+      "lehrkraefte": [
+        "Konzentrationslücken am Morgen können auch Schlafmangel sein, nicht nur fehlende Motivation."
+      ]
+    },
+    "wann_hilfe": "Nicken Sie trotz genug Zeit im Bett tagsüber oft ein oder können sich nicht konzentrieren? Dann sprechen Sie mit Ihrer Hausarztpraxis, bei Kindern mit der Kinderarztpraxis.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-gehirn-003",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Schlafmangel drückt die Stimmung: Gute Gefühle nehmen deutlich ab, schlechte nehmen zu.",
+    "erklaerung": "Drei Meta-Analysen in einer Arbeit umfassen 64 Studien von der Kindheit bis ins hohe Alter. Nach Schlafverlust steigt negative Stimmung mäßig (g = 0,45). Positive Stimmung sinkt stark (g = −0,94). Bei jüngeren Teilnehmenden war der Effekt auf negative Stimmung stärker. Gelingende Gefühlsregulation litt bei Jugendlichen leicht.",
+    "gehirn": "In einer Bildgebungsstudie (fMRT) reagierte der Mandelkern (Amygdala) nach einer durchwachten Nacht deutlich stärker auf emotionale Reize. Gleichzeitig war seine Verbindung zum vorderen Stirnhirn schwächer, das Gefühle normalerweise dämpft. Das ist ein Einzelbefund aus der Bildgebung.",
+    "wirkung": "schadet",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "The effect of sleep deprivation and restriction on mood, emotion, and emotion regulation: three meta-analyses in one",
+        "autoren": "Tomaso, Johnson, Nelson",
+        "jahr": 2021,
+        "doi_oder_url": "10.1093/sleep/zsaa289",
+        "typ": "Meta-Analyse",
+        "kernzitat": "Sleep loss compromises optimal affective functioning",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "The role of sleep in emotional brain function",
+        "autoren": "Goldstein, Walker",
+        "jahr": 2014,
+        "doi_oder_url": "10.1146/annurev-clinpsy-032813-153716",
+        "typ": "Systematischer Review",
+        "kernzitat": "one night of sleep deprivation triggers a 60% amplification in reactivity of the amygdala",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Der Effekt auf die Verarbeitung einzelner Gefühlsreize war nach Korrektur für Veröffentlichungsverzerrung nur klein (g = −0,11). Die Amygdala-Befunde beruhen auf Bildgebung und sind weniger gut abgesichert als die Stimmungsdaten.",
+    "tipps": {
+      "eltern": [
+        "Wenn Ihr Kind nach kurzen Nächten gereizt ist, ist das oft Müdigkeit, keine Charakterfrage."
+      ],
+      "jugendliche": [
+        "Wenn du nach einer kurzen Nacht schneller wütend oder traurig bist, kann das am Schlaf liegen."
+      ],
+      "erwachsene": [
+        "Schwierige Gespräche besser nicht nach einer durchwachten Nacht führen."
+      ]
+    },
+    "wann_hilfe": "Wenn Schlafprobleme und gedrückte Stimmung über Wochen anhalten, wenden Sie sich an Ihre Haus- oder Kinderarztpraxis.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-gehirn-004",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Ob Schlaf das Gehirn „wäscht“ und Abfallstoffe schneller abtransportiert (glymphatisches System), ist umstritten; die Kernbefunde stammen aus Mäusen.",
+    "erklaerung": "2013 fand eine Mausstudie im Schlaf mehr Raum zwischen Hirnzellen und schnelleren Abtransport von Beta-Amyloid. 2024 maß eine andere Mausstudie das Gegenteil: Im Schlaf sinkt die Ausscheidung. Erste Humanstudien sind klein oder herstellerfinanziert. Eine Botschaft wie „Schlaf schützt sicher vor Alzheimer“ trägt die Datenlage nicht.",
+    "gehirn": "Mäuse: Im Schlaf vergrößerte sich der Zwischenzellraum um 60 Prozent (Xie 2013). Miao 2024 fand mit anderer Methode einen verringerten Abtransport im Schlaf. Hauglund 2025 (Mäuse) beschreibt Noradrenalin-Schwingungen der Gefäße als Pumpe im Tiefschlaf. Menschen: Nach einer durchwachten Nacht blieb ein Kontrastmittel länger im Gehirn (7 gegenüber 17 Personen, Eide 2021).",
+    "wirkung": "einordnung",
+    "ampel": "umstritten",
+    "studientyp": "Einzelstudie",
+    "quellen": [
+      {
+        "titel": "Sleep drives metabolite clearance from the adult brain",
+        "autoren": "Xie et al.",
+        "jahr": 2013,
+        "doi_oder_url": "10.1126/science.1241224",
+        "typ": "Einzelstudie",
+        "kernzitat": "natural sleep or anesthesia are associated with a 60% increase in the interstitial space",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Brain clearance is reduced during sleep and anesthesia",
+        "autoren": "Miao et al.",
+        "jahr": 2024,
+        "doi_oder_url": "10.1038/s41593-024-01638-y",
+        "typ": "Einzelstudie",
+        "kernzitat": "brain clearance is markedly reduced, not increased, during sleep and anesthesia",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep",
+        "autoren": "Hauglund et al.",
+        "jahr": 2025,
+        "doi_oder_url": "10.1016/j.cell.2024.11.027",
+        "typ": "Einzelstudie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Sleep deprivation impairs molecular clearance from the human brain",
+        "autoren": "Eide, Vinje, Pripp, Mardal, Ringstad",
+        "jahr": 2021,
+        "doi_oder_url": "10.1093/brain/awaa443",
+        "typ": "Einzelstudie",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "The glymphatic system clears amyloid beta and tau from brain to plasma in humans",
+        "autoren": "Dagum et al.",
+        "jahr": 2026,
+        "doi_oder_url": "10.1038/s41467-026-68374-8",
+        "typ": "RCT",
+        "finanzierung": "Mitfinanziert von Applied Cognition, Inc.; mehrere Autoren melden finanzielle Interessen und Aktienoptionen.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Modifiable Physiological Factors Associated With Human Glymphatic and Interstitial Fluid Dynamics-Related Measures: A Scoping Review",
+        "autoren": "Başer, Taşpınar, Taşpınar",
+        "jahr": 2026,
+        "doi_oder_url": "10.1111/ejn.70682",
+        "typ": "Systematischer Review",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Die Gruppen um Xie (2013) und Hauglund (2025) sehen gesteigerte Reinigung im Schlaf. Franks, Wisden und Kollegen (Miao 2024) messen das Gegenteil. Beim Menschen deuten Dagum und Kollegen (2026, 39 Personen) Biomarker-Anstiege im Blut als Reinigung. Die Studie ist herstellerfinanziert. Ein Scoping Review 2026 fand 105 Humanstudien, meist mit indirekten Messgrößen.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-gehirn-005",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Neue, komplexe Inhalte per Kopfhörer im Schlaf zu lernen, ist nicht belegt. Hinweisreize können aber Gelerntes etwas stärken.",
+    "erklaerung": "Ein historischer Review von 51 Arbeiten seit den 1940er-Jahren findet: Einfache Lernformen wie Konditionierung gelingen im Schlaf. Für angewandtes Lernen, etwa eine Sprache, ist der Nutzen im Wachzustand nicht gezeigt. Anders bei bereits Gelerntem: Hinweisreize aus der Lernsituation werden im Schlaf erneut dargeboten. Das verbessert die Erinnerung leicht (Meta-Analyse, 91 Experimente, g = 0,29).",
+    "gehirn": "Die gezielte Reaktivierung (Targeted Memory Reactivation) wirkte im Leicht- und Tiefschlaf (NREM), nicht im REM-Schlaf und nicht im Wachzustand. Eine Berner Laborstudie (Mittagsschlaf, fMRT) fand einfache, unbewusste Wortverknüpfungen. Sie entstanden, wenn Wörter auf den Gipfel langsamer Hirnwellen fielen.",
+    "wirkung": "einordnung",
+    "ampel": "mittel",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "Promoting memory consolidation during sleep: A meta-analysis of targeted memory reactivation",
+        "autoren": "Hu, Cheng, Chiu, Paller",
+        "jahr": 2020,
+        "doi_oder_url": "10.1037/bul0000223",
+        "typ": "Meta-Analyse",
+        "kernzitat": "TMR was not effective during REM sleep nor during wakefulness",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Learning during sleep in humans – A historical review",
+        "autoren": "Ataei et al.",
+        "jahr": 2023,
+        "doi_oder_url": "10.1016/j.smrv.2023.101852",
+        "typ": "Systematischer Review",
+        "kernzitat": "behavioral evidence for the transfer of new knowledge to wake remains inconclusive",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Implicit Vocabulary Learning during Sleep Is Bound to Slow-Wave Peaks",
+        "autoren": "Züst, Ruch, Wiest, Henke",
+        "jahr": 2019,
+        "doi_oder_url": "10.1016/j.cub.2018.12.038",
+        "typ": "Einzelstudie",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Züst und Kollegen (Universität Bern) halten unbewusstes Vokabellernen unter engen Bedingungen für möglich. Der Nachweis gelang nur in einem impliziten Wahltest, nicht als bewusstes Erinnern.",
+    "tipps": {
+      "jugendliche": [
+        "Sprach-Apps über Nacht laufen lassen bringt nichts Belegtes. Lern wach und schlaf danach gut."
+      ],
+      "eltern": [
+        "Geld für „Lernen im Schlaf“-Angebote können Sie sich sparen."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-gehirn-006",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Bildschirmlicht am Abend kann die innere Uhr verschieben. Ob blaues Licht der Hauptgrund für schlechten Schlaf ist, ist umstritten.",
+    "erklaerung": "Im Labor lasen Teilnehmende abends am leuchtenden E-Reader statt im gedruckten Buch. Sie schliefen später ein und waren morgens weniger wach. Im Alltag änderte der Nachtmodus des iPhones bei 167 jungen Erwachsenen den Schlaf nicht messbar. Ein Cochrane-Review fand für Blaufilter-Brillen keinen klaren Nutzen beim Schlaf. Bei Kindern und Jugendlichen hängt Bildschirmzeit vor allem mit kürzerem und späterem Schlaf zusammen.",
+    "gehirn": "Licht vom E-Reader bremste die abendliche Melatonin-Ausschüttung und verschiebt die innere Uhr nach hinten (Laborstudie mit E-Reader). Wie stark das bei normaler Handy-Helligkeit wirkt, ist offen.",
+    "wirkung": "einordnung",
+    "ampel": "umstritten",
+    "studientyp": "Systematischer Review",
+    "quellen": [
+      {
+        "titel": "Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness",
+        "autoren": "Chang, Aeschbach, Duffy, Czeisler",
+        "jahr": 2015,
+        "doi_oder_url": "10.1073/pnas.1418490112",
+        "typ": "RCT",
+        "kernzitat": "evening exposure to an LE-eBook phase-delays the circadian clock",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Does iPhone night shift mitigate negative effects of smartphone use on sleep outcomes in emerging adults?",
+        "autoren": "Duraccio, Zaugg, Blackburn, Jensen",
+        "jahr": 2021,
+        "doi_oder_url": "10.1016/j.sleh.2021.03.005",
+        "typ": "RCT",
+        "kernzitat": "there were no differences in sleep outcomes attributable to Night Shift",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults",
+        "autoren": "Singh et al.",
+        "jahr": 2023,
+        "doi_oder_url": "10.1002/14651858.CD013244.pub2",
+        "typ": "Systematischer Review",
+        "kernzitat": "Potential effects on sleep quality were also indeterminate",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Screen time and sleep among school-aged children and adolescents: a systematic literature review",
+        "autoren": "Hale, Guan",
+        "jahr": 2015,
+        "doi_oder_url": "10.1016/j.smrv.2014.07.007",
+        "typ": "Systematischer Review",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "gegenstimmen": "Chang und Kollegen sehen im Licht einen klaren Mechanismus. Duraccio und Kollegen fanden nur in einer Zusatzauswertung einen Vorteil, und zwar beim Verzicht aufs Handy, nicht beim Farbfilter. Das spricht dafür, dass Inhalt und verdrängte Schlafzeit mindestens genauso zählen. Kausalität ist im Review von Hale und Guan nicht bestätigt.",
+    "tipps": {
+      "eltern": [
+        "Legen Sie eine feste Zeit fest, ab der Bildschirme aus dem Kinderzimmer verschwinden."
+      ],
+      "jugendliche": [
+        "Der Nachtmodus allein rettet deinen Schlaf nicht. Leg das Handy vor dem Einschlafen weg."
+      ],
+      "erwachsene": [
+        "Blaufilter-Brillen sind für besseren Schlaf nicht belegt; weniger Bildschirmzeit vor dem Bett eher."
+      ]
+    },
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-gehirn-007",
+    "thema": "schlaf",
+    "phasen": [
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Mythos: Jeder Mensch braucht genau acht Stunden Schlaf.",
+    "erklaerung": "Der Schlafbedarf hängt vom Alter ab und schwankt von Mensch zu Mensch. Ein Expertengremium nennt für Schulkinder 9 bis 11 Stunden und für Teenager 8 bis 10. Für Erwachsene gelten 7 bis 9, für Ältere 7 bis 8 Stunden. Das Bundesgesundheitsministerium nennt für Erwachsene etwa 7 Stunden. Kinder brauchen also deutlich mehr als acht Stunden, viele Erwachsene etwas weniger.",
+    "wirkung": "neutral",
+    "ampel": "mythos",
+    "studientyp": "Expertenkonsens",
+    "quellen": [
+      {
+        "titel": "National Sleep Foundation's sleep time duration recommendations: methodology and results summary",
+        "autoren": "Hirshkowitz et al.",
+        "jahr": 2015,
+        "doi_oder_url": "10.1016/j.sleh.2014.12.010",
+        "typ": "Expertenkonsens",
+        "kernzitat": "Sufficient sleep duration requirements vary across the lifespan and from person to person.",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Schlafstörungen (gesund.bund.de)",
+        "autoren": "Bundesministerium für Gesundheit, IQWiG",
+        "jahr": 2025,
+        "doi_oder_url": "https://gesund.bund.de/schlafstoerungen",
+        "typ": "Leitlinie",
+        "kernzitat": "Erwachsene: etwa 7 Stunden",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "gesund.bund.de (Bundesministerium für Gesundheit, mit IQWiG)",
+      "jahr": 2025,
+      "inhalt": "Erwachsene brauchen etwa 7 Stunden Schlaf; der Bedarf ist individuell verschieden.",
+      "url": "https://gesund.bund.de/schlafstoerungen"
+    },
+    "gegenstimmen": "Die Spannen beruhen auf Expertenurteil (RAND/UCLA-Methode), nicht auf einem einzelnen Experiment. Die Fachleute betonen: Werte knapp außerhalb der Spanne können passen, große Abweichungen sind selten.",
+    "tipps": {
+      "eltern": [
+        "Orientieren Sie sich am Alter: Grundschulkinder brauchen meist deutlich mehr als acht Stunden."
+      ],
+      "jugendliche": [
+        "Mit 8 bis 10 Stunden liegst du im empfohlenen Bereich."
+      ],
+      "erwachsene": [
+        "Wichtiger als eine feste Zahl ist, ob Sie sich tagsüber wach und leistungsfähig fühlen."
+      ]
+    },
+    "wann_hilfe": "Schlafen Sie regelmäßig deutlich weniger oder viel mehr und fühlen sich tagsüber erschöpft? Dann lassen Sie das in der Haus- oder Kinderarztpraxis abklären.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  },
+  {
+    "id": "schlaf-gehirn-008",
+    "thema": "schlaf",
+    "phasen": [
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "aussage": "Mythos: Ein Glas Alkohol am Abend ist ein guter Schlummertrunk und verbessert den Schlaf.",
+    "erklaerung": "Eine Meta-Analyse von 27 Studien (2024/25) zeigt: Schon etwa zwei Standardgetränke verkürzen und verzögern den REM-Schlaf. Schneller einschlafen ließ erst eine hohe Menge von etwa fünf Getränken. Ein früherer Review fand zudem mehr Schlafstörungen in der zweiten Nachthälfte. Alkohol macht also eher müde, verschlechtert aber den Schlafverlauf.",
+    "gehirn": "Alkohol verstärkt in der ersten Nachthälfte den Tiefschlaf und unterdrückt den REM-Schlaf. In der zweiten Nachthälfte wird der Schlaf unruhiger (Übersicht über Laborstudien mit Gesunden).",
+    "wirkung": "neutral",
+    "ampel": "mythos",
+    "studientyp": "Meta-Analyse",
+    "quellen": [
+      {
+        "titel": "The effect of alcohol on subsequent sleep in healthy adults: A systematic review and meta-analysis",
+        "autoren": "Gardiner et al.",
+        "jahr": 2025,
+        "doi_oder_url": "10.1016/j.smrv.2024.102030",
+        "typ": "Meta-Analyse",
+        "kernzitat": "a low dose of alcohol will negatively impact (i.e., reduce) REM sleep",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Alcohol and sleep I: effects on normal sleep",
+        "autoren": "Ebrahim, Shapiro, Williams, Fenwick",
+        "jahr": 2013,
+        "doi_oder_url": "10.1111/acer.12006",
+        "typ": "Systematischer Review",
+        "kernzitat": "an increase in sleep disruption in the second half of sleep",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "Schlafstörungen (gesund.bund.de)",
+        "autoren": "Bundesministerium für Gesundheit, IQWiG",
+        "jahr": 2025,
+        "doi_oder_url": "https://gesund.bund.de/schlafstoerungen",
+        "typ": "Leitlinie",
+        "kernzitat": "weniger Alkohol und Kaffee trinken",
+        "geoeffnet_am": "2026-10-18"
+      },
+      {
+        "titel": "S3-Leitlinie Insomnie bei Erwachsenen – Update 2025 (AWMF 063-003, Version 2.0)",
+        "autoren": "Spiegelhalder et al. (DGSM)",
+        "jahr": 2025,
+        "doi_oder_url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+        "typ": "Leitlinie",
+        "kernzitat": "Alkohol weitgehend vermeiden und keinesfalls als Schlafmittel einsetzen",
+        "geoeffnet_am": "2026-10-18"
+      }
+    ],
+    "empfehlung_offiziell": {
+      "stelle": "gesund.bund.de (Bundesministerium für Gesundheit, mit IQWiG)",
+      "jahr": 2025,
+      "inhalt": "Zur Schlafhygiene gehört, weniger Alkohol und Kaffee zu trinken; Alkohol ist eine mögliche Ursache von Schlafstörungen.",
+      "url": "https://gesund.bund.de/schlafstoerungen"
+    },
+    "gegenstimmen": "Für Gesamtschlafdauer und nächtliches Aufwachen fand die Meta-Analyse große Unsicherheit; dort ist der Effekt noch nicht klar bestimmt.",
+    "tipps": {
+      "jugendliche": [
+        "Alkohol hilft dir nicht beim Schlafen. Er macht die zweite Nachthälfte unruhiger."
+      ],
+      "erwachsene": [
+        "Verzichten Sie auf Alkohol als Einschlafhilfe; schon kleine Mengen verändern den Schlaf."
+      ]
+    },
+    "wann_hilfe": "Wenn Sie regelmäßig Alkohol brauchen, um einzuschlafen, sprechen Sie mit Ihrer Hausarztpraxis oder einer Suchtberatungsstelle.",
+    "stand": "2026-10-18",
+    "status": "recherchiert"
+  }
+]

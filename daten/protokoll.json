@@ -3,6 +3,11 @@
   "eintraege": [
     {
       "datum": "2026-10-18",
+      "bereich": "Schlaf",
+      "text": "Recherche (P1) zum Thema Schlaf: 72 Aussagen für alle neun Altersgruppen plus Querschnitt Gehirn und Mythen, Status recherchiert. Bericht in berichte/schlaf.md. Der Faktencheck (P3) steht noch aus; bis dahin erscheinen keine Schwerpunktseiten."
+    },
+    {
+      "datum": "2026-10-18",
       "bereich": "Website",
       "text": "Grundgerüst Teil 2: Vorlagen für alle Seitentypen, Navigator ohne KI-Wegfinder (Daten aus daten/navigator.json, Stationen per Adresse wählbar), Kommentare über giscus erst nach Klick, Link „Korrektur vorschlagen“ bei jeder Aussage und Station, Prüfung der Daten mit npm test, Veröffentlichung über GitHub Pages. Noch keine Fachinhalte."
     },
